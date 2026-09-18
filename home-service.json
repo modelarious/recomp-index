@@ -1,0 +1,7 @@
+{
+  "schema": "home-service/v1",
+  "enabled": true,
+  "kind": "static",
+  "card": {"name": "${repo}", "description": "A project published automatically from GitHub.", "category": "Projects"},
+  "build": {"runner": "python", "command": ["python3", ".home/build.py"], "output": "dist", "timeout_seconds": 600, "network": false}
+}
