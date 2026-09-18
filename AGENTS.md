@@ -1,0 +1,1 @@
+Use Unlazy by default for substantial work. Keep source, tests and evidence in Git. Preserve home-service.json: it is the opt-in build and card contract. Build output must work under HOME_BASE_PATH and must not contain credentials. Never add hosted GitHub Actions workflows without an explicit cost review. Project metadata does not authorize guest access.
