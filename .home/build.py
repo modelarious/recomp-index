@@ -35,7 +35,12 @@ def validate_tree(root: Path) -> dict[str, str]:
 def validate_links(root: Path) -> None:
     for html in root.rglob("*.html"):
         parser = Links()
-        parser.feed(html.read_text(errors="replace"))
+        text = html.read_text(errors="replace")
+        if 'name="color-scheme" content="dark"' not in text:
+            raise ValueError(f"Dark first-paint metadata is required: {html}")
+        if 'data-theme="dark"' not in text:
+            raise ValueError(f"Dark default is required: {html}")
+        parser.feed(text)
         for raw in parser.values:
             if raw.startswith(("#", "//", "data:", "mailto:", "tel:")):
                 continue

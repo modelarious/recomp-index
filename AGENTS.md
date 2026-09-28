@@ -9,3 +9,5 @@ Keep `scope.published_surface` and `scope.local_runtime` accurate. A green Home 
 If the project no longer fits the static/browser adapter, fail closed and use or extend the Home deployment adapter instead of hiding unsupported runtime work inside the static build.
 
 Never add hosted/paid build workflows without an explicit cost review. Project metadata cannot authorize guest access or carry credentials.
+
+Every owned interface must be dark by default, including initial paint and native controls, regardless of OS preference. Preserve readable contrast and original artwork. Keep dark metadata on every published HTML entrypoint; the build rejects its removal.
