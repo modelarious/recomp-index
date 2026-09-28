@@ -7,6 +7,7 @@ Use this GitHub template for a new static website, browser workbench, or already
 1. Create the repository from this template under `modelarious`.
 2. Edit the project and `home-service.json`.
 3. Push the default branch.
+4. Home automatically builds the browser app and, by default, a signed Android WebView package. Remove the `android` declaration only when an Android surface is genuinely inappropriate.
 4. The existing Home controller discovers it automatically, Punchcard builds it, and Home adds the card. No Home-repository edit, webhook, per-project secret, or hosted build workflow is required.
 5. Verify green at `http://home.lan/status.html`.
 

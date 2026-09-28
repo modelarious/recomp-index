@@ -1,0 +1,6 @@
+{
+  "schema": "home-template/v2",
+  "source": "modelarious/home-service-template",
+  "static_home_ready": true,
+  "android_default": "webview"
+}

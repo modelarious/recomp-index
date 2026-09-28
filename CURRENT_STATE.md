@@ -10,3 +10,5 @@
 - Guest access: not granted by this repository.
 
 Update this file as the project gains real application-specific state, tests, or runtime dependencies.
+
+- Android default: `webview`; Home is expected to build/sign/publish a phone wrapper from the same source once the Android adapter is green.

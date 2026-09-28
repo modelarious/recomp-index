@@ -13,9 +13,16 @@
   },
   "build": {
     "runner": "python",
-    "command": ["python3", ".home/build.py"],
+    "command": [
+      "python3",
+      ".home/build.py"
+    ],
     "output": "dist",
     "timeout_seconds": 600,
     "network": false
+  },
+  "android": {
+    "profile": "webview",
+    "display_name": "${repo}"
   }
 }
