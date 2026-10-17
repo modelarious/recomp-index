@@ -10,11 +10,14 @@
   },
   "scope": {
     "published_surface": "Static browser index built from public upstream tracker data with explicit provenance.",
-    "local_runtime": "A local scheduled refresh updates the live data snapshot; source project publishing is independent."
+    "local_runtime": "A local scheduled refresh commits source-backed catalog snapshots to GitHub; the existing Home auto-deploy pipeline owns build and publication."
   },
   "build": {
     "runner": "python",
-    "command": ["python3", ".home/build.py"],
+    "command": [
+      "python3",
+      ".home/build.py"
+    ],
     "output": "dist",
     "timeout_seconds": 600,
     "network": false
