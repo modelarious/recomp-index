@@ -6,7 +6,8 @@ import subprocess
 import urllib.request
 
 APP = "http://home.lan/apps/recomp-index/"
-HOME = "http://home.lan/"
+STATIC_CATALOG = "http://home.lan/apps.json"
+DEPLOY_CATALOG = "http://home.lan/deployment/catalog.json"
 STATUS = "http://home.lan/deployment/status.json"
 
 with urllib.request.urlopen(APP, timeout=10) as r:
@@ -19,9 +20,20 @@ with urllib.request.urlopen(APP + "data/catalog.json", timeout=20) as r:
 assert data["schema"] == "recomp-index/v1"
 assert data["summary"]["projects"] > 1000
 
-with urllib.request.urlopen(HOME, timeout=10) as r:
-    home = r.read().decode("utf-8", "replace")
-assert "Recomp Index" in home
+# Recomp Index must not be a hand-maintained legacy Home card.
+with urllib.request.urlopen(STATIC_CATALOG, timeout=10) as r:
+    static = json.load(r)
+assert not any(x.get("id") == "recomp-index" for x in static.get("apps", []))
+
+# It must be present through Home's project-owned auto-discovery catalog.
+with urllib.request.urlopen(DEPLOY_CATALOG, timeout=10) as r:
+    deployment = json.load(r)
+cards = [x for x in deployment.get("projects", []) if x.get("id") == "recomp-index"]
+assert len(cards) == 1, cards
+card = cards[0]
+assert card.get("repo", "modelarious/recomp-index") == "modelarious/recomp-index"
+assert card.get("state") == "green", card
+assert card.get("url") == "/apps/recomp-index/", card
 
 with urllib.request.urlopen(STATUS, timeout=10) as r:
     status = json.load(r)
