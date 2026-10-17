@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "content": "# Home service template\n\nCopy this repository into a new private modelarious project. The local Home controller discovers home-service.json on the default branch, builds in a constrained container, tags the exact source commit and publishes the verified static site. No Home repository entry, GitHub Actions job or per-project credential is required.\n\nVersion 1 supports static websites, browser workbenches and prebuilt browser game exports. Persistent backends and native Unity/macOS/Windows builds need their own adapter; unsupported manifests fail RED, never silently skip.\n\nEdit src/ and push to your default branch. Set card details and the build command in home-service.json. The repository name supplies the unique URL. Never put secrets in the source or output. Newly discovered projects are owner-only; project metadata cannot grant Derek access.\n",
+      "path": "README.md"
+    },
+    {
+      "content": "{\n  \"schema\": \"home-service/v1\",\n  \"enabled\": true,\n  \"kind\": \"static\",\n  \"card\": {\"name\": \"${repo}\", \"description\": \"A project published automatically from GitHub.\", \"category\": \"Projects\"},\n  \"build\": {\"runner\": \"python\", \"command\": [\"python3\", \".home/build.py\"], \"output\": \"dist\", \"timeout_seconds\": 600, \"network\": false}\n}\n",
+      "path": "home-service.json"
+    },
+    {
+      "content": "from pathlib import Path\nimport shutil\nsource = Path('src')\nassert (source / 'index.html').is_file(), 'src/index.html is required'\nshutil.copytree(source, 'dist', dirs_exist_ok=True)\nassert (Path('dist') / 'index.html').is_file()\nprint('HOME BUILD PASSED')\n",
+      "path": ".home/build.py"
+    },
+    {
+      "content": "<!doctype html><html lang=\"en\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Home deployment check</title><body><main><h1>Your project is live.</h1><p>This page was built from its own repository and discovered without editing Home.</p><p id=\"revision-test\">Initial template version</p></main></body></html>\n",
+      "path": "src/index.html"
+    },
+    {
+      "content": "dist/\n__pycache__/\n.env\n*.key\n*.pem\n",
+      "path": ".gitignore"
+    },
+    {
+      "content": "Use Unlazy by default for substantial work. Keep source, tests and evidence in Git. Preserve home-service.json: it is the opt-in build and card contract. Build output must work under HOME_BASE_PATH and must not contain credentials. Never add hosted GitHub Actions workflows without an explicit cost review. Project metadata does not authorize guest access.\n",
+      "path": "AGENTS.md"
+    }
+  ],
+  "idempotency_key": "home-service-template-20260918-v1",
+  "operation": "PROJECT_CREATE",
+  "origin": {
+    "client": "ChatGPT with GitHub connector",
+    "conversation_url": null,
+    "user_request": "yeah, unlazy feels like it should be on by default, it's so extremely useful to the point of practically being manditory\n\n\n\nAlright, I validated that I can access home.lan and it looks exactly like what I would want.  So now I want the auto deploy pipeline.  I'm not sure how in the world to configure this, but the pieces I for sure need:\n\n- auto-discovery. When we build a new project, there should be no need to add an entry into the home website repo to get it to find the new project, instead we should operate on a model of: template repo that has the mechanism built in already that allows it to build, tag, and push to the location that's useful for our home website to pick up automatically.  And it crucially includes all the relevant information needed to display a card on home.lan so that home.lan can essentially be ambivalent to all the project work going on.  It's essentially meant as a ui layer to show things that we have built and put in the right spot\n- free: if this system depends on automation that is limited by a free plan, it will silently fail and make things terrible.  Either a generous free tier that is capable of handling at least 1000 builds per month, or a combination of multiple free tiers used in a clever way to distribute the load across multiple services. You of course have full rights to use my github credentials on music mac to do whatever you need to accomplish this.  They should essentially give you full access to do what you need to do.\n- monitored. home.lan should have a status page that I can see basically red/yellow/green for each service supporting home.lan and how healthy it is.  For example, if we see that there have been new pushes to our projects that didn't get built and tagged and moved, that is a red status.  It should give me a clear and immediate picture of if I can trust home.lan to be up to date or not.  This monitor should also be able to auto discover the projects in our github that are using the specific setup that allows them to push to be displayed in home.lan.  This status page should complain loudly in a way that is hard to ignore if something is failing instead of just degraded. I shouldn't have to open it to find out there is a critical error.\n\n\n\nuse unlazy to achieve this, and describe in extremely simple and clear terms to me, once you finish, exactly how this works as well as any sources of money spend that could be involved, any limitations that might restrict things and just plainly tell me any restrictions or issues with the system. I value clear communication above project completion. We can always go for another round."
+  },
+  "owner": "modelarious",
+  "project": {
+    "semantic_status": "DECIDED"
+  },
+  "repository": {
+    "description": "Reusable project-side build and card contract for private Home auto-deployment; no hosted Actions jobs",
+    "name": "home-service-template",
+    "visibility": "private"
+  },
+  "request_id": "home-service-template-20260918-v1",
+  "schema_version": 1
+}

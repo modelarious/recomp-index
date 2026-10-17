@@ -1,0 +1,28 @@
+{
+  "schema": "home-service/v1",
+  "enabled": true,
+  "kind": "static",
+  "card": {
+    "name": "${repo}",
+    "description": "A project published automatically from GitHub.",
+    "category": "Projects"
+  },
+  "scope": {
+    "published_surface": "static browser application",
+    "local_runtime": "not certified by Home"
+  },
+  "build": {
+    "runner": "python",
+    "command": [
+      "python3",
+      ".home/build.py"
+    ],
+    "output": "dist",
+    "timeout_seconds": 600,
+    "network": false
+  },
+  "android": {
+    "profile": "webview",
+    "display_name": "${repo}"
+  }
+}
