@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-17T11:29:07.078336+00:00",
+  "generated_at": "2026-10-17T17:29:19.904382+00:00",
   "summary": {
-    "games": 2987,
-    "projects": 4070,
-    "source_records": 5061,
+    "games": 2988,
+    "projects": 4072,
+    "source_records": 5064,
     "platforms": 89,
     "sources": 4,
-    "conflicted_projects": 198
+    "conflicted_projects": 199
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2419
+      "records": 2422
     },
     {
       "id": "recomp-software-recomp",
@@ -107,7 +107,7 @@
       ],
       [
         "Arcade",
-        48
+        49
       ],
       [
         "Genesis",
@@ -138,11 +138,11 @@
         23
       ],
       [
-        "Dreamcast",
-        20
+        "PS4",
+        21
       ],
       [
-        "PS4",
+        "Dreamcast",
         20
       ],
       [
@@ -393,15 +393,15 @@
     "types": [
       [
         "decomp",
-        1835
+        1836
       ],
       [
         "recomp",
-        1549
+        1551
       ],
       [
         "port",
-        677
+        676
       ],
       [
         "tool",
@@ -411,7 +411,7 @@
     "statuses": [
       [
         "unknown",
-        1273
+        1274
       ],
       [
         "in-progress",
@@ -431,7 +431,7 @@
       ],
       [
         "playable",
-        72
+        73
       ],
       [
         "exploring",
@@ -7562,6 +7562,57 @@
       "last_activity": "2026-10-17",
       "best_status": "in-progress",
       "has_conflict": true
+    },
+    {
+      "id": "pump-it-up-nx-new-xenesis--arcade",
+      "title": "Pump It Up NX: New Xenesis",
+      "platform": "Arcade",
+      "projects": [
+        {
+          "id": "repo-bmbelo87-decomp-it-up-new-xenesis",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/pump-it-up-nx-new-xenesis-arcade",
+              "source_id": "pump-it-up-nx-new-xenesis-bmbelo87",
+              "claimed": true,
+              "status": "playable",
+              "type": "decomp",
+              "platform": "Arcade",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pump It Up NX: New Xenesis",
+          "platform": "Arcade",
+          "type": "decomp",
+          "project": "NXReconstructed",
+          "project_url": "https://github.com/bmbelo87/decomp-it-up-New-Xenesis",
+          "repo": "bmbelo87/decomp-it-up-New-Xenesis",
+          "status": "playable",
+          "last_activity": "2026-10-17",
+          "release": "continuous",
+          "toolchain": "Ghidra, Sdl2, Opengl",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "playable",
+      "has_conflict": false
     },
     {
       "id": "prince-of-persia-2-the-shadow-the-flame--mac",
@@ -16913,6 +16964,325 @@
       "last_activity": "2026-10-17",
       "best_status": "unknown",
       "has_conflict": false
+    },
+    {
+      "id": "bloodborne--ps4",
+      "title": "Bloodborne",
+      "platform": "PS4",
+      "projects": [
+        {
+          "id": "repo-awakenchan-bloodbornebutpc",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "awakenchan-bloodbornebutpc",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "PS4",
+              "last_activity": "2026-10-15"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bloodborne-ps4-2",
+              "source_id": "bloodborne-awakenchan",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [
+            "quiver"
+          ],
+          "game": "Bloodborne",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "Awakenchan/BloodBorneButPc",
+          "project_url": "https://github.com/Awakenchan/BloodBorneButPc",
+          "repo": "Awakenchan/BloodBorneButPc",
+          "status": "released",
+          "last_activity": "2026-10-17",
+          "release": "v0.9.34-beta.4",
+          "stars": 172,
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {
+            "type": [
+              "port",
+              "recomp"
+            ]
+          }
+        },
+        {
+          "id": "repo-supermedo-bloodborne-pc",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "supermedo-bloodborne-pc",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-15"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bloodborne-ps4-2015",
+              "source_id": "bloodborne-supermedo",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [
+            "awesome-game-remakes",
+            "portsdr",
+            "quiver",
+            "recomp.fyi"
+          ],
+          "game": "Bloodborne",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "Supermedo/bloodborne_pc",
+          "project_url": "https://github.com/Supermedo/bloodborne_pc",
+          "repo": "Supermedo/bloodborne_pc",
+          "status": "released",
+          "last_activity": "2026-10-16",
+          "release": "windows-v1.9",
+          "made": "AI-flagged",
+          "stars": 3035,
+          "toolchain": "Bbport",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-yharnam-hunters-paleblood",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "yharnam-hunters-paleblood",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-15"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bloodborne-ps4-2015",
+              "source_id": "bloodborne-yharnam-hunters",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-15"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Bloodborne",
+          "platform": "PS4",
+          "type": "decomp",
+          "project": "Yharnam-Hunters/Paleblood",
+          "project_url": "https://github.com/Yharnam-Hunters/Paleblood",
+          "repo": "Yharnam-Hunters/Paleblood",
+          "status": "in-progress",
+          "last_activity": "2026-10-15",
+          "stars": 105,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-bloodborne-native-bloodborne-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bloodborne-ps4-2015",
+              "source_id": "bloodborne-bloodborne-native",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-13"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bloodborne",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "bloodborne-native/bloodborne-recomp",
+          "project_url": "https://github.com/bloodborne-native/bloodborne-recomp",
+          "repo": "bloodborne-native/bloodborne-recomp",
+          "last_activity": "2026-10-13",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-deadinside28-bloodborne-pc",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "deadinside28-bloodborne-pc",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "PS4",
+              "last_activity": "2026-10-10"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bloodborne-ps4-2015",
+              "source_id": "bloodborne-deadinside28",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-10"
+            }
+          ],
+          "embedded_sources": [
+            "quiver",
+            "recomp.fyi"
+          ],
+          "game": "Bloodborne",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "deadinside28/bloodborne_pc",
+          "project_url": "https://github.com/deadinside28/bloodborne_pc",
+          "repo": "deadinside28/bloodborne_pc",
+          "status": "released",
+          "last_activity": "2026-10-10",
+          "release": "0.6-pre1",
+          "made": "AI-flagged",
+          "stars": 2982,
+          "toolchain": "Bbport",
+          "targets": [
+            "Linux"
+          ],
+          "conflicts": {
+            "type": [
+              "port",
+              "recomp"
+            ]
+          }
+        },
+        {
+          "id": "repo-bettercodegoblin-bloodborne-pc-windows-port",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bloodborne-ps4-2015",
+              "source_id": "bloodborne-bettercodegoblin",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bloodborne",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "BetterCodeGoblin/bloodborne_pc_windows_port",
+          "project_url": "https://github.com/BetterCodeGoblin/bloodborne_pc_windows_port",
+          "repo": "BetterCodeGoblin/bloodborne_pc_windows_port",
+          "last_activity": "2026-10-09",
+          "toolchain": "Bbport",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
+          "id": "repo-astrr00-bloodbornepc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bloodborne-ps4-2015",
+              "source_id": "bloodborne-astrr00",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bloodborne",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "Astrr00/BloodbornePC",
+          "project_url": "https://github.com/Astrr00/BloodbornePC",
+          "repo": "Astrr00/BloodbornePC",
+          "last_activity": "2026-10-09",
+          "targets": [
+            "PC"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
+          "id": "sig-bloodborne-paleblood-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/paleblood/",
+              "source_id": "p/paleblood",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS4",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bloodborne",
+          "platform": "PS4",
+          "type": "decomp",
+          "project": "Paleblood",
+          "project_url": "https://www.recompsoftware.com/p/paleblood/",
+          "status": "in-progress",
+          "progress": 0.01,
+          "made": "Not stated",
+          "stars": 109,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 8,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "released",
+      "has_conflict": true
     },
     {
       "id": "black-white--pc-windows",
@@ -36310,278 +36680,6 @@
       "has_conflict": false
     },
     {
-      "id": "bloodborne--ps4",
-      "title": "Bloodborne",
-      "platform": "PS4",
-      "projects": [
-        {
-          "id": "repo-supermedo-bloodborne-pc",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "supermedo-bloodborne-pc",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PS4",
-              "last_activity": "2026-10-15"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/bloodborne-ps4",
-              "source_id": "bloodborne-supermedo",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS4",
-              "last_activity": "2026-10-16"
-            }
-          ],
-          "embedded_sources": [
-            "awesome-game-remakes",
-            "portsdr",
-            "quiver",
-            "recomp.fyi"
-          ],
-          "game": "Bloodborne",
-          "platform": "PS4",
-          "type": "recomp",
-          "project": "Supermedo/bloodborne_pc",
-          "project_url": "https://github.com/Supermedo/bloodborne_pc",
-          "repo": "Supermedo/bloodborne_pc",
-          "status": "released",
-          "last_activity": "2026-10-16",
-          "release": "windows-v1.9",
-          "made": "AI-flagged",
-          "stars": 3035,
-          "toolchain": "Bbport",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "repo-yharnam-hunters-paleblood",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "yharnam-hunters-paleblood",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS4",
-              "last_activity": "2026-10-15"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/bloodborne-ps4",
-              "source_id": "bloodborne-yharnam-hunters",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PS4",
-              "last_activity": "2026-10-15"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Bloodborne",
-          "platform": "PS4",
-          "type": "decomp",
-          "project": "Yharnam-Hunters/Paleblood",
-          "project_url": "https://github.com/Yharnam-Hunters/Paleblood",
-          "repo": "Yharnam-Hunters/Paleblood",
-          "status": "in-progress",
-          "last_activity": "2026-10-15",
-          "stars": 105,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-bloodborne-native-bloodborne-recomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/bloodborne-ps4",
-              "source_id": "bloodborne-bloodborne-native",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS4",
-              "last_activity": "2026-10-13"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Bloodborne",
-          "platform": "PS4",
-          "type": "recomp",
-          "project": "bloodborne-native/bloodborne-recomp",
-          "project_url": "https://github.com/bloodborne-native/bloodborne-recomp",
-          "repo": "bloodborne-native/bloodborne-recomp",
-          "last_activity": "2026-10-13",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-deadinside28-bloodborne-pc",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "deadinside28-bloodborne-pc",
-              "claimed": false,
-              "status": "released",
-              "type": "port",
-              "platform": "PS4",
-              "last_activity": "2026-10-10"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/bloodborne-ps4",
-              "source_id": "bloodborne-deadinside28",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS4",
-              "last_activity": "2026-10-10"
-            }
-          ],
-          "embedded_sources": [
-            "quiver",
-            "recomp.fyi"
-          ],
-          "game": "Bloodborne",
-          "platform": "PS4",
-          "type": "recomp",
-          "project": "deadinside28/bloodborne_pc",
-          "project_url": "https://github.com/deadinside28/bloodborne_pc",
-          "repo": "deadinside28/bloodborne_pc",
-          "status": "released",
-          "last_activity": "2026-10-10",
-          "release": "0.6-pre1",
-          "made": "AI-flagged",
-          "stars": 2982,
-          "toolchain": "Bbport",
-          "targets": [
-            "Linux"
-          ],
-          "conflicts": {
-            "type": [
-              "port",
-              "recomp"
-            ]
-          }
-        },
-        {
-          "id": "repo-bettercodegoblin-bloodborne-pc-windows-port",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/bloodborne-ps4",
-              "source_id": "bloodborne-bettercodegoblin",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS4",
-              "last_activity": "2026-10-09"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Bloodborne",
-          "platform": "PS4",
-          "type": "recomp",
-          "project": "BetterCodeGoblin/bloodborne_pc_windows_port",
-          "project_url": "https://github.com/BetterCodeGoblin/bloodborne_pc_windows_port",
-          "repo": "BetterCodeGoblin/bloodborne_pc_windows_port",
-          "last_activity": "2026-10-09",
-          "toolchain": "Bbport",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {},
-          "status": "unknown"
-        },
-        {
-          "id": "repo-astrr00-bloodbornepc",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/bloodborne-ps4",
-              "source_id": "bloodborne-astrr00",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS4",
-              "last_activity": "2026-10-09"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Bloodborne",
-          "platform": "PS4",
-          "type": "recomp",
-          "project": "Astrr00/BloodbornePC",
-          "project_url": "https://github.com/Astrr00/BloodbornePC",
-          "repo": "Astrr00/BloodbornePC",
-          "last_activity": "2026-10-09",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {},
-          "status": "unknown"
-        },
-        {
-          "id": "sig-bloodborne-paleblood-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/paleblood/",
-              "source_id": "p/paleblood",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS4",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Bloodborne",
-          "platform": "PS4",
-          "type": "decomp",
-          "project": "Paleblood",
-          "project_url": "https://www.recompsoftware.com/p/paleblood/",
-          "status": "in-progress",
-          "progress": 0.01,
-          "made": "Not stated",
-          "stars": 109,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 7,
-      "types": [
-        "decomp",
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "released",
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-16",
-      "best_status": "released",
-      "has_conflict": true
-    },
-    {
       "id": "blinx-2-masters-of-time-and-space--xbox",
       "title": "Blinx 2: Masters of Time and Space",
       "platform": "Xbox",
@@ -39015,6 +39113,55 @@
       ],
       "last_activity": "2026-10-15",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "uncharted-the-nathan-drake-collection--ps4",
+      "title": "Uncharted: The Nathan Drake Collection",
+      "platform": "PS4",
+      "projects": [
+        {
+          "id": "repo-supermedo-uncharted-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/uncharted-the-nathan-drake-collection-ps4",
+              "source_id": "uncharted-the-nathan-drake-collection-supermedo",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-15"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Uncharted: The Nathan Drake Collection",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "Supermedo/uncharted_pc",
+          "project_url": "https://github.com/Supermedo/uncharted_pc",
+          "repo": "Supermedo/uncharted_pc",
+          "last_activity": "2026-10-15",
+          "release": "v0.3.3",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-15",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -50391,56 +50538,6 @@
           "release": "v0.5.0",
           "made": "AI-flagged",
           "stars": 373,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "port"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-15",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "bloodborne-bloodborne-pc--ps4",
-      "title": "Bloodborne (Bloodborne PC)",
-      "platform": "PS4",
-      "projects": [
-        {
-          "id": "repo-awakenchan-bloodbornebutpc",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "awakenchan-bloodbornebutpc",
-              "claimed": false,
-              "status": "released",
-              "type": "port",
-              "platform": "PS4",
-              "last_activity": "2026-10-15"
-            }
-          ],
-          "embedded_sources": [
-            "quiver"
-          ],
-          "game": "Bloodborne (Bloodborne PC)",
-          "platform": "PS4",
-          "type": "port",
-          "project": "BloodBorneButPc",
-          "project_url": "https://github.com/Awakenchan/BloodBorneButPc",
-          "repo": "Awakenchan/BloodBorneButPc",
-          "status": "released",
-          "last_activity": "2026-10-15",
-          "release": "v0.9.31",
-          "stars": 172,
           "conflicts": {},
           "targets": []
         }
