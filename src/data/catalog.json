@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-16T23:40:09.136007+00:00",
+  "generated_at": "2026-10-17T05:28:40.677455+00:00",
   "summary": {
-    "games": 2981,
-    "projects": 4061,
-    "source_records": 5051,
+    "games": 2982,
+    "projects": 4064,
+    "source_records": 5054,
     "platforms": 89,
     "sources": 4,
     "conflicted_projects": 197
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2409
+      "records": 2412
     },
     {
       "id": "recomp-software-recomp",
@@ -47,7 +47,7 @@
       ],
       [
         "Xbox 360",
-        391
+        393
       ],
       [
         "PS2",
@@ -99,7 +99,7 @@
       ],
       [
         "GBC",
-        75
+        76
       ],
       [
         "MSX",
@@ -393,11 +393,11 @@
     "types": [
       [
         "decomp",
-        1832
+        1833
       ],
       [
         "recomp",
-        1544
+        1546
       ],
       [
         "port",
@@ -415,11 +415,11 @@
       ],
       [
         "in-progress",
-        1201
+        1202
       ],
       [
         "released",
-        947
+        949
       ],
       [
         "paused",
@@ -440,6 +440,455 @@
     ]
   },
   "games": [
+    {
+      "id": "crackdown--xbox-360",
+      "title": "Crackdown",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-saulob-crackdown-xbox360-recompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/crackdown-xbox-360-2",
+              "source_id": "crackdown-saulob",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Crackdown",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Crackdown Recompiled",
+          "project_url": "https://github.com/saulob/crackdown-xbox360-recompiled",
+          "repo": "saulob/crackdown-xbox360-recompiled",
+          "status": "released",
+          "last_activity": "2026-10-17",
+          "release": "v0.1.0",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-unowa001-crackdown-recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "unowa001-crackdown-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-15"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/crackdown-xbox-360-2007",
+              "source_id": "crackdown-unowa001",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-15"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "reddit:r/recomps",
+            "unbaked"
+          ],
+          "game": "Crackdown",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Crackdown Recomp",
+          "project_url": "https://github.com/Unowa001/crackdown-recomp",
+          "repo": "Unowa001/crackdown-recomp",
+          "status": "released",
+          "last_activity": "2026-10-15",
+          "release": "v0.4.0",
+          "stars": 20,
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-skiddytoast-crackdown",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "skiddytoast-crackdown",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-03-04"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/crackdown-xbox-360-2007",
+              "source_id": "crackdown-skiddytoast",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-03-04"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "recomp.fyi",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Crackdown",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "SkiddyToast/Crackdown",
+          "project_url": "https://github.com/SkiddyToast/Crackdown",
+          "repo": "SkiddyToast/Crackdown",
+          "status": "in-progress",
+          "last_activity": "2026-03-04",
+          "stars": 30,
+          "toolchain": "Rexglue",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-crackdown-crackdown-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/crackdown-recomp/",
+              "source_id": "p/crackdown-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Crackdown",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Crackdown Recomp",
+          "project_url": "https://www.recompsoftware.com/p/crackdown-recomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 30,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 4,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "battletanx--gbc",
+      "title": "BattleTanx",
+      "platform": "GBC",
+      "projects": [
+        {
+          "id": "repo-thegh0stship-battletanx-gbc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/battletanx-gbc",
+              "source_id": "battletanx-thegh0stship-2",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "GBC",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "BattleTanx",
+          "platform": "GBC",
+          "type": "decomp",
+          "project": "BattleTanx GBC",
+          "project_url": "https://github.com/TheGh0stShip/BattleTanx-GBC",
+          "repo": "TheGh0stShip/BattleTanx-GBC",
+          "status": "in-progress",
+          "last_activity": "2026-10-17",
+          "toolchain": "Rgbds 1.0.4",
+          "targets": [
+            "GBC"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "army-of-two--xbox-360",
+      "title": "Army of Two",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-openportroid-armyoftworecompilation",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/army-of-two-xbox-360-2",
+              "source_id": "army-of-two-openportroid",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Army of Two",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Army of Two Recompilation",
+          "project_url": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation",
+          "repo": "OpenPortroid/ArmyOfTwoRecompilation",
+          "status": "released",
+          "last_activity": "2026-10-17",
+          "release": "v1.0",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-crabinacrabic-armyoftworecomp-usa",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/army-of-two-xbox-360-2008",
+              "source_id": "army-of-two-crabinacrabic",
+              "claimed": true,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-15"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Army of Two",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Army of Two (USA) PC Recompilation",
+          "project_url": "https://github.com/crabinacrabic/ArmyOfTwoRecomp-USA",
+          "repo": "crabinacrabic/ArmyOfTwoRecomp-USA",
+          "status": "playable",
+          "last_activity": "2026-10-15",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-nikolaygorb-armyoftworecomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "nikolaygorb-armyoftworecomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-11"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/army-of-two-xbox-360-2008",
+              "source_id": "army-of-two-nikolaygorb",
+              "claimed": true,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-11"
+            }
+          ],
+          "embedded_sources": [
+            "portsdr",
+            "recomp.fyi"
+          ],
+          "game": "Army of Two",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "nikolaygorb/ArmyOfTwoRecomp",
+          "project_url": "https://github.com/nikolaygorb/ArmyOfTwoRecomp",
+          "repo": "nikolaygorb/ArmyOfTwoRecomp",
+          "status": "playable",
+          "last_activity": "2026-10-11",
+          "release": "1.2",
+          "stars": 69,
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows",
+            "Linux",
+            "macOS"
+          ],
+          "conflicts": {
+            "status": [
+              "playable",
+              "released"
+            ]
+          }
+        },
+        {
+          "id": "sig-army-of-two-army-of-two-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/army-of-two-recomp/",
+              "source_id": "p/army-of-two-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-07"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Army of Two",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Army of Two Recomp",
+          "project_url": "https://www.recompsoftware.com/p/army-of-two-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-07",
+          "release": "1.2Oct",
+          "made": "Not stated",
+          "stars": 69,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-genesis5500-armyoftwo-recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "genesis5500-armyoftwo-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-09-10"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/army-of-two-xbox-360-2008",
+              "source_id": "army-of-two-genesis5500",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-09-10"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi"
+          ],
+          "game": "Army of Two",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Genesis5500/ArmyOfTwo-Recomp",
+          "project_url": "https://github.com/Genesis5500/ArmyOfTwo-Recomp",
+          "repo": "Genesis5500/ArmyOfTwo-Recomp",
+          "status": "released",
+          "last_activity": "2026-09-10",
+          "release": "v0.1.0",
+          "stars": 18,
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-automoto-libredeux",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/army-of-two-xbox-360-2008",
+              "source_id": "army-of-two-automoto",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-07-01"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Army of Two",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "automoto/LibreDeux",
+          "project_url": "https://github.com/automoto/LibreDeux",
+          "repo": "automoto/LibreDeux",
+          "last_activity": "2026-07-01",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 6,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable",
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "released",
+      "has_conflict": true
+    },
     {
       "id": "zombies-ate-my-neighbors-zombies-ate-my-neighbors-pc-port--snes",
       "title": "Zombies Ate My Neighbors (Zombies Ate My Neighbors PC Port)",
@@ -39877,143 +40326,6 @@
       "has_conflict": false
     },
     {
-      "id": "crackdown--xbox-360",
-      "title": "Crackdown",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-unowa001-crackdown-recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "unowa001-crackdown-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-15"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/crackdown-xbox-360",
-              "source_id": "crackdown-unowa001",
-              "claimed": true,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-15"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "reddit:r/recomps",
-            "unbaked"
-          ],
-          "game": "Crackdown",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Crackdown Recomp",
-          "project_url": "https://github.com/Unowa001/crackdown-recomp",
-          "repo": "Unowa001/crackdown-recomp",
-          "status": "released",
-          "last_activity": "2026-10-15",
-          "release": "v0.4.0",
-          "stars": 20,
-          "toolchain": "Rexglue",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "repo-skiddytoast-crackdown",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "skiddytoast-crackdown",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-03-04"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/crackdown-xbox-360",
-              "source_id": "crackdown-skiddytoast",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-03-04"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "recomp.fyi",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Crackdown",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "SkiddyToast/Crackdown",
-          "project_url": "https://github.com/SkiddyToast/Crackdown",
-          "repo": "SkiddyToast/Crackdown",
-          "status": "in-progress",
-          "last_activity": "2026-03-04",
-          "stars": 30,
-          "toolchain": "Rexglue",
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-crackdown-crackdown-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/crackdown-recomp/",
-              "source_id": "p/crackdown-recomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Crackdown",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Crackdown Recomp",
-          "project_url": "https://www.recompsoftware.com/p/crackdown-recomp/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 30,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 3,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-15",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "cooking-mama--nds",
       "title": "Cooking Mama",
       "platform": "NDS",
@@ -42660,207 +42972,6 @@
       "last_activity": "2026-10-15",
       "best_status": "playable",
       "has_conflict": false
-    },
-    {
-      "id": "army-of-two--xbox-360",
-      "title": "Army of Two",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-crabinacrabic-armyoftworecomp-usa",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/army-of-two-xbox-360",
-              "source_id": "army-of-two-crabinacrabic",
-              "claimed": true,
-              "status": "playable",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-15"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Army of Two",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Army of Two (USA) PC Recompilation",
-          "project_url": "https://github.com/crabinacrabic/ArmyOfTwoRecomp-USA",
-          "repo": "crabinacrabic/ArmyOfTwoRecomp-USA",
-          "status": "playable",
-          "last_activity": "2026-10-15",
-          "toolchain": "Rexglue",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "repo-nikolaygorb-armyoftworecomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "nikolaygorb-armyoftworecomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-11"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/army-of-two-xbox-360",
-              "source_id": "army-of-two-nikolaygorb",
-              "claimed": true,
-              "status": "playable",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-11"
-            }
-          ],
-          "embedded_sources": [
-            "portsdr",
-            "recomp.fyi"
-          ],
-          "game": "Army of Two",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "nikolaygorb/ArmyOfTwoRecomp",
-          "project_url": "https://github.com/nikolaygorb/ArmyOfTwoRecomp",
-          "repo": "nikolaygorb/ArmyOfTwoRecomp",
-          "status": "playable",
-          "last_activity": "2026-10-11",
-          "release": "1.2",
-          "stars": 69,
-          "toolchain": "Rexglue",
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS"
-          ],
-          "conflicts": {
-            "status": [
-              "playable",
-              "released"
-            ]
-          }
-        },
-        {
-          "id": "sig-army-of-two-army-of-two-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/army-of-two-recomp/",
-              "source_id": "p/army-of-two-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-07"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Army of Two",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Army of Two Recomp",
-          "project_url": "https://www.recompsoftware.com/p/army-of-two-recomp/",
-          "status": "released",
-          "last_activity": "2026-10-07",
-          "release": "1.2Oct",
-          "made": "Not stated",
-          "stars": 69,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-genesis5500-armyoftwo-recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "genesis5500-armyoftwo-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-09-10"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/army-of-two-xbox-360",
-              "source_id": "army-of-two-genesis5500",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-09-10"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi"
-          ],
-          "game": "Army of Two",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Genesis5500/ArmyOfTwo-Recomp",
-          "project_url": "https://github.com/Genesis5500/ArmyOfTwo-Recomp",
-          "repo": "Genesis5500/ArmyOfTwo-Recomp",
-          "status": "released",
-          "last_activity": "2026-09-10",
-          "release": "v0.1.0",
-          "stars": 18,
-          "toolchain": "Rexglue",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "repo-automoto-libredeux",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/army-of-two-xbox-360",
-              "source_id": "army-of-two-automoto",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-07-01"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Army of Two",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "automoto/LibreDeux",
-          "project_url": "https://github.com/automoto/LibreDeux",
-          "repo": "automoto/LibreDeux",
-          "last_activity": "2026-07-01",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 5,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "playable",
-        "released",
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-15",
-      "best_status": "released",
-      "has_conflict": true
     },
     {
       "id": "another-mind--ps1",
