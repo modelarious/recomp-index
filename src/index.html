@@ -1,1 +1,102 @@
-<!doctype html><html lang="en" data-theme="dark"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><meta name="theme-color" content="#111722"><style>html{color-scheme:dark;background:#111722;color:#e8edf5}body{margin:0;font:16px/1.65 system-ui,sans-serif}main{max-width:760px;margin:9vh auto;padding:28px}h1{line-height:1.2}p{color:#bac5d6}a{color:#a8caff}button,input,select,textarea{font:inherit;color:#e8edf5;background:#1d2838;border:1px solid #51627a;border-radius:8px}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #a8caff;outline-offset:4px}::selection{background:#374d75;color:#fff}</style><title>Home deployment check</title><body><main><h1>Your project is live.</h1><p>This page was built from its own repository and discovered without editing Home.</p><p id="revision-test">Initial template version</p></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Recomp Index</title>
+  <meta name="description" content="Search decompilation, static recompilation and source-port projects across community trackers.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-row">
+      <div>
+        <p class="eyebrow">Game reverse-engineering index</p>
+        <h1>Recomp Index</h1>
+        <p class="lede">One search across decompilations, static recompilations and source ports.</p>
+      </div>
+      <button id="sourcesButton" class="quiet-button" type="button" aria-controls="sourcesPanel">Sources</button>
+    </div>
+    <div class="stats" aria-label="Catalog summary">
+      <div><strong id="gameCount">—</strong><span>games</span></div>
+      <div><strong id="projectCount">—</strong><span>projects</span></div>
+      <div><strong id="sourceCount">—</strong><span>sources</span></div>
+      <div><strong id="recentCount">—</strong><span>active 30d</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="search-shell" aria-label="Search and filters">
+      <label class="search-label" for="query">Find a game or project</label>
+      <div class="search-row">
+        <input id="query" type="search" autocomplete="off" placeholder="Wario Land 4, Metroid, N64Recomp…" aria-describedby="searchHint">
+        <button id="clearButton" class="clear-button" type="button">Clear</button>
+      </div>
+      <p id="searchHint" class="hint">Press <kbd>/</kbd> to search. Every project keeps its source evidence.</p>
+
+      <div class="filters">
+        <label>Platform<select id="platformFilter"><option value="">All platforms</option></select></label>
+        <label>Work<select id="typeFilter"><option value="">All work</option></select></label>
+        <label>Status<select id="statusFilter"><option value="">All statuses</option></select></label>
+        <label>Activity<select id="activityFilter">
+          <option value="">Any time</option>
+          <option value="7">Updated in 7 days</option>
+          <option value="30">Updated in 30 days</option>
+          <option value="90">Updated in 90 days</option>
+        </select></label>
+        <label>Sort<select id="sortFilter">
+          <option value="recent">Most recently active</option>
+          <option value="name">Game name</option>
+          <option value="projects">Most projects</option>
+        </select></label>
+      </div>
+    </section>
+
+    <section class="results-head">
+      <div>
+        <p id="resultCount" class="result-count">Loading catalog…</p>
+        <p id="refreshStamp" class="refresh-stamp"></p>
+      </div>
+      <label class="toggle"><input id="conflictFilter" type="checkbox"><span>Only source disagreements</span></label>
+    </section>
+
+    <section id="results" class="results" aria-live="polite"></section>
+    <button id="loadMore" class="load-more" type="button" hidden>Show more</button>
+  </main>
+
+  <aside id="sourcesPanel" class="sources-panel" hidden>
+    <div class="panel-card">
+      <div class="panel-head">
+        <div><p class="eyebrow">Provenance</p><h2>Source coverage</h2></div>
+        <button id="closeSources" class="quiet-button" type="button">Close</button>
+      </div>
+      <p class="panel-copy">Recomp Index treats upstream trackers as evidence, not unquestioned truth. Duplicate repositories are merged; conflicting claims remain visible.</p>
+      <div id="sourceList" class="source-list"></div>
+    </div>
+  </aside>
+
+  <template id="gameTemplate">
+    <article class="game-card">
+      <details>
+        <summary>
+          <div class="game-main">
+            <div class="title-line">
+              <h2 class="game-title"></h2>
+              <span class="platform-badge"></span>
+            </div>
+            <div class="game-meta"></div>
+          </div>
+          <div class="game-side">
+            <span class="status-badge"></span>
+            <span class="activity"></span>
+          </div>
+        </summary>
+        <div class="project-list"></div>
+      </details>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
