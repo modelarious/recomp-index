@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-17T17:29:19.904382+00:00",
+  "generated_at": "2026-10-17T23:29:32.567562+00:00",
   "summary": {
-    "games": 2988,
-    "projects": 4072,
-    "source_records": 5064,
+    "games": 2991,
+    "projects": 4075,
+    "source_records": 5067,
     "platforms": 89,
     "sources": 4,
     "conflicted_projects": 199
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2422
+      "records": 2425
     },
     {
       "id": "recomp-software-recomp",
@@ -111,7 +111,7 @@
       ],
       [
         "Genesis",
-        40
+        41
       ],
       [
         "Mobile",
@@ -139,11 +139,11 @@
       ],
       [
         "PS4",
-        21
+        22
       ],
       [
         "Dreamcast",
-        20
+        21
       ],
       [
         "Mac",
@@ -393,11 +393,11 @@
     "types": [
       [
         "decomp",
-        1836
+        1838
       ],
       [
         "recomp",
-        1551
+        1552
       ],
       [
         "port",
@@ -411,11 +411,11 @@
     "statuses": [
       [
         "unknown",
-        1274
+        1275
       ],
       [
         "in-progress",
-        1205
+        1207
       ],
       [
         "released",
@@ -484,6 +484,52 @@
       ],
       "last_activity": "2026-10-17",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "zombie-revenge--dreamcast",
+      "title": "Zombie Revenge",
+      "platform": "Dreamcast",
+      "projects": [
+        {
+          "id": "repo-consolesplayingconsoles-zombie-revenge-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/zombie-revenge-dreamcast",
+              "source_id": "zombie-revenge-consolesplayingconsoles",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Dreamcast",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Zombie Revenge",
+          "platform": "Dreamcast",
+          "type": "decomp",
+          "project": "Zombie Revenge decomp",
+          "project_url": "https://github.com/consolesplayingconsoles/zombie-revenge-decomp",
+          "repo": "consolesplayingconsoles/zombie-revenge-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-17",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -13902,6 +13948,52 @@
       ],
       "last_activity": "2026-10-17",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "dragon-ball-z-l-appel-du-destin--genesis",
+      "title": "Dragon Ball Z: L'Appel du Destin",
+      "platform": "Genesis",
+      "projects": [
+        {
+          "id": "repo-consolesplayingconsoles-dbzbr-disasm",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/dragon-ball-z-lappel-du-destin-genesis",
+              "source_id": "dragon-ball-z-l-appel-du-destin-consolesplayingconsoles",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Genesis",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Dragon Ball Z: L'Appel du Destin",
+          "platform": "Genesis",
+          "type": "decomp",
+          "project": "Dragon Ball Z: L'Appel du Destin disassembly",
+          "project_url": "https://github.com/consolesplayingconsoles/dbzbr-disasm",
+          "repo": "consolesplayingconsoles/dbzbr-disasm",
+          "status": "in-progress",
+          "last_activity": "2026-10-17",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -27998,6 +28090,55 @@
       ],
       "last_activity": "2026-10-16",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "medievil--ps4",
+      "title": "MediEvil",
+      "platform": "PS4",
+      "projects": [
+        {
+          "id": "repo-bc160201983-medievil-2019-pc-port",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/medievil-ps4",
+              "source_id": "medievil-bc160201983",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "MediEvil",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "MediEvil (PS4) for PC",
+          "project_url": "https://github.com/bc160201983/medievil_2019_pc_port",
+          "repo": "bc160201983/medievil_2019_pc_port",
+          "last_activity": "2026-10-16",
+          "release": "v1.3.2",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-16",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
