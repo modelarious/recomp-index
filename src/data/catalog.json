@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-18T17:30:16.497384+00:00",
+  "generated_at": "2026-10-18T23:30:28.768073+00:00",
   "summary": {
-    "games": 3138,
-    "projects": 4379,
-    "source_records": 5377,
+    "games": 3139,
+    "projects": 4381,
+    "source_records": 5379,
     "platforms": 95,
     "sources": 4,
     "conflicted_projects": 205
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2447
+      "records": 2449
     },
     {
       "id": "recomp-software-recomp",
@@ -43,7 +43,7 @@
       ],
       [
         "Xbox 360",
-        433
+        435
       ],
       [
         "N64",
@@ -421,7 +421,7 @@
       ],
       [
         "recomp",
-        1661
+        1663
       ],
       [
         "port",
@@ -439,11 +439,11 @@
       ],
       [
         "unknown",
-        1268
+        1269
       ],
       [
         "released",
-        1031
+        1032
       ],
       [
         "paused",
@@ -3043,6 +3043,58 @@
       "last_activity": "2026-10-18",
       "best_status": "released",
       "has_conflict": true
+    },
+    {
+      "id": "super-street-fighter-ii-turbo-hd-remix--xbox-360",
+      "title": "Super Street Fighter II Turbo HD Remix",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-saulob-ssf2t-hd-remix-recompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-street-fighter-ii-turbo-hd-remix-xbox-360",
+              "source_id": "super-street-fighter-ii-turbo-hd-remix-saulob",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Street Fighter II Turbo HD Remix",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Super Street Fighter II Turbo HD Remix PC Port",
+          "project_url": "https://github.com/saulob/ssf2t-hd-remix-recompiled",
+          "repo": "saulob/ssf2t-hd-remix-recompiled",
+          "status": "released",
+          "last_activity": "2026-10-18",
+          "release": "v0.1.0",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "released",
+      "has_conflict": false
     },
     {
       "id": "super-smash-bros--n64",
@@ -6633,6 +6685,82 @@
       ],
       "last_activity": "2026-10-18",
       "best_status": "exploring",
+      "has_conflict": false
+    },
+    {
+      "id": "rockstar-table-tennis--xbox-360",
+      "title": "Rockstar Table Tennis",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-davidptrssvea-table-tennis-rockstar-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/rockstar-table-tennis-xbox-360",
+              "source_id": "rockstar-table-tennis-davidptrssvea",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rockstar Table Tennis",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "davidptrssvea/Table-Tennis-Rockstar-PC",
+          "project_url": "https://github.com/davidptrssvea/Table-Tennis-Rockstar-PC",
+          "repo": "davidptrssvea/Table-Tennis-Rockstar-PC",
+          "last_activity": "2026-10-18",
+          "release": "v1.0.2",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
+          "id": "repo-vincequene-rockstar-table-tennis-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360",
+              "source_id": "rockstar-table-tennis-vincequene",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-07"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rockstar Table Tennis",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "vincequene/rockstar-table-tennis-recomp",
+          "project_url": "https://github.com/vincequene/rockstar-table-tennis-recomp",
+          "repo": "vincequene/rockstar-table-tennis-recomp",
+          "last_activity": "2026-10-07",
+          "toolchain": "Rexglue",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -94223,53 +94351,6 @@
       ],
       "last_activity": "2026-10-07",
       "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "rockstar-table-tennis--xbox-360",
-      "title": "Rockstar Table Tennis",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-vincequene-rockstar-table-tennis-recomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360",
-              "source_id": "rockstar-table-tennis-vincequene",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-07"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Rockstar Table Tennis",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "vincequene/rockstar-table-tennis-recomp",
-          "project_url": "https://github.com/vincequene/rockstar-table-tennis-recomp",
-          "repo": "vincequene/rockstar-table-tennis-recomp",
-          "last_activity": "2026-10-07",
-          "toolchain": "Rexglue",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-07",
-      "best_status": "unknown",
       "has_conflict": false
     },
     {
