@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-18T11:30:01.220535+00:00",
+  "generated_at": "2026-10-18T17:30:16.497384+00:00",
   "summary": {
-    "games": 3137,
-    "projects": 4376,
-    "source_records": 5373,
+    "games": 3138,
+    "projects": 4379,
+    "source_records": 5377,
     "platforms": 95,
     "sources": 4,
-    "conflicted_projects": 204
+    "conflicted_projects": 205
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2443
+      "records": 2447
     },
     {
       "id": "recomp-software-recomp",
@@ -43,15 +43,15 @@
       ],
       [
         "Xbox 360",
-        432
+        433
       ],
       [
         "N64",
-        427
+        428
       ],
       [
         "PS2",
-        225
+        226
       ],
       [
         "GameCube",
@@ -421,11 +421,11 @@
       ],
       [
         "recomp",
-        1660
+        1661
       ],
       [
         "port",
-        681
+        683
       ],
       [
         "tool",
@@ -435,7 +435,7 @@
     "statuses": [
       [
         "in-progress",
-        1349
+        1351
       ],
       [
         "unknown",
@@ -455,7 +455,7 @@
       ],
       [
         "playable",
-        80
+        81
       ],
       [
         "exploring",
@@ -7912,6 +7912,313 @@
       "has_conflict": false
     },
     {
+      "id": "pilotwings-64--n64",
+      "title": "Pilotwings 64",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-noahvl-birdman64",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "noahvl-birdman64",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": "2026-10-14"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/pilotwings-64-n64",
+              "source_id": "pilotwings-64-noahvl",
+              "claimed": true,
+              "status": "playable",
+              "type": "port",
+              "platform": "N64",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [
+            "portsdr",
+            "quiver"
+          ],
+          "game": "Pilotwings 64",
+          "platform": "N64",
+          "type": "port",
+          "project": "Birdman64",
+          "project_url": "https://github.com/NoahVl/Birdman64",
+          "repo": "NoahVl/Birdman64",
+          "status": "playable",
+          "last_activity": "2026-10-18",
+          "release": "v1.4.1",
+          "made": "AI-flagged",
+          "stars": 21,
+          "targets": [
+            "Windows",
+            "Linux",
+            "Android",
+            "iOS"
+          ],
+          "conflicts": {
+            "status": [
+              "playable",
+              "released"
+            ],
+            "type": [
+              "decomp",
+              "port"
+            ]
+          }
+        },
+        {
+          "id": "sig-pilotwings-64-birdman64-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/birdman64/",
+              "source_id": "p/birdman64",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pilotwings 64",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Birdman64",
+          "project_url": "https://www.recompsoftware.com/p/birdman64/",
+          "status": "released",
+          "last_activity": "2026-10-17",
+          "release": "v1.3.0Oct",
+          "made": "AI-generated",
+          "stars": 26,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-n64decomp-pw64",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "n64decomp-pw64",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": "2026-10-15"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/pilotwings-64-n64",
+              "source_id": "pilotwings-64-gcsmith-2",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": "2026-10-15"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Pilotwings 64",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "gcsmith/Pilotwings64Decomp",
+          "project_url": "https://github.com/n64decomp/pw64",
+          "repo": "n64decomp/pw64",
+          "status": "in-progress",
+          "last_activity": "2026-10-15",
+          "stars": 80,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-pilotwings-64-pilotwings-64-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/pilotwings-64-recomp/",
+              "source_id": "p/pilotwings-64-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-09-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pilotwings 64",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Pilotwings 64 Recomp",
+          "project_url": "https://www.recompsoftware.com/p/pilotwings-64-recomp/",
+          "status": "released",
+          "last_activity": "2026-09-17",
+          "release": "v0.1.1Sep",
+          "made": "AI-generated",
+          "stars": 79,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-danielgomesvieira2000-pilotwings-64-recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "danielgomesvieira2000-pilotwings-64-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-09-17"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/pilotwings-64-n64",
+              "source_id": "pilotwings-64-danielgomesvieira2000",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-09-17"
+            }
+          ],
+          "embedded_sources": [
+            "portsdr",
+            "quiver",
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Pilotwings 64",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "danielgomesvieira2000/pilotwings-64-recomp",
+          "project_url": "https://github.com/danielgomesvieira2000/pilotwings-64-recomp",
+          "repo": "danielgomesvieira2000/pilotwings-64-recomp",
+          "status": "released",
+          "last_activity": "2026-09-17",
+          "release": "v0.1.1",
+          "made": "AI-flagged",
+          "stars": 75,
+          "toolchain": "N64recomp",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-gcsmith-pilotwings64recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/pilotwings-64-n64",
+              "source_id": "pilotwings-64-gcsmith",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-05-27"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pilotwings 64",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "gcsmith/Pilotwings64Recomp",
+          "project_url": "https://github.com/gcsmith/Pilotwings64Recomp",
+          "repo": "gcsmith/Pilotwings64Recomp",
+          "last_activity": "2026-05-27",
+          "toolchain": "N64recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "sig-pilotwings-64-pilotwings-64-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/pilotwings64-recomp/",
+              "source_id": "p/pilotwings64-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pilotwings 64",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Pilotwings 64: Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/pilotwings64-recomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-pilotwings-64-pilotwings-64-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/pilotwings64-decomp/",
+              "source_id": "p/pilotwings64-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pilotwings 64",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Pilotwings 64 decompilation",
+          "project_url": "https://www.recompsoftware.com/p/pilotwings64-decomp/",
+          "status": "in-progress",
+          "progress": 100.0,
+          "made": "Not stated",
+          "stars": 81,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 8,
+      "types": [
+        "decomp",
+        "port",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "playable",
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "released",
+      "has_conflict": true
+    },
+    {
       "id": "outpost-kaloki-x--xbox-360",
       "title": "Outpost Kaloki X",
       "platform": "Xbox 360",
@@ -10626,6 +10933,61 @@
       "has_conflict": true
     },
     {
+      "id": "mabecs-international-superstar-soccer-2000--n64",
+      "title": "Mabecs International Superstar Soccer 2000",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-mabec-games-iss2000-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/mabecs-international-superstar-soccer-2000-n64",
+              "source_id": "mabecs-international-superstar-soccer-20-mabec-games",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mabecs International Superstar Soccer 2000",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Mabecs International Superstar Soccer 2000 - Widescreen build",
+          "project_url": "https://github.com/Mabec-games/iss2000-recomp",
+          "repo": "Mabec-games/iss2000-recomp",
+          "status": "released",
+          "last_activity": "2026-10-18",
+          "release": "v1.2",
+          "toolchain": "N64recomp",
+          "targets": [
+            "Linux",
+            "Steam Deck",
+            "https:",
+            "github.com",
+            "Mabec-games",
+            "iss-deluxed"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "lost-odyssey--xbox-360",
       "title": "Lost Odyssey",
       "platform": "Xbox 360",
@@ -10931,6 +11293,55 @@
       ],
       "last_activity": "2026-10-18",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "littlebigplanet-3--ps4",
+      "title": "LittleBigPlanet 3",
+      "platform": "PS4",
+      "projects": [
+        {
+          "id": "repo-thenikito-littlebigplanet-3-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/littlebigplanet-3-ps4",
+              "source_id": "littlebigplanet-3-thenikito",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "LittleBigPlanet 3",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "LittleBigPlanet 3 - PC",
+          "project_url": "https://github.com/TheNIKITO/LittleBigPlanet-3---PC",
+          "repo": "TheNIKITO/LittleBigPlanet-3---PC",
+          "status": "in-progress",
+          "last_activity": "2026-10-18",
+          "toolchain": "Bbport",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -12661,6 +13072,52 @@
       "last_activity": "2026-10-18",
       "best_status": "released",
       "has_conflict": true
+    },
+    {
+      "id": "halo-mega-bloks-project-haggar--xbox-360",
+      "title": "Halo Mega Bloks (Project Haggar)",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-kirklandsig-halo-mega-bloks-decompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/halo-mega-bloks-project-haggar-xbox-360",
+              "source_id": "halo-mega-bloks-project-haggar-kirklandsig",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Halo Mega Bloks (Project Haggar)",
+          "platform": "Xbox 360",
+          "type": "decomp",
+          "project": "halo-mega-bloks-decompiled",
+          "project_url": "https://github.com/kirklandsig/halo-mega-bloks-decompiled",
+          "repo": "kirklandsig/halo-mega-bloks-decompiled",
+          "status": "in-progress",
+          "last_activity": "2026-10-18",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "in-progress",
+      "has_conflict": false
     },
     {
       "id": "halo-2--xbox",
@@ -15329,6 +15786,276 @@
       "last_activity": "2026-10-18",
       "best_status": "released",
       "has_conflict": false
+    },
+    {
+      "id": "dragon-ball-z-budokai-tenkaichi-3--ps2",
+      "title": "Dragon Ball Z: Budokai Tenkaichi 3",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-julioheroz-tenkaichi3rust",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/dragon-ball-z-budokai-tenkaichi-3-ps2-2",
+              "source_id": "dragon-ball-z-budokai-tenkaichi-3-julioheroz",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "port",
+              "platform": "PS2",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
+          "platform": "PS2",
+          "type": "port",
+          "project": "Tenkaichi3Rust",
+          "project_url": "https://github.com/JulioHeroZ/Tenkaichi3Rust",
+          "repo": "JulioHeroZ/Tenkaichi3Rust",
+          "status": "in-progress",
+          "last_activity": "2026-10-18",
+          "release": "v0.1.0",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-z3xox-tenkaichi3decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "z3xox-tenkaichi3decomp",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-15"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/dragon-ball-z-budokai-tenkaichi-3-ps2-2007",
+              "source_id": "dragon-ball-z-budokai-tenkaichi-3-z3xox-",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PS2",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [
+            "portsdr",
+            "quiver",
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
+          "platform": "PS2",
+          "type": "port",
+          "project": "z3xox/Tenkaichi3Decomp",
+          "project_url": "https://github.com/z3xox/Tenkaichi3Decomp",
+          "repo": "z3xox/Tenkaichi3Decomp",
+          "status": "released",
+          "last_activity": "2026-10-17",
+          "release": "v0.1.37",
+          "made": "AI-flagged",
+          "stars": 390,
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {
+            "type": [
+              "decomp",
+              "port"
+            ]
+          }
+        },
+        {
+          "id": "repo-melvin-molder-bt3-rust-rewrite",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/dragon-ball-z-budokai-tenkaichi-3-ps2-2007",
+              "source_id": "dragon-ball-z-budokai-tenkaichi-3-melvin",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PS2",
+              "last_activity": "2026-10-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
+          "platform": "PS2",
+          "type": "port",
+          "project": "Melvin-Molder/bt3-rust-rewrite",
+          "project_url": "https://github.com/Melvin-Molder/bt3-rust-rewrite",
+          "repo": "Melvin-Molder/bt3-rust-rewrite",
+          "last_activity": "2026-10-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-z3xox-bt3-decompiled",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "z3xox-bt3-decompiled",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-08"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/dragon-ball-z-budokai-tenkaichi-3-ps2-2007",
+              "source_id": "dragon-ball-z-budokai-tenkaichi-3-z3xox-2",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-08"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "BT3-Decompiled",
+          "project_url": "https://github.com/z3xox/BT3-Decompiled",
+          "repo": "z3xox/BT3-Decompiled",
+          "status": "in-progress",
+          "last_activity": "2026-10-08",
+          "stars": 23,
+          "release": "port-base-2026-10-05",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-z3xox-bt3-recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "z3xox-bt3-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-01"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/dragon-ball-z-budokai-tenkaichi-3-ps2-2007",
+              "source_id": "dragon-ball-z-budokai-tenkaichi-3-z3xox",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-01"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "z3xox/BT3-Recomp",
+          "project_url": "https://github.com/z3xox/BT3-Recomp",
+          "repo": "z3xox/BT3-Recomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-01",
+          "stars": 90,
+          "toolchain": "Ps2recomp",
+          "targets": [
+            "PC"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-dragon-ball-z-budokai-tenkaichi-3-bt3-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/bt3-recomp/",
+              "source_id": "p/bt3-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "BT3-Recomp",
+          "project_url": "https://www.recompsoftware.com/p/bt3-recomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 99,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-dragon-ball-z-budokai-tenkaichi-3-bt3-decompiled-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/bt3-decompiled/",
+              "source_id": "p/bt3-decompiled",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "BT3-Decompiled",
+          "project_url": "https://www.recompsoftware.com/p/bt3-decompiled/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 25,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 7,
+      "types": [
+        "decomp",
+        "port",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "released",
+      "has_conflict": true
     },
     {
       "id": "dragon-ball-z-budokai-hd-collection--xbox-360",
@@ -29174,255 +29901,6 @@
       "has_conflict": true
     },
     {
-      "id": "pilotwings-64--n64",
-      "title": "Pilotwings 64",
-      "platform": "N64",
-      "projects": [
-        {
-          "id": "sig-pilotwings-64-birdman64-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/birdman64/",
-              "source_id": "p/birdman64",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-10-17"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Pilotwings 64",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "Birdman64",
-          "project_url": "https://www.recompsoftware.com/p/birdman64/",
-          "status": "released",
-          "last_activity": "2026-10-17",
-          "release": "v1.3.0Oct",
-          "made": "AI-generated",
-          "stars": 26,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-n64decomp-pw64",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "n64decomp-pw64",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": "2026-10-15"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/pilotwings-64-n64",
-              "source_id": "pilotwings-64-gcsmith-2",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": "2026-10-15"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Pilotwings 64",
-          "platform": "N64",
-          "type": "decomp",
-          "project": "gcsmith/Pilotwings64Decomp",
-          "project_url": "https://github.com/n64decomp/pw64",
-          "repo": "n64decomp/pw64",
-          "status": "in-progress",
-          "last_activity": "2026-10-15",
-          "stars": 80,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-pilotwings-64-pilotwings-64-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/pilotwings-64-recomp/",
-              "source_id": "p/pilotwings-64-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-09-17"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Pilotwings 64",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "Pilotwings 64 Recomp",
-          "project_url": "https://www.recompsoftware.com/p/pilotwings-64-recomp/",
-          "status": "released",
-          "last_activity": "2026-09-17",
-          "release": "v0.1.1Sep",
-          "made": "AI-generated",
-          "stars": 79,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-danielgomesvieira2000-pilotwings-64-recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "danielgomesvieira2000-pilotwings-64-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-09-17"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/pilotwings-64-n64",
-              "source_id": "pilotwings-64-danielgomesvieira2000",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-09-17"
-            }
-          ],
-          "embedded_sources": [
-            "portsdr",
-            "quiver",
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Pilotwings 64",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "danielgomesvieira2000/pilotwings-64-recomp",
-          "project_url": "https://github.com/danielgomesvieira2000/pilotwings-64-recomp",
-          "repo": "danielgomesvieira2000/pilotwings-64-recomp",
-          "status": "released",
-          "last_activity": "2026-09-17",
-          "release": "v0.1.1",
-          "made": "AI-flagged",
-          "stars": 75,
-          "toolchain": "N64recomp",
-          "targets": [
-            "Windows",
-            "Linux"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "repo-gcsmith-pilotwings64recomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/pilotwings-64-n64",
-              "source_id": "pilotwings-64-gcsmith",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-05-27"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Pilotwings 64",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "gcsmith/Pilotwings64Recomp",
-          "project_url": "https://github.com/gcsmith/Pilotwings64Recomp",
-          "repo": "gcsmith/Pilotwings64Recomp",
-          "last_activity": "2026-05-27",
-          "toolchain": "N64recomp",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "sig-pilotwings-64-pilotwings-64-recompiled-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/pilotwings64-recomp/",
-              "source_id": "p/pilotwings64-recomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Pilotwings 64",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "Pilotwings 64: Recompiled",
-          "project_url": "https://www.recompsoftware.com/p/pilotwings64-recomp/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-pilotwings-64-pilotwings-64-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/pilotwings64-decomp/",
-              "source_id": "p/pilotwings64-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Pilotwings 64",
-          "platform": "N64",
-          "type": "decomp",
-          "project": "Pilotwings 64 decompilation",
-          "project_url": "https://www.recompsoftware.com/p/pilotwings64-decomp/",
-          "status": "in-progress",
-          "progress": 100.0,
-          "made": "Not stated",
-          "stars": 81,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 7,
-      "types": [
-        "decomp",
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "released",
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp-software-recomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-17",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "pikmin--gamecube",
       "title": "Pikmin",
       "platform": "GameCube",
@@ -35828,247 +36306,6 @@
       "last_activity": "2026-10-17",
       "best_status": "in-progress",
       "has_conflict": false
-    },
-    {
-      "id": "dragon-ball-z-budokai-tenkaichi-3--ps2",
-      "title": "Dragon Ball Z: Budokai Tenkaichi 3",
-      "platform": "PS2",
-      "projects": [
-        {
-          "id": "repo-z3xox-tenkaichi3decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "z3xox-tenkaichi3decomp",
-              "claimed": false,
-              "status": "released",
-              "type": "decomp",
-              "platform": "PS2",
-              "last_activity": "2026-10-15"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dragon-ball-z-budokai-tenkaichi-3-ps2",
-              "source_id": "dragon-ball-z-budokai-tenkaichi-3-z3xox-",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PS2",
-              "last_activity": "2026-10-17"
-            }
-          ],
-          "embedded_sources": [
-            "portsdr",
-            "quiver",
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
-          "platform": "PS2",
-          "type": "port",
-          "project": "z3xox/Tenkaichi3Decomp",
-          "project_url": "https://github.com/z3xox/Tenkaichi3Decomp",
-          "repo": "z3xox/Tenkaichi3Decomp",
-          "status": "released",
-          "last_activity": "2026-10-17",
-          "release": "v0.1.37",
-          "made": "AI-flagged",
-          "stars": 390,
-          "targets": [
-            "Windows",
-            "Linux"
-          ],
-          "conflicts": {
-            "type": [
-              "decomp",
-              "port"
-            ]
-          }
-        },
-        {
-          "id": "repo-melvin-molder-bt3-rust-rewrite",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dragon-ball-z-budokai-tenkaichi-3-ps2",
-              "source_id": "dragon-ball-z-budokai-tenkaichi-3-melvin",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PS2",
-              "last_activity": "2026-10-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
-          "platform": "PS2",
-          "type": "port",
-          "project": "Melvin-Molder/bt3-rust-rewrite",
-          "project_url": "https://github.com/Melvin-Molder/bt3-rust-rewrite",
-          "repo": "Melvin-Molder/bt3-rust-rewrite",
-          "last_activity": "2026-10-14",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-z3xox-bt3-decompiled",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "z3xox-bt3-decompiled",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS2",
-              "last_activity": "2026-10-08"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dragon-ball-z-budokai-tenkaichi-3-ps2",
-              "source_id": "dragon-ball-z-budokai-tenkaichi-3-z3xox-2",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PS2",
-              "last_activity": "2026-10-08"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
-          "platform": "PS2",
-          "type": "decomp",
-          "project": "BT3-Decompiled",
-          "project_url": "https://github.com/z3xox/BT3-Decompiled",
-          "repo": "z3xox/BT3-Decompiled",
-          "status": "in-progress",
-          "last_activity": "2026-10-08",
-          "stars": 23,
-          "release": "port-base-2026-10-05",
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-z3xox-bt3-recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "z3xox-bt3-recomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS2",
-              "last_activity": "2026-10-01"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dragon-ball-z-budokai-tenkaichi-3-ps2",
-              "source_id": "dragon-ball-z-budokai-tenkaichi-3-z3xox",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS2",
-              "last_activity": "2026-10-01"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
-          "platform": "PS2",
-          "type": "recomp",
-          "project": "z3xox/BT3-Recomp",
-          "project_url": "https://github.com/z3xox/BT3-Recomp",
-          "repo": "z3xox/BT3-Recomp",
-          "status": "in-progress",
-          "last_activity": "2026-10-01",
-          "stars": 90,
-          "toolchain": "Ps2recomp",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "sig-dragon-ball-z-budokai-tenkaichi-3-bt3-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/bt3-recomp/",
-              "source_id": "p/bt3-recomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS2",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
-          "platform": "PS2",
-          "type": "recomp",
-          "project": "BT3-Recomp",
-          "project_url": "https://www.recompsoftware.com/p/bt3-recomp/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 99,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-dragon-ball-z-budokai-tenkaichi-3-bt3-decompiled-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/bt3-decompiled/",
-              "source_id": "p/bt3-decompiled",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS2",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Dragon Ball Z: Budokai Tenkaichi 3",
-          "platform": "PS2",
-          "type": "decomp",
-          "project": "BT3-Decompiled",
-          "project_url": "https://www.recompsoftware.com/p/bt3-decompiled/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 25,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 6,
-      "types": [
-        "decomp",
-        "port",
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "released",
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp-software-recomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-17",
-      "best_status": "released",
-      "has_conflict": true
     },
     {
       "id": "dragon-ball-gt-final-bout--ps1",
@@ -66070,58 +66307,6 @@
       ],
       "last_activity": "2026-10-14",
       "best_status": "complete",
-      "has_conflict": false
-    },
-    {
-      "id": "pilotwings-64-birdman64--n64",
-      "title": "Pilotwings 64 (Birdman64)",
-      "platform": "N64",
-      "projects": [
-        {
-          "id": "repo-noahvl-birdman64",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "noahvl-birdman64",
-              "claimed": false,
-              "status": "released",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": "2026-10-14"
-            }
-          ],
-          "embedded_sources": [
-            "portsdr",
-            "quiver"
-          ],
-          "game": "Pilotwings 64 (Birdman64)",
-          "platform": "N64",
-          "type": "decomp",
-          "project": "Birdman64",
-          "project_url": "https://github.com/NoahVl/Birdman64",
-          "repo": "NoahVl/Birdman64",
-          "status": "released",
-          "last_activity": "2026-10-14",
-          "release": "v1.2.0",
-          "made": "AI-flagged",
-          "stars": 21,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-14",
-      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -199113,54 +199298,6 @@
       ],
       "last_activity": null,
       "best_status": "paused",
-      "has_conflict": false
-    },
-    {
-      "id": "littlebigplanet-3--ps4",
-      "title": "LittleBigPlanet 3",
-      "platform": "PS4",
-      "projects": [
-        {
-          "id": "repo-thenikito-littlebigplanet-3-pc",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/littlebigplanet-3-ps4",
-              "source_id": "littlebigplanet-3-thenikito",
-              "claimed": true,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS4",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "LittleBigPlanet 3",
-          "platform": "PS4",
-          "type": "recomp",
-          "project": "LittleBigPlanet 3 - PC",
-          "project_url": "https://github.com/TheNIKITO/LittleBigPlanet-3---PC",
-          "repo": "TheNIKITO/LittleBigPlanet-3---PC",
-          "status": "in-progress",
-          "toolchain": "Bbport",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": null,
-      "best_status": "in-progress",
       "has_conflict": false
     },
     {
