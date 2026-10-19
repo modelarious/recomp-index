@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-18T23:30:28.768073+00:00",
+  "generated_at": "2026-10-19T05:30:41.979101+00:00",
   "summary": {
-    "games": 3139,
-    "projects": 4381,
-    "source_records": 5379,
+    "games": 3141,
+    "projects": 4383,
+    "source_records": 5381,
     "platforms": 95,
     "sources": 4,
     "conflicted_projects": 205
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2449
+      "records": 2451
     },
     {
       "id": "recomp-software-recomp",
@@ -71,7 +71,7 @@
       ],
       [
         "NES",
-        157
+        158
       ],
       [
         "Wii",
@@ -115,7 +115,7 @@
       ],
       [
         "PS3",
-        39
+        40
       ],
       [
         "ZX Spectrum",
@@ -421,7 +421,7 @@
       ],
       [
         "recomp",
-        1663
+        1665
       ],
       [
         "port",
@@ -435,7 +435,7 @@
     "statuses": [
       [
         "in-progress",
-        1351
+        1352
       ],
       [
         "unknown",
@@ -443,7 +443,7 @@
       ],
       [
         "released",
-        1032
+        1033
       ],
       [
         "paused",
@@ -464,6 +464,104 @@
     ]
   },
   "games": [
+    {
+      "id": "ico--ps3",
+      "title": "ICO",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-feanor-noldorin-ico-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/ico-ps3",
+              "source_id": "ico-feanor-noldorin",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "ICO",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "ICO PC Port",
+          "project_url": "https://github.com/feanor-noldorin/ico-recomp",
+          "repo": "feanor-noldorin/ico-recomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-19",
+          "toolchain": "Ps3recomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "double-dragon-iii-the-sacred-stones--nes",
+      "title": "Double Dragon III: The Sacred Stones",
+      "platform": "NES",
+      "projects": [
+        {
+          "id": "repo-junior-jones-double-dragon-iii-nes-static-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/double-dragon-iii-the-sacred-stones-nes",
+              "source_id": "double-dragon-iii-the-sacred-stones-junior-jones",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "NES",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Double Dragon III: The Sacred Stones",
+          "platform": "NES",
+          "type": "recomp",
+          "project": "Double Dragon III (NES) Static Recomp",
+          "project_url": "https://github.com/Junior-Jones/Double-Dragon-III-NES-Static-Recomp",
+          "repo": "Junior-Jones/Double-Dragon-III-NES-Static-Recomp",
+          "status": "released",
+          "last_activity": "2026-10-19",
+          "release": "v1.0.0",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "released",
+      "has_conflict": false
+    },
     {
       "id": "yu-gi-oh-forbidden-memories--ps1",
       "title": "Yu-Gi-Oh! Forbidden Memories",
