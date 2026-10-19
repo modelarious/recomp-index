@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-19T11:30:56.879289+00:00",
+  "generated_at": "2026-10-19T17:31:12.813754+00:00",
   "summary": {
-    "games": 3153,
-    "projects": 4392,
-    "source_records": 5451,
+    "games": 3183,
+    "projects": 4439,
+    "source_records": 5500,
     "platforms": 96,
     "sources": 4,
-    "conflicted_projects": 226
+    "conflicted_projects": 227
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2455
+      "records": 2504
     },
     {
       "id": "recomp-software-recomp",
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PS1",
-        508
+        509
       ],
       [
         "PC (Windows)",
@@ -43,31 +43,31 @@
       ],
       [
         "Xbox 360",
-        434
+        439
       ],
       [
         "N64",
-        429
+        434
       ],
       [
         "PS2",
-        227
+        235
       ],
       [
         "GameCube",
-        221
+        224
       ],
       [
         "GBA",
-        205
+        207
       ],
       [
         "Unknown",
-        195
+        194
       ],
       [
         "SNES",
-        159
+        163
       ],
       [
         "NES",
@@ -75,22 +75,22 @@
       ],
       [
         "Wii",
-        139
+        143
       ],
       [
         "NDS",
-        104
-      ],
-      [
-        "DOS",
-        87
-      ],
-      [
-        "GBC",
-        86
+        105
       ],
       [
         "Xbox",
+        91
+      ],
+      [
+        "DOS",
+        86
+      ],
+      [
+        "GBC",
         86
       ],
       [
@@ -107,15 +107,15 @@
       ],
       [
         "Arcade",
-        52
+        53
       ],
       [
         "Genesis",
-        41
+        42
       ],
       [
         "PS3",
-        39
+        42
       ],
       [
         "ZX Spectrum",
@@ -131,19 +131,19 @@
       ],
       [
         "PSP",
-        25
+        27
       ],
       [
         "Dreamcast",
-        24
+        25
       ],
       [
         "Wii U",
-        24
+        25
       ],
       [
         "3DS",
-        23
+        24
       ],
       [
         "Mac",
@@ -166,12 +166,12 @@
         12
       ],
       [
-        "Commodore 64/8-bit",
+        "Amiga",
         11
       ],
       [
-        "Amiga",
-        10
+        "Commodore 64/8-bit",
+        11
       ],
       [
         "DS",
@@ -421,15 +421,15 @@
     "types": [
       [
         "decomp",
-        2029
+        2033
       ],
       [
         "recomp",
-        1667
+        1708
       ],
       [
         "port",
-        687
+        689
       ],
       [
         "tool",
@@ -443,7 +443,7 @@
       ],
       [
         "unknown",
-        1228
+        1275
       ],
       [
         "released",
@@ -585,6 +585,32 @@
       "platform": "PS2",
       "projects": [
         {
+          "id": "repo-kira-502-dotr-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/yu-gi-oh-the-duelists-of-the-roses-ps2",
+              "source_id": "yu-gi-oh-the-duelists-of-the-roses-kira--2",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PS2",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Yu-Gi-Oh! The Duelists of the Roses",
+          "platform": "PS2",
+          "type": "port",
+          "project": "kira-502/dotr-pc",
+          "project_url": "https://github.com/kira-502/dotr-pc",
+          "repo": "kira-502/dotr-pc",
+          "last_activity": "2026-10-19",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
           "id": "repo-kira-502-dotr-decomp",
           "evidence": [
             {
@@ -612,9 +638,10 @@
           "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
-        "decomp"
+        "decomp",
+        "port"
       ],
       "statuses": [
         "unknown"
@@ -1346,6 +1373,52 @@
       "has_conflict": false
     },
     {
+      "id": "virtua-fighter-3--arcade",
+      "title": "Virtua Fighter 3",
+      "platform": "Arcade",
+      "projects": [
+        {
+          "id": "repo-mr-finster-vf3-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/virtua-fighter-3-arcade",
+              "source_id": "virtua-fighter-3-mr-finster",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Arcade",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Virtua Fighter 3",
+          "platform": "Arcade",
+          "type": "recomp",
+          "project": "mr-finster/vf3-recomp",
+          "project_url": "https://github.com/mr-finster/vf3-recomp",
+          "repo": "mr-finster/vf3-recomp",
+          "last_activity": "2026-10-19",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "virtua-fighter-2--arcade",
       "title": "Virtua Fighter 2",
       "platform": "Arcade",
@@ -2019,6 +2092,7 @@
           "project_url": "https://github.com/snufflyyy/trials-hd-recompiled",
           "repo": "snufflyyy/trials-hd-recompiled",
           "last_activity": "2026-10-19",
+          "toolchain": "Rexglue",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -2390,6 +2464,100 @@
       "has_conflict": false
     },
     {
+      "id": "tony-hawk-s-pro-skater-3--n64",
+      "title": "Tony Hawk's Pro Skater 3",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-thps64recomp-thps3-64recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/tony-hawks-pro-skater-3-n64",
+              "source_id": "tony-hawk-s-pro-skater-3-thps64recomp",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Tony Hawk's Pro Skater 3",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "THPS64Recomp/THPS3-64Recomp",
+          "project_url": "https://github.com/THPS64Recomp/THPS3-64Recomp",
+          "repo": "THPS64Recomp/THPS3-64Recomp",
+          "last_activity": "2026-10-19",
+          "toolchain": "N64recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "tony-hawk-s-pro-skater-2--n64",
+      "title": "Tony Hawk's Pro Skater 2",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-thps64recomp-thps2-64recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/tony-hawks-pro-skater-2-n64",
+              "source_id": "tony-hawk-s-pro-skater-2-thps64recomp",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Tony Hawk's Pro Skater 2",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "THPS64Recomp/THPS2-64Recomp",
+          "project_url": "https://github.com/THPS64Recomp/THPS2-64Recomp",
+          "repo": "THPS64Recomp/THPS2-64Recomp",
+          "last_activity": "2026-10-19",
+          "toolchain": "N64recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "tony-hawk-s-pro-skater-tony-was-a-pro-skater--ps1",
       "title": "Tony Hawk's Pro Skater (Tony Was A Pro Skater)",
       "platform": "PS1",
@@ -2439,6 +2607,53 @@
       ],
       "last_activity": "2026-10-19",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "tony-hawk-s-pro-skater--n64",
+      "title": "Tony Hawk's Pro Skater",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-thps64recomp-thps1-64recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/tony-hawks-pro-skater-n64",
+              "source_id": "tony-hawk-s-pro-skater-thps64recomp",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Tony Hawk's Pro Skater",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "THPS64Recomp/THPS1-64Recomp",
+          "project_url": "https://github.com/THPS64Recomp/THPS1-64Recomp",
+          "repo": "THPS64Recomp/THPS1-64Recomp",
+          "last_activity": "2026-10-19",
+          "toolchain": "N64recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -2606,6 +2821,7 @@
           "project_url": "https://github.com/phobos665/Rainbow-six-three-recomp",
           "repo": "phobos665/Rainbow-six-three-recomp",
           "last_activity": "2026-10-19",
+          "toolchain": "Xboxrecomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -4239,6 +4455,125 @@
       "has_conflict": false
     },
     {
+      "id": "super-paper-mario--wii",
+      "title": "Super Paper Mario",
+      "platform": "Wii",
+      "projects": [
+        {
+          "id": "repo-josiahg2502-glitch-newsuperpaperbros",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-paper-mario-wii",
+              "source_id": "super-paper-mario-josiahg2502-glitch",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Wii",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Paper Mario",
+          "platform": "Wii",
+          "type": "recomp",
+          "project": "josiahg2502-glitch/NewSuperPaperBros",
+          "project_url": "https://github.com/josiahg2502-glitch/NewSuperPaperBros",
+          "repo": "josiahg2502-glitch/NewSuperPaperBros",
+          "last_activity": "2026-10-19",
+          "toolchain": "Wiicompiled",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-seekyct-spm-decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "seekyct-spm-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Wii",
+              "last_activity": "2026-10-04"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-paper-mario-wii",
+              "source_id": "super-paper-mario-seekyct",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "Wii",
+              "last_activity": "2026-10-04"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "recomp.fyi",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Super Paper Mario",
+          "platform": "Wii",
+          "type": "decomp",
+          "project": "SeekyCt/spm-decomp",
+          "project_url": "https://github.com/SeekyCt/spm-decomp",
+          "repo": "SeekyCt/spm-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-04",
+          "stars": 102,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-super-paper-mario-super-paper-mario-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/spm-decomp/",
+              "source_id": "p/spm-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Wii",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Paper Mario",
+          "platform": "Wii",
+          "type": "decomp",
+          "project": "Super Paper Mario decompilation",
+          "project_url": "https://www.recompsoftware.com/p/spm-decomp/",
+          "status": "in-progress",
+          "made": "Human-led",
+          "stars": 102,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "super-metroid--snes",
       "title": "Super Metroid",
       "platform": "SNES",
@@ -5627,6 +5962,107 @@
       "has_conflict": false
     },
     {
+      "id": "ssx-3--xbox",
+      "title": "SSX 3",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-bertibertig-ssx3-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/ssx-3-xbox",
+              "source_id": "ssx-3-bertibertig",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "SSX 3",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "bertibertig/SSX3-Recomp",
+          "project_url": "https://github.com/bertibertig/SSX3-Recomp",
+          "repo": "bertibertig/SSX3-Recomp",
+          "last_activity": "2026-10-19",
+          "toolchain": "Xboxrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-apexjcl-ssx3-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/ssx-3-xbox",
+              "source_id": "ssx-3-apexjcl",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "SSX 3",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "apexJCL/ssx3-recomp",
+          "project_url": "https://github.com/apexJCL/ssx3-recomp",
+          "repo": "apexJCL/ssx3-recomp",
+          "last_activity": "2026-10-18",
+          "toolchain": "Xboxrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-koenhendriks-ssx3-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/ssx-3-xbox",
+              "source_id": "ssx-3-koenhendriks",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "SSX 3",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "koenhendriks/SSX3-recomp",
+          "project_url": "https://github.com/koenhendriks/SSX3-recomp",
+          "repo": "koenhendriks/SSX3-recomp",
+          "last_activity": "2026-10-16",
+          "toolchain": "Xboxrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "spyro-a-hero-s-tail--gamecube-ps2",
       "title": "Spyro: A Hero's Tail",
       "platform": "GameCube / PS2",
@@ -6466,6 +6902,52 @@
       "last_activity": "2026-10-19",
       "best_status": "released",
       "has_conflict": true
+    },
+    {
+      "id": "shox-rally-reinvented--ps2",
+      "title": "Shox: Rally Reinvented",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-cblackler19-shox-rr-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/shox-ps2",
+              "source_id": "shox-rally-reinvented-cblackler19",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Shox: Rally Reinvented",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "cblackler19/shox-rr-decomp",
+          "project_url": "https://github.com/cblackler19/shox-rr-decomp",
+          "repo": "cblackler19/shox-rr-decomp",
+          "last_activity": "2026-10-19",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
+      "has_conflict": false
     },
     {
       "id": "shin-megami-tensei-digital-devil-saga-shin-megami-tensei-digital-devil-saga-2--ps2",
@@ -9526,6 +10008,52 @@
       "has_conflict": false
     },
     {
+      "id": "nintendo-land--wii-u",
+      "title": "Nintendo Land",
+      "platform": "Wii U",
+      "projects": [
+        {
+          "id": "repo-unitron07-nintendo-land-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/nintendo-land-wii-u",
+              "source_id": "nintendo-land-unitron07",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Wii U",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Nintendo Land",
+          "platform": "Wii U",
+          "type": "recomp",
+          "project": "Unitron07/Nintendo-Land-Recomp",
+          "project_url": "https://github.com/Unitron07/Nintendo-Land-Recomp",
+          "repo": "Unitron07/Nintendo-Land-Recomp",
+          "last_activity": "2026-10-19",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "new-super-mario-bros-u--wii-u",
       "title": "New Super Mario Bros. U",
       "platform": "Wii U",
@@ -10034,17 +10562,45 @@
           "stars": 92,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "repo-oaleex-shaolinmonksrecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/mortal-kombat-shaolin-monks-xbox",
+              "source_id": "mortal-kombat-shaolin-monks-oaleex",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mortal Kombat: Shaolin Monks",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "OAleex/ShaolinMonksRecomp",
+          "project_url": "https://github.com/OAleex/ShaolinMonksRecomp",
+          "repo": "OAleex/ShaolinMonksRecomp",
+          "last_activity": "2026-10-19",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "recomp"
       ],
       "statuses": [
-        "released"
+        "released",
+        "unknown"
       ],
       "sources": [
-        "recomp-software-recomp"
+        "recomp-software-recomp",
+        "recomp.fyi"
       ],
       "last_activity": "2026-10-19",
       "best_status": "released",
@@ -11038,6 +11594,7 @@
           "release": "v0.8.3",
           "made": "AI-flagged",
           "stars": 685,
+          "toolchain": "Wiicompiled",
           "targets": [
             "Android",
             "iOS"
@@ -11208,6 +11765,7 @@
           "last_activity": "2026-10-09",
           "release": "v1.3.0",
           "stars": 99,
+          "toolchain": "Wiicompiled",
           "targets": [
             "Android"
           ],
@@ -11859,6 +12417,52 @@
       ],
       "last_activity": "2026-10-19",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "lego-star-wars-ii-the-original-trilogy--nds",
+      "title": "LEGO Star Wars II: The Original Trilogy",
+      "platform": "NDS",
+      "projects": [
+        {
+          "id": "repo-agitationskeleton-lsw2ds-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/lego-star-wars-ii-the-original-trilogy-nds",
+              "source_id": "lego-star-wars-ii-the-original-trilogy-a",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "NDS",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "LEGO Star Wars II: The Original Trilogy",
+          "platform": "NDS",
+          "type": "recomp",
+          "project": "AgitationSkeleton/lsw2ds-pc",
+          "project_url": "https://github.com/AgitationSkeleton/lsw2ds-pc",
+          "repo": "AgitationSkeleton/lsw2ds-pc",
+          "last_activity": "2026-10-19",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -12840,6 +13444,83 @@
       "has_conflict": true
     },
     {
+      "id": "international-superstar-soccer-2000--n64",
+      "title": "International Superstar Soccer 2000",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-djultra64-iss2000",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/international-superstar-soccer-2000-n64",
+              "source_id": "international-superstar-soccer-2000-djul",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "International Superstar Soccer 2000",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "djultra64/ISS2000",
+          "project_url": "https://github.com/djultra64/ISS2000",
+          "repo": "djultra64/ISS2000",
+          "last_activity": "2026-10-19",
+          "toolchain": "N64recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "sig-international-superstar-soccer-2000-mabec-s-iss-2000-widescreen-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/iss2000-recomp/",
+              "source_id": "p/iss2000-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "International Superstar Soccer 2000",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Mabec's ISS 2000 Widescreen",
+          "project_url": "https://www.recompsoftware.com/p/iss2000-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-18",
+          "release": "v1.2Oct",
+          "made": "Not stated",
+          "stars": 12,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "infamous-second-son--ps4",
       "title": "inFAMOUS Second Son",
       "platform": "PS4",
@@ -12939,6 +13620,7 @@
           "repo": "Spooky098529/ITC-Recomp",
           "last_activity": "2026-10-19",
           "release": "v0.4.5",
+          "toolchain": "Rexglue",
           "targets": [
             "Windows",
             "Linux"
@@ -13107,6 +13789,80 @@
       "project_count": 1,
       "types": [
         "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "happy-wars--xbox-360",
+      "title": "Happy Wars",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-acidicspirit-happy-wars-pc-port",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/happy-wars-xbox-360",
+              "source_id": "happy-wars-acidicspirit",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Happy Wars",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "acidicspirit/Happy-Wars-PC-Port",
+          "project_url": "https://github.com/acidicspirit/Happy-Wars-PC-Port",
+          "repo": "acidicspirit/Happy-Wars-PC-Port",
+          "last_activity": "2026-10-19",
+          "toolchain": "Rexglue",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-joojofc13-wq-happywarsrecompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/happy-wars-xbox-360",
+              "source_id": "happy-wars-joojofc13-wq",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Happy Wars",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "joojofc13-wq/HappyWarsRecompiled",
+          "project_url": "https://github.com/joojofc13-wq/HappyWarsRecompiled",
+          "repo": "joojofc13-wq/HappyWarsRecompiled",
+          "last_activity": "2026-10-18",
+          "toolchain": "Rexglue",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
       ],
       "statuses": [
         "unknown"
@@ -14082,6 +14838,80 @@
       "has_conflict": false
     },
     {
+      "id": "god-of-war-ascension--ps3",
+      "title": "God of War: Ascension",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-arnaldolima1-gow-ascension-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/god-of-war-ascension-ps3",
+              "source_id": "god-of-war-ascension-arnaldolima1",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "God of War: Ascension",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "arnaldolima1/gow-ascension-pc",
+          "project_url": "https://github.com/arnaldolima1/gow-ascension-pc",
+          "repo": "arnaldolima1/gow-ascension-pc",
+          "last_activity": "2026-10-19",
+          "toolchain": "Ps3recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-richardfontoura-gowa-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/god-of-war-ascension-ps3",
+              "source_id": "god-of-war-ascension-richardfontoura",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "God of War: Ascension",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "RichardFontoura/gowa-pc",
+          "project_url": "https://github.com/RichardFontoura/gowa-pc",
+          "repo": "RichardFontoura/gowa-pc",
+          "last_activity": "2026-10-17",
+          "toolchain": "Ps3recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "god-of-war-iii-remastered--ps4",
       "title": "God of War III Remastered",
       "platform": "PS4",
@@ -14202,6 +15032,32 @@
           "targets": []
         },
         {
+          "id": "repo-lasvola-godhand-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/god-hand-ps2",
+              "source_id": "god-hand-lasvola",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "God Hand",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "LasVola/godhand-recomp",
+          "project_url": "https://github.com/LasVola/godhand-recomp",
+          "repo": "LasVola/godhand-recomp",
+          "last_activity": "2026-10-19",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
           "id": "sig-god-hand-god-hand-decompilation-decomp",
           "evidence": [
             {
@@ -14228,12 +15084,14 @@
           "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
-        "decomp"
+        "decomp",
+        "recomp"
       ],
       "statuses": [
-        "in-progress"
+        "in-progress",
+        "unknown"
       ],
       "sources": [
         "awesome-decomp-games",
@@ -14381,6 +15239,7 @@
           "last_activity": "2026-10-19",
           "stars": 76,
           "release": "v0.3.0",
+          "toolchain": "Rexglue",
           "targets": [
             "Android"
           ],
@@ -15312,6 +16171,7 @@
           "release": "v1.5.1.1",
           "made": "AI-flagged",
           "stars": 183,
+          "toolchain": "Rexglue",
           "conflicts": {},
           "targets": []
         },
@@ -17824,6 +18684,7 @@
           "repo": "HenryKun55/CBFD-Recompiled",
           "last_activity": "2026-10-15",
           "release": "v1.1.0",
+          "toolchain": "N64recomp",
           "targets": [
             "PS Vita"
           ],
@@ -19171,6 +20032,7 @@
           "release": "v0.9.34-beta.7",
           "made": "AI-flagged",
           "stars": 557,
+          "toolchain": "Bbport",
           "targets": [
             "Windows"
           ],
@@ -19203,6 +20065,7 @@
           "project_url": "https://github.com/bloodborne-native/bloodborne-recomp",
           "repo": "bloodborne-native/bloodborne-recomp",
           "last_activity": "2026-10-13",
+          "toolchain": "Bbport",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -22592,6 +23455,53 @@
       ],
       "last_activity": "2026-10-18",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "the-magical-quest-starring-mickey-mouse--snes",
+      "title": "The Magical Quest Starring Mickey Mouse",
+      "platform": "SNES",
+      "projects": [
+        {
+          "id": "repo-retroforgebr-magicalquest-snes-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/the-magical-quest-starring-mickey-mouse-snes",
+              "source_id": "the-magical-quest-starring-mickey-mouse-",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "SNES",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Magical Quest Starring Mickey Mouse",
+          "platform": "SNES",
+          "type": "recomp",
+          "project": "RetroForgeBR/MagicalQuest-SNES-Recomp",
+          "project_url": "https://github.com/RetroForgeBR/MagicalQuest-SNES-Recomp",
+          "repo": "RetroForgeBR/MagicalQuest-SNES-Recomp",
+          "last_activity": "2026-10-18",
+          "toolchain": "Snesrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -26733,6 +27643,100 @@
       "has_conflict": false
     },
     {
+      "id": "spider-man-web-of-shadows--xbox-360",
+      "title": "Spider-Man: Web of Shadows",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-toowasmir-webofshadowsrecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/spider-man-web-of-shadows-xbox-360",
+              "source_id": "spider-man-web-of-shadows-toowasmir",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Spider-Man: Web of Shadows",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "toowasmir/WebOfShadowsRecomp",
+          "project_url": "https://github.com/toowasmir/WebOfShadowsRecomp",
+          "repo": "toowasmir/WebOfShadowsRecomp",
+          "last_activity": "2026-10-18",
+          "toolchain": "Rexglue",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "spartan-total-warrior--xbox",
+      "title": "Spartan: Total Warrior",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-apexjcl-spartan-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/spartan-total-warrior-xbox",
+              "source_id": "spartan-total-warrior-apexjcl",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Spartan: Total Warrior",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "apexJCL/spartan-recomp",
+          "project_url": "https://github.com/apexJCL/spartan-recomp",
+          "repo": "apexJCL/spartan-recomp",
+          "last_activity": "2026-10-18",
+          "toolchain": "Xboxrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "space-channel-5--dreamcast",
       "title": "Space Channel 5",
       "platform": "Dreamcast",
@@ -27388,6 +28392,155 @@
       "last_activity": "2026-10-18",
       "best_status": "unknown",
       "has_conflict": false
+    },
+    {
+      "id": "sonic-riders-zero-gravity--wii",
+      "title": "Sonic Riders: Zero Gravity",
+      "platform": "Wii",
+      "projects": [
+        {
+          "id": "repo-knivesdevilish-sonic-riders-zg-source",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/sonic-riders-zero-gravity-wii",
+              "source_id": "sonic-riders-zero-gravity-knivesdevilish",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Wii",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Sonic Riders: Zero Gravity",
+          "platform": "Wii",
+          "type": "recomp",
+          "project": "KnivesDevilish/Sonic-Riders-ZG-Source",
+          "project_url": "https://github.com/KnivesDevilish/Sonic-Riders-ZG-Source",
+          "repo": "KnivesDevilish/Sonic-Riders-ZG-Source",
+          "last_activity": "2026-10-18",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-bluisblu-sr2wii",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/sonic-riders-zero-gravity-wii",
+              "source_id": "sonic-riders-bluisblu",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "Wii",
+              "last_activity": "2025-12-29"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Sonic Riders: Zero Gravity",
+          "platform": "Wii",
+          "type": "decomp",
+          "project": "bluisblu/SR2Wii",
+          "project_url": "https://github.com/bluisblu/SR2Wii",
+          "repo": "bluisblu/SR2Wii",
+          "last_activity": "2025-12-29",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-kidwizardoftheweb-srzgdecomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "kidwizardoftheweb-srzgdecomp",
+              "claimed": false,
+              "status": "paused",
+              "type": "decomp",
+              "platform": "GameCube",
+              "last_activity": "2023-06-22"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/sonic-riders-zero-gravity-wii",
+              "source_id": "sonic-riders-zero-gravity-kidwizardoftheweb",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "Wii",
+              "last_activity": "2023-06-22"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "recomp.fyi",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Sonic Riders: Zero Gravity",
+          "platform": "Wii",
+          "type": "decomp",
+          "project": "KidWizardOfTheWeb/SRZGDecomp",
+          "project_url": "https://github.com/KidWizardOfTheWeb/SRZGDecomp",
+          "repo": "KidWizardOfTheWeb/SRZGDecomp",
+          "status": "paused",
+          "last_activity": "2023-06-22",
+          "stars": 15,
+          "conflicts": {
+            "platform": [
+              "GameCube",
+              "Wii"
+            ]
+          },
+          "targets": []
+        },
+        {
+          "id": "sig-sonic-riders-zero-gravity-sonic-riders-zero-gravity-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/srzg-decomp/",
+              "source_id": "p/srzg-decomp",
+              "claimed": false,
+              "status": "paused",
+              "type": "decomp",
+              "platform": "Wii",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Sonic Riders: Zero Gravity",
+          "platform": "Wii",
+          "type": "decomp",
+          "project": "Sonic Riders: Zero Gravity decompilation",
+          "project_url": "https://www.recompsoftware.com/p/srzg-decomp/",
+          "status": "paused",
+          "made": "Human-led",
+          "stars": 15,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 4,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "paused",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "paused",
+      "has_conflict": true
     },
     {
       "id": "sonic-r-sonic-r-android--pc-windows",
@@ -28363,6 +29516,52 @@
       "has_conflict": false
     },
     {
+      "id": "scooby-doo-unmasked--gamecube",
+      "title": "Scooby-Doo! Unmasked",
+      "platform": "GameCube",
+      "projects": [
+        {
+          "id": "repo-josiahg2502-glitch-scooby-doo-remasked",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/scooby-doo-unmasked-gamecube",
+              "source_id": "scooby-doo-unmasked-josiahg2502-glitch",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "GameCube",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Scooby-Doo! Unmasked",
+          "platform": "GameCube",
+          "type": "recomp",
+          "project": "josiahg2502-glitch/Scooby-Doo-ReMasked",
+          "project_url": "https://github.com/josiahg2502-glitch/Scooby-Doo-ReMasked",
+          "repo": "josiahg2502-glitch/Scooby-Doo-ReMasked",
+          "last_activity": "2026-10-18",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "scooby-doo-night-of-100-frights--gamecube",
       "title": "Scooby-Doo! Night of 100 Frights",
       "platform": "GameCube",
@@ -28394,17 +29593,45 @@
           "stars": 17,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "repo-josiahg2502-glitch-scooby-doo-refrightened",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/scooby-doo-night-of-100-frights-gamecube",
+              "source_id": "scooby-doo-night-of-100-frights-josiahg2",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "GameCube",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Scooby-Doo! Night of 100 Frights",
+          "platform": "GameCube",
+          "type": "recomp",
+          "project": "josiahg2502-glitch/Scooby-Doo-Refrightened",
+          "project_url": "https://github.com/josiahg2502-glitch/Scooby-Doo-Refrightened",
+          "repo": "josiahg2502-glitch/Scooby-Doo-Refrightened",
+          "last_activity": "2026-10-18",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "recomp"
       ],
       "statuses": [
-        "released"
+        "released",
+        "unknown"
       ],
       "sources": [
-        "recomp-software-recomp"
+        "recomp-software-recomp",
+        "recomp.fyi"
       ],
       "last_activity": "2026-10-18",
       "best_status": "released",
@@ -28792,6 +30019,52 @@
       ],
       "last_activity": "2026-10-18",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "rescue-shot--ps1",
+      "title": "Rescue Shot",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-anactualkiwi-rescue-shot-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/rescue-shot-ps1",
+              "source_id": "rescue-shot-anactualkiwi",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rescue Shot",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "AnActualKiwi/Rescue-Shot-Decomp",
+          "project_url": "https://github.com/AnActualKiwi/Rescue-Shot-Decomp",
+          "repo": "AnActualKiwi/Rescue-Shot-Decomp",
+          "last_activity": "2026-10-18",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -29700,6 +30973,52 @@
       "has_conflict": false
     },
     {
+      "id": "pokemon-x--3ds",
+      "title": "Pokémon X",
+      "platform": "3DS",
+      "projects": [
+        {
+          "id": "repo-koyfc-hexlith",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/pokemon-x-3ds",
+              "source_id": "pokemon-x-koyfc",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "3DS",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pokémon X",
+          "platform": "3DS",
+          "type": "recomp",
+          "project": "KoyFC/Hexlith",
+          "project_url": "https://github.com/KoyFC/Hexlith",
+          "repo": "KoyFC/Hexlith",
+          "last_activity": "2026-10-18",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "pokemon-soulsilver--nds",
       "title": "Pokémon SoulSilver",
       "platform": "NDS",
@@ -30568,6 +31887,53 @@
       ],
       "last_activity": "2026-10-18",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "pirates-of-the-caribbean-at-world-s-end--xbox-360",
+      "title": "Pirates of the Caribbean: At World's End",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-elguslml-piratesatworldsendrecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/pirates-of-the-caribbean-at-worlds-end-xbox-360",
+              "source_id": "pirates-of-the-caribbean-at-world-s-end-",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pirates of the Caribbean: At World's End",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "ElGuslml/PiratesAtWorldsEndRecomp",
+          "project_url": "https://github.com/ElGuslml/PiratesAtWorldsEndRecomp",
+          "repo": "ElGuslml/PiratesAtWorldsEndRecomp",
+          "last_activity": "2026-10-18",
+          "toolchain": "Rexglue",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -33250,6 +34616,7 @@
           "project_url": "https://github.com/Team-Resurgent/MegaManX-X",
           "repo": "Team-Resurgent/MegaManX-X",
           "last_activity": "2026-07-25",
+          "toolchain": "Snesrecomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -36294,54 +37661,6 @@
       "has_conflict": false
     },
     {
-      "id": "international-superstar-soccer-2000--n64",
-      "title": "International Superstar Soccer 2000",
-      "platform": "N64",
-      "projects": [
-        {
-          "id": "sig-international-superstar-soccer-2000-mabec-s-iss-2000-widescreen-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/iss2000-recomp/",
-              "source_id": "p/iss2000-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-10-18"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "International Superstar Soccer 2000",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "Mabec's ISS 2000 Widescreen",
-          "project_url": "https://www.recompsoftware.com/p/iss2000-recomp/",
-          "status": "released",
-          "last_activity": "2026-10-18",
-          "release": "v1.2Oct",
-          "made": "Not stated",
-          "stars": 12,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-10-18",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "ikachan--3ds",
       "title": "Ikachan",
       "platform": "3DS",
@@ -36839,6 +38158,53 @@
       "project_count": 1,
       "types": [
         "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "gta-advance--gba",
+      "title": "GTA Advance",
+      "platform": "GBA",
+      "projects": [
+        {
+          "id": "repo-wigwoo1-grand-theft-auto-advance-pc-portq",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-advance-gba",
+              "source_id": "gta-advance-wigwoo1",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "GBA",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "GTA Advance",
+          "platform": "GBA",
+          "type": "recomp",
+          "project": "wigwoo1/Grand-Theft-Auto-Advance-PC-Portq",
+          "project_url": "https://github.com/wigwoo1/Grand-Theft-Auto-Advance-PC-Portq",
+          "repo": "wigwoo1/Grand-Theft-Auto-Advance-PC-Portq",
+          "last_activity": "2026-10-18",
+          "toolchain": "Gbarecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
       ],
       "statuses": [
         "unknown"
@@ -39399,6 +40765,33 @@
           "targets": []
         },
         {
+          "id": "repo-griches-eternaldarknessrecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/eternal-darkness-sanitys-requiem-gamecube",
+              "source_id": "eternal-darkness-sanity-s-requiem-griche",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "GameCube",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Eternal Darkness: Sanity's Requiem",
+          "platform": "GameCube",
+          "type": "recomp",
+          "project": "griches/EternalDarknessRecomp",
+          "project_url": "https://github.com/griches/EternalDarknessRecomp",
+          "repo": "griches/EternalDarknessRecomp",
+          "last_activity": "2026-10-18",
+          "toolchain": "Dolrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
           "id": "repo-pattytrish-unending-occlusion",
           "evidence": [
             {
@@ -39465,12 +40858,14 @@
           "targets": []
         }
       ],
-      "project_count": 3,
+      "project_count": 4,
       "types": [
-        "decomp"
+        "decomp",
+        "recomp"
       ],
       "statuses": [
-        "in-progress"
+        "in-progress",
+        "unknown"
       ],
       "sources": [
         "awesome-decomp-games",
@@ -39759,6 +41154,52 @@
       ],
       "last_activity": "2026-10-18",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "drakengard-3--ps3",
+      "title": "Drakengard 3",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-k1gs-drakengard3recompile",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/drakengard-3-ps3",
+              "source_id": "drakengard-3-k1gs",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Drakengard 3",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "k1gs/Drakengard3Recompile",
+          "project_url": "https://github.com/k1gs/Drakengard3Recompile",
+          "repo": "k1gs/Drakengard3Recompile",
+          "last_activity": "2026-10-18",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -40448,6 +41889,80 @@
       "has_conflict": false
     },
     {
+      "id": "downhill-domination--ps2",
+      "title": "Downhill Domination",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-skuza-oss-downhill-revived",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/downhill-domination-ps2",
+              "source_id": "downhill-domination-skuza-oss",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PS2",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Downhill Domination",
+          "platform": "PS2",
+          "type": "port",
+          "project": "skuza-oss/downhill-revived",
+          "project_url": "https://github.com/skuza-oss/downhill-revived",
+          "repo": "skuza-oss/downhill-revived",
+          "last_activity": "2026-10-18",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-pedrohenrique505-recomp-domination",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/downhill-domination-ps2",
+              "source_id": "downhill-domination-pedrohenrique505",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Downhill Domination",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "pedrohenrique505/Recomp-Domination",
+          "project_url": "https://github.com/pedrohenrique505/Recomp-Domination",
+          "repo": "pedrohenrique505/Recomp-Domination",
+          "last_activity": "2026-10-14",
+          "toolchain": "Ps2recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "port",
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "disney-s-hercules--ps1",
       "title": "Disney's Hercules",
       "platform": "PS1",
@@ -40493,6 +42008,7 @@
           "release": "v0.5.5",
           "made": "AI-flagged",
           "stars": 90,
+          "toolchain": "Psxrecomp",
           "targets": [
             "Windows",
             "Linux"
@@ -41071,6 +42587,53 @@
       "has_conflict": true
     },
     {
+      "id": "devil-kings--ps2",
+      "title": "Devil Kings",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-davvidmac-ps2recomp-devilkings",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/devil-kings-ps2",
+              "source_id": "devil-kings-davvidmac",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Devil Kings",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "DavvidMac/PS2Recomp-DevilKings",
+          "project_url": "https://github.com/DavvidMac/PS2Recomp-DevilKings",
+          "repo": "DavvidMac/PS2Recomp-DevilKings",
+          "last_activity": "2026-10-18",
+          "toolchain": "Ps2recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "deathrow--xbox",
       "title": "Deathrow",
       "platform": "Xbox",
@@ -41170,9 +42733,9 @@
       "has_conflict": false
     },
     {
-      "id": "custom-robo-gx--unknown",
+      "id": "custom-robo-gx--gba",
       "title": "Custom Robo GX",
-      "platform": "Unknown",
+      "platform": "GBA",
       "projects": [
         {
           "id": "repo-pizdex-robogx",
@@ -41186,6 +42749,16 @@
               "type": "decomp",
               "platform": "Unknown",
               "last_activity": "2026-10-18"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/custom-robo-gx-gba",
+              "source_id": "custom-robo-gx-pizdex",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "GBA",
+              "last_activity": "2026-10-18"
             }
           ],
           "embedded_sources": [
@@ -41194,14 +42767,14 @@
           ],
           "game": "Custom Robo GX",
           "type": "decomp",
-          "project": "robogx",
+          "project": "pizdex/robogx",
           "project_url": "https://github.com/pizdex/robogx",
           "repo": "pizdex/robogx",
           "status": "in-progress",
           "last_activity": "2026-10-18",
           "stars": 9,
+          "platform": "GBA",
           "conflicts": {},
-          "platform": "Unknown",
           "targets": []
         }
       ],
@@ -41213,7 +42786,8 @@
         "in-progress"
       ],
       "sources": [
-        "awesome-decomp-games"
+        "awesome-decomp-games",
+        "recomp.fyi"
       ],
       "last_activity": "2026-10-18",
       "best_status": "in-progress",
@@ -42180,6 +43754,52 @@
       "last_activity": "2026-10-18",
       "best_status": "in-progress",
       "has_conflict": true
+    },
+    {
+      "id": "chili-con-carnage--psp",
+      "title": "Chili Con Carnage",
+      "platform": "PSP",
+      "projects": [
+        {
+          "id": "repo-mikethesavage-chili-con-carnage-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/chili-con-carnage-psp",
+              "source_id": "chili-con-carnage-mikethesavage",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PSP",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Chili Con Carnage",
+          "platform": "PSP",
+          "type": "recomp",
+          "project": "MikeTheSavage/chili-con-carnage-pc",
+          "project_url": "https://github.com/MikeTheSavage/chili-con-carnage-pc",
+          "repo": "MikeTheSavage/chili-con-carnage-pc",
+          "last_activity": "2026-10-18",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-18",
+      "best_status": "unknown",
+      "has_conflict": false
     },
     {
       "id": "chaos-rings-omega--ios",
@@ -46311,6 +47931,7 @@
           "release": "v0.3.6",
           "made": "AI-flagged",
           "stars": 1489,
+          "toolchain": "Bbport",
           "targets": [
             "Windows"
           ],
@@ -47211,17 +48832,46 @@
           "stars": 3,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "repo-mdomangue26-thebigs2",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/the-bigs-2-xbox-360",
+              "source_id": "the-bigs-2-mdomangue26",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Bigs 2",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "mdomangue26/thebigs2",
+          "project_url": "https://github.com/mdomangue26/thebigs2",
+          "repo": "mdomangue26/thebigs2",
+          "last_activity": "2026-10-17",
+          "toolchain": "Rexglue",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "recomp"
       ],
       "statuses": [
-        "released"
+        "released",
+        "unknown"
       ],
       "sources": [
-        "recomp-software-recomp"
+        "recomp-software-recomp",
+        "recomp.fyi"
       ],
       "last_activity": "2026-10-17",
       "best_status": "released",
@@ -48193,6 +49843,7 @@
           "last_activity": "2026-09-24",
           "release": "v0.2.0",
           "stars": 40,
+          "toolchain": "Rexglue",
           "targets": [
             "Android"
           ],
@@ -49987,6 +51638,7 @@
           "repo": "tools81/nfl-head-coach-09-static-recomp",
           "last_activity": "2026-10-17",
           "release": "v0.6.3",
+          "toolchain": "Xenonrecomp",
           "targets": [
             "Windows"
           ],
@@ -50380,17 +52032,46 @@
           "stars": 5,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "repo-hopeaero-mlbpowerpros2008recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/mlb-power-pros-2008-wii",
+              "source_id": "mlb-power-pros-2008-hopeaero",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Wii",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "MLB Power Pros 2008",
+          "platform": "Wii",
+          "type": "recomp",
+          "project": "HopeAero/MLBPowerPros2008Recomp",
+          "project_url": "https://github.com/HopeAero/MLBPowerPros2008Recomp",
+          "repo": "HopeAero/MLBPowerPros2008Recomp",
+          "last_activity": "2026-10-17",
+          "toolchain": "Wiicompiled",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "recomp"
       ],
       "statuses": [
-        "released"
+        "released",
+        "unknown"
       ],
       "sources": [
-        "recomp-software-recomp"
+        "recomp-software-recomp",
+        "recomp.fyi"
       ],
       "last_activity": "2026-10-17",
       "best_status": "released",
@@ -50592,6 +52273,53 @@
       ],
       "last_activity": "2026-10-17",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "mega-man-7--snes",
+      "title": "Mega Man 7",
+      "platform": "SNES",
+      "projects": [
+        {
+          "id": "repo-omegakatana92-mega-man-7-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/mega-man-7-snes",
+              "source_id": "mega-man-7-omegakatana92",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "SNES",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mega Man 7",
+          "platform": "SNES",
+          "type": "recomp",
+          "project": "omegakatana92/Mega-Man-7-Recomp",
+          "project_url": "https://github.com/omegakatana92/Mega-Man-7-Recomp",
+          "repo": "omegakatana92/Mega-Man-7-Recomp",
+          "last_activity": "2026-10-17",
+          "toolchain": "Snesrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -52298,6 +54026,52 @@
       "has_conflict": false
     },
     {
+      "id": "hot-shots-tennis-get-a-grip--psp",
+      "title": "Hot Shots Tennis: Get a Grip",
+      "platform": "PSP",
+      "projects": [
+        {
+          "id": "repo-jstar269-hst-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/everybodys-tennis-portable-psp",
+              "source_id": "hot-shots-tennis-get-a-grip-jstar269",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PSP",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Hot Shots Tennis: Get a Grip",
+          "platform": "PSP",
+          "type": "decomp",
+          "project": "Jstar269/hst-decomp",
+          "project_url": "https://github.com/Jstar269/hst-decomp",
+          "repo": "Jstar269/hst-decomp",
+          "last_activity": "2026-10-17",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "heroes-of-might-and-magic-iii--pc-windows",
       "title": "Heroes of Might and Magic III",
       "platform": "PC (Windows)",
@@ -52975,6 +54749,7 @@
           "last_activity": "2026-10-03",
           "release": "Log",
           "stars": 18,
+          "toolchain": "Rexglue",
           "targets": [
             "Android"
           ],
@@ -53162,6 +54937,53 @@
       ],
       "last_activity": "2026-10-17",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "final-fight-3--snes",
+      "title": "Final Fight 3",
+      "platform": "SNES",
+      "projects": [
+        {
+          "id": "repo-omegakatana92-final-fight-3-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/final-fight-3-snes",
+              "source_id": "final-fight-3-omegakatana92",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "SNES",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Final Fight 3",
+          "platform": "SNES",
+          "type": "recomp",
+          "project": "omegakatana92/Final-Fight-3-Recomp",
+          "project_url": "https://github.com/omegakatana92/Final-Fight-3-Recomp",
+          "repo": "omegakatana92/Final-Fight-3-Recomp",
+          "last_activity": "2026-10-17",
+          "toolchain": "Snesrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -54787,6 +56609,79 @@
       "has_conflict": false
     },
     {
+      "id": "castlevania-the-adventure-rebirth--wii",
+      "title": "Castlevania: The Adventure ReBirth",
+      "platform": "Wii",
+      "projects": [
+        {
+          "id": "repo-darkuni-castlevania-rebirth-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/castlevania-the-adventure-rebirth-wii",
+              "source_id": "castlevania-the-adventure-rebirth-darkun",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Wii",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Castlevania: The Adventure ReBirth",
+          "platform": "Wii",
+          "type": "recomp",
+          "project": "darkuni/castlevania-rebirth-recomp",
+          "project_url": "https://github.com/darkuni/castlevania-rebirth-recomp",
+          "repo": "darkuni/castlevania-rebirth-recomp",
+          "last_activity": "2026-10-17",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-shoukoratte-project-rebirth",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/castlevania-the-adventure-rebirth-wii",
+              "source_id": "castlevania-the-adventure-rebirth-shouko",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "Wii",
+              "last_activity": "2026-09-05"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Castlevania: The Adventure ReBirth",
+          "platform": "Wii",
+          "type": "decomp",
+          "project": "Shoukoratte/Project-ReBirth",
+          "project_url": "https://github.com/Shoukoratte/Project-ReBirth",
+          "repo": "Shoukoratte/Project-ReBirth",
+          "last_activity": "2026-09-05",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "c-dogs-sdl--unknown",
       "title": "C-Dogs SDL",
       "platform": "Unknown",
@@ -55470,6 +57365,53 @@
       ],
       "last_activity": "2026-10-17",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "boogerman--genesis",
+      "title": "Boogerman",
+      "platform": "Genesis",
+      "projects": [
+        {
+          "id": "repo-1lawl-boogermanrecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/boogerman-a-pick-and-flick-adventure-genesis",
+              "source_id": "boogerman-1lawl",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Genesis",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Boogerman",
+          "platform": "Genesis",
+          "type": "recomp",
+          "project": "1lawl/BoogermanRecomp",
+          "project_url": "https://github.com/1lawl/BoogermanRecomp",
+          "repo": "1lawl/BoogermanRecomp",
+          "last_activity": "2026-10-17",
+          "toolchain": "Segagenesisrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -56552,6 +58494,7 @@
           "last_activity": "2026-10-17",
           "stars": 36,
           "release": "issue-12-test-build",
+          "toolchain": "Rexglue",
           "targets": [
             "Windows"
           ],
@@ -59137,6 +61080,52 @@
       ],
       "last_activity": "2026-10-16",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "saint-seiya-the-hades--ps2",
+      "title": "Saint Seiya: The Hades",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-matpdev-saintseiyarecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/saint-seiya-the-hades-ps2",
+              "source_id": "saint-seiya-the-hades-matpdev",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Saint Seiya: The Hades",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "matpdev/SaintSeiyaRecomp",
+          "project_url": "https://github.com/matpdev/SaintSeiyaRecomp",
+          "repo": "matpdev/SaintSeiyaRecomp",
+          "last_activity": "2026-10-16",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-16",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -62385,6 +64374,95 @@
       "has_conflict": false
     },
     {
+      "id": "final-fantasy-vi--snes",
+      "title": "Final Fantasy VI",
+      "platform": "SNES",
+      "projects": [
+        {
+          "id": "repo-tibabo-ff6",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/final-fantasy-vi-snes",
+              "source_id": "final-fantasy-vi-tibabo",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "SNES",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Final Fantasy VI",
+          "platform": "SNES",
+          "type": "recomp",
+          "project": "tibabo/ff6",
+          "project_url": "https://github.com/tibabo/ff6",
+          "repo": "tibabo/ff6",
+          "last_activity": "2026-10-16",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-everything8215-ff6",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "everything8215-ff6",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "SNES",
+              "last_activity": "2026-09-14"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/final-fantasy-vi-snes",
+              "source_id": "final-fantasy-vi-everything8215",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "SNES",
+              "last_activity": "2026-09-14"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "samidy"
+          ],
+          "game": "Final Fantasy VI",
+          "platform": "SNES",
+          "type": "decomp",
+          "project": "everything8215/ff6",
+          "project_url": "https://github.com/everything8215/ff6",
+          "repo": "everything8215/ff6",
+          "status": "in-progress",
+          "last_activity": "2026-09-14",
+          "stars": 88,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-16",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "fheroes2--unknown",
       "title": "fheroes2",
       "platform": "Unknown",
@@ -62572,6 +64650,7 @@
           "repo": "jajdp/dkc3-xbox",
           "last_activity": "2026-10-16",
           "release": "v1.0.0",
+          "toolchain": "Snesrecomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -62703,6 +64782,7 @@
           "repo": "jajdp/dkc2-xbox",
           "last_activity": "2026-10-16",
           "release": "v1.0.0",
+          "toolchain": "Snesrecomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -62811,6 +64891,7 @@
           "repo": "jajdp/dkc1-xbox",
           "last_activity": "2026-10-16",
           "release": "v1.0.0",
+          "toolchain": "Snesrecomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -64153,6 +66234,98 @@
       ],
       "last_activity": "2026-10-16",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "bokura-no-kazoku--ps2",
+      "title": "Bokura no Kazoku",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-conor-sometimes-bokura-no-kazoku-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bokura-no-kazoku-ps2",
+              "source_id": "bokura-no-kazoku-conor-sometimes",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bokura no Kazoku",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "conor-sometimes/bokura-no-kazoku-decomp",
+          "project_url": "https://github.com/conor-sometimes/bokura-no-kazoku-decomp",
+          "repo": "conor-sometimes/bokura-no-kazoku-decomp",
+          "last_activity": "2026-10-16",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-16",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "black--ps2",
+      "title": "Black",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-lucasramos96-black-recomp-ptbr",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/black-ps2",
+              "source_id": "black-lucasramos96",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Black",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "LucasRamos96/Black-recomp-PTBR",
+          "project_url": "https://github.com/LucasRamos96/Black-recomp-PTBR",
+          "repo": "LucasRamos96/Black-recomp-PTBR",
+          "last_activity": "2026-10-16",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-16",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -69813,6 +71986,7 @@
           "project_url": "https://github.com/phobos665/gladius-recomp",
           "repo": "phobos665/gladius-recomp",
           "last_activity": "2026-10-15",
+          "toolchain": "Xboxrecomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -70189,6 +72363,52 @@
       ],
       "last_activity": "2026-10-15",
       "best_status": "playable",
+      "has_conflict": false
+    },
+    {
+      "id": "ecco-the-dolphin-defender-of-the-future--dreamcast",
+      "title": "Ecco the Dolphin: Defender of the Future",
+      "platform": "Dreamcast",
+      "projects": [
+        {
+          "id": "repo-cherryduck-ecco-the-dolphin-defender-of-the-future-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/ecco-the-dolphin-defender-of-the-future-dreamcast",
+              "source_id": "ecco-the-dolphin-defender-of-the-future-",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Dreamcast",
+              "last_activity": "2026-10-15"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Ecco the Dolphin: Defender of the Future",
+          "platform": "Dreamcast",
+          "type": "recomp",
+          "project": "cherryduck/ecco-the-dolphin-defender-of-the-future-recomp",
+          "project_url": "https://github.com/cherryduck/ecco-the-dolphin-defender-of-the-future-recomp",
+          "repo": "cherryduck/ecco-the-dolphin-defender-of-the-future-recomp",
+          "last_activity": "2026-10-15",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-15",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -74763,6 +76983,7 @@
           "project_url": "https://github.com/lunixxx37/HolyMagicCenturyRecomp",
           "repo": "lunixxx37/HolyMagicCenturyRecomp",
           "last_activity": "2026-10-14",
+          "toolchain": "N64recomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -75919,6 +78140,7 @@
           "project_url": "https://github.com/poopoocacacacaca/p3fes-recompiled",
           "repo": "poopoocacacacaca/p3fes-recompiled",
           "last_activity": "2026-10-14",
+          "toolchain": "Ps2recomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -79428,53 +81650,6 @@
       "has_conflict": false
     },
     {
-      "id": "downhill-domination--ps2",
-      "title": "Downhill Domination",
-      "platform": "PS2",
-      "projects": [
-        {
-          "id": "repo-pedrohenrique505-recomp-domination",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/downhill-domination-ps2",
-              "source_id": "downhill-domination-pedrohenrique505",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS2",
-              "last_activity": "2026-10-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Downhill Domination",
-          "platform": "PS2",
-          "type": "recomp",
-          "project": "pedrohenrique505/Recomp-Domination",
-          "project_url": "https://github.com/pedrohenrique505/Recomp-Domination",
-          "repo": "pedrohenrique505/Recomp-Domination",
-          "last_activity": "2026-10-14",
-          "toolchain": "Ps2recomp",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-14",
-      "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
       "id": "donkey-kong-country-3-dixie-kong-s-double-trouble--snes",
       "title": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
       "platform": "SNES",
@@ -80582,6 +82757,7 @@
           "repo": "Heromachine/Burnout-Recompilation",
           "last_activity": "2026-10-14",
           "release": "v0.1.0",
+          "toolchain": "Xboxrecomp",
           "targets": [
             "Windows"
           ],
@@ -80676,6 +82852,7 @@
           "project_url": "https://github.com/sp00nznet/bloodwake",
           "repo": "sp00nznet/bloodwake",
           "last_activity": "2026-10-14",
+          "toolchain": "Xboxrecomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -81371,6 +83548,7 @@
           "repo": "KaikoClanworth1/wwe-crush-hour-pc",
           "last_activity": "2026-10-13",
           "release": "v0.0.1-alpha",
+          "toolchain": "Ps2recomp",
           "targets": [
             "Windows"
           ],
@@ -83865,6 +86043,53 @@
       ],
       "last_activity": "2026-10-13",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "doraemon-3-nobita-no-machi-sos--n64",
+      "title": "Doraemon 3: Nobita no Machi SOS!",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-citrongames-dora64-3",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/doraemon-3-nobita-no-machi-sos-n64",
+              "source_id": "doraemon-3-nobita-no-machi-sos-citrongam",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-13"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Doraemon 3: Nobita no Machi SOS!",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "citrongames/Dora64-3",
+          "project_url": "https://github.com/citrongames/Dora64-3",
+          "repo": "citrongames/Dora64-3",
+          "last_activity": "2026-10-13",
+          "toolchain": "N64recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-13",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -105474,6 +107699,7 @@
           "repo": "redluigi323/ResortCompiled",
           "last_activity": "2026-10-04",
           "release": "eostest2",
+          "toolchain": "Wiicompiled",
           "targets": [
             "Windows",
             "Linux"
@@ -105754,96 +107980,6 @@
       ],
       "last_activity": "2026-10-04",
       "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
-      "id": "super-paper-mario--wii",
-      "title": "Super Paper Mario",
-      "platform": "Wii",
-      "projects": [
-        {
-          "id": "repo-seekyct-spm-decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "seekyct-spm-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "Wii",
-              "last_activity": "2026-10-04"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-paper-mario-wii",
-              "source_id": "super-paper-mario-seekyct",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "Wii",
-              "last_activity": "2026-10-04"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "recomp.fyi",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Super Paper Mario",
-          "platform": "Wii",
-          "type": "decomp",
-          "project": "SeekyCt/spm-decomp",
-          "project_url": "https://github.com/SeekyCt/spm-decomp",
-          "repo": "SeekyCt/spm-decomp",
-          "status": "in-progress",
-          "last_activity": "2026-10-04",
-          "stars": 102,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-super-paper-mario-super-paper-mario-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/spm-decomp/",
-              "source_id": "p/spm-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "Wii",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Super Paper Mario",
-          "platform": "Wii",
-          "type": "decomp",
-          "project": "Super Paper Mario decompilation",
-          "project_url": "https://www.recompsoftware.com/p/spm-decomp/",
-          "status": "in-progress",
-          "made": "Human-led",
-          "stars": 102,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-04",
-      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -108437,6 +110573,7 @@
           "project_url": "https://github.com/randygil/SymphonyRecomp-3DS",
           "repo": "randygil/SymphonyRecomp-3DS",
           "last_activity": "2026-10-03",
+          "toolchain": "Recompone",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -116319,6 +118456,7 @@
           "repo": "omegakatana92/Armored-Core-Master-of-Arena",
           "last_activity": "2026-09-13",
           "release": "v1.0.0",
+          "toolchain": "Psxrecomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -129276,67 +131414,6 @@
       "has_conflict": false
     },
     {
-      "id": "final-fantasy-vi--snes",
-      "title": "Final Fantasy VI",
-      "platform": "SNES",
-      "projects": [
-        {
-          "id": "repo-everything8215-ff6",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "everything8215-ff6",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "SNES",
-              "last_activity": "2026-09-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/final-fantasy-vi-snes",
-              "source_id": "final-fantasy-vi-everything8215",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "SNES",
-              "last_activity": "2026-09-14"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "samidy"
-          ],
-          "game": "Final Fantasy VI",
-          "platform": "SNES",
-          "type": "decomp",
-          "project": "everything8215/ff6",
-          "project_url": "https://github.com/everything8215/ff6",
-          "repo": "everything8215/ff6",
-          "status": "in-progress",
-          "last_activity": "2026-09-14",
-          "stars": 88,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-09-14",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
       "id": "digimon-world-3-d-w-3-recomp--ps1",
       "title": "Digimon World 3 (D-W-3-Recomp)",
       "platform": "PS1",
@@ -135180,52 +137257,6 @@
       "has_conflict": false
     },
     {
-      "id": "castlevania-the-adventure-rebirth--wii",
-      "title": "Castlevania: The Adventure ReBirth",
-      "platform": "Wii",
-      "projects": [
-        {
-          "id": "repo-shoukoratte-project-rebirth",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/castlevania-the-adventure-rebirth-wii",
-              "source_id": "castlevania-the-adventure-rebirth-shouko",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "Wii",
-              "last_activity": "2026-09-05"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Castlevania: The Adventure ReBirth",
-          "platform": "Wii",
-          "type": "decomp",
-          "project": "Shoukoratte/Project-ReBirth",
-          "project_url": "https://github.com/Shoukoratte/Project-ReBirth",
-          "repo": "Shoukoratte/Project-ReBirth",
-          "last_activity": "2026-09-05",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-09-05",
-      "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
       "id": "xoreos--unknown",
       "title": "xoreos",
       "platform": "Unknown",
@@ -137529,6 +139560,7 @@
           "repo": "AkazaPorts/DownpourRecomp-Android-",
           "last_activity": "2026-07-12",
           "release": "Xbox",
+          "toolchain": "Rexglue",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -152336,9 +154368,9 @@
       "has_conflict": false
     },
     {
-      "id": "open-fodder--dos",
-      "title": "Open Fodder",
-      "platform": "DOS",
+      "id": "cannon-fodder-1-and-2--amiga",
+      "title": "Cannon Fodder 1 and 2",
+      "platform": "Amiga",
       "projects": [
         {
           "id": "repo-openfodder-openfodder",
@@ -152352,23 +154384,40 @@
               "type": "port",
               "platform": "DOS",
               "last_activity": "2026-06-20"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/cannon-fodder-1-and-2-amiga",
+              "source_id": "cannon-fodder-1-and-2-openfodder",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "Amiga",
+              "last_activity": "2026-06-20"
             }
           ],
           "embedded_sources": [
             "awesome-game-remakes"
           ],
-          "game": "Open Fodder",
-          "platform": "DOS",
+          "game": "Cannon Fodder 1 and 2",
+          "platform": "Amiga",
           "type": "port",
-          "project": "openfodder",
+          "project": "OpenFodder",
           "project_url": "https://github.com/OpenFodder/openfodder",
           "repo": "OpenFodder/openfodder",
           "status": "released",
           "last_activity": "2026-06-20",
           "release": "2.0.0",
           "stars": 606,
-          "conflicts": {},
-          "targets": []
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {
+            "platform": [
+              "Amiga",
+              "DOS"
+            ]
+          }
         }
       ],
       "project_count": 1,
@@ -152379,11 +154428,12 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games"
+        "awesome-decomp-games",
+        "recomp.fyi"
       ],
       "last_activity": "2026-06-20",
       "best_status": "released",
-      "has_conflict": false
+      "has_conflict": true
     },
     {
       "id": "goldeneye-007-xbox-360-remaster--xbox-360",
@@ -164897,128 +166947,6 @@
       "last_activity": "2025-12-30",
       "best_status": "in-progress",
       "has_conflict": false
-    },
-    {
-      "id": "sonic-riders-zero-gravity--wii",
-      "title": "Sonic Riders: Zero Gravity",
-      "platform": "Wii",
-      "projects": [
-        {
-          "id": "repo-bluisblu-sr2wii",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/sonic-riders-zero-gravity-wii",
-              "source_id": "sonic-riders-bluisblu",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "Wii",
-              "last_activity": "2025-12-29"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Sonic Riders: Zero Gravity",
-          "platform": "Wii",
-          "type": "decomp",
-          "project": "bluisblu/SR2Wii",
-          "project_url": "https://github.com/bluisblu/SR2Wii",
-          "repo": "bluisblu/SR2Wii",
-          "last_activity": "2025-12-29",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-kidwizardoftheweb-srzgdecomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "kidwizardoftheweb-srzgdecomp",
-              "claimed": false,
-              "status": "paused",
-              "type": "decomp",
-              "platform": "GameCube",
-              "last_activity": "2023-06-22"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/sonic-riders-zero-gravity-wii",
-              "source_id": "sonic-riders-zero-gravity-kidwizardoftheweb",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "Wii",
-              "last_activity": "2023-06-22"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "recomp.fyi",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Sonic Riders: Zero Gravity",
-          "platform": "Wii",
-          "type": "decomp",
-          "project": "KidWizardOfTheWeb/SRZGDecomp",
-          "project_url": "https://github.com/KidWizardOfTheWeb/SRZGDecomp",
-          "repo": "KidWizardOfTheWeb/SRZGDecomp",
-          "status": "paused",
-          "last_activity": "2023-06-22",
-          "stars": 15,
-          "conflicts": {
-            "platform": [
-              "GameCube",
-              "Wii"
-            ]
-          },
-          "targets": []
-        },
-        {
-          "id": "sig-sonic-riders-zero-gravity-sonic-riders-zero-gravity-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/srzg-decomp/",
-              "source_id": "p/srzg-decomp",
-              "claimed": false,
-              "status": "paused",
-              "type": "decomp",
-              "platform": "Wii",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Sonic Riders: Zero Gravity",
-          "platform": "Wii",
-          "type": "decomp",
-          "project": "Sonic Riders: Zero Gravity decompilation",
-          "project_url": "https://www.recompsoftware.com/p/srzg-decomp/",
-          "status": "paused",
-          "made": "Human-led",
-          "stars": 15,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 3,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "paused",
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2025-12-29",
-      "best_status": "paused",
-      "has_conflict": true
     },
     {
       "id": "severance-blade-of-darkness-bldmystery--pc-windows",
