@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-20T11:31:50.407501+00:00",
+  "generated_at": "2026-10-20T17:32:04.809118+00:00",
   "summary": {
-    "games": 3225,
-    "projects": 4496,
-    "source_records": 5583,
+    "games": 3226,
+    "projects": 4498,
+    "source_records": 5586,
     "platforms": 97,
     "sources": 4,
-    "conflicted_projects": 230
+    "conflicted_projects": 231
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2518
+      "records": 2521
     },
     {
       "id": "recomp-software-recomp",
@@ -135,15 +135,15 @@
       ],
       [
         "Dreamcast",
+        26
+      ],
+      [
+        "3DS",
         25
       ],
       [
         "Wii U",
         25
-      ],
-      [
-        "3DS",
-        24
       ],
       [
         "Nintendo Switch",
@@ -425,11 +425,11 @@
     "types": [
       [
         "decomp",
-        2039
+        2040
       ],
       [
         "recomp",
-        1750
+        1751
       ],
       [
         "port",
@@ -459,11 +459,11 @@
       ],
       [
         "complete",
-        145
+        146
       ],
       [
         "playable",
-        85
+        86
       ],
       [
         "exploring",
@@ -7879,6 +7879,84 @@
       ],
       "last_activity": "2026-10-20",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "soulcalibur--dreamcast",
+      "title": "SoulCalibur",
+      "platform": "Dreamcast",
+      "projects": [
+        {
+          "id": "repo-enrique363-voldorium",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/soulcalibur-dreamcast-2",
+              "source_id": "soulcalibur-enrique363",
+              "claimed": true,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Dreamcast",
+              "last_activity": "2026-10-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "SoulCalibur",
+          "platform": "Dreamcast",
+          "type": "recomp",
+          "project": "Voldorium",
+          "project_url": "https://github.com/enrique363/voldorium",
+          "repo": "enrique363/voldorium",
+          "status": "playable",
+          "last_activity": "2026-10-20",
+          "toolchain": "Sh4c",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-danielgomesvieira2000-soulcalibur-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/soulcalibur-dreamcast-1998",
+              "source_id": "soulcalibur-danielgomesvieira2000",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Dreamcast",
+              "last_activity": "2026-10-08"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Soulcalibur",
+          "platform": "Dreamcast",
+          "type": "recomp",
+          "project": "danielgomesvieira2000/soulcalibur-recomp",
+          "project_url": "https://github.com/danielgomesvieira2000/soulcalibur-recomp",
+          "repo": "danielgomesvieira2000/soulcalibur-recomp",
+          "last_activity": "2026-10-08",
+          "targets": [
+            "PC"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable",
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-20",
+      "best_status": "playable",
       "has_conflict": false
     },
     {
@@ -47860,6 +47938,77 @@
       "last_activity": "2026-10-19",
       "best_status": "released",
       "has_conflict": false
+    },
+    {
+      "id": "all-3ds-games--3ds",
+      "title": "All 3ds games",
+      "platform": "3DS",
+      "projects": [
+        {
+          "id": "repo-whovian64-pocket-native",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/all-3ds-games-3ds",
+              "source_id": "all-3ds-games-whovian64",
+              "claimed": true,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "3DS",
+              "last_activity": "2026-10-19"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/all-3ds-games-3ds",
+              "source_id": "all-3ds-games-decomp-whovian64",
+              "claimed": true,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "3DS",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "All 3ds games",
+          "platform": "3DS",
+          "type": "decomp",
+          "project": "whovian64/pocket-native",
+          "project_url": "https://github.com/whovian64/pocket-native",
+          "repo": "whovian64/pocket-native",
+          "status": "complete",
+          "last_activity": "2026-10-19",
+          "release": "v0.2.0",
+          "toolchain": "Decomp-toolkit",
+          "targets": [
+            "Linux",
+            "R36s",
+            "and similar"
+          ],
+          "conflicts": {
+            "status": [
+              "complete",
+              "playable"
+            ],
+            "type": [
+              "decomp",
+              "recomp"
+            ]
+          }
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "complete"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "complete",
+      "has_conflict": true
     },
     {
       "id": "zoo-tycoon-1-engine-zt1-engine--pc-windows",
@@ -104613,54 +104762,6 @@
       ],
       "last_activity": "2026-10-08",
       "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "soulcalibur--dreamcast",
-      "title": "Soulcalibur",
-      "platform": "Dreamcast",
-      "projects": [
-        {
-          "id": "repo-danielgomesvieira2000-soulcalibur-recomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/soulcalibur-dreamcast",
-              "source_id": "soulcalibur-danielgomesvieira2000",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Dreamcast",
-              "last_activity": "2026-10-08"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Soulcalibur",
-          "platform": "Dreamcast",
-          "type": "recomp",
-          "project": "danielgomesvieira2000/soulcalibur-recomp",
-          "project_url": "https://github.com/danielgomesvieira2000/soulcalibur-recomp",
-          "repo": "danielgomesvieira2000/soulcalibur-recomp",
-          "last_activity": "2026-10-08",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {},
-          "status": "unknown"
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-08",
-      "best_status": "unknown",
       "has_conflict": false
     },
     {
