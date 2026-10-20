@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-20T17:32:04.809118+00:00",
+  "generated_at": "2026-10-20T23:32:18.356113+00:00",
   "summary": {
-    "games": 3226,
-    "projects": 4498,
+    "games": 3227,
+    "projects": 4499,
     "source_records": 5586,
     "platforms": 97,
     "sources": 4,
-    "conflicted_projects": 231
+    "conflicted_projects": 230
   },
   "sources": [
     {
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PS1",
-        515
+        517
       ],
       [
         "PC (Windows)",
@@ -138,12 +138,12 @@
         26
       ],
       [
-        "3DS",
+        "Wii U",
         25
       ],
       [
-        "Wii U",
-        25
+        "3DS",
+        24
       ],
       [
         "Nintendo Switch",
@@ -425,11 +425,11 @@
     "types": [
       [
         "decomp",
-        2040
+        2039
       ],
       [
         "recomp",
-        1751
+        1753
       ],
       [
         "port",
@@ -459,11 +459,11 @@
       ],
       [
         "complete",
-        146
+        145
       ],
       [
         "playable",
-        86
+        88
       ],
       [
         "exploring",
@@ -20169,6 +20169,55 @@
       "has_conflict": true
     },
     {
+      "id": "destrega--ps1",
+      "title": "Destrega",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-rogerscristo-destrega-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/destrega-ps1",
+              "source_id": "destrega-rogerscristo",
+              "claimed": true,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Destrega",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "Destrega Recompiled",
+          "project_url": "https://github.com/rogerscristo/destrega-recomp",
+          "repo": "rogerscristo/destrega-recomp",
+          "status": "playable",
+          "last_activity": "2026-10-20",
+          "toolchain": "Custom (rea, Ghidra)",
+          "targets": [
+            "macOS"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-20",
+      "best_status": "playable",
+      "has_conflict": false
+    },
+    {
       "id": "demon-s-souls--ps3",
       "title": "Demon's Souls",
       "platform": "PS3",
@@ -24874,6 +24923,57 @@
       ],
       "last_activity": "2026-10-20",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "action-man-mission-xtreme--ps1",
+      "title": "Action Man: Mission Xtreme",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-gnomechimpsky-actionmanrecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/action-man-mission-xtreme-ps1",
+              "source_id": "action-man-mission-xtreme-gnomechimpsky",
+              "claimed": true,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Action Man: Mission Xtreme",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "GnomeChimpsky/ActionManRecomp",
+          "project_url": "https://github.com/GnomeChimpsky/ActionManRecomp",
+          "repo": "GnomeChimpsky/ActionManRecomp",
+          "status": "playable",
+          "last_activity": "2026-10-20",
+          "release": "v0.4.4",
+          "toolchain": "Psxrecomp",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-20",
+      "best_status": "playable",
       "has_conflict": false
     },
     {
@@ -47940,77 +48040,6 @@
       "has_conflict": false
     },
     {
-      "id": "all-3ds-games--3ds",
-      "title": "All 3ds games",
-      "platform": "3DS",
-      "projects": [
-        {
-          "id": "repo-whovian64-pocket-native",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/all-3ds-games-3ds",
-              "source_id": "all-3ds-games-whovian64",
-              "claimed": true,
-              "status": "playable",
-              "type": "recomp",
-              "platform": "3DS",
-              "last_activity": "2026-10-19"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/all-3ds-games-3ds",
-              "source_id": "all-3ds-games-decomp-whovian64",
-              "claimed": true,
-              "status": "complete",
-              "type": "decomp",
-              "platform": "3DS",
-              "last_activity": "2026-10-19"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "All 3ds games",
-          "platform": "3DS",
-          "type": "decomp",
-          "project": "whovian64/pocket-native",
-          "project_url": "https://github.com/whovian64/pocket-native",
-          "repo": "whovian64/pocket-native",
-          "status": "complete",
-          "last_activity": "2026-10-19",
-          "release": "v0.2.0",
-          "toolchain": "Decomp-toolkit",
-          "targets": [
-            "Linux",
-            "R36s",
-            "and similar"
-          ],
-          "conflicts": {
-            "status": [
-              "complete",
-              "playable"
-            ],
-            "type": [
-              "decomp",
-              "recomp"
-            ]
-          }
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "complete"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-19",
-      "best_status": "complete",
-      "has_conflict": true
-    },
-    {
       "id": "zoo-tycoon-1-engine-zt1-engine--pc-windows",
       "title": "Zoo Tycoon 1 engine (zt1-engine)",
       "platform": "PC (Windows)",
@@ -55205,11 +55234,7 @@
           "toolchain": "N64recomp",
           "targets": [
             "Linux",
-            "Steam Deck",
-            "https:",
-            "github.com",
-            "Mabec-games",
-            "iss-deluxed"
+            "Steam Deck"
           ],
           "conflicts": {}
         }
