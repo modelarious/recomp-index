@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-21T17:32:53.131152+00:00",
+  "generated_at": "2026-10-21T23:33:05.343286+00:00",
   "summary": {
     "games": 3250,
-    "projects": 4525,
-    "source_records": 5623,
+    "projects": 4526,
+    "source_records": 5625,
     "platforms": 97,
     "sources": 4,
-    "conflicted_projects": 234
+    "conflicted_projects": 235
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2535
+      "records": 2537
     },
     {
       "id": "recomp-software-recomp",
@@ -83,7 +83,7 @@
       ],
       [
         "Xbox",
-        96
+        97
       ],
       [
         "DOS",
@@ -429,11 +429,11 @@
       ],
       [
         "recomp",
-        1767
+        1769
       ],
       [
         "port",
-        710
+        709
       ],
       [
         "tool",
@@ -443,7 +443,7 @@
     "statuses": [
       [
         "in-progress",
-        1398
+        1399
       ],
       [
         "unknown",
@@ -1857,6 +1857,126 @@
       ],
       "last_activity": "2026-10-21",
       "best_status": "in-progress",
+      "has_conflict": true
+    },
+    {
+      "id": "uncharted-the-nathan-drake-collection--ps4",
+      "title": "Uncharted: The Nathan Drake Collection",
+      "platform": "PS4",
+      "projects": [
+        {
+          "id": "repo-bc160201983-uncharted-the-nathan-drake-collection-pc-port",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "bc160201983-uncharted-the-nathan-drake-collection-pc-port",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "PS4",
+              "last_activity": "2026-10-20"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/uncharted-the-nathan-drake-collection-ps4-2",
+              "source_id": "uncharted-the-nathan-drake-collection-bc160201983",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-21"
+            }
+          ],
+          "embedded_sources": [
+            "quiver"
+          ],
+          "game": "Uncharted: The Nathan Drake Collection",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port",
+          "project_url": "https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port",
+          "repo": "bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port",
+          "status": "released",
+          "last_activity": "2026-10-21",
+          "release": "v0.5.0",
+          "made": "AI-flagged",
+          "stars": 373,
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {
+            "type": [
+              "port",
+              "recomp"
+            ]
+          }
+        },
+        {
+          "id": "repo-supermedo-uncharted-pc",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "supermedo-uncharted-pc",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "PS4",
+              "last_activity": "2026-10-17"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/uncharted-the-nathan-drake-collection-ps4-2015",
+              "source_id": "uncharted-the-nathan-drake-collection-supermedo",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [
+            "portsdr",
+            "quiver",
+            "recomp.fyi"
+          ],
+          "game": "Uncharted: The Nathan Drake Collection",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "Supermedo/uncharted_pc",
+          "project_url": "https://github.com/Supermedo/uncharted_pc",
+          "repo": "Supermedo/uncharted_pc",
+          "status": "released",
+          "last_activity": "2026-10-17",
+          "release": "v0.3.6",
+          "made": "AI-flagged",
+          "stars": 1742,
+          "toolchain": "Bbport",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {
+            "type": [
+              "port",
+              "recomp"
+            ]
+          }
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-21",
+      "best_status": "released",
       "has_conflict": true
     },
     {
@@ -11383,6 +11503,54 @@
       "last_activity": "2026-10-21",
       "best_status": "complete",
       "has_conflict": true
+    },
+    {
+      "id": "otogi-myth-of-demons--xbox",
+      "title": "Otogi: Myth of Demons",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-sigods-otogi1",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/otogi-myth-of-demons-xbox",
+              "source_id": "otogi-myth-of-demons-sigods",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-21"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Otogi: Myth of Demons",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "sigods/otogi1",
+          "project_url": "https://github.com/sigods/otogi1",
+          "repo": "sigods/otogi1",
+          "status": "in-progress",
+          "last_activity": "2026-10-21",
+          "targets": [
+            "Linux"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-21",
+      "best_status": "in-progress",
+      "has_conflict": false
     },
     {
       "id": "openenroth--pc-windows",
@@ -25020,57 +25188,6 @@
       ],
       "sources": [
         "recomp-software-recomp"
-      ],
-      "last_activity": "2026-10-20",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "uncharted-the-nathan-drake-collection-uncharted-the-nathan-drake-collection-pc-port--ps4",
-      "title": "Uncharted: The Nathan Drake Collection (Uncharted: The Nathan Drake Collection - PC port)",
-      "platform": "PS4",
-      "projects": [
-        {
-          "id": "repo-bc160201983-uncharted-the-nathan-drake-collection-pc-port",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "bc160201983-uncharted-the-nathan-drake-collection-pc-port",
-              "claimed": false,
-              "status": "released",
-              "type": "port",
-              "platform": "PS4",
-              "last_activity": "2026-10-20"
-            }
-          ],
-          "embedded_sources": [
-            "quiver"
-          ],
-          "game": "Uncharted: The Nathan Drake Collection (Uncharted: The Nathan Drake Collection - PC port)",
-          "platform": "PS4",
-          "type": "port",
-          "project": "Uncharted-The-Nathan-Drake-Collection-PC-port",
-          "project_url": "https://github.com/bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port",
-          "repo": "bc160201983/Uncharted-The-Nathan-Drake-Collection-PC-port",
-          "status": "released",
-          "last_activity": "2026-10-20",
-          "release": "v0.4.1",
-          "made": "AI-flagged",
-          "stars": 373,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "port"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
       ],
       "last_activity": "2026-10-20",
       "best_status": "released",
@@ -70718,78 +70835,6 @@
       ],
       "statuses": [
         "in-progress",
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-17",
-      "best_status": "released",
-      "has_conflict": true
-    },
-    {
-      "id": "uncharted-the-nathan-drake-collection--ps4",
-      "title": "Uncharted: The Nathan Drake Collection",
-      "platform": "PS4",
-      "projects": [
-        {
-          "id": "repo-supermedo-uncharted-pc",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "supermedo-uncharted-pc",
-              "claimed": false,
-              "status": "released",
-              "type": "port",
-              "platform": "PS4",
-              "last_activity": "2026-10-17"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/uncharted-the-nathan-drake-collection-ps4",
-              "source_id": "uncharted-the-nathan-drake-collection-supermedo",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS4",
-              "last_activity": "2026-10-17"
-            }
-          ],
-          "embedded_sources": [
-            "portsdr",
-            "quiver",
-            "recomp.fyi"
-          ],
-          "game": "Uncharted: The Nathan Drake Collection",
-          "platform": "PS4",
-          "type": "recomp",
-          "project": "Supermedo/uncharted_pc",
-          "project_url": "https://github.com/Supermedo/uncharted_pc",
-          "repo": "Supermedo/uncharted_pc",
-          "status": "released",
-          "last_activity": "2026-10-17",
-          "release": "v0.3.6",
-          "made": "AI-flagged",
-          "stars": 1742,
-          "toolchain": "Bbport",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {
-            "type": [
-              "port",
-              "recomp"
-            ]
-          }
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
         "released"
       ],
       "sources": [
