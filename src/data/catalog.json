@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-21T11:32:42.240876+00:00",
+  "generated_at": "2026-10-21T17:32:53.131152+00:00",
   "summary": {
-    "games": 3248,
-    "projects": 4521,
-    "source_records": 5619,
+    "games": 3250,
+    "projects": 4525,
+    "source_records": 5623,
     "platforms": 97,
     "sources": 4,
     "conflicted_projects": 234
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2531
+      "records": 2535
     },
     {
       "id": "recomp-software-recomp",
@@ -35,15 +35,15 @@
     "platforms": [
       [
         "PS1",
-        519
+        520
       ],
       [
         "PC (Windows)",
-        513
+        514
       ],
       [
         "Xbox 360",
-        457
+        458
       ],
       [
         "N64",
@@ -131,7 +131,7 @@
       ],
       [
         "PSP",
-        28
+        29
       ],
       [
         "Dreamcast",
@@ -429,11 +429,11 @@
       ],
       [
         "recomp",
-        1765
+        1767
       ],
       [
         "port",
-        708
+        710
       ],
       [
         "tool",
@@ -443,11 +443,11 @@
     "statuses": [
       [
         "in-progress",
-        1397
+        1398
       ],
       [
         "unknown",
-        1251
+        1254
       ],
       [
         "released",
@@ -3586,6 +3586,231 @@
       ],
       "last_activity": "2026-10-21",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "tekken-3--ps1",
+      "title": "Tekken 3",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-mabec-games-tekken-3-for-linux",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/tekken-3-ps1-2",
+              "source_id": "tekken-3-mabec-games",
+              "claimed": true,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-21"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Tekken 3",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "Mabec-games/Tekken-3-for-Linux",
+          "project_url": "https://github.com/Mabec-games/Tekken-3-for-Linux",
+          "repo": "Mabec-games/Tekken-3-for-Linux",
+          "last_activity": "2026-10-21",
+          "release": "v1.0",
+          "targets": [
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
+          "id": "repo-someoneisworking-psx-tekken-3",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/tekken-3-ps1-1996",
+              "source_id": "tekken-3-someoneisworking",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Tekken 3",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "SomeoneIsWorking/tekken3",
+          "project_url": "https://github.com/SomeoneIsWorking/psx-tekken-3",
+          "repo": "SomeoneIsWorking/psx-tekken-3",
+          "last_activity": "2026-10-20",
+          "toolchain": "Psxport",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-fishb0nes98-tekken3recompiled",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "fishb0nes98-tekken3recompiled",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-09-23"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/tekken-3-ps1-1996",
+              "source_id": "tekken-3-fishb0nes98",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-09-23"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Tekken 3",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "FishB0nes98/Tekken3Recompiled",
+          "project_url": "https://github.com/FishB0nes98/Tekken3Recompiled",
+          "repo": "FishB0nes98/Tekken3Recompiled",
+          "status": "in-progress",
+          "last_activity": "2026-09-23",
+          "stars": 61,
+          "release": "v0.1.4",
+          "toolchain": "Psxrecomp",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-muqaddas12-tekken3-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/tekken-3-ps1-1996",
+              "source_id": "tekken-3-muqaddas12",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-09-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Tekken 3",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "Muqaddas12/Tekken3-PC",
+          "project_url": "https://github.com/Muqaddas12/Tekken3-PC",
+          "repo": "Muqaddas12/Tekken3-PC",
+          "last_activity": "2026-09-14",
+          "toolchain": "Psxrecomp",
+          "targets": [
+            "PC"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
+          "id": "repo-fabioap-cpu-tekken3recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "fabioap-cpu-tekken3recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-08-27"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/tekken-3-ps1-1996",
+              "source_id": "tekken-3-fabioap-cpu",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-08-27"
+            }
+          ],
+          "embedded_sources": [
+            "portsdr",
+            "quiver",
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Tekken 3",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "fabioap-cpu/Tekken3Recomp",
+          "project_url": "https://github.com/fabioap-cpu/Tekken3Recomp",
+          "repo": "fabioap-cpu/Tekken3Recomp",
+          "status": "released",
+          "last_activity": "2026-08-27",
+          "release": "v2.1",
+          "made": "AI-flagged",
+          "stars": 146,
+          "toolchain": "Psxrecomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-tekken-3-tekken-3-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/tekken3recompiled/",
+              "source_id": "p/tekken3recompiled",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Tekken 3",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "Tekken 3 Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/tekken3recompiled/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 61,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 6,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-21",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -8401,6 +8626,127 @@
       "has_conflict": false
     },
     {
+      "id": "rockstar-games-presents-table-tennis--xbox-360",
+      "title": "Rockstar Games Presents Table Tennis",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-mabec-games-table-tennis-rockstar-linux",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360-2",
+              "source_id": "rockstar-games-presents-table-tennis-mabec-games",
+              "claimed": true,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-21"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rockstar Games presents Table Tennis",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Rockstar Games presents Table Tennis",
+          "project_url": "https://github.com/Mabec-games/Table-Tennis-Rockstar-Linux",
+          "repo": "Mabec-games/Table-Tennis-Rockstar-Linux",
+          "last_activity": "2026-10-21",
+          "release": "linux-v1.1",
+          "targets": [
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
+          "id": "repo-ozordi-tt-decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "ozordi-tt-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-04-22"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360-2006",
+              "source_id": "rockstar-presents-table-tennis-ozordi",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-04-22"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Rockstar Games Presents Table Tennis",
+          "platform": "Xbox 360",
+          "type": "decomp",
+          "project": "OZORDI/tt-decomp",
+          "project_url": "https://github.com/OZORDI/tt-decomp",
+          "repo": "OZORDI/tt-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-04-22",
+          "stars": 13,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-rockstar-games-presents-table-tennis-rockstar-table-tennis-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/rockstar-table-tennis-decomp/",
+              "source_id": "p/rockstar-table-tennis-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Xbox 360",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rockstar Games Presents Table Tennis",
+          "platform": "Xbox 360",
+          "type": "decomp",
+          "project": "Rockstar Table Tennis Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/rockstar-table-tennis-decomp/",
+          "status": "in-progress",
+          "progress": 25.0,
+          "made": "AI-assisted",
+          "stars": 13,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-21",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "resident-evil-deadly-silence--nds",
       "title": "Resident Evil: Deadly Silence",
       "platform": "NDS",
@@ -12018,6 +12364,52 @@
       ],
       "last_activity": "2026-10-21",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "microsoft-flight-simulator-98--pc-windows",
+      "title": "Microsoft Flight Simulator 98",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-fltsim-openfs98",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/microsoft-flight-simulator-98-pc-windows",
+              "source_id": "microsoft-flight-simulator-98-fltsim",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-21"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Microsoft Flight Simulator 98",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "OpenFS98",
+          "project_url": "https://github.com/FLTSIM/OpenFS98",
+          "repo": "FLTSIM/OpenFS98",
+          "last_activity": "2026-10-21",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-21",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -18699,6 +19091,54 @@
       "last_activity": "2026-10-21",
       "best_status": "released",
       "has_conflict": true
+    },
+    {
+      "id": "doko-demo-issyo--psp",
+      "title": "Doko Demo Issyo",
+      "platform": "PSP",
+      "projects": [
+        {
+          "id": "repo-senya01-dokodemo-native",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/doko-demo-issyo-psp",
+              "source_id": "doko-demo-issyo-senya01",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "port",
+              "platform": "PSP",
+              "last_activity": "2026-10-21"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Doko Demo Issyo",
+          "platform": "PSP",
+          "type": "port",
+          "project": "dokodemo-native",
+          "project_url": "https://github.com/Senya01/dokodemo-native",
+          "repo": "Senya01/dokodemo-native",
+          "status": "in-progress",
+          "last_activity": "2026-10-21",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-21",
+      "best_status": "in-progress",
+      "has_conflict": false
     },
     {
       "id": "disruptor--ps1",
@@ -27441,201 +27881,6 @@
       ],
       "statuses": [
         "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-20",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "tekken-3--ps1",
-      "title": "Tekken 3",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "repo-someoneisworking-psx-tekken-3",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/tekken-3-ps1",
-              "source_id": "tekken-3-someoneisworking",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-20"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Tekken 3",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "SomeoneIsWorking/tekken3",
-          "project_url": "https://github.com/SomeoneIsWorking/psx-tekken-3",
-          "repo": "SomeoneIsWorking/psx-tekken-3",
-          "last_activity": "2026-10-20",
-          "toolchain": "Psxport",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-fishb0nes98-tekken3recompiled",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "fishb0nes98-tekken3recompiled",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-09-23"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/tekken-3-ps1",
-              "source_id": "tekken-3-fishb0nes98",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-09-23"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Tekken 3",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "FishB0nes98/Tekken3Recompiled",
-          "project_url": "https://github.com/FishB0nes98/Tekken3Recompiled",
-          "repo": "FishB0nes98/Tekken3Recompiled",
-          "status": "in-progress",
-          "last_activity": "2026-09-23",
-          "stars": 61,
-          "release": "v0.1.4",
-          "toolchain": "Psxrecomp",
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-muqaddas12-tekken3-pc",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/tekken-3-ps1",
-              "source_id": "tekken-3-muqaddas12",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-09-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Tekken 3",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "Muqaddas12/Tekken3-PC",
-          "project_url": "https://github.com/Muqaddas12/Tekken3-PC",
-          "repo": "Muqaddas12/Tekken3-PC",
-          "last_activity": "2026-09-14",
-          "toolchain": "Psxrecomp",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {},
-          "status": "unknown"
-        },
-        {
-          "id": "repo-fabioap-cpu-tekken3recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "fabioap-cpu-tekken3recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-08-27"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/tekken-3-ps1",
-              "source_id": "tekken-3-fabioap-cpu",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-08-27"
-            }
-          ],
-          "embedded_sources": [
-            "portsdr",
-            "quiver",
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Tekken 3",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "fabioap-cpu/Tekken3Recomp",
-          "project_url": "https://github.com/fabioap-cpu/Tekken3Recomp",
-          "repo": "fabioap-cpu/Tekken3Recomp",
-          "status": "released",
-          "last_activity": "2026-08-27",
-          "release": "v2.1",
-          "made": "AI-flagged",
-          "stars": 146,
-          "toolchain": "Psxrecomp",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "sig-tekken-3-tekken-3-recompiled-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/tekken3recompiled/",
-              "source_id": "p/tekken3recompiled",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Tekken 3",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "Tekken 3 Recompiled",
-          "project_url": "https://www.recompsoftware.com/p/tekken3recompiled/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 61,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 5,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "released",
-        "unknown"
       ],
       "sources": [
         "awesome-decomp-games",
@@ -51002,7 +51247,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360",
+              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360-2006",
               "source_id": "rockstar-table-tennis-davidptrssvea",
               "claimed": false,
               "status": "unknown",
@@ -51034,7 +51279,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360",
+              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360-2006",
               "source_id": "rockstar-table-tennis-vincequene",
               "claimed": false,
               "status": "unknown",
@@ -164452,95 +164697,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-04-22",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "rockstar-games-presents-table-tennis--xbox-360",
-      "title": "Rockstar Games Presents Table Tennis",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-ozordi-tt-decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "ozordi-tt-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-04-22"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360",
-              "source_id": "rockstar-presents-table-tennis-ozordi",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-04-22"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Rockstar Games Presents Table Tennis",
-          "platform": "Xbox 360",
-          "type": "decomp",
-          "project": "OZORDI/tt-decomp",
-          "project_url": "https://github.com/OZORDI/tt-decomp",
-          "repo": "OZORDI/tt-decomp",
-          "status": "in-progress",
-          "last_activity": "2026-04-22",
-          "stars": 13,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-rockstar-games-presents-table-tennis-rockstar-table-tennis-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/rockstar-table-tennis-decomp/",
-              "source_id": "p/rockstar-table-tennis-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "Xbox 360",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Rockstar Games Presents Table Tennis",
-          "platform": "Xbox 360",
-          "type": "decomp",
-          "project": "Rockstar Table Tennis Decompilation",
-          "project_url": "https://www.recompsoftware.com/p/rockstar-table-tennis-decomp/",
-          "status": "in-progress",
-          "progress": 25.0,
-          "made": "AI-assisted",
-          "stars": 13,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
       ],
       "last_activity": "2026-04-22",
       "best_status": "in-progress",
