@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-22T17:33:34.745230+00:00",
+  "generated_at": "2026-10-22T23:33:45.400994+00:00",
   "summary": {
-    "games": 3304,
-    "projects": 4601,
-    "source_records": 5710,
+    "games": 3306,
+    "projects": 4603,
+    "source_records": 5712,
     "platforms": 97,
     "sources": 4,
     "conflicted_projects": 241
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2577
+      "records": 2579
     },
     {
       "id": "recomp-software-recomp",
@@ -34,12 +34,12 @@
   "facets": {
     "platforms": [
       [
-        "PS1",
+        "PC (Windows)",
         526
       ],
       [
-        "PC (Windows)",
-        525
+        "PS1",
+        526
       ],
       [
         "Xbox 360",
@@ -67,7 +67,7 @@
       ],
       [
         "SNES",
-        164
+        165
       ],
       [
         "NES",
@@ -429,11 +429,11 @@
       ],
       [
         "recomp",
-        1824
+        1825
       ],
       [
         "port",
-        719
+        720
       ],
       [
         "tool",
@@ -443,7 +443,7 @@
     "statuses": [
       [
         "in-progress",
-        1428
+        1429
       ],
       [
         "unknown",
@@ -451,7 +451,7 @@
       ],
       [
         "released",
-        1182
+        1183
       ],
       [
         "paused",
@@ -3872,6 +3872,57 @@
       ],
       "last_activity": "2026-10-22",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "sword-of-the-berserk-guts-rage--dreamcast",
+      "title": "Sword of the Berserk: Guts' Rage",
+      "platform": "Dreamcast",
+      "projects": [
+        {
+          "id": "repo-fenrircl-berserk-dc-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/sword-of-the-berserk-guts-rage-dreamcast",
+              "source_id": "sword-of-the-berserk-guts-rage-fenrircl",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Dreamcast",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Sword of the Berserk: Guts' Rage",
+          "platform": "Dreamcast",
+          "type": "recomp",
+          "project": "Berserk DC Recomp",
+          "project_url": "https://github.com/fenrircl/berserk-dc-recomp",
+          "repo": "fenrircl/berserk-dc-recomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-22",
+          "toolchain": "Dreamcomp, Dream-recomp",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -14266,6 +14317,55 @@
       "last_activity": "2026-10-22",
       "best_status": "released",
       "has_conflict": true
+    },
+    {
+      "id": "looney-tunes-b-ball--snes",
+      "title": "Looney Tunes B-Ball",
+      "platform": "SNES",
+      "projects": [
+        {
+          "id": "repo-slippygetbackhere-looney-tunes-b-ball-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/looney-tunes-b-ball-snes",
+              "source_id": "looney-tunes-b-ball-slippygetbackhere",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "SNES",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Looney Tunes B-Ball",
+          "platform": "SNES",
+          "type": "recomp",
+          "project": "SlippyGetBackHere/looney_tunes_b-ball_recomp",
+          "project_url": "https://github.com/SlippyGetBackHere/looney_tunes_b-ball_recomp",
+          "repo": "SlippyGetBackHere/looney_tunes_b-ball_recomp",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.1.0",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
     },
     {
       "id": "little-big-adventure-2-twinsen-s-odyssey--unknown",
@@ -28563,52 +28663,6 @@
       ],
       "last_activity": "2026-10-21",
       "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "sword-of-the-berserk-guts-rage--dreamcast",
-      "title": "Sword of the Berserk: Guts' Rage",
-      "platform": "Dreamcast",
-      "projects": [
-        {
-          "id": "repo-fenrircl-berserk-dc-recomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/sword-of-the-berserk-guts-rage-dreamcast",
-              "source_id": "sword-of-the-berserk-guts-rage-fenrircl",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Dreamcast",
-              "last_activity": "2026-10-21"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Sword of the Berserk: Guts' Rage",
-          "platform": "Dreamcast",
-          "type": "recomp",
-          "project": "fenrircl/berserk-dc-recomp",
-          "project_url": "https://github.com/fenrircl/berserk-dc-recomp",
-          "repo": "fenrircl/berserk-dc-recomp",
-          "last_activity": "2026-10-21",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-21",
-      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -69093,6 +69147,52 @@
       ],
       "last_activity": "2026-10-19",
       "best_status": "playable",
+      "has_conflict": false
+    },
+    {
+      "id": "battlefield-2-2005--pc-windows",
+      "title": "Battlefield 2 (2005)",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-moxnatiy-openbattlefield2",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/battlefield-2-2005-pc-windows",
+              "source_id": "battlefield-2-2005-moxnatiy",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Battlefield 2 (2005)",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "OpenBattlefield2",
+          "project_url": "https://github.com/Moxnatiy/OpenBattlefield2",
+          "repo": "Moxnatiy/OpenBattlefield2",
+          "last_activity": "2026-10-19",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-19",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
