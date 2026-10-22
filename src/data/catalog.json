@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-21T23:33:05.343286+00:00",
+  "generated_at": "2026-10-22T05:33:14.555937+00:00",
   "summary": {
-    "games": 3250,
-    "projects": 4526,
-    "source_records": 5625,
+    "games": 3251,
+    "projects": 4528,
+    "source_records": 5627,
     "platforms": 97,
     "sources": 4,
     "conflicted_projects": 235
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2537
+      "records": 2539
     },
     {
       "id": "recomp-software-recomp",
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PS1",
-        520
+        521
       ],
       [
         "PC (Windows)",
@@ -83,7 +83,7 @@
       ],
       [
         "Xbox",
-        97
+        98
       ],
       [
         "DOS",
@@ -429,7 +429,7 @@
       ],
       [
         "recomp",
-        1769
+        1771
       ],
       [
         "port",
@@ -463,7 +463,7 @@
       ],
       [
         "playable",
-        86
+        88
       ],
       [
         "exploring",
@@ -12061,6 +12061,161 @@
       ],
       "last_activity": "2026-10-21",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "need-for-speed-high-stakes--ps1",
+      "title": "Need for Speed: High Stakes",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-mayhemdotcpp-nfs4-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/need-for-speed-high-stakes-ps1",
+              "source_id": "need-for-speed-high-stakes-mayhemdotcpp",
+              "claimed": true,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-21"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: High Stakes",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "Need for Speed: High Stakes Recompiled",
+          "project_url": "https://github.com/mayhemdotcpp/nfs4-recomp",
+          "repo": "mayhemdotcpp/nfs4-recomp",
+          "status": "playable",
+          "last_activity": "2026-10-21",
+          "release": "v0.1.1",
+          "toolchain": "Recompone",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-caesar0007-nfshs-psx-decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "caesar0007-nfshs-psx-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-20"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/need-for-speed-high-stakes-ps1",
+              "source_id": "need-for-speed-high-stakes-caesar0007",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-20"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Need for Speed: High Stakes",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Caesar0007/NFSHS-PSX-decomp",
+          "project_url": "https://github.com/Caesar0007/NFSHS-PSX-decomp",
+          "repo": "Caesar0007/NFSHS-PSX-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-20",
+          "stars": 54,
+          "toolchain": "Splat",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-opennfs-nfshsx",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "opennfs-nfshsx",
+              "claimed": false,
+              "status": "paused",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2021-07-21"
+            }
+          ],
+          "embedded_sources": [
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Need For Speed: High Stakes",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "NFSHSX",
+          "project_url": "https://github.com/OpenNFS/NFSHSX",
+          "repo": "OpenNFS/NFSHSX",
+          "status": "paused",
+          "last_activity": "2021-07-21",
+          "stars": 58,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-need-for-speed-high-stakes-nfs4-decomp-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/nfshs-psx-decomp/",
+              "source_id": "p/nfshs-psx-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: High Stakes",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "nfs4-decomp",
+          "project_url": "https://www.recompsoftware.com/p/nfshs-psx-decomp/",
+          "status": "in-progress",
+          "progress": 0.48,
+          "made": "AI-assisted",
+          "stars": 54,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 4,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "paused",
+        "playable"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-21",
+      "best_status": "playable",
       "has_conflict": false
     },
     {
@@ -34237,6 +34392,56 @@
       "has_conflict": false
     },
     {
+      "id": "phantom-dust--xbox",
+      "title": "Phantom Dust",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-zacheerkour-desert-breeze-dust",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/phantom-dust-xbox",
+              "source_id": "phantom-dust-zacheerkour",
+              "claimed": true,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Phantom Dust",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Desert Breeze Dust",
+          "project_url": "https://github.com/ZacheerKour/desert-breeze-dust",
+          "repo": "ZacheerKour/desert-breeze-dust",
+          "status": "playable",
+          "last_activity": "2026-10-20",
+          "release": "v0.1.7",
+          "toolchain": "Xboxrecomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-20",
+      "best_status": "playable",
+      "has_conflict": false
+    },
+    {
       "id": "phantasy-star-portable-2-infinity--psp",
       "title": "Phantasy Star Portable 2: Infinity",
       "platform": "PSP",
@@ -35033,128 +35238,6 @@
       ],
       "last_activity": "2026-10-20",
       "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "need-for-speed-high-stakes--ps1",
-      "title": "Need for Speed: High Stakes",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "repo-caesar0007-nfshs-psx-decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "caesar0007-nfshs-psx-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-20"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/need-for-speed-high-stakes-ps1",
-              "source_id": "need-for-speed-high-stakes-caesar0007",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-20"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Need for Speed: High Stakes",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "Caesar0007/NFSHS-PSX-decomp",
-          "project_url": "https://github.com/Caesar0007/NFSHS-PSX-decomp",
-          "repo": "Caesar0007/NFSHS-PSX-decomp",
-          "status": "in-progress",
-          "last_activity": "2026-10-20",
-          "stars": 54,
-          "toolchain": "Splat",
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-opennfs-nfshsx",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "opennfs-nfshsx",
-              "claimed": false,
-              "status": "paused",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2021-07-21"
-            }
-          ],
-          "embedded_sources": [
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Need For Speed: High Stakes",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "NFSHSX",
-          "project_url": "https://github.com/OpenNFS/NFSHSX",
-          "repo": "OpenNFS/NFSHSX",
-          "status": "paused",
-          "last_activity": "2021-07-21",
-          "stars": 58,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-need-for-speed-high-stakes-nfs4-decomp-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/nfshs-psx-decomp/",
-              "source_id": "p/nfshs-psx-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Need for Speed: High Stakes",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "nfs4-decomp",
-          "project_url": "https://www.recompsoftware.com/p/nfshs-psx-decomp/",
-          "status": "in-progress",
-          "progress": 0.48,
-          "made": "AI-assisted",
-          "stars": 54,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 3,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "paused"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-20",
-      "best_status": "in-progress",
       "has_conflict": false
     },
     {
