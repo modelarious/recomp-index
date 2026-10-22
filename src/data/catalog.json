@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-22T11:33:24.395633+00:00",
+  "generated_at": "2026-10-22T17:33:34.745230+00:00",
   "summary": {
-    "games": 3302,
-    "projects": 4583,
-    "source_records": 5689,
+    "games": 3304,
+    "projects": 4601,
+    "source_records": 5710,
     "platforms": 97,
     "sources": 4,
-    "conflicted_projects": 240
+    "conflicted_projects": 241
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2556
+      "records": 2577
     },
     {
       "id": "recomp-software-recomp",
@@ -39,15 +39,15 @@
       ],
       [
         "PC (Windows)",
-        514
+        525
       ],
       [
         "Xbox 360",
-        470
+        474
       ],
       [
         "N64",
-        439
+        440
       ],
       [
         "PS2",
@@ -55,7 +55,7 @@
       ],
       [
         "GameCube",
-        230
+        231
       ],
       [
         "GBA",
@@ -131,7 +131,7 @@
       ],
       [
         "PSP",
-        32
+        33
       ],
       [
         "Dreamcast",
@@ -429,11 +429,11 @@
       ],
       [
         "recomp",
-        1814
+        1824
       ],
       [
         "port",
-        711
+        719
       ],
       [
         "tool",
@@ -443,15 +443,15 @@
     "statuses": [
       [
         "in-progress",
-        1425
+        1428
       ],
       [
         "unknown",
-        1245
+        1244
       ],
       [
         "released",
-        1166
+        1182
       ],
       [
         "paused",
@@ -2681,6 +2681,132 @@
       "has_conflict": false
     },
     {
+      "id": "the-simpsons-game--xbox-360",
+      "title": "The Simpsons Game",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-codepdbh-the-simpsons-game-android",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/the-simpsons-game-xbox-360-2",
+              "source_id": "the-simpsons-game-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Simpsons Game",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "The Simpsons Game Android Evolved",
+          "project_url": "https://github.com/codepdbh/the-simpsons-game-android",
+          "repo": "codepdbh/the-simpsons-game-android",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.3.0-experimental",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-yestermester-thesimpsonsgamerecomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "yestermester-thesimpsonsgamerecomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-11"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/the-simpsons-game-xbox-360-2007",
+              "source_id": "the-simpsons-game-yestermester",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-11"
+            }
+          ],
+          "embedded_sources": [
+            "portsdr",
+            "quiver",
+            "recomp.fyi",
+            "samidy"
+          ],
+          "game": "The Simpsons Game",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "YesterMester/TheSimpsonsGameRecomp",
+          "project_url": "https://github.com/YesterMester/TheSimpsonsGameRecomp",
+          "repo": "YesterMester/TheSimpsonsGameRecomp",
+          "status": "released",
+          "last_activity": "2026-10-11",
+          "release": "v0.0.6.5",
+          "stars": 370,
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-the-simpsons-game-the-simpsons-game-for-nintendo-switch-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/the-simpsons-game-nx/",
+              "source_id": "p/the-simpsons-game-nx",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-06"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Simpsons Game",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "The Simpsons Game for Nintendo Switch",
+          "project_url": "https://www.recompsoftware.com/p/the-simpsons-game-nx/",
+          "status": "released",
+          "last_activity": "2026-10-06",
+          "release": "v1.0.1Oct",
+          "made": "Not stated",
+          "stars": 18,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "the-legend-of-zelda-the-wind-waker-hd--wii-u",
       "title": "The Legend of Zelda: The Wind Waker HD",
       "platform": "Wii U",
@@ -3799,6 +3925,390 @@
       "last_activity": "2026-10-22",
       "best_status": "released",
       "has_conflict": false
+    },
+    {
+      "id": "super-smash-bros-melee--gamecube",
+      "title": "Super Smash Bros. Melee",
+      "platform": "GameCube",
+      "projects": [
+        {
+          "id": "repo-codepdbh-melee360",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube-2",
+              "source_id": "super-smash-bros-melee-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "port",
+              "platform": "GameCube",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "port",
+          "project": "MELEE360",
+          "project_url": "https://github.com/codepdbh/melee360",
+          "repo": "codepdbh/melee360",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.1.0-alpha.2",
+          "targets": [
+            "Xbox 360"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-999sian-melee-pc",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "999sian-melee-pc",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "GameCube",
+              "last_activity": "2026-10-20"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube-2001",
+              "source_id": "super-smash-bros-melee-999sian",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "GameCube",
+              "last_activity": "2026-10-20"
+            }
+          ],
+          "embedded_sources": [
+            "awesome-game-remakes",
+            "portsdr",
+            "quiver",
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "port",
+          "project": "999sian/melee-pc",
+          "project_url": "https://github.com/999sian/melee-pc",
+          "repo": "999sian/melee-pc",
+          "status": "released",
+          "last_activity": "2026-10-20",
+          "release": "v0.4.2",
+          "made": "AI-flagged",
+          "stars": 535,
+          "targets": [
+            "Windows",
+            "Linux",
+            "macOS",
+            "Android",
+            "iOS"
+          ],
+          "conflicts": {
+            "type": [
+              "port",
+              "recomp"
+            ]
+          }
+        },
+        {
+          "id": "repo-jajdp-melee-xbox",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube-2001",
+              "source_id": "super-smash-bros-melee-jajdp",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "GameCube",
+              "last_activity": "2026-10-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "port",
+          "project": "jajdp/melee-xbox",
+          "project_url": "https://github.com/jajdp/melee-xbox",
+          "repo": "jajdp/melee-xbox",
+          "last_activity": "2026-10-20",
+          "release": "v1.0.2",
+          "targets": [
+            "PC"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
+          "id": "repo-doldecomp-melee",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "doldecomp-melee",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "GameCube",
+              "last_activity": "2026-10-16"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube-2001",
+              "source_id": "super-smash-bros-melee-doldecomp",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "GameCube",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "recomp.fyi",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "decomp",
+          "project": "doldecomp/melee",
+          "project_url": "https://github.com/doldecomp/melee",
+          "repo": "doldecomp/melee",
+          "status": "in-progress",
+          "last_activity": "2026-10-16",
+          "made": "AI-flagged",
+          "stars": 2438,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-techprogabe-melee-x",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "techprogabe-melee-x",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "GameCube",
+              "last_activity": "2026-10-06"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube-2001",
+              "source_id": "super-smash-bros-melee-techprogabe",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "GameCube",
+              "last_activity": "2026-10-06"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "port",
+          "project": "TechProGabe/Melee-X",
+          "project_url": "https://github.com/TechProGabe/Melee-X",
+          "repo": "TechProGabe/Melee-X",
+          "status": "released",
+          "last_activity": "2026-10-06",
+          "release": "v4.1",
+          "stars": 30,
+          "targets": [
+            "Xbox"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-pedroflaminio-melee-project",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube-2001",
+              "source_id": "super-smash-bros-melee-pedroflaminio",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "GameCube",
+              "last_activity": "2026-09-26"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "port",
+          "project": "PedroFlaminio/melee-project",
+          "project_url": "https://github.com/PedroFlaminio/melee-project",
+          "repo": "PedroFlaminio/melee-project",
+          "last_activity": "2026-09-26",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-grant-m-nelson-meleerecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube-2001",
+              "source_id": "super-smash-bros-melee-grant-m-nelson",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "GameCube",
+              "last_activity": "2026-09-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "recomp",
+          "project": "grant-m-nelson/MeleeRecomp",
+          "project_url": "https://github.com/grant-m-nelson/MeleeRecomp",
+          "repo": "grant-m-nelson/MeleeRecomp",
+          "last_activity": "2026-09-18",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-jstncg-melee-macos-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube-2001",
+              "source_id": "super-smash-bros-melee-jstncg",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "GameCube",
+              "last_activity": "2026-09-15"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "recomp",
+          "project": "jstncg/melee-macos-recomp",
+          "project_url": "https://github.com/jstncg/melee-macos-recomp",
+          "repo": "jstncg/melee-macos-recomp",
+          "last_activity": "2026-09-15",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-nnamon-melee",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube-2001",
+              "source_id": "super-smash-bros-melee-nnamon",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "GameCube",
+              "last_activity": "2026-09-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "decomp",
+          "project": "nnamon/melee",
+          "project_url": "https://github.com/nnamon/melee",
+          "repo": "nnamon/melee",
+          "last_activity": "2026-09-09",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-mcdandle-melee-macos-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube-2001",
+              "source_id": "super-smash-bros-melee-mcdandle",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "GameCube",
+              "last_activity": "2026-09-08"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "recomp",
+          "project": "McDandle/melee-macos-recomp",
+          "project_url": "https://github.com/McDandle/melee-macos-recomp",
+          "repo": "McDandle/melee-macos-recomp",
+          "last_activity": "2026-09-08",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "sig-super-smash-bros-melee-super-smash-bros-melee-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/melee-decomp/",
+              "source_id": "p/melee-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "GameCube",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Smash Bros. Melee",
+          "platform": "GameCube",
+          "type": "decomp",
+          "project": "Super Smash Bros. Melee decompilation",
+          "project_url": "https://www.recompsoftware.com/p/melee-decomp/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "Human-led",
+          "stars": 2400,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 11,
+      "types": [
+        "decomp",
+        "port",
+        "recomp"
+      ],
+      "statuses": [
+        "complete",
+        "in-progress",
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "complete",
+      "has_conflict": true
     },
     {
       "id": "super-smash-bros--n64",
@@ -11150,10 +11660,185 @@
       "has_conflict": false
     },
     {
+      "id": "need-for-speed-underground-2--pc-windows",
+      "title": "Need for Speed: Underground 2",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-codepdbh-nfsu2-recompiled",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "codepdbh-nfsu2-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-21"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/need-for-speed-underground-2-pc-windows",
+              "source_id": "need-for-speed-underground-2-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [
+            "unbaked"
+          ],
+          "game": "Need for Speed: Underground 2",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "NFS Underground 2 Android Evolved",
+          "project_url": "https://github.com/codepdbh/nfsu2-recompiled",
+          "repo": "codepdbh/nfsu2-recompiled",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.14.9",
+          "stars": 156,
+          "toolchain": "Pcrecomp",
+          "targets": [
+            "Android",
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-need-for-speed-underground-2-need-for-speed-underground-2-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/nfsu2-recompiled/",
+              "source_id": "p/nfsu2-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: Underground 2",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "Need for Speed Underground 2 Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/nfsu2-recompiled/",
+          "status": "released",
+          "last_activity": "2026-10-20",
+          "release": "v0.14.9Oct",
+          "made": "Not stated",
+          "stars": 156,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "need-for-speed-underground--pc-windows",
+      "title": "Need for Speed: Underground",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-codepdbh-nfsu1-recompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/need-for-speed-underground-pc-windows",
+              "source_id": "need-for-speed-underground-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: Underground",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "NFS Underground Android Evolved",
+          "project_url": "https://github.com/codepdbh/nfsu1-recompiled",
+          "repo": "codepdbh/nfsu1-recompiled",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.2.5",
+          "toolchain": "Pcrecomp",
+          "targets": [
+            "Android",
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "need-for-speed-most-wanted--xbox-360",
       "title": "Need for Speed: Most Wanted",
       "platform": "Xbox 360",
       "projects": [
+        {
+          "id": "repo-codepdbh-nfsmw-android",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/need-for-speed-most-wanted-xbox-360-2",
+              "source_id": "need-for-speed-most-wanted-codepdbh-2",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: Most Wanted",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "NFSMW Android Evolved",
+          "project_url": "https://github.com/codepdbh/nfsmw-android",
+          "repo": "codepdbh/nfsmw-android",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.6.0",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
         {
           "id": "repo-madelrandel-blip-nfsmw-recompiled",
           "evidence": [
@@ -11169,7 +11854,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/need-for-speed-most-wanted-xbox-360",
+              "source_url": "https://recomp.fyi/game/need-for-speed-most-wanted-xbox-360-2005",
               "source_id": "need-for-speed-most-wanted-madelrandel-blip",
               "claimed": false,
               "status": "unknown",
@@ -11214,7 +11899,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/need-for-speed-most-wanted-xbox-360",
+              "source_url": "https://recomp.fyi/game/need-for-speed-most-wanted-xbox-360-2005",
               "source_id": "need-for-speed-most-wanted-speedbreakerp",
               "claimed": false,
               "status": "unknown",
@@ -11259,7 +11944,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/need-for-speed-most-wanted-xbox-360",
+              "source_url": "https://recomp.fyi/game/need-for-speed-most-wanted-xbox-360-2005",
               "source_id": "need-for-speed-most-wanted-stevensnd",
               "claimed": false,
               "status": "unknown",
@@ -11288,11 +11973,117 @@
           "conflicts": {}
         }
       ],
-      "project_count": 3,
+      "project_count": 4,
       "types": [
         "recomp"
       ],
       "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "need-for-speed-most-wanted--pc-windows",
+      "title": "Need for Speed: Most Wanted",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-codepdbh-nfsmwpc-recompiled",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "codepdbh-nfsmwpc-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-20"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/need-for-speed-most-wanted-pc-windows-2",
+              "source_id": "need-for-speed-most-wanted-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [
+            "unbaked"
+          ],
+          "game": "Need for Speed: Most Wanted",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "NFS Most Wanted PC Android Evolved",
+          "project_url": "https://github.com/codepdbh/nfsmwpc-recompiled",
+          "repo": "codepdbh/nfsmwpc-recompiled",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.1.7",
+          "stars": 52,
+          "toolchain": "Pcrecomp",
+          "targets": [
+            "Android",
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-veritr1x-nfsmw-recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "veritr1x-nfsmw-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-09-21"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/need-for-speed-most-wanted-pc-windows-2005",
+              "source_id": "need-for-speed-most-wanted-veritr1x",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-09-21"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Need for Speed: Most Wanted",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "veritr1x/nfsmw-recomp",
+          "project_url": "https://github.com/veritr1x/nfsmw-recomp",
+          "repo": "veritr1x/nfsmw-recomp",
+          "status": "in-progress",
+          "last_activity": "2026-09-21",
+          "stars": 26,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
         "released"
       ],
       "sources": [
@@ -11456,6 +12247,163 @@
       ],
       "last_activity": "2026-10-22",
       "best_status": "playable",
+      "has_conflict": false
+    },
+    {
+      "id": "need-for-speed-carbon--pc-windows",
+      "title": "Need for Speed: Carbon",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-codepdbh-nfscarbonpc-androidevolved",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/need-for-speed-carbon-pc-windows",
+              "source_id": "need-for-speed-carbon-codepdbh-2",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: Carbon",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "NFS Carbon PC Android Evolved",
+          "project_url": "https://github.com/codepdbh/nfscarbonpc-androidevolved",
+          "repo": "codepdbh/nfscarbonpc-androidevolved",
+          "status": "in-progress",
+          "last_activity": "2026-10-22",
+          "toolchain": "Pcrecomp",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-need-for-speed-carbon-nfs-carbon-for-apple-silicon-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/nfs-carbon-mac/",
+              "source_id": "p/nfs-carbon-mac",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: Carbon",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "NFS Carbon for Apple Silicon",
+          "project_url": "https://www.recompsoftware.com/p/nfs-carbon-mac/",
+          "status": "released",
+          "last_activity": "2026-10-19",
+          "release": "v0.1.13Oct",
+          "made": "AI-assisted",
+          "stars": 33,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "need-for-speed-iii-hot-pursuit--pc-windows",
+      "title": "Need for Speed III: Hot Pursuit",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-codepdbh-nfs3-hp-androidevolved",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/need-for-speed-iii-hot-pursuit-pc-windows-2",
+              "source_id": "need-for-speed-iii-hot-pursuit-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed III: Hot Pursuit",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "NFS3 HP Android Evolved",
+          "project_url": "https://github.com/codepdbh/NFS3-HP-AndroidEvolved",
+          "repo": "codepdbh/NFS3-HP-AndroidEvolved",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.3.2",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-need-for-speed-iii-hot-pursuit-nfs3-recompiled-android-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/nfs3recompiled-android/",
+              "source_id": "p/nfs3recompiled-android",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed III: Hot Pursuit",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "NFS3 Recompiled Android",
+          "project_url": "https://www.recompsoftware.com/p/nfs3recompiled-android/",
+          "status": "released",
+          "last_activity": "2026-10-16",
+          "release": "v0.77Oct",
+          "made": "Not stated",
+          "stars": 48,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -11751,6 +12699,55 @@
       ],
       "last_activity": "2026-10-22",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "mirror-s-edge--xbox-360",
+      "title": "Mirror's Edge",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-singlemate-runnerrecompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/mirrors-edge-xbox-360",
+              "source_id": "mirror-s-edge-singlemate",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mirror's Edge",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "RunnerRecompiled",
+          "project_url": "https://github.com/singlemate/RunnerRecompiled",
+          "repo": "singlemate/RunnerRecompiled",
+          "status": "in-progress",
+          "last_activity": "2026-10-22",
+          "toolchain": "Xenonrecomp, Rexglue",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -14910,8 +15907,8 @@
               "source": "recomp.fyi",
               "source_url": "https://recomp.fyi/game/everybodys-tennis-portable-psp",
               "source_id": "hot-shots-tennis-get-a-grip-jstar269",
-              "claimed": false,
-              "status": "unknown",
+              "claimed": true,
+              "status": "in-progress",
               "type": "decomp",
               "platform": "PSP",
               "last_activity": "2026-10-22"
@@ -14921,12 +15918,13 @@
           "game": "Hot Shots Tennis: Get a Grip",
           "platform": "PSP",
           "type": "decomp",
-          "project": "Jstar269/hst-decomp",
+          "project": "hst-decomp",
           "project_url": "https://github.com/Jstar269/hst-decomp",
           "repo": "Jstar269/hst-decomp",
+          "status": "in-progress",
           "last_activity": "2026-10-22",
+          "toolchain": "Metrowerks mwccpsp 3.0.1, Sony psp-gcc",
           "conflicts": {},
-          "status": "unknown",
           "targets": []
         },
         {
@@ -14964,8 +15962,7 @@
         "recomp"
       ],
       "statuses": [
-        "in-progress",
-        "unknown"
+        "in-progress"
       ],
       "sources": [
         "recomp.fyi"
@@ -15238,6 +16235,283 @@
       "has_conflict": false
     },
     {
+      "id": "grand-theft-auto-vice-city-stories--psp",
+      "title": "Grand Theft Auto: Vice City Stories",
+      "platform": "PSP",
+      "projects": [
+        {
+          "id": "repo-codepdbh-psprecomp-vcs-android",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "codepdbh-psprecomp-vcs-android",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PSP",
+              "last_activity": "2026-09-28"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-vice-city-stories-psp",
+              "source_id": "grand-theft-auto-vice-city-stories-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PSP",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [
+            "unbaked"
+          ],
+          "game": "Grand Theft Auto: Vice City Stories",
+          "platform": "PSP",
+          "type": "recomp",
+          "project": "PSPRecomp Vice City Stories Android",
+          "project_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android",
+          "repo": "codepdbh/PSPRecomp-VCS-Android",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "stars": 37,
+          "release": "v0.3.0-beta",
+          "toolchain": "Psprecomp",
+          "targets": [
+            "Android",
+            "Windows"
+          ],
+          "conflicts": {
+            "status": [
+              "in-progress",
+              "released"
+            ]
+          }
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": true
+    },
+    {
+      "id": "grand-theft-auto-vice-city--pc-windows",
+      "title": "Grand Theft Auto: Vice City",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-codepdbh-revc-long-night-experimental-port",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-vice-city-pc-windows-2",
+              "source_id": "grand-theft-auto-vice-city-codepdbh-4",
+              "claimed": true,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Grand Theft Auto: Vice City",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "reVC Long Night Android",
+          "project_url": "https://github.com/codepdbh/revc-long-night-experimental-port",
+          "repo": "codepdbh/revc-long-night-experimental-port",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v1.0.9",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-codepdbh-revc-android-evolved-enhanced-mod",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-vice-city-pc-windows-2",
+              "source_id": "grand-theft-auto-vice-city-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Grand Theft Auto: Vice City",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "reVC Enhanced & Fixed Android",
+          "project_url": "https://github.com/codepdbh/reVC-android-evolved-ENHANCED-MOD",
+          "repo": "codepdbh/reVC-android-evolved-ENHANCED-MOD",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v1.1.0",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-codepdbh-revc-android-port-evolved",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-vice-city-pc-windows-2",
+              "source_id": "grand-theft-auto-vice-city-codepdbh-2",
+              "claimed": true,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Grand Theft Auto: Vice City",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "reVC Android Evolved",
+          "project_url": "https://github.com/codepdbh/revc-android-port-evolved",
+          "repo": "codepdbh/revc-android-port-evolved",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v1.0.11",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-codepdbh-re3-forelli-redemption",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-vice-city-pc-windows-2",
+              "source_id": "grand-theft-auto-vice-city-codepdbh-3",
+              "claimed": true,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Grand Theft Auto: Vice City",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "Forelli Redemption Android",
+          "project_url": "https://github.com/codepdbh/re3-forelli-redemption",
+          "repo": "codepdbh/re3-forelli-redemption",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v1.0.7-forelli",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-mrxenginner-revc",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "mrxenginner-revc",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-02"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-vice-city-pc-windows-2002",
+              "source_id": "grand-theft-auto-vice-city-mrxenginner",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-02"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Grand Theft Auto: Vice City",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "mrxenginner/reVC",
+          "project_url": "https://github.com/mrxenginner/reVC",
+          "repo": "mrxenginner/reVC",
+          "status": "in-progress",
+          "last_activity": "2026-10-02",
+          "stars": 438,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-grand-theft-auto-vice-city-grand-theft-auto-vice-city-port",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "grand-theft-auto-vice-city",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [
+            "recompiledgames.com",
+            "x:2108068632991256995"
+          ],
+          "game": "Grand Theft Auto: Vice City",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "Grand Theft Auto: Vice City",
+          "project_url": "https://joncodeofficial.github.io/gta-vice-city-wasm",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 6,
+      "types": [
+        "decomp",
+        "port"
+      ],
+      "statuses": [
+        "in-progress",
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "grand-theft-auto-san-andreas--pc-windows",
       "title": "Grand Theft Auto: San Andreas",
       "platform": "PC (Windows)",
@@ -15303,6 +16577,238 @@
       "last_activity": "2026-10-22",
       "best_status": "in-progress",
       "has_conflict": true
+    },
+    {
+      "id": "grand-theft-auto-liberty-city-stories--psp",
+      "title": "Grand Theft Auto: Liberty City Stories",
+      "platform": "PSP",
+      "projects": [
+        {
+          "id": "repo-codepdbh-psprecomp-lcs-android",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-liberty-city-stories-psp-2",
+              "source_id": "grand-theft-auto-liberty-city-stories-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PSP",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Grand Theft Auto: Liberty City Stories",
+          "platform": "PSP",
+          "type": "recomp",
+          "project": "PSPRecomp Liberty City Stories Android",
+          "project_url": "https://github.com/codepdbh/PSPRecomp-LCS-Android",
+          "repo": "codepdbh/PSPRecomp-LCS-Android",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.1.2-beta",
+          "toolchain": "Psprecomp",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-elmasas-lcs-recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "elmasas-lcs-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PSP",
+              "last_activity": "2026-10-18"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-liberty-city-stories-psp-2005",
+              "source_id": "grand-theft-auto-liberty-city-stories-elmasas",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PSP",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [
+            "awesome-game-remakes",
+            "portsdr",
+            "quiver",
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Grand Theft Auto: Liberty City Stories",
+          "platform": "PSP",
+          "type": "recomp",
+          "project": "elmasas/lcs-recomp",
+          "project_url": "https://github.com/elmasas/lcs-recomp",
+          "repo": "elmasas/lcs-recomp",
+          "status": "released",
+          "last_activity": "2026-10-18",
+          "release": "v0.1.7",
+          "made": "AI-flagged",
+          "stars": 251,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "grand-theft-auto-iii--pc-windows",
+      "title": "Grand Theft Auto III",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-codepdbh-re3-android-port-evolved",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-iii-pc-windows",
+              "source_id": "grand-theft-auto-iii-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Grand Theft Auto III",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "RE3 Android Evolved",
+          "project_url": "https://github.com/codepdbh/re3-android-port-evolved",
+          "repo": "codepdbh/re3-android-port-evolved",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v1.0.7",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-codepdbh-re3-gta-advance-port",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-iii-pc-windows",
+              "source_id": "grand-theft-auto-iii-codepdbh-3",
+              "claimed": true,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Grand Theft Auto III",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "GTA Advance PC Android",
+          "project_url": "https://github.com/codepdbh/re3-gta-advance-port",
+          "repo": "codepdbh/re3-gta-advance-port",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.1.0",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-codepdbh-re3-frosted-winter-port-experimental",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/grand-theft-auto-iii-pc-windows",
+              "source_id": "grand-theft-auto-iii-codepdbh-2",
+              "claimed": true,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Grand Theft Auto III",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "Frosted Winter Remastered Android",
+          "project_url": "https://github.com/codepdbh/re3-frosted-winter-port-experimental",
+          "repo": "codepdbh/re3-frosted-winter-port-experimental",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v1.0.9-fwr",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-grand-theft-auto-iii-grand-theft-auto-iii-port",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "grand-theft-auto-iii",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [
+            "recompiledgames.com",
+            "x:2108068632991256995"
+          ],
+          "game": "Grand Theft Auto III",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "Grand Theft Auto III",
+          "project_url": "https://wasmarcade.com/gta3",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 4,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
     },
     {
       "id": "gran-turismo-4--ps2",
@@ -17286,6 +18792,56 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "el-chavo-kart--xbox-360",
+      "title": "El Chavo Kart",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-codepdbh-el-chavo-kart-android",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/el-chavo-kart-xbox-360",
+              "source_id": "el-chavo-kart-codepdbh",
+              "claimed": true,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "El Chavo Kart",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "El Chavo Kart Android Evolved",
+          "project_url": "https://github.com/codepdbh/el-chavo-kart-android",
+          "repo": "codepdbh/el-chavo-kart-android",
+          "status": "in-progress",
+          "last_activity": "2026-10-22",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Android",
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
@@ -19534,6 +21090,36 @@
       "platform": "N64",
       "projects": [
         {
+          "id": "repo-codepdbh-cbfd-recompiled-android-evolved",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64-2",
+              "source_id": "conker-s-bad-fur-day-codepdbh-2",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Conker's Bad Fur Day",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Conker Recompiled Android Evolved",
+          "project_url": "https://github.com/codepdbh/CBFD-Recompiled-Android-Evolved",
+          "repo": "codepdbh/CBFD-Recompiled-Android-Evolved",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "android-v0.2.15",
+          "toolchain": "N64recomp, Rt64",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
           "id": "repo-devoldschool-conkers-bfd-decomp",
           "evidence": [
             {
@@ -19548,7 +21134,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64",
+              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64-2001",
               "source_id": "conkers-bad-fur-day-devoldschool",
               "claimed": true,
               "status": "in-progress",
@@ -19579,7 +21165,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64",
+              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64-2001",
               "source_id": "conker-s-bad-fur-day-henrykun55",
               "claimed": true,
               "status": "released",
@@ -19647,7 +21233,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64",
+              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64-2001",
               "source_id": "conker-s-bad-fur-day-sciaschi",
               "claimed": false,
               "status": "unknown",
@@ -19714,7 +21300,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64",
+              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64-2001",
               "source_id": "conker-s-bad-fur-day-codepdbh",
               "claimed": false,
               "status": "unknown",
@@ -19753,7 +21339,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64",
+              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64-2001",
               "source_id": "conker-s-bad-fur-day-conker64recomp",
               "claimed": false,
               "status": "unknown",
@@ -19795,7 +21381,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64",
+              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64-2001",
               "source_id": "conker-s-bad-fur-day-mkst",
               "claimed": false,
               "status": "unknown",
@@ -19849,7 +21435,7 @@
           "targets": []
         }
       ],
-      "project_count": 9,
+      "project_count": 10,
       "types": [
         "decomp",
         "recomp"
@@ -22776,6 +24362,56 @@
       "last_activity": "2026-10-22",
       "best_status": "released",
       "has_conflict": true
+    },
+    {
+      "id": "army-men-rts--pc-windows",
+      "title": "Army Men: RTS",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-codepdbh-army-men-rts-android-evolved",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/army-men-rts-pc-windows",
+              "source_id": "army-men-rts-codepdbh",
+              "claimed": true,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Army Men: RTS",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "Army Men RTS Android Evolved",
+          "project_url": "https://github.com/codepdbh/army-men-rts-android-evolved",
+          "repo": "codepdbh/army-men-rts-android-evolved",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.4.0",
+          "toolchain": "Pcrecomp",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
     },
     {
       "id": "antares--unknown",
@@ -33582,56 +35218,6 @@
       ],
       "last_activity": "2026-10-21",
       "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
-      "id": "need-for-speed-underground-2-nfsu2-recompiled--pc-windows",
-      "title": "Need for Speed: Underground 2 (nfsu2-recompiled)",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-codepdbh-nfsu2-recompiled",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "codepdbh-nfsu2-recompiled",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-21"
-            }
-          ],
-          "embedded_sources": [
-            "unbaked"
-          ],
-          "game": "Need for Speed: Underground 2 (nfsu2-recompiled)",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "nfsu2-recompiled",
-          "project_url": "https://github.com/codepdbh/nfsu2-recompiled",
-          "repo": "codepdbh/nfsu2-recompiled",
-          "status": "released",
-          "last_activity": "2026-10-21",
-          "release": "v0.14.9",
-          "stars": 156,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-21",
-      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -48415,361 +50001,6 @@
       "has_conflict": false
     },
     {
-      "id": "super-smash-bros-melee--gamecube",
-      "title": "Super Smash Bros. Melee",
-      "platform": "GameCube",
-      "projects": [
-        {
-          "id": "repo-999sian-melee-pc",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "999sian-melee-pc",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "GameCube",
-              "last_activity": "2026-10-20"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube",
-              "source_id": "super-smash-bros-melee-999sian",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "GameCube",
-              "last_activity": "2026-10-20"
-            }
-          ],
-          "embedded_sources": [
-            "awesome-game-remakes",
-            "portsdr",
-            "quiver",
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Super Smash Bros. Melee",
-          "platform": "GameCube",
-          "type": "port",
-          "project": "999sian/melee-pc",
-          "project_url": "https://github.com/999sian/melee-pc",
-          "repo": "999sian/melee-pc",
-          "status": "released",
-          "last_activity": "2026-10-20",
-          "release": "v0.4.2",
-          "made": "AI-flagged",
-          "stars": 535,
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS",
-            "Android",
-            "iOS"
-          ],
-          "conflicts": {
-            "type": [
-              "port",
-              "recomp"
-            ]
-          }
-        },
-        {
-          "id": "repo-jajdp-melee-xbox",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube",
-              "source_id": "super-smash-bros-melee-jajdp",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "GameCube",
-              "last_activity": "2026-10-20"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Super Smash Bros. Melee",
-          "platform": "GameCube",
-          "type": "port",
-          "project": "jajdp/melee-xbox",
-          "project_url": "https://github.com/jajdp/melee-xbox",
-          "repo": "jajdp/melee-xbox",
-          "last_activity": "2026-10-20",
-          "release": "v1.0.2",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {},
-          "status": "unknown"
-        },
-        {
-          "id": "repo-doldecomp-melee",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "doldecomp-melee",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "GameCube",
-              "last_activity": "2026-10-16"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube",
-              "source_id": "super-smash-bros-melee-doldecomp",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "GameCube",
-              "last_activity": "2026-10-16"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "recomp.fyi",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Super Smash Bros. Melee",
-          "platform": "GameCube",
-          "type": "decomp",
-          "project": "doldecomp/melee",
-          "project_url": "https://github.com/doldecomp/melee",
-          "repo": "doldecomp/melee",
-          "status": "in-progress",
-          "last_activity": "2026-10-16",
-          "made": "AI-flagged",
-          "stars": 2438,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-techprogabe-melee-x",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "techprogabe-melee-x",
-              "claimed": false,
-              "status": "released",
-              "type": "port",
-              "platform": "GameCube",
-              "last_activity": "2026-10-06"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube",
-              "source_id": "super-smash-bros-melee-techprogabe",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "GameCube",
-              "last_activity": "2026-10-06"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Super Smash Bros. Melee",
-          "platform": "GameCube",
-          "type": "port",
-          "project": "TechProGabe/Melee-X",
-          "project_url": "https://github.com/TechProGabe/Melee-X",
-          "repo": "TechProGabe/Melee-X",
-          "status": "released",
-          "last_activity": "2026-10-06",
-          "release": "v4.1",
-          "stars": 30,
-          "targets": [
-            "Xbox"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "repo-pedroflaminio-melee-project",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube",
-              "source_id": "super-smash-bros-melee-pedroflaminio",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "GameCube",
-              "last_activity": "2026-09-26"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Super Smash Bros. Melee",
-          "platform": "GameCube",
-          "type": "port",
-          "project": "PedroFlaminio/melee-project",
-          "project_url": "https://github.com/PedroFlaminio/melee-project",
-          "repo": "PedroFlaminio/melee-project",
-          "last_activity": "2026-09-26",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-grant-m-nelson-meleerecomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube",
-              "source_id": "super-smash-bros-melee-grant-m-nelson",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "GameCube",
-              "last_activity": "2026-09-18"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Super Smash Bros. Melee",
-          "platform": "GameCube",
-          "type": "recomp",
-          "project": "grant-m-nelson/MeleeRecomp",
-          "project_url": "https://github.com/grant-m-nelson/MeleeRecomp",
-          "repo": "grant-m-nelson/MeleeRecomp",
-          "last_activity": "2026-09-18",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-jstncg-melee-macos-recomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube",
-              "source_id": "super-smash-bros-melee-jstncg",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "GameCube",
-              "last_activity": "2026-09-15"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Super Smash Bros. Melee",
-          "platform": "GameCube",
-          "type": "recomp",
-          "project": "jstncg/melee-macos-recomp",
-          "project_url": "https://github.com/jstncg/melee-macos-recomp",
-          "repo": "jstncg/melee-macos-recomp",
-          "last_activity": "2026-09-15",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-nnamon-melee",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube",
-              "source_id": "super-smash-bros-melee-nnamon",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "GameCube",
-              "last_activity": "2026-09-09"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Super Smash Bros. Melee",
-          "platform": "GameCube",
-          "type": "decomp",
-          "project": "nnamon/melee",
-          "project_url": "https://github.com/nnamon/melee",
-          "repo": "nnamon/melee",
-          "last_activity": "2026-09-09",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-mcdandle-melee-macos-recomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-melee-gamecube",
-              "source_id": "super-smash-bros-melee-mcdandle",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "GameCube",
-              "last_activity": "2026-09-08"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Super Smash Bros. Melee",
-          "platform": "GameCube",
-          "type": "recomp",
-          "project": "McDandle/melee-macos-recomp",
-          "project_url": "https://github.com/McDandle/melee-macos-recomp",
-          "repo": "McDandle/melee-macos-recomp",
-          "last_activity": "2026-09-08",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "sig-super-smash-bros-melee-super-smash-bros-melee-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/melee-decomp/",
-              "source_id": "p/melee-decomp",
-              "claimed": false,
-              "status": "complete",
-              "type": "decomp",
-              "platform": "GameCube",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Super Smash Bros. Melee",
-          "platform": "GameCube",
-          "type": "decomp",
-          "project": "Super Smash Bros. Melee decompilation",
-          "project_url": "https://www.recompsoftware.com/p/melee-decomp/",
-          "status": "complete",
-          "progress": 100.0,
-          "made": "Human-led",
-          "stars": 2400,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 10,
-      "types": [
-        "decomp",
-        "port",
-        "recomp"
-      ],
-      "statuses": [
-        "complete",
-        "in-progress",
-        "released",
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-20",
-      "best_status": "complete",
-      "has_conflict": true
-    },
-    {
       "id": "super-smash-bros-brawl--wii",
       "title": "Super Smash Bros. Brawl",
       "platform": "Wii",
@@ -52319,104 +53550,6 @@
       "project_count": 1,
       "types": [
         "decomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-20",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "need-for-speed-underground-2--pc-windows",
-      "title": "Need for Speed: Underground 2",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "sig-need-for-speed-underground-2-need-for-speed-underground-2-recompiled-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/nfsu2-recompiled/",
-              "source_id": "p/nfsu2-recompiled",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-20"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Need for Speed: Underground 2",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "Need for Speed Underground 2 Recompiled",
-          "project_url": "https://www.recompsoftware.com/p/nfsu2-recompiled/",
-          "status": "released",
-          "last_activity": "2026-10-20",
-          "release": "v0.14.9Oct",
-          "made": "Not stated",
-          "stars": 156,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-10-20",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "need-for-speed-most-wanted-nfs-most-wanted-pc-recompiled-nfs-android-evolved--pc-windows",
-      "title": "Need for Speed: Most Wanted (NFS Most Wanted PC Recompiled (NFS Android Evolved))",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-codepdbh-nfsmwpc-recompiled",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "codepdbh-nfsmwpc-recompiled",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-20"
-            }
-          ],
-          "embedded_sources": [
-            "unbaked"
-          ],
-          "game": "Need for Speed: Most Wanted (NFS Most Wanted PC Recompiled (NFS Android Evolved))",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "nfsmwpc-recompiled",
-          "project_url": "https://github.com/codepdbh/nfsmwpc-recompiled",
-          "repo": "codepdbh/nfsmwpc-recompiled",
-          "status": "released",
-          "last_activity": "2026-10-20",
-          "release": "v0.1.7",
-          "stars": 52,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
       ],
       "statuses": [
         "released"
@@ -62747,54 +63880,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-19",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "need-for-speed-carbon--pc-windows",
-      "title": "Need for Speed: Carbon",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "sig-need-for-speed-carbon-nfs-carbon-for-apple-silicon-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/nfs-carbon-mac/",
-              "source_id": "p/nfs-carbon-mac",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-19"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Need for Speed: Carbon",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "NFS Carbon for Apple Silicon",
-          "project_url": "https://www.recompsoftware.com/p/nfs-carbon-mac/",
-          "status": "released",
-          "last_activity": "2026-10-19",
-          "release": "v0.1.13Oct",
-          "made": "AI-assisted",
-          "stars": 33,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
       ],
       "last_activity": "2026-10-19",
       "best_status": "released",
@@ -74481,72 +75566,6 @@
       "has_conflict": false
     },
     {
-      "id": "grand-theft-auto-liberty-city-stories--psp",
-      "title": "Grand Theft Auto: Liberty City Stories",
-      "platform": "PSP",
-      "projects": [
-        {
-          "id": "repo-elmasas-lcs-recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "elmasas-lcs-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PSP",
-              "last_activity": "2026-10-18"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/grand-theft-auto-liberty-city-stories-psp",
-              "source_id": "grand-theft-auto-liberty-city-stories-elmasas",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PSP",
-              "last_activity": "2026-10-18"
-            }
-          ],
-          "embedded_sources": [
-            "awesome-game-remakes",
-            "portsdr",
-            "quiver",
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Grand Theft Auto: Liberty City Stories",
-          "platform": "PSP",
-          "type": "recomp",
-          "project": "elmasas/lcs-recomp",
-          "project_url": "https://github.com/elmasas/lcs-recomp",
-          "repo": "elmasas/lcs-recomp",
-          "status": "released",
-          "last_activity": "2026-10-18",
-          "release": "v0.1.7",
-          "made": "AI-flagged",
-          "stars": 251,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-18",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "god-of-war-chains-of-olympus-god-of-war-psp-native-pc-ports--psp",
       "title": "God of War: Chains of Olympus (God of War PSP: native PC ports)",
       "platform": "PSP",
@@ -85195,54 +86214,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-16",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "need-for-speed-iii-hot-pursuit--pc-windows",
-      "title": "Need for Speed III: Hot Pursuit",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "sig-need-for-speed-iii-hot-pursuit-nfs3-recompiled-android-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/nfs3recompiled-android/",
-              "source_id": "p/nfs3recompiled-android",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-16"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Need for Speed III: Hot Pursuit",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "NFS3 Recompiled Android",
-          "project_url": "https://www.recompsoftware.com/p/nfs3recompiled-android/",
-          "status": "released",
-          "last_activity": "2026-10-16",
-          "release": "v0.77Oct",
-          "made": "Not stated",
-          "stars": 48,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
       ],
       "last_activity": "2026-10-16",
       "best_status": "released",
@@ -103989,102 +104960,6 @@
       "has_conflict": false
     },
     {
-      "id": "the-simpsons-game--xbox-360",
-      "title": "The Simpsons Game",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-yestermester-thesimpsonsgamerecomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "yestermester-thesimpsonsgamerecomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-11"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/the-simpsons-game-xbox-360",
-              "source_id": "the-simpsons-game-yestermester",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-11"
-            }
-          ],
-          "embedded_sources": [
-            "portsdr",
-            "quiver",
-            "recomp.fyi",
-            "samidy"
-          ],
-          "game": "The Simpsons Game",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "YesterMester/TheSimpsonsGameRecomp",
-          "project_url": "https://github.com/YesterMester/TheSimpsonsGameRecomp",
-          "repo": "YesterMester/TheSimpsonsGameRecomp",
-          "status": "released",
-          "last_activity": "2026-10-11",
-          "release": "v0.0.6.5",
-          "stars": 370,
-          "targets": [
-            "Windows",
-            "Linux"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "sig-the-simpsons-game-the-simpsons-game-for-nintendo-switch-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/the-simpsons-game-nx/",
-              "source_id": "p/the-simpsons-game-nx",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-06"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "The Simpsons Game",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "The Simpsons Game for Nintendo Switch",
-          "project_url": "https://www.recompsoftware.com/p/the-simpsons-game-nx/",
-          "status": "released",
-          "last_activity": "2026-10-06",
-          "release": "v1.0.1Oct",
-          "made": "Not stated",
-          "stars": 18,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-11",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "the-legend-of-zelda-sands-of-time--n64",
       "title": "The Legend of Zelda: Sands of Time",
       "platform": "N64",
@@ -121592,96 +122467,6 @@
       "has_conflict": false
     },
     {
-      "id": "grand-theft-auto-vice-city--pc-windows",
-      "title": "Grand Theft Auto: Vice City",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-mrxenginner-revc",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "mrxenginner-revc",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-02"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/grand-theft-auto-vice-city-pc-windows",
-              "source_id": "grand-theft-auto-vice-city-mrxenginner",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-02"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Grand Theft Auto: Vice City",
-          "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "mrxenginner/reVC",
-          "project_url": "https://github.com/mrxenginner/reVC",
-          "repo": "mrxenginner/reVC",
-          "status": "in-progress",
-          "last_activity": "2026-10-02",
-          "stars": 438,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-grand-theft-auto-vice-city-grand-theft-auto-vice-city-port",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "grand-theft-auto-vice-city",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PC (Windows)",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [
-            "recompiledgames.com",
-            "x:2108068632991256995"
-          ],
-          "game": "Grand Theft Auto: Vice City",
-          "platform": "PC (Windows)",
-          "type": "port",
-          "project": "Grand Theft Auto: Vice City",
-          "project_url": "https://joncodeofficial.github.io/gta-vice-city-wasm",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp",
-        "port"
-      ],
-      "statuses": [
-        "in-progress",
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-02",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
       "id": "freedoom--unknown",
       "title": "Freedoom",
       "platform": "Unknown",
@@ -129590,55 +130375,6 @@
       "has_conflict": false
     },
     {
-      "id": "grand-theft-auto-vice-city-stories-psprecomp-vcs-android--psp",
-      "title": "Grand Theft Auto: Vice City Stories (PSPRecomp-VCS-Android)",
-      "platform": "PSP",
-      "projects": [
-        {
-          "id": "repo-codepdbh-psprecomp-vcs-android",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "codepdbh-psprecomp-vcs-android",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PSP",
-              "last_activity": "2026-09-28"
-            }
-          ],
-          "embedded_sources": [
-            "unbaked"
-          ],
-          "game": "Grand Theft Auto: Vice City Stories (PSPRecomp-VCS-Android)",
-          "platform": "PSP",
-          "type": "recomp",
-          "project": "PSPRecomp-VCS-Android",
-          "project_url": "https://github.com/codepdbh/PSPRecomp-VCS-Android",
-          "repo": "codepdbh/PSPRecomp-VCS-Android",
-          "status": "in-progress",
-          "last_activity": "2026-09-28",
-          "stars": 37,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-09-28",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
       "id": "atv-offroad-fury--ps2",
       "title": "ATV Offroad Fury",
       "platform": "PS2",
@@ -135807,67 +136543,6 @@
       ],
       "last_activity": "2026-09-21",
       "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
-      "id": "need-for-speed-most-wanted--pc-windows",
-      "title": "Need for Speed: Most Wanted",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-veritr1x-nfsmw-recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "veritr1x-nfsmw-recomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-09-21"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/need-for-speed-most-wanted-pc-windows",
-              "source_id": "need-for-speed-most-wanted-veritr1x",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-09-21"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Need for Speed: Most Wanted",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "veritr1x/nfsmw-recomp",
-          "project_url": "https://github.com/veritr1x/nfsmw-recomp",
-          "repo": "veritr1x/nfsmw-recomp",
-          "status": "in-progress",
-          "last_activity": "2026-09-21",
-          "stars": 26,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-09-21",
-      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -170741,7 +171416,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/need-for-speed-iii-hot-pursuit-pc-windows",
+              "source_url": "https://recomp.fyi/game/need-for-speed-iii-hot-pursuit-pc-windows-1998",
               "source_id": "need-for-speed-ii-special-edition-need-f-motor-dev",
               "claimed": false,
               "status": "unknown",
@@ -212074,53 +212749,6 @@
       ],
       "last_activity": null,
       "best_status": "paused",
-      "has_conflict": false
-    },
-    {
-      "id": "grand-theft-auto-iii--pc-windows",
-      "title": "Grand Theft Auto III",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "sig-grand-theft-auto-iii-grand-theft-auto-iii-port",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "grand-theft-auto-iii",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PC (Windows)",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [
-            "recompiledgames.com",
-            "x:2108068632991256995"
-          ],
-          "game": "Grand Theft Auto III",
-          "platform": "PC (Windows)",
-          "type": "port",
-          "project": "Grand Theft Auto III",
-          "project_url": "https://wasmarcade.com/gta3",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "port"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": null,
-      "best_status": "unknown",
       "has_conflict": false
     },
     {
