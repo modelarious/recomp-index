@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-23T11:34:09.711176+00:00",
+  "generated_at": "2026-10-23T17:34:20.430501+00:00",
   "summary": {
-    "games": 3320,
-    "projects": 4618,
-    "source_records": 5739,
+    "games": 3353,
+    "projects": 4703,
+    "source_records": 5826,
     "platforms": 99,
     "sources": 4,
-    "conflicted_projects": 249
+    "conflicted_projects": 250
   },
   "sources": [
     {
@@ -18,48 +18,48 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2591
+      "records": 2593
     },
     {
       "id": "recomp-software-recomp",
       "url": "https://www.recompsoftware.com/recompiled-games-list/",
-      "records": 269
+      "records": 272
     },
     {
       "id": "recomp-software-decomp",
       "url": "https://www.recompsoftware.com/decompiled-games-list/",
-      "records": 567
+      "records": 649
     }
   ],
   "facets": {
     "platforms": [
       [
         "PC (Windows)",
-        531
+        536
       ],
       [
         "PS1",
-        526
+        534
       ],
       [
         "Xbox 360",
-        474
+        475
       ],
       [
         "N64",
-        443
+        455
       ],
       [
         "PS2",
-        241
+        256
       ],
       [
         "GameCube",
-        230
+        233
       ],
       [
         "GBA",
-        211
+        214
       ],
       [
         "Unknown",
@@ -67,7 +67,7 @@
       ],
       [
         "SNES",
-        165
+        166
       ],
       [
         "NES",
@@ -75,11 +75,11 @@
       ],
       [
         "Wii",
-        151
+        153
       ],
       [
         "NDS",
-        105
+        128
       ],
       [
         "Xbox",
@@ -90,11 +90,11 @@
         88
       ],
       [
-        "GB",
-        86
+        "GBC",
+        87
       ],
       [
-        "GBC",
+        "GB",
         86
       ],
       [
@@ -111,7 +111,7 @@
       ],
       [
         "PS3",
-        48
+        49
       ],
       [
         "Genesis",
@@ -151,7 +151,7 @@
       ],
       [
         "Nintendo Switch",
-        19
+        21
       ],
       [
         "Mac",
@@ -178,15 +178,15 @@
         11
       ],
       [
-        "MSX2",
-        9
-      ],
-      [
         "Mega Drive / Genesis",
-        9
+        10
       ],
       [
         "Multi",
+        10
+      ],
+      [
+        "MSX2",
         9
       ],
       [
@@ -198,6 +198,10 @@
         8
       ],
       [
+        "Android",
+        7
+      ],
+      [
         "Apple II",
         7
       ],
@@ -206,23 +210,19 @@
         7
       ],
       [
+        "Nintendo 3DS",
+        7
+      ],
+      [
+        "PlayStation Portable",
+        7
+      ],
+      [
         "og xbox",
         7
       ],
       [
-        "Android",
-        6
-      ],
-      [
         "Atari Jaguar",
-        5
-      ],
-      [
-        "Nintendo 3DS",
-        5
-      ],
-      [
-        "PlayStation Portable",
         5
       ],
       [
@@ -326,6 +326,10 @@
         2
       ],
       [
+        "Web (Flash)",
+        2
+      ],
+      [
         "Web/Flash",
         2
       ],
@@ -410,10 +414,6 @@
         1
       ],
       [
-        "Web (Flash)",
-        1
-      ],
-      [
         "Wii / PC (Windows)",
         1
       ],
@@ -433,11 +433,11 @@
     "types": [
       [
         "decomp",
-        2053
+        2133
       ],
       [
         "recomp",
-        1830
+        1835
       ],
       [
         "port",
@@ -451,23 +451,23 @@
     "statuses": [
       [
         "in-progress",
-        1439
+        1507
       ],
       [
         "unknown",
-        1245
+        1246
       ],
       [
         "released",
-        1184
+        1189
       ],
       [
         "paused",
-        489
+        490
       ],
       [
         "complete",
-        149
+        159
       ],
       [
         "playable",
@@ -2409,18 +2409,46 @@
           ],
           "conflicts": {},
           "status": "unknown"
+        },
+        {
+          "id": "sig-turok-rage-wars-turok-rage-wars-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/ragewars-decomp/",
+              "source_id": "p/ragewars-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Turok: Rage Wars",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Turok: Rage Wars decompilation",
+          "project_url": "https://www.recompsoftware.com/p/ragewars-decomp/",
+          "status": "in-progress",
+          "progress": 53.14,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 3,
+      "project_count": 4,
       "types": [
         "decomp",
         "recomp"
       ],
       "statuses": [
+        "in-progress",
         "released",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp-software-recomp",
         "recomp.fyi"
       ],
@@ -2965,6 +2993,54 @@
       "sources": [
         "awesome-decomp-games",
         "recomp.fyi"
+      ],
+      "last_activity": "2026-10-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "thief-deadly-shadows--pc-windows",
+      "title": "Thief: Deadly Shadows",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "sig-thief-deadly-shadows-t3sdk-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/thief3-decomp/",
+              "source_id": "p/thief3-decomp",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Thief: Deadly Shadows",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "T3SDK",
+          "project_url": "https://www.recompsoftware.com/p/thief3-decomp/",
+          "status": "released",
+          "last_activity": "2026-10-23",
+          "release": "v0.3.0Oct",
+          "progress": 13.12,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-decomp"
       ],
       "last_activity": "2026-10-23",
       "best_status": "released",
@@ -5658,21 +5734,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-stunt-race-fx-stunt-race-fx-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/stunt-race-fx-decomp/",
+              "source_id": "p/stunt-race-fx-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "SNES",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Stunt Race FX",
+          "platform": "SNES",
+          "type": "decomp",
+          "project": "Stunt Race FX decompilation",
+          "project_url": "https://www.recompsoftware.com/p/stunt-race-fx-decomp/",
+          "status": "complete",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
         "decomp",
         "recomp"
       ],
       "statuses": [
+        "complete",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
-      "best_status": "unknown",
+      "best_status": "complete",
       "has_conflict": false
     },
     {
@@ -7649,9 +7752,35 @@
             "PC"
           ],
           "conflicts": {}
+        },
+        {
+          "id": "sig-shadow-of-the-colossus-shadow-of-the-colossus-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/sotc-decomp-nathanfahey23/",
+              "source_id": "p/sotc-decomp-nathanfahey23",
+              "claimed": false,
+              "status": "paused",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Shadow of the Colossus",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Shadow of the Colossus (Decompilation)",
+          "project_url": "https://www.recompsoftware.com/p/sotc-decomp-nathanfahey23/",
+          "status": "paused",
+          "progress": 35.72,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 4,
+      "project_count": 5,
       "types": [
         "decomp",
         "recomp"
@@ -7662,6 +7791,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
@@ -8181,9 +8311,35 @@
           "toolchain": "Decompkit",
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-rugrats-scavenger-hunt-rugrats-scavenger-hunt-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/rugrats-scavenger-hunt-decomp/",
+              "source_id": "p/rugrats-scavenger-hunt-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rugrats: Scavenger Hunt",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Rugrats: Scavenger Hunt decompilation",
+          "project_url": "https://www.recompsoftware.com/p/rugrats-scavenger-hunt-decomp/",
+          "status": "in-progress",
+          "progress": 9.28,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -8191,6 +8347,7 @@
         "in-progress"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
@@ -8512,7 +8669,6 @@
           "status": "in-progress",
           "progress": 4.54,
           "made": "Not stated",
-          "stars": 20,
           "conflicts": {},
           "targets": []
         }
@@ -8625,9 +8781,8 @@
           "project": "Ratchet & Clank: Going Commando decompilation",
           "project_url": "https://www.recompsoftware.com/p/rac2-gc-decomp/",
           "status": "in-progress",
-          "progress": 12.13,
+          "progress": 12.99,
           "made": "AI-assisted",
-          "stars": 25,
           "conflicts": {},
           "targets": []
         }
@@ -11061,9 +11216,35 @@
           "toolchain": "N64-decomp-kit, Objdiff",
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-nagano-winter-olympics-98-nagano-winter-olympics-98-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/nagano-winter-olympics-98-decomp/",
+              "source_id": "p/nagano-winter-olympics-98-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Nagano Winter Olympics '98",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Nagano Winter Olympics '98 decompilation",
+          "project_url": "https://www.recompsoftware.com/p/nagano-winter-olympics-98-decomp/",
+          "status": "in-progress",
+          "progress": 6.44,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -11071,6 +11252,7 @@
         "in-progress"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
@@ -11604,7 +11786,7 @@
           "project": "Metroid Prime decompilation",
           "project_url": "https://www.recompsoftware.com/p/prime-decomp/",
           "status": "in-progress",
-          "progress": 17.73,
+          "progress": 95.68,
           "made": "Human-led",
           "conflicts": {},
           "targets": []
@@ -12233,6 +12415,16 @@
           "evidence": [
             {
               "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/mlss-johnsoellner-decomp/",
+              "source_id": "p/mlss-johnsoellner-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "GBA",
+              "last_activity": null
+            },
+            {
+              "source": "recomp-software-decomp",
               "source_url": "https://www.recompsoftware.com/p/mlss-decomp/",
               "source_id": "p/mlss-decomp",
               "claimed": false,
@@ -12443,9 +12635,35 @@
           "toolchain": "N64-decomp-kit",
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-madden-football-64-madden-football-64-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/madden-64-decomp/",
+              "source_id": "p/madden-64-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Madden Football 64",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Madden Football 64 decompilation",
+          "project_url": "https://www.recompsoftware.com/p/madden-64-decomp/",
+          "status": "in-progress",
+          "progress": 8.74,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -12453,6 +12671,7 @@
         "in-progress"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
@@ -12900,9 +13119,35 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-legoland-legoland-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/legoland-decomp/",
+              "source_id": "p/legoland-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Legoland",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "Legoland decompilation",
+          "project_url": "https://www.recompsoftware.com/p/legoland-decomp/",
+          "status": "in-progress",
+          "progress": 77.45,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 3,
+      "project_count": 4,
       "types": [
         "decomp",
         "port"
@@ -12913,6 +13158,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
@@ -14878,20 +15124,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-gt-advance-3-pro-concept-racing-gt-advance-3-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/gtadv3-decomp/",
+              "source_id": "p/gtadv3-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "GBA",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "GT Advance 3: Pro Concept Racing",
+          "platform": "GBA",
+          "type": "decomp",
+          "project": "GT Advance 3 decompilation",
+          "project_url": "https://www.recompsoftware.com/p/gtadv3-decomp/",
+          "status": "in-progress",
+          "progress": 62.64,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -16223,20 +16497,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-fate-unlimited-codes-fate-unlimited-codes-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/fate-unlimited-codes-decomp/",
+              "source_id": "p/fate-unlimited-codes-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Fate/Unlimited Codes",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Fate/Unlimited Codes decompilation",
+          "project_url": "https://www.recompsoftware.com/p/fate-unlimited-codes-decomp/",
+          "status": "in-progress",
+          "progress": 2.36,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -18289,7 +18591,7 @@
           "project": "Crash Bandicoot: The Wrath of Cortex decompilation",
           "project_url": "https://www.recompsoftware.com/p/crashwoc-decomp/",
           "status": "in-progress",
-          "progress": 94.03,
+          "progress": 94.17,
           "made": "Not stated",
           "stars": 16,
           "conflicts": {},
@@ -18713,6 +19015,57 @@
       ],
       "last_activity": "2026-10-23",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "clayfighter-6313--n64",
+      "title": "ClayFighter 63⅓",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-djultra64-clayfighter64",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/clayfighter-63-n64",
+              "source_id": "clayfighter-63-djultra64",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "ClayFighter 63⅓",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "ClayFighter 64",
+          "project_url": "https://github.com/djultra64/ClayFighter64",
+          "repo": "djultra64/ClayFighter64",
+          "status": "released",
+          "last_activity": "2026-10-23",
+          "release": "v2.0",
+          "toolchain": "N64recomp, Rsprecomp",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-23",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -21107,9 +21460,35 @@
           "stars": 18,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-1080-snowboarding-1080-snowboarding-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/1080-decomp/",
+              "source_id": "p/1080-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "1080° Snowboarding",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "1080 Snowboarding decompilation",
+          "project_url": "https://www.recompsoftware.com/p/1080-decomp/",
+          "status": "in-progress",
+          "progress": 57.75,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -21118,6 +21497,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
@@ -22479,20 +22859,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-ultimate-spider-man-ultimate-spider-man-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/ultimate-spider-man-ds-decomp/",
+              "source_id": "p/ultimate-spider-man-ds-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Ultimate Spider-Man",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Ultimate Spider-Man decompilation",
+          "project_url": "https://www.recompsoftware.com/p/ultimate-spider-man-ds-decomp/",
+          "status": "in-progress",
+          "progress": 32.86,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -22995,6 +23403,53 @@
       ],
       "last_activity": "2026-10-22",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "top-gear-rally-boss-rally--multi",
+      "title": "Top Gear Rally / Boss Rally",
+      "platform": "Multi",
+      "projects": [
+        {
+          "id": "sig-top-gear-rally-boss-rally-boss-rally-top-gear-rally-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/brally-decomp/",
+              "source_id": "p/brally-decomp",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "Multi",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Top Gear Rally / Boss Rally",
+          "platform": "Multi",
+          "type": "decomp",
+          "project": "Boss Rally / Top Gear Rally decompilation",
+          "project_url": "https://www.recompsoftware.com/p/brally-decomp/",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.89Oct",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -23860,9 +24315,35 @@
           "stars": 17,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-the-legend-of-zelda-the-wind-waker-the-wind-waker-snrubrm-fork-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/tww-snrubrm/",
+              "source_id": "p/tww-snrubrm",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "GameCube",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Legend of Zelda: The Wind Waker",
+          "platform": "GameCube",
+          "type": "decomp",
+          "project": "The Wind Waker (snrubrm fork)",
+          "project_url": "https://www.recompsoftware.com/p/tww-snrubrm/",
+          "status": "in-progress",
+          "progress": 99.41,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 7,
+      "project_count": 8,
       "types": [
         "decomp",
         "port",
@@ -26623,20 +27104,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-spyro-shadow-legacy-spyro-shadow-legacy-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/spyro-shadow-legacy-decomp/",
+              "source_id": "p/spyro-shadow-legacy-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Spyro: Shadow Legacy",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Spyro: Shadow Legacy decompilation",
+          "project_url": "https://www.recompsoftware.com/p/spyro-shadow-legacy-decomp/",
+          "status": "in-progress",
+          "progress": 13.62,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -27003,7 +27512,7 @@
           "project": "Sonic Advance 3 Decompilation",
           "project_url": "https://www.recompsoftware.com/p/sa3-decomp/",
           "status": "in-progress",
-          "progress": 91.4,
+          "progress": 80.94,
           "made": "Human-led",
           "stars": 88,
           "conflicts": {},
@@ -28026,20 +28535,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-resident-evil-deadly-silence-resident-evil-deadly-silence-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/re-deadly-silence-decomp/",
+              "source_id": "p/re-deadly-silence-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Resident Evil: Deadly Silence",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Resident Evil: Deadly Silence decompilation",
+          "project_url": "https://www.recompsoftware.com/p/re-deadly-silence-decomp/",
+          "status": "in-progress",
+          "progress": 13.34,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -28317,20 +28854,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-rayman-raving-rabbids-rayman-raving-rabbids-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/rayman-raving-rabbids-ds-decomp/",
+              "source_id": "p/rayman-raving-rabbids-ds-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rayman Raving Rabbids",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Rayman Raving Rabbids decompilation",
+          "project_url": "https://www.recompsoftware.com/p/rayman-raving-rabbids-ds-decomp/",
+          "status": "in-progress",
+          "progress": 47.22,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -28465,12 +29030,37 @@
           "status": "in-progress",
           "progress": 14.21,
           "made": "Not stated",
-          "stars": 34,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-ratchet-clank-up-your-arsenal-ratchet-clank-3-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/rac3-decomp/",
+              "source_id": "p/rac3-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Ratchet & Clank: Up Your Arsenal",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Ratchet & Clank 3 Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/rac3-decomp/",
+          "status": "in-progress",
+          "progress": 8.35,
+          "made": "AI-assisted",
           "conflicts": {},
           "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
         "decomp",
         "port"
@@ -30942,20 +31532,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-nintendogs-dachshund-friends-nintendogs-dachshund-friends-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/nintendogs-dachshund-decomp/",
+              "source_id": "p/nintendogs-dachshund-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Nintendogs: Dachshund & Friends",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Nintendogs: Dachshund & Friends decompilation",
+          "project_url": "https://www.recompsoftware.com/p/nintendogs-dachshund-decomp/",
+          "status": "in-progress",
+          "progress": 40.83,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -33692,20 +34310,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-livly-garden-livly-garden-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/livly-garden-decomp/",
+              "source_id": "p/livly-garden-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Livly Garden",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Livly Garden decompilation",
+          "project_url": "https://www.recompsoftware.com/p/livly-garden-decomp/",
+          "status": "in-progress",
+          "progress": 5.75,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -35331,20 +35977,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-heroes-of-mana-heroes-of-mana-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/heroes-of-mana-decomp/",
+              "source_id": "p/heroes-of-mana-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Heroes of Mana",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Heroes of Mana decompilation",
+          "project_url": "https://www.recompsoftware.com/p/heroes-of-mana-decomp/",
+          "status": "in-progress",
+          "progress": 27.05,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -35476,20 +36150,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-harvest-moon-ds-harvest-moon-ds-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/harvest-moon-ds-decomp/",
+              "source_id": "p/harvest-moon-ds-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Harvest Moon DS",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Harvest Moon DS decompilation",
+          "project_url": "https://www.recompsoftware.com/p/harvest-moon-ds-decomp/",
+          "status": "in-progress",
+          "progress": 10.38,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -36668,9 +37370,35 @@
           ],
           "conflicts": {},
           "status": "unknown"
+        },
+        {
+          "id": "sig-future-cop-l-a-p-d-future-cop-l-a-p-d-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/future-cop-lapd-decomp/",
+              "source_id": "p/future-cop-lapd-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Future Cop: L.A.P.D.",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Future Cop: L.A.P.D. decompilation",
+          "project_url": "https://www.recompsoftware.com/p/future-cop-lapd-decomp/",
+          "status": "in-progress",
+          "progress": 8.81,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
         "decomp",
         "recomp"
@@ -36680,6 +37408,7 @@
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
@@ -37775,20 +38504,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-farm-frenzy-farm-frenzy-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/farm-frenzy-ds-decomp/",
+              "source_id": "p/farm-frenzy-ds-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Farm Frenzy",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Farm Frenzy decompilation",
+          "project_url": "https://www.recompsoftware.com/p/farm-frenzy-ds-decomp/",
+          "status": "in-progress",
+          "progress": 26.12,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -39344,20 +40101,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-dragon-ball-origins-dragon-ball-origins-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/dragon-ball-origins-decomp/",
+              "source_id": "p/dragon-ball-origins-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Dragon Ball: Origins",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Dragon Ball: Origins decompilation",
+          "project_url": "https://www.recompsoftware.com/p/dragon-ball-origins-decomp/",
+          "status": "in-progress",
+          "progress": 20.93,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -40843,20 +41628,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-cooking-mama-cooking-mama-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/cooking-mama-decomp/",
+              "source_id": "p/cooking-mama-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Cooking Mama",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Cooking Mama decompilation",
+          "project_url": "https://www.recompsoftware.com/p/cooking-mama-decomp/",
+          "status": "in-progress",
+          "progress": 15.34,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -42888,20 +43701,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-blue-dragon-awakened-shadow-blue-dragon-awakened-shadow-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/blue-dragon-awakened-shadow-decomp/",
+              "source_id": "p/blue-dragon-awakened-shadow-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Blue Dragon: Awakened Shadow",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Blue Dragon: Awakened Shadow decompilation",
+          "project_url": "https://www.recompsoftware.com/p/blue-dragon-awakened-shadow-decomp/",
+          "status": "in-progress",
+          "progress": 15.38,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -43872,19 +44713,62 @@
           ],
           "conflicts": {},
           "status": "unknown"
+        },
+        {
+          "id": "sig-battletanx-battletanx-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/battletanx-decomp/",
+              "source_id": "p/battletanx-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            },
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/battletanx-n64-decomp/",
+              "source_id": "p/battletanx-n64-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "BattleTanx",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "BattleTanx decompilation",
+          "project_url": "https://www.recompsoftware.com/p/battletanx-n64-decomp/",
+          "status": "in-progress",
+          "progress": 18.16,
+          "made": "Not stated",
+          "conflicts": {
+            "status": [
+              "complete",
+              "in-progress"
+            ]
+          },
+          "targets": []
         }
       ],
-      "project_count": 3,
+      "project_count": 4,
       "types": [
         "decomp",
         "recomp"
       ],
       "statuses": [
         "complete",
+        "in-progress",
         "unknown"
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
@@ -43944,9 +44828,35 @@
               "in-progress"
             ]
           }
+        },
+        {
+          "id": "sig-battletanx-battletanx-game-boy-color-disassembly-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/battletanx-gbc-disasm/",
+              "source_id": "p/battletanx-gbc-disasm",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "GBC",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "BattleTanx",
+          "platform": "GBC",
+          "type": "decomp",
+          "project": "BattleTanx (Game Boy Color) disassembly",
+          "project_url": "https://www.recompsoftware.com/p/battletanx-gbc-disasm/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -43955,6 +44865,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-22",
@@ -46341,10 +47252,37 @@
             "Windows"
           ],
           "conflicts": {}
+        },
+        {
+          "id": "sig-the-last-story-the-last-story-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/the-last-story-decomp/",
+              "source_id": "p/the-last-story-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Wii",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Last Story",
+          "platform": "Wii",
+          "type": "decomp",
+          "project": "The Last Story decompilation",
+          "project_url": "https://www.recompsoftware.com/p/the-last-story-decomp/",
+          "status": "in-progress",
+          "progress": 26.02,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
+        "decomp",
         "recomp"
       ],
       "statuses": [
@@ -46352,6 +47290,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-21",
@@ -46788,20 +47727,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-syphon-filter-the-omega-strain-syphon-filter-the-omega-strain-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/syphon-filter-omega-strain-decomp/",
+              "source_id": "p/syphon-filter-omega-strain-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Syphon Filter: The Omega Strain",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Syphon Filter: The Omega Strain decompilation",
+          "project_url": "https://www.recompsoftware.com/p/syphon-filter-omega-strain-decomp/",
+          "status": "in-progress",
+          "progress": 81.74,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-21",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -47705,9 +48672,35 @@
           "stars": 2,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-stretch-panic-stretch-panic-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/stretch-panic-decomp/",
+              "source_id": "p/stretch-panic-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Stretch Panic",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Stretch Panic",
+          "project_url": "https://www.recompsoftware.com/p/stretch-panic-decomp/",
+          "status": "in-progress",
+          "progress": 5.64,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -47716,6 +48709,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-21",
@@ -48879,20 +49873,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-shox-rally-reinvented-shox-rally-reinvented-ps2-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/shox-rr-decomp/",
+              "source_id": "p/shox-rr-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Shox: Rally Reinvented",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Shox: Rally Reinvented PS2 Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/shox-rr-decomp/",
+          "status": "in-progress",
+          "progress": 0.78,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-21",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -53541,9 +54563,35 @@
           "stars": 14,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-king-s-field-the-ancient-city-kfiv-decomp-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/kfiv-decomp/",
+              "source_id": "p/kfiv-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "King's Field: The Ancient City",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "kfiv-decomp",
+          "project_url": "https://www.recompsoftware.com/p/kfiv-decomp/",
+          "status": "in-progress",
+          "progress": 99.58,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -53552,6 +54600,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-21",
@@ -55322,6 +56371,57 @@
       "last_activity": "2026-10-21",
       "best_status": "released",
       "has_conflict": true
+    },
+    {
+      "id": "drakengard-1--ps2",
+      "title": "Drakengard 1",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-k1gs-drakengard1recompile",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/drakengard-1-ps2",
+              "source_id": "drakengard-1-k1gs",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-21"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Drakengard 1",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "k1gs/Drakengard1Recompile",
+          "project_url": "https://github.com/k1gs/Drakengard1Recompile",
+          "repo": "k1gs/Drakengard1Recompile",
+          "last_activity": "2026-10-21",
+          "toolchain": "Ps2recomp",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-21",
+      "best_status": "unknown",
+      "has_conflict": false
     },
     {
       "id": "dragon-s-crown-pro--ps4",
@@ -58378,9 +59478,35 @@
             ]
           },
           "targets": []
+        },
+        {
+          "id": "sig-battletanx-global-assault-battletanx-global-assault-playstation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/battletanx-global-assault-ps1-decomp/",
+              "source_id": "p/battletanx-global-assault-ps1-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "BattleTanx: Global Assault",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "BattleTanx: Global Assault (PlayStation)",
+          "project_url": "https://www.recompsoftware.com/p/battletanx-global-assault-ps1-decomp/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -58389,6 +59515,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-21",
@@ -63594,9 +64721,35 @@
             "Windows"
           ],
           "conflicts": {}
+        },
+        {
+          "id": "sig-mega-man-x6-mmx6-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/mmx6-decomp/",
+              "source_id": "p/mmx6-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mega Man X6",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "mmx6",
+          "project_url": "https://www.recompsoftware.com/p/mmx6-decomp/",
+          "status": "in-progress",
+          "progress": 59.86,
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
         "decomp",
         "recomp"
@@ -63607,6 +64760,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-20",
@@ -63892,17 +65046,45 @@
               "playable"
             ]
           }
+        },
+        {
+          "id": "sig-lemmings-paintball-lemmings-paintball-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/lemball-decomp/",
+              "source_id": "p/lemball-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Lemmings Paintball",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "Lemmings Paintball Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/lemball-decomp/",
+          "status": "in-progress",
+          "progress": 55.23,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "playable"
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-20",
@@ -63942,20 +65124,49 @@
           ],
           "conflicts": {},
           "status": "unknown"
+        },
+        {
+          "id": "sig-lego-star-wars-ii-the-original-trilogy-lego-star-wars-ii-the-original-trilogy-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/lego-star-wars-ii-ds-decomp/",
+              "source_id": "p/lego-star-wars-ii-ds-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "LEGO Star Wars II: The Original Trilogy",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "LEGO Star Wars II: The Original Trilogy decompilation",
+          "project_url": "https://www.recompsoftware.com/p/lego-star-wars-ii-ds-decomp/",
+          "status": "in-progress",
+          "progress": 43.19,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
+        "decomp",
         "recomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-20",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -66016,19 +67227,47 @@
             "macOS"
           ],
           "conflicts": {}
+        },
+        {
+          "id": "sig-dino-crisis-2-dino-crisis-2-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/dino-crisis-2-decomp/",
+              "source_id": "p/dino-crisis-2-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Dino Crisis 2",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Dino Crisis 2 Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/dino-crisis-2-decomp/",
+          "status": "in-progress",
+          "progress": 14.14,
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
         "decomp",
         "recomp"
       ],
       "statuses": [
+        "in-progress",
         "released",
         "unknown"
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-20",
@@ -75868,19 +77107,47 @@
           "toolchain": "Psxrecomp",
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-armored-core-armored-core-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/armored-core-decomp/",
+              "source_id": "p/armored-core-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Armored Core",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Armored Core Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/armored-core-decomp/",
+          "status": "in-progress",
+          "progress": 11.47,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 4,
+      "project_count": 5,
       "types": [
         "decomp",
         "recomp"
       ],
       "statuses": [
+        "in-progress",
         "released",
         "unknown"
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-19",
@@ -76608,20 +77875,49 @@
           ],
           "conflicts": {},
           "status": "unknown"
+        },
+        {
+          "id": "sig-tony-hawk-s-pro-skater-tony-hawk-s-pro-skater-n64-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/thps64/",
+              "source_id": "p/thps64",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Tony Hawk's Pro Skater",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Tony Hawk's Pro Skater (N64) decompilation",
+          "project_url": "https://www.recompsoftware.com/p/thps64/",
+          "status": "in-progress",
+          "progress": 9.82,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
+        "decomp",
         "recomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-18",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -78316,9 +79612,35 @@
           "toolchain": "Decomp-toolkit",
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-shadow-the-hedgehog-shadow-the-hedgehog-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/shadow-the-hedgehog-decomp/",
+              "source_id": "p/shadow-the-hedgehog-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "GameCube",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Shadow the Hedgehog",
+          "platform": "GameCube",
+          "type": "decomp",
+          "project": "Shadow the Hedgehog",
+          "project_url": "https://www.recompsoftware.com/p/shadow-the-hedgehog-decomp/",
+          "status": "in-progress",
+          "progress": 17.21,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -78326,6 +79648,7 @@
         "in-progress"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-18",
@@ -88436,9 +89759,35 @@
           "stars": 5,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-wild-9-wild-9-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/wild9-decomp/",
+              "source_id": "p/wild9-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Wild 9",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Wild 9 Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/wild9-decomp/",
+          "status": "in-progress",
+          "progress": 4.4,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
         "decomp",
         "recomp"
@@ -88449,6 +89798,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-16",
@@ -90269,20 +91619,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-moto-racer-world-tour-moto-racer-world-tour-reverse-engineering-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/moto-racer-world-tour-decomp/",
+              "source_id": "p/moto-racer-world-tour-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Moto Racer World Tour",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Moto Racer World Tour reverse engineering",
+          "project_url": "https://www.recompsoftware.com/p/moto-racer-world-tour-decomp/",
+          "status": "in-progress",
+          "progress": 34.88,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-16",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -91277,20 +92655,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-bokura-no-kazoku-bokura-no-kazoku-decomp-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/bokura-no-kazoku-decomp/",
+              "source_id": "p/bokura-no-kazoku-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bokura no Kazoku",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Bokura no Kazoku decomp",
+          "project_url": "https://www.recompsoftware.com/p/bokura-no-kazoku-decomp/",
+          "status": "in-progress",
+          "progress": 50.08,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-16",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -94954,6 +96360,34 @@
           }
         },
         {
+          "id": "sig-battletanx-global-assault-battletanx-global-assault-native-pc-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/battletanx-global-assault-pc-port/",
+              "source_id": "p/battletanx-global-assault-pc-port",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-13"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "BattleTanx: Global Assault",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "BattleTanx: Global Assault native PC port",
+          "project_url": "https://www.recompsoftware.com/p/battletanx-global-assault-pc-port/",
+          "status": "released",
+          "last_activity": "2026-10-13",
+          "release": "v0.2.5Oct",
+          "progress": 100.0,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
           "id": "repo-thegh0stship-vitatanxga",
           "evidence": [
             {
@@ -94980,9 +96414,35 @@
           ],
           "conflicts": {},
           "status": "unknown"
+        },
+        {
+          "id": "sig-battletanx-global-assault-battletanx-global-assault-matching-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/battletanx-global-assault-decomp/",
+              "source_id": "p/battletanx-global-assault-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "BattleTanx: Global Assault",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "BattleTanx: Global Assault matching decompilation",
+          "project_url": "https://www.recompsoftware.com/p/battletanx-global-assault-decomp/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 3,
+      "project_count": 5,
       "types": [
         "decomp",
         "port",
@@ -94991,10 +96451,13 @@
       "statuses": [
         "complete",
         "playable",
+        "released",
         "unknown"
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp-software-recomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-15",
@@ -122692,16 +124155,45 @@
           "stars": 60,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-hyrule-warriors-definitive-edition-hyrule-warriors-definitive-edition-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/hwde-decomp/",
+              "source_id": "p/hwde-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Nintendo Switch",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Hyrule Warriors: Definitive Edition",
+          "platform": "Nintendo Switch",
+          "type": "decomp",
+          "project": "Hyrule Warriors: Definitive Edition decompilation",
+          "project_url": "https://www.recompsoftware.com/p/hwde-decomp/",
+          "status": "in-progress",
+          "progress": 17.69,
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
+        "decomp",
         "recomp"
       ],
       "statuses": [
+        "in-progress",
         "released"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp-software-recomp"
       ],
       "last_activity": "2026-10-03",
@@ -123830,20 +125322,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-nascar-heat-2002-nascar-heat-2002-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/nascar-heat-2002-gba-decomp/",
+              "source_id": "p/nascar-heat-2002-gba-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "GBA",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "NASCAR Heat 2002",
+          "platform": "GBA",
+          "type": "decomp",
+          "project": "NASCAR Heat 2002",
+          "project_url": "https://www.recompsoftware.com/p/nascar-heat-2002-gba-decomp/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "complete",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-02",
-      "best_status": "unknown",
+      "best_status": "complete",
       "has_conflict": false
     },
     {
@@ -139973,20 +141493,48 @@
           "conflicts": {},
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "sig-indiana-jones-and-the-infernal-machine-indiana-jones-and-the-infernal-machine-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/indiana-jones-infernal-machine-n64-decomp/",
+              "source_id": "p/indiana-jones-infernal-machine-n64-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Indiana Jones and the Infernal Machine",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Indiana Jones and the Infernal Machine decompilation",
+          "project_url": "https://www.recompsoftware.com/p/indiana-jones-infernal-machine-n64-decomp/",
+          "status": "in-progress",
+          "progress": 0.46,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "in-progress",
         "unknown"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-09-18",
-      "best_status": "unknown",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -143313,17 +144861,46 @@
             "Windows"
           ],
           "conflicts": {}
+        },
+        {
+          "id": "sig-mega-man-x5-mmx5-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/mmx5-decomp/",
+              "source_id": "p/mmx5-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mega Man X5",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "mmx5",
+          "project_url": "https://www.recompsoftware.com/p/mmx5-decomp/",
+          "status": "in-progress",
+          "progress": 4.08,
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
+        "decomp",
         "recomp"
       ],
       "statuses": [
+        "in-progress",
         "released"
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-09-12",
@@ -159977,6 +161554,53 @@
       ],
       "last_activity": "2026-07-26",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "kya-dark-lineage--ps2",
+      "title": "Kya: Dark Lineage",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-kya-dark-lineage-kya-dark-lineage-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/kya-decomp/",
+              "source_id": "p/kya-decomp",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": "2026-07-25"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Kya: Dark Lineage",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Kya: Dark Lineage Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/kya-decomp/",
+          "status": "released",
+          "last_activity": "2026-07-25",
+          "release": "playableJul",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": "2026-07-25",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -203014,6 +204638,52 @@
       "has_conflict": false
     },
     {
+      "id": "2-kanken-training-2--nintendo-3ds",
+      "title": "漢検トレーニング2 (Kanken Training 2)",
+      "platform": "Nintendo 3DS",
+      "projects": [
+        {
+          "id": "sig-2-kanken-training-2-kanken-training-2-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/kanken-training-2-decomp/",
+              "source_id": "p/kanken-training-2-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Nintendo 3DS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "漢検トレーニング2 (Kanken Training 2)",
+          "platform": "Nintendo 3DS",
+          "type": "decomp",
+          "project": "Kanken Training 2 decompilation",
+          "project_url": "https://www.recompsoftware.com/p/kanken-training-2-decomp/",
+          "status": "in-progress",
+          "progress": 25.73,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "zx-spectrum-games-highway-encounter-and-others--zx-spectrum",
       "title": "ZX Spectrum games (Highway Encounter and others)",
       "platform": "ZX Spectrum",
@@ -203152,6 +204822,52 @@
       "has_conflict": false
     },
     {
+      "id": "yu-gi-oh-gx-tag-force--playstation-portable",
+      "title": "Yu-Gi-Oh! GX Tag Force",
+      "platform": "PlayStation Portable",
+      "projects": [
+        {
+          "id": "sig-yu-gi-oh-gx-tag-force-yu-gi-oh-gx-tag-force-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/tagforce-decomp/",
+              "source_id": "p/tagforce-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PlayStation Portable",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Yu-Gi-Oh! GX Tag Force",
+          "platform": "PlayStation Portable",
+          "type": "decomp",
+          "project": "Yu-Gi-Oh! GX Tag Force decompilation",
+          "project_url": "https://www.recompsoftware.com/p/tagforce-decomp/",
+          "status": "in-progress",
+          "progress": 32.0,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "xenoblade-chronicles-jp--wii",
       "title": "Xenoblade Chronicles (JP)",
       "platform": "Wii",
@@ -203227,6 +204943,97 @@
           "progress": 66.71,
           "made": "Human-led",
           "stars": 96,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "white-knight-chronicles-ii--ps3",
+      "title": "White Knight Chronicles II",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "sig-white-knight-chronicles-ii-white-knight-chronicles-ii-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/white-knight-chronicles-2-recomp/",
+              "source_id": "p/white-knight-chronicles-2-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "White Knight Chronicles II",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "White Knight Chronicles II Recomp",
+          "project_url": "https://www.recompsoftware.com/p/white-knight-chronicles-2-recomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "way-of-the-samurai--ps2",
+      "title": "Way of the Samurai",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-way-of-the-samurai-way-of-the-samurai-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/way-of-the-samurai-decomp/",
+              "source_id": "p/way-of-the-samurai-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Way of the Samurai",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Way of the Samurai decompilation",
+          "project_url": "https://www.recompsoftware.com/p/way-of-the-samurai-decomp/",
+          "status": "in-progress",
+          "progress": 1.33,
+          "made": "AI-assisted",
           "conflicts": {},
           "targets": []
         }
@@ -203379,6 +205186,51 @@
       ],
       "sources": [
         "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "virtua-tennis-3--pc-windows",
+      "title": "Virtua Tennis 3",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "sig-virtua-tennis-3-virtua-tennis-3-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/vt3-port/",
+              "source_id": "p/vt3-port",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Virtua Tennis 3",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "Virtua Tennis 3 Port",
+          "project_url": "https://www.recompsoftware.com/p/vt3-port/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": null,
       "best_status": "in-progress",
@@ -204385,7 +206237,7 @@
           "project": "Tomba! PSX Decompilation",
           "project_url": "https://www.recompsoftware.com/p/psx-tomba-decomp/",
           "status": "in-progress",
-          "progress": 64.97,
+          "progress": 65.36,
           "made": "Not stated",
           "stars": 28,
           "conflicts": {},
@@ -204458,6 +206310,32 @@
       "platform": "Mega Drive / Genesis",
       "projects": [
         {
+          "id": "sig-toejam-earl-toejam-earl-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/toejam-earl-decomp/",
+              "source_id": "p/toejam-earl-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "Mega Drive / Genesis",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "ToeJam & Earl",
+          "platform": "Mega Drive / Genesis",
+          "type": "decomp",
+          "project": "ToeJam & Earl decompilation",
+          "project_url": "https://www.recompsoftware.com/p/toejam-earl-decomp/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
           "id": "sig-toejam-earl-toejam-earl-disassembly-decomp",
           "evidence": [
             {
@@ -204484,18 +206362,19 @@
           "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
       "statuses": [
+        "complete",
         "paused"
       ],
       "sources": [
         "recomp-software-decomp"
       ],
       "last_activity": null,
-      "best_status": "paused",
+      "best_status": "complete",
       "has_conflict": false
     },
     {
@@ -204588,6 +206467,51 @@
       ],
       "last_activity": null,
       "best_status": "paused",
+      "has_conflict": false
+    },
+    {
+      "id": "the-urbz-sims-in-the-city--gamecube",
+      "title": "The Urbz: Sims in the City",
+      "platform": "GameCube",
+      "projects": [
+        {
+          "id": "sig-the-urbz-sims-in-the-city-the-urbz-gamecube-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/urbz-gc-decomp/",
+              "source_id": "p/urbz-gc-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "GameCube",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Urbz: Sims in the City",
+          "platform": "GameCube",
+          "type": "decomp",
+          "project": "The Urbz GameCube decompilation",
+          "project_url": "https://www.recompsoftware.com/p/urbz-gc-decomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -204824,6 +206748,52 @@
       "has_conflict": false
     },
     {
+      "id": "the-simpsons-game--nds",
+      "title": "The Simpsons Game",
+      "platform": "NDS",
+      "projects": [
+        {
+          "id": "sig-the-simpsons-game-the-simpsons-game-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/simpsons-game-ds-decomp/",
+              "source_id": "p/simpsons-game-ds-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Simpsons Game",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "The Simpsons Game decompilation",
+          "project_url": "https://www.recompsoftware.com/p/simpsons-game-ds-decomp/",
+          "status": "in-progress",
+          "progress": 9.19,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "the-queen-of-duellist--fm-towns",
       "title": "The Queen of Duellist",
       "platform": "FM Towns",
@@ -204866,6 +206836,52 @@
       ],
       "sources": [
         "recomp.fyi"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "the-powerpuff-girls-z--nds",
+      "title": "The Powerpuff Girls Z",
+      "platform": "NDS",
+      "projects": [
+        {
+          "id": "sig-the-powerpuff-girls-z-the-powerpuff-girls-z-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/powerpuff-girls-z-decomp/",
+              "source_id": "p/powerpuff-girls-z-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Powerpuff Girls Z",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "The Powerpuff Girls Z decompilation",
+          "project_url": "https://www.recompsoftware.com/p/powerpuff-girls-z-decomp/",
+          "status": "in-progress",
+          "progress": 26.0,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
       ],
       "last_activity": null,
       "best_status": "in-progress",
@@ -205272,9 +207288,34 @@
           "stars": 2300,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-the-legend-of-zelda-breath-of-the-wild-breath-of-the-wild-snrubrm-fork-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/botw-snrubrm/",
+              "source_id": "p/botw-snrubrm",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Nintendo Switch",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Legend of Zelda: Breath of the Wild",
+          "platform": "Nintendo Switch",
+          "type": "decomp",
+          "project": "Breath of the Wild (snrubrm fork)",
+          "project_url": "https://www.recompsoftware.com/p/botw-snrubrm/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -206994,6 +209035,52 @@
       "has_conflict": false
     },
     {
+      "id": "spider-man-web-of-shadows--nds",
+      "title": "Spider-Man: Web of Shadows",
+      "platform": "NDS",
+      "projects": [
+        {
+          "id": "sig-spider-man-web-of-shadows-spider-man-web-of-shadows-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/spider-man-web-of-shadows-ds-decomp/",
+              "source_id": "p/spider-man-web-of-shadows-ds-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Spider-Man: Web of Shadows",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Spider-Man: Web of Shadows decompilation",
+          "project_url": "https://www.recompsoftware.com/p/spider-man-web-of-shadows-ds-decomp/",
+          "status": "in-progress",
+          "progress": 9.57,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "spider-man-3--xbox-360",
       "title": "Spider-Man 3",
       "platform": "Xbox 360",
@@ -207573,7 +209660,7 @@
           "project": "Sonic Advance decompilation",
           "project_url": "https://www.recompsoftware.com/p/sa2-decomp/",
           "status": "in-progress",
-          "progress": 100.0,
+          "progress": 94.45,
           "made": "Human-led",
           "stars": 685,
           "conflicts": {},
@@ -208567,6 +210654,51 @@
       "has_conflict": false
     },
     {
+      "id": "ridge-racer--playstation-portable",
+      "title": "Ridge Racer",
+      "platform": "PlayStation Portable",
+      "projects": [
+        {
+          "id": "sig-ridge-racer-ridge-racer-psp-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/ridge-racer-psp-decomp/",
+              "source_id": "p/ridge-racer-psp-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PlayStation Portable",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Ridge Racer",
+          "platform": "PlayStation Portable",
+          "type": "decomp",
+          "project": "Ridge Racer (PSP): decompilation",
+          "project_url": "https://www.recompsoftware.com/p/ridge-racer-psp-decomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "rhythm-heaven-nintendo-ds--nds",
       "title": "Rhythm Heaven (Nintendo DS)",
       "platform": "NDS",
@@ -208892,6 +211024,52 @@
       "has_conflict": false
     },
     {
+      "id": "redakai-vs-lokar--web-flash",
+      "title": "Redakai vs Lokar",
+      "platform": "Web (Flash)",
+      "projects": [
+        {
+          "id": "sig-redakai-vs-lokar-redakai-vs-lokar-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/redakai-vs-lokar-decomp/",
+              "source_id": "p/redakai-vs-lokar-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "Web (Flash)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Redakai vs Lokar",
+          "platform": "Web (Flash)",
+          "type": "decomp",
+          "project": "Redakai vs Lokar",
+          "project_url": "https://www.recompsoftware.com/p/redakai-vs-lokar-decomp/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "complete"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "complete",
+      "has_conflict": false
+    },
+    {
       "id": "rayman-arena--pc-windows",
       "title": "Rayman Arena",
       "platform": "PC (Windows)",
@@ -208935,6 +211113,52 @@
       ],
       "last_activity": null,
       "best_status": "paused",
+      "has_conflict": false
+    },
+    {
+      "id": "ratchet-clank-size-matters--ps2",
+      "title": "Ratchet & Clank: Size Matters",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-ratchet-clank-size-matters-ratchet-clank-size-matters-ps2-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/rac5-sm-decomp/",
+              "source_id": "p/rac5-sm-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Ratchet & Clank: Size Matters",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Ratchet & Clank: Size Matters (PS2) decompilation",
+          "project_url": "https://www.recompsoftware.com/p/rac5-sm-decomp/",
+          "status": "in-progress",
+          "progress": 1.37,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -209403,6 +211627,52 @@
       "has_conflict": false
     },
     {
+      "id": "pro-evolution-soccer-6--ps2",
+      "title": "Pro Evolution Soccer 6",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-pro-evolution-soccer-6-pes6-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/pes6-decomp/",
+              "source_id": "p/pes6-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pro Evolution Soccer 6",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "PES6 decompilation",
+          "project_url": "https://www.recompsoftware.com/p/pes6-decomp/",
+          "status": "in-progress",
+          "progress": 10.68,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "pokemon-rumble--wii",
       "title": "Pokémon Rumble",
       "platform": "Wii",
@@ -209593,6 +211863,32 @@
       "platform": "NDS",
       "projects": [
         {
+          "id": "sig-pokemon-heartgold-and-soulsilver-pokeheartgold-slop-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/pokeheartgold-slop/",
+              "source_id": "p/pokeheartgold-slop",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pokémon HeartGold and SoulSilver",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "pokeheartgold-slop",
+          "project_url": "https://www.recompsoftware.com/p/pokeheartgold-slop/",
+          "status": "in-progress",
+          "progress": 85.74,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
           "id": "sig-pokemon-heartgold-and-soulsilver-pokeheartgold-decomp",
           "evidence": [
             {
@@ -209619,7 +211915,7 @@
           "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -209818,6 +212114,52 @@
       "has_conflict": false
     },
     {
+      "id": "pokemon-black-version--nds",
+      "title": "Pokémon Black Version",
+      "platform": "NDS",
+      "projects": [
+        {
+          "id": "sig-pokemon-black-version-aletheia-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/aletheia-pokemon-black/",
+              "source_id": "p/aletheia-pokemon-black",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pokémon Black Version",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Aletheia",
+          "project_url": "https://www.recompsoftware.com/p/aletheia-pokemon-black/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "complete"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "complete",
+      "has_conflict": false
+    },
+    {
       "id": "pokemon-black-2-and-white-2--nds",
       "title": "Pokémon Black 2 and White 2",
       "platform": "NDS",
@@ -209846,6 +212188,52 @@
           "progress": 97.75,
           "made": "AI-assisted",
           "stars": 49,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "pokemon-alpha-sapphire--nintendo-3ds",
+      "title": "Pokémon Alpha Sapphire",
+      "platform": "Nintendo 3DS",
+      "projects": [
+        {
+          "id": "sig-pokemon-alpha-sapphire-pokemon-alpha-sapphire-matching-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/alpha-sapphire-decomp/",
+              "source_id": "p/alpha-sapphire-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Nintendo 3DS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pokémon Alpha Sapphire",
+          "platform": "Nintendo 3DS",
+          "type": "decomp",
+          "project": "Pokémon Alpha Sapphire matching decompilation",
+          "project_url": "https://www.recompsoftware.com/p/alpha-sapphire-decomp/",
+          "status": "in-progress",
+          "progress": 11.58,
+          "made": "Not stated",
           "conflicts": {},
           "targets": []
         }
@@ -211205,6 +213593,52 @@
       "has_conflict": false
     },
     {
+      "id": "nancy-drew-curse-of-blackmoor-manor--pc-windows",
+      "title": "Nancy Drew: Curse of Blackmoor Manor",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "sig-nancy-drew-curse-of-blackmoor-manor-blackmoor-reconstruction-project-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/nd-blackmoor-decomp/",
+              "source_id": "p/nd-blackmoor-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Nancy Drew: Curse of Blackmoor Manor",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "Blackmoor reconstruction project",
+          "project_url": "https://www.recompsoftware.com/p/nd-blackmoor-decomp/",
+          "status": "in-progress",
+          "progress": 2.77,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "nacht-der-untoten--pc-windows",
       "title": "Nacht der Untoten",
       "platform": "PC (Windows)",
@@ -211248,6 +213682,52 @@
       ],
       "last_activity": null,
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "mysims--nds",
+      "title": "MySims",
+      "platform": "NDS",
+      "projects": [
+        {
+          "id": "sig-mysims-mysims-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/mysims-ds-decomp/",
+              "source_id": "p/mysims-ds-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "MySims",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "MySims decompilation",
+          "project_url": "https://www.recompsoftware.com/p/mysims-ds-decomp/",
+          "status": "in-progress",
+          "progress": 11.97,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -211342,6 +213822,51 @@
       ],
       "last_activity": null,
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "monster-hunter-2-dos--ps2",
+      "title": "Monster Hunter 2 (Dos)",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-monster-hunter-2-dos-monster-hunter-2-dos-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/mh2-decomp/",
+              "source_id": "p/mh2-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Monster Hunter 2 (Dos)",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Monster Hunter 2 (Dos) decompilation",
+          "project_url": "https://www.recompsoftware.com/p/mh2-decomp/",
+          "status": "complete",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "complete"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "complete",
       "has_conflict": false
     },
     {
@@ -211897,6 +214422,52 @@
       ],
       "last_activity": null,
       "best_status": "paused",
+      "has_conflict": false
+    },
+    {
+      "id": "mega-man-9--wii",
+      "title": "Mega Man 9",
+      "platform": "Wii",
+      "projects": [
+        {
+          "id": "sig-mega-man-9-mega-man-9-matching-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/mm9decomp/",
+              "source_id": "p/mm9decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Wii",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mega Man 9",
+          "platform": "Wii",
+          "type": "decomp",
+          "project": "Mega Man 9 matching decompilation",
+          "project_url": "https://www.recompsoftware.com/p/mm9decomp/",
+          "status": "in-progress",
+          "progress": 19.28,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -212620,6 +215191,52 @@
           "status": "in-progress",
           "made": "Not stated",
           "stars": 12,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "legaia-2-duel-saga--ps2",
+      "title": "Legaia 2: Duel Saga",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-legaia-2-duel-saga-legaia-2-duel-saga-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/legaia2-decomp/",
+              "source_id": "p/legaia2-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Legaia 2: Duel Saga",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Legaia 2: Duel Saga decompilation",
+          "project_url": "https://www.recompsoftware.com/p/legaia2-decomp/",
+          "status": "in-progress",
+          "progress": 4.44,
+          "made": "AI-assisted",
           "conflicts": {},
           "targets": []
         }
@@ -213425,6 +216042,52 @@
       "has_conflict": false
     },
     {
+      "id": "halo-mega-bloks-project-haggar-cancelled--xbox-360",
+      "title": "Halo Mega Bloks (Project Haggar, cancelled)",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-halo-mega-bloks-project-haggar-cancelled-halo-mega-bloks-project-haggar-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/halo-mega-bloks-decompiled/",
+              "source_id": "p/halo-mega-bloks-decompiled",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Xbox 360",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Halo Mega Bloks (Project Haggar, cancelled)",
+          "platform": "Xbox 360",
+          "type": "decomp",
+          "project": "Halo Mega Bloks (Project Haggar) decompilation",
+          "project_url": "https://www.recompsoftware.com/p/halo-mega-bloks-decompiled/",
+          "status": "in-progress",
+          "progress": 89.83,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "halo-3-project-reclaimer--xbox-360",
       "title": "Halo 3 (Project Reclaimer)",
       "platform": "Xbox 360",
@@ -214209,6 +216872,98 @@
       "has_conflict": false
     },
     {
+      "id": "gangstar-west-coast-hustle--android",
+      "title": "Gangstar: West Coast Hustle",
+      "platform": "Android",
+      "projects": [
+        {
+          "id": "sig-gangstar-west-coast-hustle-gangstar-west-coast-hustle-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/gangstar-wch-decomp/",
+              "source_id": "p/gangstar-wch-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Android",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Gangstar: West Coast Hustle",
+          "platform": "Android",
+          "type": "decomp",
+          "project": "Gangstar: West Coast Hustle decompilation",
+          "project_url": "https://www.recompsoftware.com/p/gangstar-wch-decomp/",
+          "status": "in-progress",
+          "progress": 4.85,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "fushigi-no-dungeon-furai-no-shiren-2--n64",
+      "title": "Fushigi no Dungeon: Fūrai no Shiren 2",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "sig-fushigi-no-dungeon-furai-no-shiren-2-shiren-the-wanderer-2-n64-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/shiren2-decomp/",
+              "source_id": "p/shiren2-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Fushigi no Dungeon: Fūrai no Shiren 2",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Shiren the Wanderer 2 (N64) decompilation",
+          "project_url": "https://www.recompsoftware.com/p/shiren2-decomp/",
+          "status": "in-progress",
+          "progress": 100.0,
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "fushigi-no-dungeon-2-fuurai-no-shiren--snes",
       "title": "Fushigi no Dungeon 2: Fuurai no Shiren",
       "platform": "SNES",
@@ -214529,6 +217284,144 @@
       ],
       "last_activity": null,
       "best_status": "paused",
+      "has_conflict": false
+    },
+    {
+      "id": "fairy-tail-gekitou-madoushi-kessen--nds",
+      "title": "Fairy Tail: Gekitou! Madoushi Kessen",
+      "platform": "NDS",
+      "projects": [
+        {
+          "id": "sig-fairy-tail-gekitou-madoushi-kessen-fairy-tail-gekitou-madoushi-kessen-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/fairy-tail-madoushi-decomp/",
+              "source_id": "p/fairy-tail-madoushi-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Fairy Tail: Gekitou! Madoushi Kessen",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Fairy Tail: Gekitou! Madoushi Kessen decompilation",
+          "project_url": "https://www.recompsoftware.com/p/fairy-tail-madoushi-decomp/",
+          "status": "in-progress",
+          "progress": 2.53,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "fairy-tail-gekitotsu-kardia-daiseidou--nds",
+      "title": "Fairy Tail: Gekitotsu! Kardia Daiseidou",
+      "platform": "NDS",
+      "projects": [
+        {
+          "id": "sig-fairy-tail-gekitotsu-kardia-daiseidou-fairy-tail-gekitotsu-kardia-daiseidou-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/fairy-tail-kardia-decomp/",
+              "source_id": "p/fairy-tail-kardia-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Fairy Tail: Gekitotsu! Kardia Daiseidou",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Fairy Tail: Gekitotsu! Kardia Daiseidou decompilation",
+          "project_url": "https://www.recompsoftware.com/p/fairy-tail-kardia-decomp/",
+          "status": "in-progress",
+          "progress": 2.01,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "eyeshield-21-max-devil-power--nds",
+      "title": "Eyeshield 21: Max Devil Power!",
+      "platform": "NDS",
+      "projects": [
+        {
+          "id": "sig-eyeshield-21-max-devil-power-eyeshield-21-max-devil-power-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/eyeshield-21-decomp/",
+              "source_id": "p/eyeshield-21-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Eyeshield 21: Max Devil Power!",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Eyeshield 21: Max Devil Power! decompilation",
+          "project_url": "https://www.recompsoftware.com/p/eyeshield-21-decomp/",
+          "status": "in-progress",
+          "progress": 2.9,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -215643,6 +218536,52 @@
       "has_conflict": false
     },
     {
+      "id": "crash-bandicoot-xs-the-huge-adventure--gba",
+      "title": "Crash Bandicoot XS (The Huge Adventure)",
+      "platform": "GBA",
+      "projects": [
+        {
+          "id": "sig-crash-bandicoot-xs-the-huge-adventure-crash-bandicoot-xs-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/crash-bandicoot-xs-decomp/",
+              "source_id": "p/crash-bandicoot-xs-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "GBA",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Crash Bandicoot XS (The Huge Adventure)",
+          "platform": "GBA",
+          "type": "decomp",
+          "project": "Crash Bandicoot XS",
+          "project_url": "https://www.recompsoftware.com/p/crash-bandicoot-xs-decomp/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "complete"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "complete",
+      "has_conflict": false
+    },
+    {
       "id": "counter-strike-source-surf-surfd--pc-windows",
       "title": "Counter-Strike: Source Surf (Surfd)",
       "platform": "PC (Windows)",
@@ -215868,6 +218807,52 @@
       ],
       "sources": [
         "recomp-software-recomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "code-lyoko--nds",
+      "title": "Code Lyoko",
+      "platform": "NDS",
+      "projects": [
+        {
+          "id": "sig-code-lyoko-code-lyoko-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/code-lyoko-ds-decomp/",
+              "source_id": "p/code-lyoko-ds-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "NDS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Code Lyoko",
+          "platform": "NDS",
+          "type": "decomp",
+          "project": "Code Lyoko decompilation",
+          "project_url": "https://www.recompsoftware.com/p/code-lyoko-ds-decomp/",
+          "status": "in-progress",
+          "progress": 11.01,
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
       ],
       "last_activity": null,
       "best_status": "in-progress",
