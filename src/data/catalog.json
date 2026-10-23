@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-23T17:34:20.430501+00:00",
+  "generated_at": "2026-10-23T23:34:36.446904+00:00",
   "summary": {
-    "games": 3353,
-    "projects": 4703,
-    "source_records": 5826,
+    "games": 3356,
+    "projects": 4708,
+    "source_records": 5831,
     "platforms": 99,
     "sources": 4,
     "conflicted_projects": 250
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2593
+      "records": 2598
     },
     {
       "id": "recomp-software-recomp",
@@ -43,7 +43,7 @@
       ],
       [
         "Xbox 360",
-        475
+        476
       ],
       [
         "N64",
@@ -51,7 +51,7 @@
       ],
       [
         "PS2",
-        256
+        258
       ],
       [
         "GameCube",
@@ -83,7 +83,7 @@
       ],
       [
         "Xbox",
-        104
+        105
       ],
       [
         "DOS",
@@ -115,7 +115,7 @@
       ],
       [
         "Genesis",
-        42
+        43
       ],
       [
         "ZX Spectrum",
@@ -437,7 +437,7 @@
       ],
       [
         "recomp",
-        1835
+        1840
       ],
       [
         "port",
@@ -451,15 +451,15 @@
     "statuses": [
       [
         "in-progress",
-        1507
+        1508
       ],
       [
         "unknown",
-        1246
+        1248
       ],
       [
         "released",
-        1189
+        1190
       ],
       [
         "paused",
@@ -471,7 +471,7 @@
       ],
       [
         "playable",
-        89
+        90
       ],
       [
         "exploring",
@@ -7383,6 +7383,56 @@
       "has_conflict": true
     },
     {
+      "id": "shinobi-iii-return-of-the-ninja-master--genesis",
+      "title": "Shinobi III: Return of the Ninja Master",
+      "platform": "Genesis",
+      "projects": [
+        {
+          "id": "repo-roccocovs-shinobi3recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/shinobi-iii-return-of-the-ninja-master-genesis",
+              "source_id": "shinobi-iii-return-of-the-ninja-master-roccocovs",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Genesis",
+              "last_activity": "2026-10-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Shinobi III: Return of the Ninja Master",
+          "platform": "Genesis",
+          "type": "recomp",
+          "project": "Shinobi3Recomp",
+          "project_url": "https://github.com/roccocovs/Shinobi3Recomp",
+          "repo": "roccocovs/Shinobi3Recomp",
+          "status": "released",
+          "last_activity": "2026-10-23",
+          "release": "v0.1.0",
+          "toolchain": "Segagenesisrecomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "shin-megami-tensei-digital-devil-saga-shin-megami-tensei-digital-devil-saga-2--ps2",
       "title": "Shin Megami Tensei: Digital Devil Saga / Shin Megami Tensei: Digital Devil Saga 2",
       "platform": "PS2",
@@ -9358,6 +9408,55 @@
       ],
       "last_activity": "2026-10-23",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "project-gotham-racing--xbox",
+      "title": "Project Gotham Racing",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-hk21x-pgr1-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/project-gotham-racing-xbox",
+              "source_id": "project-gotham-racing-hk21x",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Project Gotham Racing",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "hk21x/pgr1-recomp",
+          "project_url": "https://github.com/hk21x/pgr1-recomp",
+          "repo": "hk21x/pgr1-recomp",
+          "last_activity": "2026-10-23",
+          "release": "v1.0",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-23",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -15188,7 +15287,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2",
+              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2-2004",
               "source_id": "gran-turismo-4-gustavocanepa",
               "claimed": false,
               "status": "unknown",
@@ -15214,11 +15313,40 @@
           "targets": []
         },
         {
+          "id": "repo-moesuito-gt4-staticrecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2-2",
+              "source_id": "gran-turismo-4-moesuito",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Gran Turismo 4",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "moesuito/gt4-staticrecomp",
+          "project_url": "https://github.com/moesuito/gt4-staticrecomp",
+          "repo": "moesuito/gt4-staticrecomp",
+          "last_activity": "2026-10-23",
+          "release": "v1.2.3",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
           "id": "repo-nateo91-gt4-recompiled",
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2",
+              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2-2004",
               "source_id": "gran-turismo-4-nateo91",
               "claimed": false,
               "status": "unknown",
@@ -15254,7 +15382,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2",
+              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2-2004",
               "source_id": "gran-turismo-4-mrgoodguy2144",
               "claimed": false,
               "status": "unknown",
@@ -15285,7 +15413,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2",
+              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2-2004",
               "source_id": "gran-turismo-4-labronfox",
               "claimed": false,
               "status": "unknown",
@@ -15311,7 +15439,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2",
+              "source_url": "https://recomp.fyi/game/gran-turismo-4-ps2-2004",
               "source_id": "gran-turismo-4-kaezzey",
               "claimed": false,
               "status": "unknown",
@@ -15360,7 +15488,7 @@
           "targets": []
         }
       ],
-      "project_count": 6,
+      "project_count": 7,
       "types": [
         "decomp",
         "port",
@@ -15725,6 +15853,37 @@
       "platform": "PS2",
       "projects": [
         {
+          "id": "repo-kris-c-anderson-godhand-rearmed",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/god-hand-ps2-2",
+              "source_id": "god-hand-kris-c-anderson",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "God Hand",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "God Hand: Rearmed",
+          "project_url": "https://github.com/kris-c-anderson/godhand-rearmed",
+          "repo": "kris-c-anderson/godhand-rearmed",
+          "status": "playable",
+          "last_activity": "2026-10-23",
+          "toolchain": "Ps2recomp",
+          "targets": [
+            "Windows",
+            "Windows first",
+            "Linux and Android coming later."
+          ],
+          "conflicts": {}
+        },
+        {
           "id": "repo-lucaspicoli-god-hand-decomp",
           "evidence": [
             {
@@ -15739,7 +15898,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/god-hand-ps2",
+              "source_url": "https://recomp.fyi/game/god-hand-ps2-2006",
               "source_id": "god-hand-lucaspicoli",
               "claimed": false,
               "status": "unknown",
@@ -15770,7 +15929,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/god-hand-ps2",
+              "source_url": "https://recomp.fyi/game/god-hand-ps2-2006",
               "source_id": "god-hand-lasvola",
               "claimed": false,
               "status": "unknown",
@@ -15821,13 +15980,14 @@
           "targets": []
         }
       ],
-      "project_count": 3,
+      "project_count": 4,
       "types": [
         "decomp",
         "recomp"
       ],
       "statuses": [
         "in-progress",
+        "playable",
         "unknown"
       ],
       "sources": [
@@ -15836,7 +15996,7 @@
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
-      "best_status": "in-progress",
+      "best_status": "playable",
       "has_conflict": false
     },
     {
@@ -16535,6 +16695,56 @@
       ],
       "sources": [
         "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-23",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "f-e-a-r--xbox-360",
+      "title": "F.E.A.R.",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-juansolo457-fear360-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/f-e-a-r-xbox-360",
+              "source_id": "f-e-a-r-juansolo457",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "F.E.A.R.",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "F.E.A.R. 360 Recompiled",
+          "project_url": "https://github.com/Juansolo457/fear360-recomp",
+          "repo": "Juansolo457/fear360-recomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-23",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
