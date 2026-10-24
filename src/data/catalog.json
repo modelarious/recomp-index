@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-23T23:34:36.446904+00:00",
+  "generated_at": "2026-10-24T05:34:48.184703+00:00",
   "summary": {
-    "games": 3356,
-    "projects": 4708,
-    "source_records": 5831,
+    "games": 3358,
+    "projects": 4710,
+    "source_records": 5833,
     "platforms": 99,
     "sources": 4,
     "conflicted_projects": 250
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2598
+      "records": 2600
     },
     {
       "id": "recomp-software-recomp",
@@ -43,7 +43,7 @@
       ],
       [
         "Xbox 360",
-        476
+        478
       ],
       [
         "N64",
@@ -437,7 +437,7 @@
       ],
       [
         "recomp",
-        1840
+        1842
       ],
       [
         "port",
@@ -451,7 +451,7 @@
     "statuses": [
       [
         "in-progress",
-        1508
+        1509
       ],
       [
         "unknown",
@@ -471,7 +471,7 @@
       ],
       [
         "playable",
-        90
+        91
       ],
       [
         "exploring",
@@ -480,6 +480,105 @@
     ]
   },
   "games": [
+    {
+      "id": "tom-clancy-s-ghost-recon-advanced-warfighter--xbox-360",
+      "title": "Tom Clancy's Ghost Recon Advanced Warfighter",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-juansolo457-graw360-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/tom-clancys-ghost-recon-advanced-warfighter-xbox-360",
+              "source_id": "tom-clancy-s-ghost-recon-advanced-warfig-juansolo457",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-24"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Tom Clancy's Ghost Recon Advanced Warfighter",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "GRAW 360 Recompiled",
+          "project_url": "https://github.com/Juansolo457/graw360-recomp",
+          "repo": "Juansolo457/graw360-recomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-24",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-24",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "nhl-2k8--xbox-360",
+      "title": "NHL 2K8",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-anishchandra24-nhl2k8-recompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/nhl-2k8-xbox-360",
+              "source_id": "nhl-2k8-anishchandra24",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-24"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "NHL 2K8",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "NHL 2K8 Recompiled",
+          "project_url": "https://github.com/anishchandra24/NHL2K8-Recompiled",
+          "repo": "anishchandra24/NHL2K8-Recompiled",
+          "status": "playable",
+          "last_activity": "2026-10-24",
+          "release": "v0.2.0",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-24",
+      "best_status": "playable",
+      "has_conflict": false
+    },
     {
       "id": "okamiden--nds",
       "title": "Ōkamiden",
