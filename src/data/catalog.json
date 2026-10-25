@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-25T17:35:59.615211+00:00",
+  "generated_at": "2026-10-25T23:36:13.031519+00:00",
   "summary": {
-    "games": 3372,
-    "projects": 4733,
-    "source_records": 5891,
+    "games": 3376,
+    "projects": 4738,
+    "source_records": 5896,
     "platforms": 99,
     "sources": 4,
     "conflicted_projects": 261
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2619
+      "records": 2624
     },
     {
       "id": "recomp-software-recomp",
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PC (Windows)",
-        548
+        552
       ],
       [
         "PS1",
@@ -43,7 +43,7 @@
       ],
       [
         "Xbox 360",
-        482
+        483
       ],
       [
         "N64",
@@ -433,11 +433,11 @@
     "types": [
       [
         "decomp",
-        2139
+        2140
       ],
       [
         "recomp",
-        1848
+        1852
       ],
       [
         "port",
@@ -455,11 +455,11 @@
       ],
       [
         "unknown",
-        1230
+        1231
       ],
       [
         "released",
-        1219
+        1222
       ],
       [
         "paused",
@@ -471,7 +471,7 @@
       ],
       [
         "playable",
-        92
+        93
       ],
       [
         "exploring",
@@ -4461,6 +4461,56 @@
       ],
       "last_activity": "2026-10-25",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "the-elder-scrolls-v-skyrim--pc-windows",
+      "title": "The Elder Scrolls V: Skyrim",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-ttom795-skyrim-android",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/the-elder-scrolls-v-skyrim-pc-windows",
+              "source_id": "the-elder-scrolls-v-skyrim-ttom795",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-25"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Elder Scrolls V: Skyrim",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "ttom795/Skyrim_Android",
+          "project_url": "https://github.com/ttom795/Skyrim_Android",
+          "repo": "ttom795/Skyrim_Android",
+          "status": "released",
+          "last_activity": "2026-10-25",
+          "release": "0.20",
+          "targets": [
+            "Linux",
+            "Android"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-25",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -9849,6 +9899,56 @@
       ],
       "last_activity": "2026-10-25",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "rayman-3-hd--xbox-360",
+      "title": "Rayman 3 HD",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-mysteriousaeon-rayman3-hd-recompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/rayman-3-hd-xbox-360",
+              "source_id": "rayman-3-hd-mysteriousaeon",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-25"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rayman 3 HD",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Rayman 3 HD Recompiled",
+          "project_url": "https://github.com/MysteriousAeon/rayman3-hd-recompiled",
+          "repo": "MysteriousAeon/rayman3-hd-recompiled",
+          "status": "released",
+          "last_activity": "2026-10-25",
+          "release": "v1.0.1",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-25",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -32845,6 +32945,56 @@
       "has_conflict": false
     },
     {
+      "id": "lego-marvel-super-heroes--pc-windows",
+      "title": "LEGO Marvel Super Heroes",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-ttom795-lms-android",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/lego-marvel-super-heroes-pc-windows",
+              "source_id": "lego-marvel-super-heroes-ttom795",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-24"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "LEGO Marvel Super Heroes",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "ttom795/LMS_Android",
+          "project_url": "https://github.com/ttom795/LMS_Android",
+          "repo": "ttom795/LMS_Android",
+          "status": "playable",
+          "last_activity": "2026-10-24",
+          "release": "0.2.7",
+          "targets": [
+            "Linux",
+            "Android"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-24",
+      "best_status": "playable",
+      "has_conflict": false
+    },
+    {
       "id": "lego-city-undercover--switch",
       "title": "Lego City Undercover",
       "platform": "Switch",
@@ -40228,6 +40378,52 @@
       ],
       "last_activity": "2026-10-24",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "diablo-2--pc-windows",
+      "title": "Diablo 2",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-jaenster-redivivus",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/diablo-2-pc-windows",
+              "source_id": "diablo-2-jaenster",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-24"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Diablo 2",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "Redivivus",
+          "project_url": "https://github.com/jaenster/redivivus",
+          "repo": "jaenster/redivivus",
+          "last_activity": "2026-10-24",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-24",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -52233,6 +52429,119 @@
       "sources": [
         "awesome-decomp-games",
         "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "lego-batman-the-videogame--pc-windows",
+      "title": "LEGO Batman: The Videogame",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-ttom795-lbm-android",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/lego-batman-the-videogame-pc-windows",
+              "source_id": "lego-batman-the-videogame-ttom795",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "LEGO Batman: The Videogame",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "ttom795/LBM_Android",
+          "project_url": "https://github.com/ttom795/LBM_Android",
+          "repo": "ttom795/LBM_Android",
+          "status": "released",
+          "last_activity": "2026-10-23",
+          "release": "0.1.6",
+          "targets": [
+            "Linux",
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-wasdhjklxyz-lbtvg",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "wasdhjklxyz-lbtvg",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-11"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "samidy"
+          ],
+          "game": "LEGO Batman: The Videogame",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "lbtvg",
+          "project_url": "https://github.com/wasdhjklxyz/lbtvg",
+          "repo": "wasdhjklxyz/lbtvg",
+          "status": "in-progress",
+          "last_activity": "2026-10-11",
+          "made": "AI-flagged",
+          "stars": 6,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-mariopossamato-lego-batman",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "mariopossamato-lego-batman",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2025-02-08"
+            }
+          ],
+          "embedded_sources": [
+            "unbaked"
+          ],
+          "game": "LEGO Batman: The Videogame",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "LEGO-Batman",
+          "project_url": "https://github.com/mariopossamato/LEGO-Batman",
+          "repo": "mariopossamato/LEGO-Batman",
+          "status": "in-progress",
+          "last_activity": "2025-02-08",
+          "stars": 12,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-23",
@@ -115060,86 +115369,6 @@
       ],
       "last_activity": "2026-10-11",
       "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
-      "id": "lego-batman-the-videogame--pc-windows",
-      "title": "LEGO Batman: The Videogame",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-wasdhjklxyz-lbtvg",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "wasdhjklxyz-lbtvg",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-11"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "samidy"
-          ],
-          "game": "LEGO Batman: The Videogame",
-          "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "lbtvg",
-          "project_url": "https://github.com/wasdhjklxyz/lbtvg",
-          "repo": "wasdhjklxyz/lbtvg",
-          "status": "in-progress",
-          "last_activity": "2026-10-11",
-          "made": "AI-flagged",
-          "stars": 6,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-mariopossamato-lego-batman",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "mariopossamato-lego-batman",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2025-02-08"
-            }
-          ],
-          "embedded_sources": [
-            "unbaked"
-          ],
-          "game": "LEGO Batman: The Videogame",
-          "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "LEGO-Batman",
-          "project_url": "https://github.com/mariopossamato/LEGO-Batman",
-          "repo": "mariopossamato/LEGO-Batman",
-          "status": "in-progress",
-          "last_activity": "2025-02-08",
-          "stars": 12,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-11",
-      "best_status": "in-progress",
       "has_conflict": false
     },
     {
