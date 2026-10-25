@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-24T23:35:25.774988+00:00",
+  "generated_at": "2026-10-25T05:35:36.463973+00:00",
   "summary": {
-    "games": 3365,
-    "projects": 4720,
-    "source_records": 5863,
+    "games": 3367,
+    "projects": 4722,
+    "source_records": 5865,
     "platforms": 99,
     "sources": 4,
     "conflicted_projects": 255
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2609
+      "records": 2611
     },
     {
       "id": "recomp-software-recomp",
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PC (Windows)",
-        541
+        542
       ],
       [
         "PS1",
@@ -43,7 +43,7 @@
       ],
       [
         "Xbox 360",
-        480
+        481
       ],
       [
         "N64",
@@ -433,11 +433,11 @@
     "types": [
       [
         "decomp",
-        2136
+        2137
       ],
       [
         "recomp",
-        1845
+        1846
       ],
       [
         "port",
@@ -451,7 +451,7 @@
     "statuses": [
       [
         "in-progress",
-        1513
+        1514
       ],
       [
         "unknown",
@@ -471,7 +471,7 @@
       ],
       [
         "playable",
-        90
+        91
       ],
       [
         "exploring",
@@ -480,6 +480,56 @@
     ]
   },
   "games": [
+    {
+      "id": "madden-nfl-08--xbox-360",
+      "title": "Madden NFL 08",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-anishchandra24-maddennfl08-recompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/madden-nfl-08-xbox-360",
+              "source_id": "madden-nfl-08-anishchandra24",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-25"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Madden NFL 08",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Madden NFL 08 Recompiled",
+          "project_url": "https://github.com/anishchandra24/MaddenNFL08-Recompiled",
+          "repo": "anishchandra24/MaddenNFL08-Recompiled",
+          "status": "playable",
+          "last_activity": "2026-10-25",
+          "release": "v0.1.0",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-25",
+      "best_status": "playable",
+      "has_conflict": false
+    },
     {
       "id": "e--gamecube",
       "title": "どうぶつの森 e+",
@@ -6919,6 +6969,55 @@
       "sources": [
         "awesome-decomp-games",
         "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-24",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "spore--pc-windows",
+      "title": "Spore",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-noahbpeterson-spore-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/spore-pc-windows",
+              "source_id": "spore-noahbpeterson",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-24"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Spore",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "spore-decomp",
+          "project_url": "https://github.com/NoahBPeterson/spore-decomp",
+          "repo": "NoahBPeterson/spore-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-24",
+          "toolchain": "Msvc 9.0, Ghidra",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
         "recomp.fyi"
       ],
       "last_activity": "2026-10-24",
