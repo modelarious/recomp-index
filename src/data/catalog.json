@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-25T11:35:47.885105+00:00",
+  "generated_at": "2026-10-25T17:35:59.615211+00:00",
   "summary": {
-    "games": 3369,
-    "projects": 4728,
-    "source_records": 5886,
+    "games": 3372,
+    "projects": 4733,
+    "source_records": 5891,
     "platforms": 99,
     "sources": 4,
     "conflicted_projects": 261
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2614
+      "records": 2619
     },
     {
       "id": "recomp-software-recomp",
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PC (Windows)",
-        547
+        548
       ],
       [
         "PS1",
@@ -43,7 +43,7 @@
       ],
       [
         "Xbox 360",
-        481
+        482
       ],
       [
         "N64",
@@ -75,7 +75,7 @@
       ],
       [
         "Wii",
-        153
+        154
       ],
       [
         "NDS",
@@ -83,7 +83,7 @@
       ],
       [
         "Xbox",
-        105
+        106
       ],
       [
         "DOS",
@@ -131,7 +131,7 @@
       ],
       [
         "PSP",
-        33
+        34
       ],
       [
         "3DS",
@@ -437,11 +437,11 @@
       ],
       [
         "recomp",
-        1844
+        1848
       ],
       [
         "port",
-        737
+        738
       ],
       [
         "tool",
@@ -455,11 +455,11 @@
       ],
       [
         "unknown",
-        1228
+        1230
       ],
       [
         "released",
-        1217
+        1219
       ],
       [
         "paused",
@@ -471,7 +471,7 @@
       ],
       [
         "playable",
-        91
+        92
       ],
       [
         "exploring",
@@ -4582,7 +4582,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-brawl-wii",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-brawl-wii-2008",
               "source_id": "super-smash-bros-brawl-doldecomp",
               "claimed": false,
               "status": "unknown",
@@ -4614,7 +4614,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-brawl-wii",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-brawl-wii-2008",
               "source_id": "super-smash-bros-brawl-humboldt123",
               "claimed": false,
               "status": "unknown",
@@ -4636,11 +4636,41 @@
           "targets": []
         },
         {
+          "id": "repo-josiahg2502-glitch-brawlrecompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-brawl-wii-2",
+              "source_id": "super-smash-bros-brawl-josiahg2502-glitch",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Wii",
+              "last_activity": "2026-10-24"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Smash Bros. Brawl",
+          "platform": "Wii",
+          "type": "recomp",
+          "project": "josiahg2502-glitch/BrawlRecompiled",
+          "project_url": "https://github.com/josiahg2502-glitch/BrawlRecompiled",
+          "repo": "josiahg2502-glitch/BrawlRecompiled",
+          "last_activity": "2026-10-24",
+          "release": "v0.4.0",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
           "id": "repo-m2af-brawl-decompile",
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-brawl-wii",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-brawl-wii-2008",
               "source_id": "super-smash-bros-brawl-m2af",
               "claimed": false,
               "status": "unknown",
@@ -4666,7 +4696,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/super-smash-bros-brawl-wii",
+              "source_url": "https://recomp.fyi/game/super-smash-bros-brawl-wii-2008",
               "source_id": "super-smash-bros-brawl-bannedpenta01",
               "claimed": false,
               "status": "unknown",
@@ -4716,7 +4746,7 @@
           "targets": []
         }
       ],
-      "project_count": 5,
+      "project_count": 6,
       "types": [
         "decomp",
         "recomp"
@@ -26859,6 +26889,57 @@
       "has_conflict": false
     },
     {
+      "id": "street-fighter-iii-3rd-strike-online-edition--xbox-360",
+      "title": "Street Fighter III: 3rd Strike Online Edition",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-updeshxp-sf3tsoereborn",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/street-fighter-iii-3rd-strike-xbox-360",
+              "source_id": "street-fighter-iii-3rd-strike-online-edi-updeshxp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-24"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Street Fighter III: 3rd Strike Online Edition",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "SF3TSOEReborn",
+          "project_url": "https://github.com/updeshxp/SF3TSOEReborn",
+          "repo": "updeshxp/SF3TSOEReborn",
+          "status": "released",
+          "last_activity": "2026-10-24",
+          "release": "v0.1.2",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-24",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "star-wars-episode-iii-revenge-of-the-sith-swrots-pc--og-xbox",
       "title": "Star Wars: Episode III – Revenge of the Sith (SWROTS-PC)",
       "platform": "og xbox",
@@ -27468,6 +27549,55 @@
       ],
       "last_activity": "2026-10-24",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "sonic-rivals-2--psp",
+      "title": "Sonic Rivals 2",
+      "platform": "PSP",
+      "projects": [
+        {
+          "id": "repo-jackypendrag0n-sonic-ultimate-rivals",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/sonic-rivals-2-psp",
+              "source_id": "sonic-rivals-2-jackypendrag0n",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "PSP",
+              "last_activity": "2026-10-24"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Sonic Rivals 2",
+          "platform": "PSP",
+          "type": "recomp",
+          "project": "Sonic Ultimate Rivals",
+          "project_url": "https://github.com/JackyPendrag0n/Sonic-Ultimate-Rivals",
+          "repo": "JackyPendrag0n/Sonic-Ultimate-Rivals",
+          "status": "playable",
+          "last_activity": "2026-10-24",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-24",
+      "best_status": "playable",
       "has_conflict": false
     },
     {
@@ -45449,6 +45579,53 @@
       ],
       "last_activity": "2026-10-23",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "the-nightmare-before-christmas-oogie-s-revenge--xbox",
+      "title": "The Nightmare Before Christmas: Oogie's Revenge",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-josiahg2502-glitch-oogiesrevengerecompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/the-nightmare-before-christmas-oogies-revenge-xbox",
+              "source_id": "the-nightmare-before-christmas-oogie-s-r-josiahg2502-glitch",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Nightmare Before Christmas: Oogie's Revenge",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "josiahg2502-glitch/OogiesRevengeRecompiled",
+          "project_url": "https://github.com/josiahg2502-glitch/OogiesRevengeRecompiled",
+          "repo": "josiahg2502-glitch/OogiesRevengeRecompiled",
+          "last_activity": "2026-10-23",
+          "release": "v1.0.1",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-23",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -99994,6 +100171,86 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-10-15",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "nox--pc-windows",
+      "title": "Nox",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-sookyboo-nox-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/nox-pc-windows",
+              "source_id": "nox-sookyboo",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-15"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Nox",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "Nox-Decomp",
+          "project_url": "https://github.com/sookyboo/nox-decomp",
+          "repo": "sookyboo/nox-decomp",
+          "status": "released",
+          "last_activity": "2026-10-15",
+          "release": "v0.9.3-rc5",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-nox-nox-decomp-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/nox-decomp/",
+              "source_id": "p/nox-decomp",
+              "claimed": false,
+              "status": "paused",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Nox",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "Nox-Decomp",
+          "project_url": "https://www.recompsoftware.com/p/nox-decomp/",
+          "status": "paused",
+          "made": "Human-led",
+          "stars": 28,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "decomp",
+        "port"
+      ],
+      "statuses": [
+        "paused",
+        "released"
+      ],
+      "sources": [
+        "recomp-software-decomp",
+        "recomp.fyi"
       ],
       "last_activity": "2026-10-15",
       "best_status": "released",
@@ -215043,52 +215300,6 @@
           "status": "paused",
           "made": "Human-led",
           "stars": 30,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "paused"
-      ],
-      "sources": [
-        "recomp-software-decomp"
-      ],
-      "last_activity": null,
-      "best_status": "paused",
-      "has_conflict": false
-    },
-    {
-      "id": "nox--pc-windows",
-      "title": "Nox",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "sig-nox-nox-decomp-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/nox-decomp/",
-              "source_id": "p/nox-decomp",
-              "claimed": false,
-              "status": "paused",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Nox",
-          "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "Nox-Decomp",
-          "project_url": "https://www.recompsoftware.com/p/nox-decomp/",
-          "status": "paused",
-          "made": "Human-led",
-          "stars": 28,
           "conflicts": {},
           "targets": []
         }
