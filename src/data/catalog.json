@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-26T11:36:42.936893+00:00",
+  "generated_at": "2026-10-26T17:36:57.755064+00:00",
   "summary": {
-    "games": 3392,
-    "projects": 4762,
-    "source_records": 5935,
+    "games": 3394,
+    "projects": 4764,
+    "source_records": 5939,
     "platforms": 99,
     "sources": 4,
-    "conflicted_projects": 265
+    "conflicted_projects": 267
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2646
+      "records": 2650
     },
     {
       "id": "recomp-software-recomp",
@@ -51,7 +51,7 @@
       ],
       [
         "PS2",
-        264
+        265
       ],
       [
         "GameCube",
@@ -83,22 +83,22 @@
       ],
       [
         "Xbox",
-        108
-      ],
-      [
-        "DOS",
-        87
+        109
       ],
       [
         "GBC",
         87
       ],
       [
-        "GB",
+        "PC (DOS)",
+        87
+      ],
+      [
+        "DOS",
         86
       ],
       [
-        "PC (DOS)",
+        "GB",
         86
       ],
       [
@@ -437,11 +437,11 @@
       ],
       [
         "recomp",
-        1867
+        1871
       ],
       [
         "port",
-        745
+        743
       ],
       [
         "tool",
@@ -459,7 +459,7 @@
       ],
       [
         "unknown",
-        1232
+        1234
       ],
       [
         "paused",
@@ -12462,6 +12462,57 @@
       "last_activity": "2026-10-26",
       "best_status": "playable",
       "has_conflict": true
+    },
+    {
+      "id": "jackass-the-game--ps2",
+      "title": "Jackass: The Game",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-juansolo457-jackass-ps2-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/jackass-the-game-ps2",
+              "source_id": "jackass-the-game-juansolo457",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-26"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Jackass: The Game",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "Jackass PS2 Recompiled",
+          "project_url": "https://github.com/Juansolo457/jackass-ps2-recomp",
+          "repo": "Juansolo457/jackass-ps2-recomp",
+          "last_activity": "2026-10-26",
+          "toolchain": "Ps2recomp",
+          "targets": [
+            "Linux",
+            "Linux (ARM64)",
+            "Windows"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-26",
+      "best_status": "unknown",
+      "has_conflict": false
     },
     {
       "id": "icewind-dale-ii-iwd2r-icewind-dale-2-resurrected--pc-windows",
@@ -35167,6 +35218,53 @@
       ],
       "last_activity": "2026-10-25",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "max-payne--xbox",
+      "title": "max payne",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-phobos665-payne-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/max-payne-xbox",
+              "source_id": "max-payne-phobos665",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-25"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "max payne",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "phobos665/payne-recomp",
+          "project_url": "https://github.com/phobos665/payne-recomp",
+          "repo": "phobos665/payne-recomp",
+          "last_activity": "2026-10-25",
+          "release": "v0.4",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-25",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -139391,9 +139489,9 @@
       "has_conflict": false
     },
     {
-      "id": "raptor-call-of-the-shadows-skynettx-raptor--dos",
-      "title": "Raptor: Call of the Shadows (skynettx raptor)",
-      "platform": "DOS",
+      "id": "raptor-call-of-the-shadows--pc-dos",
+      "title": "raptor: call of the shadows",
+      "platform": "PC (DOS)",
       "projects": [
         {
           "id": "repo-skynettx-raptor",
@@ -139407,38 +139505,62 @@
               "type": "port",
               "platform": "DOS",
               "last_activity": "2026-09-28"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/raptor-call-of-the-shadows-pc-dos",
+              "source_id": "raptor-call-of-the-shadows-skynettx",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-09-28"
             }
           ],
           "embedded_sources": [
             "unbaked"
           ],
-          "game": "Raptor: Call of the Shadows (skynettx raptor)",
-          "platform": "DOS",
-          "type": "port",
-          "project": "raptor",
+          "game": "raptor: call of the shadows",
+          "platform": "PC (DOS)",
+          "type": "recomp",
+          "project": "skynettx/raptor",
           "project_url": "https://github.com/skynettx/raptor",
           "repo": "skynettx/raptor",
           "status": "released",
           "last_activity": "2026-09-28",
           "release": "v0.8.2",
           "stars": 133,
-          "conflicts": {},
-          "targets": []
+          "targets": [
+            "Windows",
+            "macOS",
+            "Android"
+          ],
+          "conflicts": {
+            "type": [
+              "port",
+              "recomp"
+            ],
+            "platform": [
+              "DOS",
+              "PC (DOS)"
+            ]
+          }
         }
       ],
       "project_count": 1,
       "types": [
-        "port"
+        "recomp"
       ],
       "statuses": [
         "released"
       ],
       "sources": [
-        "awesome-decomp-games"
+        "awesome-decomp-games",
+        "recomp.fyi"
       ],
       "last_activity": "2026-09-28",
       "best_status": "released",
-      "has_conflict": false
+      "has_conflict": true
     },
     {
       "id": "quake-ii-three-wave-capture-the-flag-for-yamagi-quake-ii--pc-windows",
@@ -175620,8 +175742,8 @@
       "has_conflict": false
     },
     {
-      "id": "midtown-madness-open1560--pc-windows",
-      "title": "Midtown Madness (Open1560)",
+      "id": "midtown-madness--pc-windows",
+      "title": "midtown madness",
       "platform": "PC (Windows)",
       "projects": [
         {
@@ -175636,38 +175758,54 @@
               "type": "port",
               "platform": "PC (Windows)",
               "last_activity": "2026-04-20"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/midtown-madness-pc-windows",
+              "source_id": "midtown-madness-0x1f9f1",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-04-20"
             }
           ],
           "embedded_sources": [
             "quiver"
           ],
-          "game": "Midtown Madness (Open1560)",
+          "game": "midtown madness",
           "platform": "PC (Windows)",
-          "type": "port",
-          "project": "Open1560",
+          "type": "recomp",
+          "project": "0x1F9F1/Open1560",
           "project_url": "https://github.com/0x1F9F1/Open1560",
           "repo": "0x1F9F1/Open1560",
           "status": "released",
           "last_activity": "2026-04-20",
           "release": "build",
           "stars": 199,
-          "conflicts": {},
+          "conflicts": {
+            "type": [
+              "port",
+              "recomp"
+            ]
+          },
           "targets": []
         }
       ],
       "project_count": 1,
       "types": [
-        "port"
+        "recomp"
       ],
       "statuses": [
         "released"
       ],
       "sources": [
-        "awesome-decomp-games"
+        "awesome-decomp-games",
+        "recomp.fyi"
       ],
       "last_activity": "2026-04-20",
       "best_status": "released",
-      "has_conflict": false
+      "has_conflict": true
     },
     {
       "id": "yoshi-s-island-super-mario-advance-3--gba",
