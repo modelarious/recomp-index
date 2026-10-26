@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-25T23:36:13.031519+00:00",
+  "generated_at": "2026-10-26T05:36:28.689203+00:00",
   "summary": {
-    "games": 3376,
-    "projects": 4738,
-    "source_records": 5896,
+    "games": 3381,
+    "projects": 4743,
+    "source_records": 5902,
     "platforms": 99,
     "sources": 4,
-    "conflicted_projects": 261
+    "conflicted_projects": 262
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2624
+      "records": 2630
     },
     {
       "id": "recomp-software-recomp",
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PC (Windows)",
-        552
+        554
       ],
       [
         "PS1",
@@ -43,11 +43,11 @@
       ],
       [
         "Xbox 360",
-        483
+        484
       ],
       [
         "N64",
-        456
+        457
       ],
       [
         "PS2",
@@ -67,7 +67,7 @@
       ],
       [
         "SNES",
-        166
+        167
       ],
       [
         "NES",
@@ -433,15 +433,15 @@
     "types": [
       [
         "decomp",
-        2140
+        2141
       ],
       [
         "recomp",
-        1852
+        1855
       ],
       [
         "port",
-        738
+        739
       ],
       [
         "tool",
@@ -451,15 +451,15 @@
     "statuses": [
       [
         "in-progress",
-        1512
+        1514
       ],
       [
         "unknown",
-        1231
+        1232
       ],
       [
         "released",
-        1222
+        1223
       ],
       [
         "paused",
@@ -471,7 +471,7 @@
       ],
       [
         "playable",
-        93
+        94
       ],
       [
         "exploring",
@@ -480,6 +480,391 @@
     ]
   },
   "games": [
+    {
+      "id": "super-bowling--n64",
+      "title": "Super Bowling",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-calencyr-superbowling64-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/super-bowling-n64",
+              "source_id": "super-bowling-calencyr",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": "2026-10-26"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Super Bowling",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Super Bowling 64 decompilation",
+          "project_url": "https://github.com/CalenCyr/superbowling64-decomp",
+          "repo": "CalenCyr/superbowling64-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-26",
+          "toolchain": "Splat, Kmc gcc 2.7.2, Objdiff",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-26",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "shark-tale--pc-windows",
+      "title": "Shark Tale",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-howflet-sharktale-macos-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/shark-tale-pc-windows",
+              "source_id": "shark-tale-howflet",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-26"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Shark Tale",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "Howflet/SharkTale-MacOS-Recomp",
+          "project_url": "https://github.com/Howflet/SharkTale-MacOS-Recomp",
+          "repo": "Howflet/SharkTale-MacOS-Recomp",
+          "last_activity": "2026-10-26",
+          "targets": [
+            "macOS"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-26",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "nocturne--pc-windows",
+      "title": "Nocturne",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-nearlytrex-nocturnedecomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "nearlytrex-nocturnedecomp",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-24"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/nocturne-pc-windows",
+              "source_id": "nocturne-nearlytrex",
+              "claimed": false,
+              "status": "playable",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-26"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/nocturne-pc-windows",
+              "source_id": "nocturne-port-nearlytrex",
+              "claimed": false,
+              "status": "playable",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-26"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "recomp.fyi",
+            "samidy"
+          ],
+          "game": "Nocturne",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "NocturneDecomp",
+          "project_url": "https://github.com/NearlyTRex/NocturneDecomp",
+          "repo": "NearlyTRex/NocturneDecomp",
+          "status": "playable",
+          "last_activity": "2026-10-26",
+          "release": "v0.1.8",
+          "stars": 10,
+          "toolchain": "Ghidra",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {
+            "status": [
+              "playable",
+              "released"
+            ],
+            "type": [
+              "decomp",
+              "port"
+            ]
+          }
+        },
+        {
+          "id": "repo-sp00nznet-nocturne",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/nocturne-pc-windows",
+              "source_id": "nocturne-sp00nznet",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Nocturne",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "sp00nznet/nocturne",
+          "project_url": "https://github.com/sp00nznet/nocturne",
+          "repo": "sp00nznet/nocturne",
+          "last_activity": "2026-10-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-knightstarbuilds-nocturnerecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/nocturne-pc-windows",
+              "source_id": "nocturne-knightstarbuilds",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Nocturne",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "KnightStarBuilds/NocturneRecomp",
+          "project_url": "https://github.com/KnightStarBuilds/NocturneRecomp",
+          "repo": "KnightStarBuilds/NocturneRecomp",
+          "last_activity": "2026-10-04",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "port",
+        "recomp"
+      ],
+      "statuses": [
+        "playable",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-26",
+      "best_status": "playable",
+      "has_conflict": true
+    },
+    {
+      "id": "mighty-morphin-power-rangers-the-movie--snes",
+      "title": "Mighty Morphin Power Rangers: The Movie",
+      "platform": "SNES",
+      "projects": [
+        {
+          "id": "repo-cultofblue-mmpr-movie-snes2pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/mighty-morphin-power-rangers-the-movie-snes",
+              "source_id": "mighty-morphin-power-rangers-the-movie-cultofblue",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "SNES",
+              "last_activity": "2026-10-26"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mighty Morphin Power Rangers: The Movie",
+          "platform": "SNES",
+          "type": "recomp",
+          "project": "cultofblue/mmpr-movie-snes2pc",
+          "project_url": "https://github.com/cultofblue/mmpr-movie-snes2pc",
+          "repo": "cultofblue/mmpr-movie-snes2pc",
+          "status": "released",
+          "last_activity": "2026-10-26",
+          "release": "v1.0.0",
+          "toolchain": "Custom (tools/recomp.py, Lakesnes)",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-26",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "marvel-ultimate-alliance--xbox-360",
+      "title": "Marvel: Ultimate Alliance",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-saulob-marvel-ultimate-alliance-bundle-recompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/marvel-ultimate-alliance-xbox-360",
+              "source_id": "marvel-ultimate-alliance-saulob",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-26"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Marvel: Ultimate Alliance",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Marvel Ultimate Alliance - PC Port",
+          "project_url": "https://github.com/saulob/marvel-ultimate-alliance-bundle-recompiled",
+          "repo": "saulob/marvel-ultimate-alliance-bundle-recompiled",
+          "status": "released",
+          "last_activity": "2026-10-26",
+          "release": "v0.1.0",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-26",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "angry-birds--pc-windows",
+      "title": "Angry Birds",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-burneraccount-dec-linnut1-6-2-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/angry-birds-pc-windows",
+              "source_id": "angry-birds-burneraccount-dec",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-26"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Angry Birds",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "BurnerAccount-dec/linnut1.6.2-decomp",
+          "project_url": "https://github.com/BurnerAccount-dec/linnut1.6.2-decomp",
+          "repo": "BurnerAccount-dec/linnut1.6.2-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-26",
+          "release": "v1.8",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-26",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
     {
       "id": "zero-k--unknown",
       "title": "Zero-K",
@@ -30101,127 +30486,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-24",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "nocturne--pc-windows",
-      "title": "Nocturne",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-nearlytrex-nocturnedecomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "nearlytrex-nocturnedecomp",
-              "claimed": false,
-              "status": "released",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-24"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/nocturne-pc-windows",
-              "source_id": "nocturne-nearlytrex",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-24"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "recomp.fyi",
-            "samidy"
-          ],
-          "game": "Nocturne",
-          "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "NearlyTRex/NocturneDecomp",
-          "project_url": "https://github.com/NearlyTRex/NocturneDecomp",
-          "repo": "NearlyTRex/NocturneDecomp",
-          "status": "released",
-          "last_activity": "2026-10-24",
-          "release": "v0.1.7",
-          "stars": 10,
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "repo-sp00nznet-nocturne",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/nocturne-pc-windows",
-              "source_id": "nocturne-sp00nznet",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Nocturne",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "sp00nznet/nocturne",
-          "project_url": "https://github.com/sp00nznet/nocturne",
-          "repo": "sp00nznet/nocturne",
-          "last_activity": "2026-10-14",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-knightstarbuilds-nocturnerecomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/nocturne-pc-windows",
-              "source_id": "nocturne-knightstarbuilds",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-10-04"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Nocturne",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "KnightStarBuilds/NocturneRecomp",
-          "project_url": "https://github.com/KnightStarBuilds/NocturneRecomp",
-          "repo": "KnightStarBuilds/NocturneRecomp",
-          "last_activity": "2026-10-04",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 3,
-      "types": [
-        "decomp",
-        "recomp"
-      ],
-      "statuses": [
-        "released",
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
       ],
       "last_activity": "2026-10-24",
       "best_status": "released",
