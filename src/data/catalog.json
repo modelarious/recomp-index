@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-27T17:37:58.887324+00:00",
+  "generated_at": "2026-10-27T23:38:10.925478+00:00",
   "summary": {
-    "games": 3542,
-    "projects": 4979,
-    "source_records": 6181,
+    "games": 3543,
+    "projects": 4980,
+    "source_records": 6182,
     "platforms": 102,
     "sources": 4,
     "conflicted_projects": 272
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2787
+      "records": 2788
     },
     {
       "id": "recomp-software-recomp",
@@ -119,7 +119,7 @@
       ],
       [
         "PS4",
-        43
+        44
       ],
       [
         "ZX Spectrum",
@@ -449,7 +449,7 @@
       ],
       [
         "recomp",
-        2034
+        2035
       ],
       [
         "port",
@@ -471,7 +471,7 @@
       ],
       [
         "released",
-        1327
+        1328
       ],
       [
         "paused",
@@ -9715,6 +9715,58 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-10-27",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "odin-sphere-leifthrasir--ps4",
+      "title": "Odin Sphere Leifthrasir",
+      "platform": "PS4",
+      "projects": [
+        {
+          "id": "repo-saulob-odin-sphere-leifthrasir-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/odin-sphere-leifthrasir-ps4",
+              "source_id": "odin-sphere-leifthrasir-saulob",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-10-27"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Odin Sphere Leifthrasir",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "Odin Sphere Leifthrasir PC Port",
+          "project_url": "https://github.com/saulob/odin-sphere-leifthrasir-pc",
+          "repo": "saulob/odin-sphere-leifthrasir-pc",
+          "status": "released",
+          "last_activity": "2026-10-27",
+          "release": "v0.1.0",
+          "toolchain": "Shadps4-derived runtime",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
       ],
       "last_activity": "2026-10-27",
       "best_status": "released",
