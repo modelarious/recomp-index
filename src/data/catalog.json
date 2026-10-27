@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-27T11:37:44.060778+00:00",
+  "generated_at": "2026-10-27T17:37:58.887324+00:00",
   "summary": {
-    "games": 3541,
-    "projects": 4978,
-    "source_records": 6178,
+    "games": 3542,
+    "projects": 4979,
+    "source_records": 6181,
     "platforms": 102,
     "sources": 4,
-    "conflicted_projects": 271
+    "conflicted_projects": 272
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2784
+      "records": 2787
     },
     {
       "id": "recomp-software-recomp",
@@ -79,15 +79,15 @@
       ],
       [
         "Xbox",
-        133
+        134
       ],
       [
         "NDS",
         130
       ],
       [
-        "DOS",
-        87
+        "PC (DOS)",
+        88
       ],
       [
         "GB",
@@ -98,8 +98,8 @@
         87
       ],
       [
-        "PC (DOS)",
-        87
+        "DOS",
+        86
       ],
       [
         "MSX",
@@ -453,7 +453,7 @@
       ],
       [
         "port",
-        756
+        757
       ],
       [
         "tool",
@@ -483,7 +483,7 @@
       ],
       [
         "playable",
-        96
+        97
       ],
       [
         "exploring",
@@ -6004,6 +6004,98 @@
       "has_conflict": false
     },
     {
+      "id": "stunts--pc-dos",
+      "title": "Stunts",
+      "platform": "PC (DOS)",
+      "projects": [
+        {
+          "id": "repo-commonloon102-restunts-bb11",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "commonloon102-restunts-bb11",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "DOS",
+              "last_activity": "2026-10-27"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/stunts-pc-dos",
+              "source_id": "stunts-commonloon102",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-10-27"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/stunts-pc-dos",
+              "source_id": "stunts-port-commonloon102",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-10-27"
+            }
+          ],
+          "embedded_sources": [
+            "awesome-game-remakes",
+            "unbaked"
+          ],
+          "game": "Stunts",
+          "platform": "PC (DOS)",
+          "type": "port",
+          "project": "Chocolate Stunts",
+          "project_url": "https://github.com/CommonLoon102/restunts-bb11",
+          "repo": "CommonLoon102/restunts-bb11",
+          "status": "released",
+          "last_activity": "2026-10-27",
+          "release": "v1.3.0",
+          "stars": 19,
+          "toolchain": "Sdl3",
+          "targets": [
+            "Windows",
+            "Linux",
+            "macOS",
+            "Android",
+            "Browser",
+            "PC (DOS)",
+            "FreeBSD",
+            "OpenBSD"
+          ],
+          "conflicts": {
+            "type": [
+              "decomp",
+              "port",
+              "recomp"
+            ],
+            "platform": [
+              "DOS",
+              "PC (DOS)"
+            ]
+          }
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-27",
+      "best_status": "released",
+      "has_conflict": true
+    },
+    {
       "id": "streets-of-rage--genesis",
       "title": "Streets of Rage",
       "platform": "Genesis",
@@ -8319,57 +8411,6 @@
       ],
       "last_activity": "2026-10-27",
       "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "re-stunts--dos",
-      "title": "re-stunts",
-      "platform": "DOS",
-      "projects": [
-        {
-          "id": "repo-commonloon102-restunts-bb11",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "commonloon102-restunts-bb11",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "DOS",
-              "last_activity": "2026-10-27"
-            }
-          ],
-          "embedded_sources": [
-            "awesome-game-remakes",
-            "unbaked"
-          ],
-          "game": "re-stunts",
-          "platform": "DOS",
-          "type": "recomp",
-          "project": "restunts-bb11",
-          "project_url": "https://github.com/CommonLoon102/restunts-bb11",
-          "repo": "CommonLoon102/restunts-bb11",
-          "status": "released",
-          "last_activity": "2026-10-27",
-          "release": "v1.3.0",
-          "stars": 19,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-27",
-      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -20625,6 +20666,56 @@
       ],
       "last_activity": "2026-10-27",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "aggressive-inline--xbox",
+      "title": "Aggressive Inline",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-asukaneo-aggro-royale",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/aggressive-inline-xbox",
+              "source_id": "aggressive-inline-asukaneo",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-27"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Aggressive Inline",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Aggro Royale",
+          "project_url": "https://github.com/AsukaNeo/aggro-royale",
+          "repo": "AsukaNeo/aggro-royale",
+          "status": "playable",
+          "last_activity": "2026-10-27",
+          "release": "v0.9.0-beta",
+          "toolchain": "Xboxrecomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-27",
+      "best_status": "playable",
       "has_conflict": false
     },
     {
