@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-28T11:38:30.111431+00:00",
+  "generated_at": "2026-10-28T17:38:42.156655+00:00",
   "summary": {
-    "games": 3554,
-    "projects": 4993,
-    "source_records": 6209,
+    "games": 3555,
+    "projects": 4994,
+    "source_records": 6210,
     "platforms": 102,
     "sources": 4,
     "conflicted_projects": 276
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2797
+      "records": 2798
     },
     {
       "id": "recomp-software-recomp",
@@ -111,7 +111,7 @@
       ],
       [
         "PS3",
-        54
+        55
       ],
       [
         "PS4",
@@ -449,7 +449,7 @@
       ],
       [
         "recomp",
-        2047
+        2048
       ],
       [
         "port",
@@ -463,11 +463,11 @@
     "statuses": [
       [
         "in-progress",
-        1515
+        1514
       ],
       [
         "released",
-        1343
+        1344
       ],
       [
         "unknown",
@@ -479,7 +479,7 @@
       ],
       [
         "complete",
-        197
+        198
       ],
       [
         "playable",
@@ -1558,6 +1558,54 @@
       "sources": [
         "awesome-decomp-games",
         "recomp.fyi"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "virtua-fighter-2--arcade-sega-model-2",
+      "title": "Virtua Fighter 2",
+      "platform": "Arcade (Sega Model 2)",
+      "projects": [
+        {
+          "id": "sig-virtua-fighter-2-virtua-fighter-2-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/vf2-recomp/",
+              "source_id": "p/vf2-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Arcade (Sega Model 2)",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Virtua Fighter 2",
+          "platform": "Arcade (Sega Model 2)",
+          "type": "recomp",
+          "project": "Virtua Fighter 2 Recomp",
+          "project_url": "https://www.recompsoftware.com/p/vf2-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-28",
+          "release": "v0.1.16Oct",
+          "made": "AI-assisted",
+          "stars": 70,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-10-28",
       "best_status": "released",
@@ -3359,6 +3407,34 @@
       "platform": "Wii U",
       "projects": [
         {
+          "id": "sig-the-legend-of-zelda-the-wind-waker-hd-switchwakerhd-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/switchwakerhd/",
+              "source_id": "p/switchwakerhd",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Wii U",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Legend of Zelda: The Wind Waker HD",
+          "platform": "Wii U",
+          "type": "recomp",
+          "project": "SwitchWakerHD",
+          "project_url": "https://www.recompsoftware.com/p/switchwakerhd/",
+          "status": "released",
+          "last_activity": "2026-10-28",
+          "release": "v1.0.0Oct",
+          "made": "AI-assisted",
+          "stars": 196,
+          "conflicts": {},
+          "targets": []
+        },
+        {
           "id": "repo-centollos-switchwakerhd",
           "evidence": [
             {
@@ -3429,7 +3505,7 @@
           "last_activity": "2026-10-23",
           "release": "v1.14Oct",
           "made": "Not stated",
-          "stars": 93,
+          "stars": 94,
           "conflicts": {},
           "targets": []
         },
@@ -3507,34 +3583,6 @@
           "last_activity": "2026-10-17",
           "conflicts": {},
           "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "sig-the-legend-of-zelda-the-wind-waker-hd-switchwakerhd-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/switchwakerhd/",
-              "source_id": "p/switchwakerhd",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Wii U",
-              "last_activity": "2026-10-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "The Legend of Zelda: The Wind Waker HD",
-          "platform": "Wii U",
-          "type": "recomp",
-          "project": "SwitchWakerHD",
-          "project_url": "https://www.recompsoftware.com/p/switchwakerhd/",
-          "status": "released",
-          "last_activity": "2026-10-14",
-          "release": "v0.4.7Oct",
-          "made": "AI-assisted",
-          "stars": 196,
-          "conflicts": {},
           "targets": []
         }
       ],
@@ -3661,7 +3709,7 @@
           "last_activity": "2026-10-27",
           "release": "v2026.10.27-4825a99Oct",
           "made": "Not stated",
-          "stars": 476,
+          "stars": 478,
           "conflicts": {},
           "targets": []
         },
@@ -4711,7 +4759,7 @@
           "last_activity": "2026-10-24",
           "release": "v0.4.0Oct",
           "made": "AI-assisted",
-          "stars": 117,
+          "stars": 118,
           "conflicts": {},
           "targets": []
         },
@@ -5674,7 +5722,7 @@
           "project": "Super Mario Sunshine decompilation",
           "project_url": "https://www.recompsoftware.com/p/sms-decomp/",
           "status": "in-progress",
-          "progress": 51.45,
+          "progress": 51.49,
           "made": "Human-led",
           "stars": 373,
           "conflicts": {},
@@ -5979,7 +6027,7 @@
           "status": "in-progress",
           "progress": 87.22,
           "made": "AI-assisted",
-          "stars": 229,
+          "stars": 231,
           "conflicts": {},
           "targets": []
         }
@@ -8177,7 +8225,7 @@
               "status": "released",
               "type": "recomp",
               "platform": "N64",
-              "last_activity": "2026-10-25"
+              "last_activity": "2026-10-28"
             }
           ],
           "embedded_sources": [],
@@ -8187,8 +8235,8 @@
           "project": "Rush 2 Recompiled",
           "project_url": "https://www.recompsoftware.com/p/rush2recompiled/",
           "status": "released",
-          "last_activity": "2026-10-25",
-          "release": "v1.0.34Oct",
+          "last_activity": "2026-10-28",
+          "release": "v1.0.35Oct",
           "made": "AI-assisted",
           "stars": 63,
           "conflicts": {},
@@ -9114,7 +9162,7 @@
           "last_activity": "2026-10-26",
           "release": "v0.4.0Oct",
           "made": "AI-assisted",
-          "stars": 175,
+          "stars": 179,
           "conflicts": {},
           "targets": []
         },
@@ -10767,10 +10815,10 @@
               "source_url": "https://www.recompsoftware.com/p/nhl-2k8-recompiled/",
               "source_id": "p/nhl-2k8-recompiled",
               "claimed": false,
-              "status": "in-progress",
+              "status": "released",
               "type": "recomp",
               "platform": "Xbox 360",
-              "last_activity": "2026-10-24"
+              "last_activity": "2026-10-28"
             }
           ],
           "embedded_sources": [],
@@ -10779,9 +10827,9 @@
           "type": "recomp",
           "project": "NHL 2K8 Recompiled",
           "project_url": "https://www.recompsoftware.com/p/nhl-2k8-recompiled/",
-          "status": "in-progress",
-          "last_activity": "2026-10-24",
-          "release": "v0.2.0Oct",
+          "status": "released",
+          "last_activity": "2026-10-28",
+          "release": "v1.0.0Oct",
           "made": "AI-assisted",
           "stars": 8,
           "conflicts": {},
@@ -10793,7 +10841,6 @@
         "recomp"
       ],
       "statuses": [
-        "in-progress",
         "released"
       ],
       "sources": [
@@ -10929,7 +10976,7 @@
           "last_activity": "2026-10-28",
           "release": "v4.0.1Oct",
           "made": "Not stated",
-          "stars": 122,
+          "stars": 124,
           "conflicts": {},
           "targets": []
         }
@@ -11190,6 +11237,54 @@
       ],
       "last_activity": "2026-10-28",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "naruto-shippuden-ultimate-ninja-storm-3-full-burst--xbox-360",
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-naruto-shippuden-ultimate-ninja-storm-3-full-burst-naruto-storm-3-full-burst-port-nativo-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/naruto-storm-3-full-burst-port-nativo/",
+              "source_id": "p/naruto-storm-3-full-burst-port-nativo",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Naruto Storm 3 Full Burst Port Nativo",
+          "project_url": "https://www.recompsoftware.com/p/naruto-storm-3-full-burst-port-nativo/",
+          "status": "released",
+          "last_activity": "2026-10-28",
+          "release": "v0.5.0Oct",
+          "made": "Not stated",
+          "stars": 71,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -12192,7 +12287,7 @@
           "project": "Mega Man X4 Decompilation",
           "project_url": "https://www.recompsoftware.com/p/mmx4-decomp/",
           "status": "in-progress",
-          "progress": 63.9,
+          "progress": 64.02,
           "made": "Not stated",
           "stars": 38,
           "conflicts": {},
@@ -12756,7 +12851,7 @@
           "last_activity": "2026-10-25",
           "release": "v0.8.6Oct",
           "made": "AI-assisted",
-          "stars": 718,
+          "stars": 719,
           "conflicts": {},
           "targets": []
         },
@@ -14068,6 +14163,56 @@
       "has_conflict": false
     },
     {
+      "id": "killzone-2--ps3",
+      "title": "Killzone 2",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-undecuple-project-pyrrhus",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/killzone-2-ps3",
+              "source_id": "killzone-2-undecuple",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Killzone 2",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "Project Pyrrhus",
+          "project_url": "https://github.com/undecuple/project-pyrrhus",
+          "repo": "undecuple/project-pyrrhus",
+          "status": "in-progress",
+          "last_activity": "2026-10-28",
+          "release": "v0.1.1",
+          "toolchain": "Ps3recomp",
+          "targets": [
+            "PC (Windows)"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "kid-chameleon--genesis",
       "title": "Kid Chameleon",
       "platform": "Genesis",
@@ -14340,7 +14485,7 @@
           "last_activity": "2026-10-22",
           "release": "v1.0Oct",
           "made": "AI-assisted",
-          "stars": 967,
+          "stars": 971,
           "conflicts": {},
           "targets": []
         }
@@ -15138,7 +15283,7 @@
           "project": "Halo 2 Decompilation",
           "project_url": "https://www.recompsoftware.com/p/halo2-decompiled/",
           "status": "in-progress",
-          "progress": 58.13,
+          "progress": 58.16,
           "made": "Not stated",
           "stars": 118,
           "conflicts": {},
@@ -15354,7 +15499,7 @@
           "status": "in-progress",
           "progress": 55.48,
           "made": "Not stated",
-          "stars": 81,
+          "stars": 82,
           "conflicts": {},
           "targets": []
         }
@@ -15679,7 +15824,7 @@
           "last_activity": "2026-10-28",
           "release": "v0.7.1Oct",
           "made": "Not stated",
-          "stars": 934,
+          "stars": 936,
           "conflicts": {},
           "targets": []
         },
@@ -17535,7 +17680,7 @@
           "last_activity": "2026-10-28",
           "release": "v0.6.0Oct",
           "made": "AI-assisted",
-          "stars": 223,
+          "stars": 224,
           "conflicts": {},
           "targets": []
         },
@@ -19075,7 +19220,7 @@
           "project": "Conker's Bad Fur Day decompilation",
           "project_url": "https://www.recompsoftware.com/p/conker-decomp/",
           "status": "in-progress",
-          "progress": 32.79,
+          "progress": 32.88,
           "made": "Not stated",
           "stars": 34,
           "conflicts": {},
@@ -19662,6 +19807,54 @@
       "sources": [
         "awesome-decomp-games",
         "recomp.fyi"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "capcom-cps-2-arcade-games--arcade",
+      "title": "Capcom CPS-2 arcade games",
+      "platform": "Arcade",
+      "projects": [
+        {
+          "id": "sig-capcom-cps-2-arcade-games-cps-2-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/cps2-recomp/",
+              "source_id": "p/cps2-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Arcade",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Capcom CPS-2 arcade games",
+          "platform": "Arcade",
+          "type": "recomp",
+          "project": "CPS-2 Recomp",
+          "project_url": "https://www.recompsoftware.com/p/cps2-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-28",
+          "release": "v0.4.0-beta.8Oct",
+          "made": "Not stated",
+          "stars": 90,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-10-28",
       "best_status": "released",
@@ -21284,7 +21477,7 @@
               "status": "released",
               "type": "recomp",
               "platform": "N64",
-              "last_activity": "2026-10-26"
+              "last_activity": "2026-10-28"
             }
           ],
           "embedded_sources": [],
@@ -21294,8 +21487,8 @@
           "project": "Automobili Lamborghini: Recompiled",
           "project_url": "https://www.recompsoftware.com/p/automobili-lamborghini-recomp/",
           "status": "released",
-          "last_activity": "2026-10-26",
-          "release": "v0.10.1Oct",
+          "last_activity": "2026-10-28",
+          "release": "v0.10.2Oct",
           "made": "AI-assisted",
           "stars": 46,
           "conflicts": {},
@@ -21538,7 +21731,7 @@
           "project": "1080 Snowboarding decompilation",
           "project_url": "https://www.recompsoftware.com/p/1080-decomp/",
           "status": "in-progress",
-          "progress": 82.53,
+          "progress": 82.62,
           "made": "AI-assisted",
           "stars": 18,
           "conflicts": {},
@@ -22507,7 +22700,7 @@
           "last_activity": "2026-10-27",
           "release": "v1.3.1Oct",
           "made": "Not stated",
-          "stars": 163,
+          "stars": 166,
           "conflicts": {},
           "targets": []
         }
@@ -25522,7 +25715,7 @@
           "last_activity": "2026-10-27",
           "release": "v1.0.2Oct",
           "made": "AI-generated",
-          "stars": 449,
+          "stars": 454,
           "conflicts": {},
           "targets": []
         },
@@ -26902,7 +27095,7 @@
           "project_url": "https://www.recompsoftware.com/p/opentricky/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 123,
+          "stars": 124,
           "conflicts": {},
           "targets": []
         }
@@ -28482,7 +28675,7 @@
           "last_activity": "2026-10-27",
           "release": "0.2.7Oct",
           "made": "AI-assisted",
-          "stars": 70,
+          "stars": 71,
           "conflicts": {},
           "targets": []
         },
@@ -29746,7 +29939,7 @@
           "last_activity": "2026-10-26",
           "release": "v0.2.1Oct",
           "made": "AI-assisted",
-          "stars": 55,
+          "stars": 56,
           "conflicts": {},
           "targets": []
         },
@@ -29774,7 +29967,7 @@
           "last_activity": "2026-10-17",
           "release": "v1.2.2Oct",
           "made": "Not stated",
-          "stars": 223,
+          "stars": 224,
           "conflicts": {},
           "targets": []
         }
@@ -32616,7 +32809,7 @@
           "last_activity": "2026-10-27",
           "release": "v0.14.11Oct",
           "made": "Not stated",
-          "stars": 289,
+          "stars": 290,
           "conflicts": {},
           "targets": []
         },
@@ -32672,7 +32865,7 @@
           "project_url": "https://www.recompsoftware.com/p/nfsu2-web/",
           "status": "in-progress",
           "made": "AI-assisted",
-          "stars": 395,
+          "stars": 405,
           "conflicts": {},
           "targets": []
         }
@@ -33253,7 +33446,7 @@
           "last_activity": "2026-10-23",
           "release": "v0.5.0Oct",
           "made": "AI-assisted",
-          "stars": 39,
+          "stars": 40,
           "conflicts": {},
           "targets": []
         }
@@ -34699,7 +34892,7 @@
           "status": "complete",
           "progress": 100.0,
           "made": "Not stated",
-          "stars": 883,
+          "stars": 884,
           "conflicts": {},
           "targets": []
         }
@@ -35931,7 +36124,7 @@
           "project_url": "https://www.recompsoftware.com/p/killzone-recomp/",
           "status": "in-progress",
           "made": "AI-assisted",
-          "stars": 147,
+          "stars": 149,
           "conflicts": {},
           "targets": []
         }
@@ -38666,7 +38859,7 @@
           "project_url": "https://www.recompsoftware.com/p/fh2-recompiled/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 145,
+          "stars": 146,
           "conflicts": {},
           "targets": []
         }
@@ -39304,7 +39497,7 @@
           "release": "FullMatchMar",
           "progress": 77.41,
           "made": "Not stated",
-          "stars": 134,
+          "stars": 135,
           "conflicts": {},
           "targets": []
         }
@@ -41974,7 +42167,7 @@
           "last_activity": "2026-10-27",
           "release": "v0.12.2Oct",
           "made": "AI-assisted",
-          "stars": 192,
+          "stars": 193,
           "conflicts": {},
           "targets": []
         },
@@ -42324,7 +42517,7 @@
           "last_activity": "2026-10-24",
           "release": "v1.0.7Oct",
           "made": "Not stated",
-          "stars": 91,
+          "stars": 92,
           "conflicts": {},
           "targets": []
         },
@@ -43063,7 +43256,7 @@
           "last_activity": "2026-10-27",
           "release": "v0.1.3Oct",
           "made": "Not stated",
-          "stars": 117,
+          "stars": 120,
           "conflicts": {},
           "targets": []
         }
@@ -43515,7 +43708,7 @@
           "last_activity": "2026-08-27",
           "release": "v1.4.5Aug",
           "made": "Not stated",
-          "stars": 393,
+          "stars": 394,
           "conflicts": {},
           "targets": []
         }
@@ -43583,54 +43776,6 @@
       ],
       "last_activity": "2026-10-27",
       "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "capcom-cps-2-arcade-games--arcade",
-      "title": "Capcom CPS-2 arcade games",
-      "platform": "Arcade",
-      "projects": [
-        {
-          "id": "sig-capcom-cps-2-arcade-games-cps-2-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/cps2-recomp/",
-              "source_id": "p/cps2-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Arcade",
-              "last_activity": "2026-10-27"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Capcom CPS-2 arcade games",
-          "platform": "Arcade",
-          "type": "recomp",
-          "project": "CPS-2 Recomp",
-          "project_url": "https://www.recompsoftware.com/p/cps2-recomp/",
-          "status": "released",
-          "last_activity": "2026-10-27",
-          "release": "v0.4.0-beta.7Oct",
-          "made": "Not stated",
-          "stars": 89,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-10-27",
-      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -43973,7 +44118,7 @@
           "last_activity": "2026-10-26",
           "release": "1.0.1Oct",
           "made": "Human-led",
-          "stars": 48,
+          "stars": 49,
           "conflicts": {},
           "targets": []
         },
@@ -45356,7 +45501,7 @@
           "last_activity": "2026-10-27",
           "release": "1.4Oct",
           "made": "Not stated",
-          "stars": 93,
+          "stars": 95,
           "conflicts": {},
           "targets": []
         },
@@ -46735,7 +46880,7 @@
           "last_activity": "2026-10-22",
           "release": "v2.1.5Oct",
           "made": "AI-assisted",
-          "stars": 138,
+          "stars": 139,
           "conflicts": {},
           "targets": []
         },
@@ -47934,7 +48079,7 @@
           "last_activity": "2026-10-26",
           "release": "v2.0.2Oct",
           "made": "Not stated",
-          "stars": 456,
+          "stars": 459,
           "conflicts": {},
           "targets": []
         }
@@ -48212,7 +48357,7 @@
           "last_activity": "2026-10-26",
           "release": "v0.3.1Oct",
           "made": "AI-assisted",
-          "stars": 62,
+          "stars": 63,
           "conflicts": {},
           "targets": []
         },
@@ -48351,7 +48496,7 @@
           "last_activity": "2026-10-23",
           "release": "v0.1.7Oct",
           "made": "Not stated",
-          "stars": 210,
+          "stars": 211,
           "conflicts": {},
           "targets": []
         }
@@ -52529,7 +52674,7 @@
           "last_activity": "2026-10-26",
           "release": "v0.1.0Oct",
           "made": "Not stated",
-          "stars": 56,
+          "stars": 57,
           "conflicts": {},
           "targets": []
         }
@@ -52987,7 +53132,7 @@
           "last_activity": "2026-10-26",
           "release": "v1.1.0Oct",
           "made": "Not stated",
-          "stars": 837,
+          "stars": 841,
           "conflicts": {},
           "targets": []
         },
@@ -54334,7 +54479,7 @@
           "last_activity": "2026-10-25",
           "release": "v0.7.1Oct",
           "made": "Not stated",
-          "stars": 53,
+          "stars": 55,
           "conflicts": {},
           "targets": []
         }
@@ -54573,7 +54718,7 @@
           "last_activity": "2026-10-26",
           "release": "v1.3.1Oct",
           "made": "AI-assisted",
-          "stars": 140,
+          "stars": 141,
           "conflicts": {},
           "targets": []
         }
@@ -55455,7 +55600,7 @@
           "last_activity": "2026-10-21",
           "release": "ufc3-v0.1.14Oct",
           "made": "AI-assisted",
-          "stars": 204,
+          "stars": 206,
           "conflicts": {},
           "targets": []
         }
@@ -55664,7 +55809,7 @@
           "project_url": "https://www.recompsoftware.com/p/dragon-age-origins-recomp-2/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 35,
+          "stars": 37,
           "conflicts": {},
           "targets": []
         }
@@ -56221,7 +56366,7 @@
           "last_activity": "2026-10-26",
           "release": "v0.8.1Oct",
           "made": "Not stated",
-          "stars": 150,
+          "stars": 151,
           "conflicts": {},
           "targets": []
         }
@@ -56351,7 +56496,7 @@
           "last_activity": "2026-10-22",
           "release": "v0.2.1Oct",
           "made": "AI-assisted",
-          "stars": 431,
+          "stars": 432,
           "conflicts": {},
           "targets": []
         },
@@ -58297,7 +58442,7 @@
           "last_activity": "2026-10-25",
           "release": "v1.7.0Oct",
           "made": "AI-assisted",
-          "stars": 46,
+          "stars": 47,
           "conflicts": {},
           "targets": []
         }
@@ -58816,54 +58961,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-25",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "virtua-fighter-2--arcade-sega-model-2",
-      "title": "Virtua Fighter 2",
-      "platform": "Arcade (Sega Model 2)",
-      "projects": [
-        {
-          "id": "sig-virtua-fighter-2-virtua-fighter-2-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/vf2-recomp/",
-              "source_id": "p/vf2-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Arcade (Sega Model 2)",
-              "last_activity": "2026-10-25"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Virtua Fighter 2",
-          "platform": "Arcade (Sega Model 2)",
-          "type": "recomp",
-          "project": "Virtua Fighter 2 Recomp",
-          "project_url": "https://www.recompsoftware.com/p/vf2-recomp/",
-          "status": "released",
-          "last_activity": "2026-10-25",
-          "release": "v0.1.15Oct",
-          "made": "AI-assisted",
-          "stars": 69,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
       ],
       "last_activity": "2026-10-25",
       "best_status": "released",
@@ -59948,7 +60045,7 @@
           "last_activity": "2026-10-25",
           "release": "v0.1.0-betaOct",
           "made": "AI-assisted",
-          "stars": 331,
+          "stars": 350,
           "conflicts": {},
           "targets": []
         }
@@ -60263,7 +60360,7 @@
           "last_activity": "2026-10-25",
           "release": "v0.1.1Oct",
           "made": "Not stated",
-          "stars": 265,
+          "stars": 271,
           "conflicts": {},
           "targets": []
         },
@@ -60406,7 +60503,7 @@
           "project_url": "https://www.recompsoftware.com/p/botw-snrubrm/",
           "status": "in-progress",
           "made": "AI-assisted",
-          "stars": 6,
+          "stars": 7,
           "conflicts": {},
           "targets": []
         }
@@ -61073,7 +61170,7 @@
           "last_activity": "2026-10-25",
           "release": "v0.1.0Oct",
           "made": "AI-assisted",
-          "stars": 67,
+          "stars": 68,
           "conflicts": {},
           "targets": []
         }
@@ -63396,7 +63493,7 @@
           "project": "PES6 decompilation",
           "project_url": "https://www.recompsoftware.com/p/pes6-decomp/",
           "status": "in-progress",
-          "progress": 2.9,
+          "progress": 2.93,
           "made": "Not stated",
           "stars": 7,
           "conflicts": {},
@@ -64948,54 +65045,6 @@
       "has_conflict": false
     },
     {
-      "id": "naruto-shippuden-ultimate-ninja-storm-3-full-burst--xbox-360",
-      "title": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "sig-naruto-shippuden-ultimate-ninja-storm-3-full-burst-naruto-storm-3-full-burst-port-nativo-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/naruto-storm-3-full-burst-port-nativo/",
-              "source_id": "p/naruto-storm-3-full-burst-port-nativo",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-25"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Naruto Shippuden: Ultimate Ninja Storm 3 Full Burst",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Naruto Storm 3 Full Burst Port Nativo",
-          "project_url": "https://www.recompsoftware.com/p/naruto-storm-3-full-burst-port-nativo/",
-          "status": "released",
-          "last_activity": "2026-10-25",
-          "release": "v0.4.7Oct",
-          "made": "Not stated",
-          "stars": 71,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-10-25",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "namco-system-21-22-and-23-arcade-games--arcade",
       "title": "Namco System 21, 22 and 23 arcade games",
       "platform": "Arcade",
@@ -65121,7 +65170,7 @@
           "last_activity": "2026-10-25",
           "release": "v0.3.0Oct",
           "made": "AI-assisted",
-          "stars": 275,
+          "stars": 277,
           "conflicts": {},
           "targets": []
         },
@@ -76350,7 +76399,7 @@
           "last_activity": "2026-10-24",
           "release": "v2026.10.24-a2e69a1Oct",
           "made": "Not stated",
-          "stars": 136,
+          "stars": 138,
           "conflicts": {},
           "targets": []
         }
@@ -77414,7 +77463,7 @@
           "last_activity": "2026-10-24",
           "release": "v0.9.6Oct",
           "made": "Not stated",
-          "stars": 175,
+          "stars": 176,
           "conflicts": {},
           "targets": []
         },
@@ -79053,7 +79102,7 @@
           "last_activity": "2026-10-24",
           "release": "V3.0Oct",
           "made": "Not stated",
-          "stars": 116,
+          "stars": 117,
           "conflicts": {},
           "targets": []
         },
@@ -79133,7 +79182,7 @@
           "last_activity": "2026-10-24",
           "release": "V1Oct",
           "made": "Not stated",
-          "stars": 108,
+          "stars": 109,
           "conflicts": {},
           "targets": []
         }
@@ -79584,7 +79633,7 @@
           "last_activity": "2026-10-23",
           "release": "v1.4.0Oct",
           "made": "Not stated",
-          "stars": 64,
+          "stars": 65,
           "conflicts": {},
           "targets": []
         },
@@ -81380,7 +81429,7 @@
           "last_activity": "2026-10-23",
           "release": "residentevil-v1.4.1Oct",
           "made": "AI-assisted",
-          "stars": 168,
+          "stars": 173,
           "conflicts": {},
           "targets": []
         }
@@ -85005,7 +85054,7 @@
           "project_url": "https://www.recompsoftware.com/p/drakengard-3-recomp/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 203,
+          "stars": 205,
           "conflicts": {},
           "targets": []
         }
@@ -85055,7 +85104,7 @@
           "last_activity": "2026-10-23",
           "release": "f6dfd96Oct",
           "made": "Not stated",
-          "stars": 92,
+          "stars": 94,
           "conflicts": {},
           "targets": []
         }
@@ -86111,7 +86160,7 @@
           "project_url": "https://www.recompsoftware.com/p/cod3recomp/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 360,
+          "stars": 361,
           "conflicts": {},
           "targets": []
         }
@@ -91039,7 +91088,7 @@
           "last_activity": "2026-10-22",
           "release": "v0.3.3Oct",
           "made": "AI-assisted",
-          "stars": 483,
+          "stars": 485,
           "conflicts": {},
           "targets": []
         }
@@ -97862,7 +97911,7 @@
           "last_activity": "2026-08-19",
           "release": "v0.5.1bAug",
           "made": "Human-led",
-          "stars": 995,
+          "stars": 996,
           "conflicts": {},
           "targets": []
         },
@@ -97889,7 +97938,7 @@
           "status": "in-progress",
           "last_activity": "2023-04-05",
           "release": "cc1-psx-26Apr",
-          "progress": 72.14,
+          "progress": 72.23,
           "made": "Human-led",
           "stars": 1200,
           "conflicts": {},
@@ -99452,7 +99501,7 @@
           "last_activity": "2026-10-20",
           "release": "v1.4.0Oct",
           "made": "AI-assisted",
-          "stars": 65,
+          "stars": 66,
           "conflicts": {},
           "targets": []
         }
@@ -106168,7 +106217,7 @@
           "last_activity": "2026-10-19",
           "release": "v0.3.9Oct",
           "made": "Not stated",
-          "stars": 131,
+          "stars": 133,
           "conflicts": {},
           "targets": []
         },
@@ -106196,7 +106245,7 @@
           "last_activity": "2026-10-15",
           "release": "v0.1.0-alpha.2Oct",
           "made": "Not stated",
-          "stars": 132,
+          "stars": 133,
           "conflicts": {},
           "targets": []
         },
@@ -108046,7 +108095,7 @@
           "last_activity": "2026-10-18",
           "release": "V2Oct",
           "made": "Not stated",
-          "stars": 380,
+          "stars": 381,
           "conflicts": {},
           "targets": []
         }
@@ -115448,7 +115497,7 @@
           "last_activity": "2026-10-13",
           "release": "v0.1.0Oct",
           "made": "AI-assisted",
-          "stars": 31,
+          "stars": 32,
           "conflicts": {},
           "targets": []
         }
@@ -116466,7 +116515,7 @@
           "last_activity": "2026-10-16",
           "release": "v0.8.4-betaOct",
           "made": "Human-led",
-          "stars": 735,
+          "stars": 736,
           "conflicts": {},
           "targets": []
         },
@@ -121399,7 +121448,7 @@
           "last_activity": "2026-10-14",
           "release": "v1.1.0Oct",
           "made": "Not stated",
-          "stars": 88,
+          "stars": 90,
           "conflicts": {},
           "targets": []
         }
@@ -123466,7 +123515,7 @@
           "project_url": "https://www.recompsoftware.com/p/flow-recomp/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 17,
+          "stars": 18,
           "conflicts": {},
           "targets": []
         }
@@ -134884,7 +134933,7 @@
           "last_activity": "2026-10-09",
           "release": "v1.3.0Oct",
           "made": "Not stated",
-          "stars": 113,
+          "stars": 114,
           "conflicts": {},
           "targets": []
         }
@@ -141073,7 +141122,7 @@
           "last_activity": "2026-10-05",
           "release": "v1.3.1Oct",
           "made": "Not stated",
-          "stars": 862,
+          "stars": 863,
           "conflicts": {},
           "targets": []
         },
@@ -143071,7 +143120,7 @@
           "last_activity": "2026-10-03",
           "release": "v0.1.1Oct",
           "made": "Not stated",
-          "stars": 77,
+          "stars": 78,
           "conflicts": {},
           "targets": []
         },
@@ -149129,7 +149178,7 @@
           "last_activity": "2026-09-30",
           "release": "kit-macos-20260930Sep",
           "made": "AI-assisted",
-          "stars": 77,
+          "stars": 78,
           "conflicts": {},
           "targets": []
         }
@@ -149695,7 +149744,7 @@
           "last_activity": "2026-09-30",
           "release": "v1.0.3Sep",
           "made": "Not stated",
-          "stars": 554,
+          "stars": 555,
           "conflicts": {},
           "targets": []
         },
@@ -150949,7 +150998,7 @@
           "last_activity": "2026-09-29",
           "release": "sm2-v1.1Sep",
           "made": "Not stated",
-          "stars": 46,
+          "stars": 47,
           "conflicts": {},
           "targets": []
         }
@@ -161249,7 +161298,7 @@
           "last_activity": "2025-12-30",
           "release": "1.0.3Dec",
           "made": "Not stated",
-          "stars": 401,
+          "stars": 402,
           "conflicts": {},
           "targets": []
         },
@@ -163590,7 +163639,7 @@
           "project_url": "https://www.recompsoftware.com/p/asuras-wrath-recomp/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 75,
+          "stars": 76,
           "conflicts": {},
           "targets": []
         }
@@ -168371,7 +168420,7 @@
           "last_activity": "2026-09-02",
           "release": "v1.1.8Sep",
           "made": "AI-assisted",
-          "stars": 346,
+          "stars": 347,
           "conflicts": {},
           "targets": []
         },
@@ -177901,7 +177950,7 @@
           "last_activity": "2026-07-23",
           "release": "toolchain-vc6-sp3Jul",
           "made": "AI-assisted",
-          "stars": 24,
+          "stars": 25,
           "conflicts": {},
           "targets": []
         }
@@ -219738,7 +219787,7 @@
           "project_url": "https://www.recompsoftware.com/p/wowdecomp/",
           "status": "in-progress",
           "made": "AI-assisted",
-          "stars": 421,
+          "stars": 422,
           "conflicts": {},
           "targets": []
         }
@@ -221671,7 +221720,7 @@
           "project_url": "https://www.recompsoftware.com/p/the-order-1886-pc-port/",
           "status": "in-progress",
           "made": "AI-assisted",
-          "stars": 62,
+          "stars": 64,
           "conflicts": {},
           "targets": []
         }
@@ -222592,7 +222641,7 @@
           "project_url": "https://www.recompsoftware.com/p/windowsmash/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 422,
+          "stars": 423,
           "conflicts": {},
           "targets": []
         }
@@ -222731,7 +222780,7 @@
           "status": "in-progress",
           "progress": 15.77,
           "made": "Human-led",
-          "stars": 490,
+          "stars": 491,
           "conflicts": {},
           "targets": []
         }
@@ -223791,7 +223840,7 @@
           "project_url": "https://www.recompsoftware.com/p/sm2-recomp/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 58,
+          "stars": 59,
           "conflicts": {},
           "targets": []
         }
@@ -224669,7 +224718,7 @@
           "project": "Digital Devil Saga decompilation",
           "project_url": "https://www.recompsoftware.com/p/dds-decomp/",
           "status": "in-progress",
-          "progress": 94.92,
+          "progress": 95.0,
           "made": "Not stated",
           "stars": 39,
           "conflicts": {},
@@ -225909,7 +225958,7 @@
               "source_url": "https://www.recompsoftware.com/p/lombyte/",
               "source_id": "p/lombyte",
               "claimed": false,
-              "status": "in-progress",
+              "status": "complete",
               "type": "decomp",
               "platform": "PS2",
               "last_activity": null
@@ -225921,10 +225970,10 @@
           "type": "decomp",
           "project": "Lombyte",
           "project_url": "https://www.recompsoftware.com/p/lombyte/",
-          "status": "in-progress",
-          "progress": 99.99,
+          "status": "complete",
+          "progress": 100.0,
           "made": "AI-assisted",
-          "stars": 49,
+          "stars": 50,
           "conflicts": {},
           "targets": []
         }
@@ -225934,13 +225983,13 @@
         "decomp"
       ],
       "statuses": [
-        "in-progress"
+        "complete"
       ],
       "sources": [
         "recomp-software-decomp"
       ],
       "last_activity": null,
-      "best_status": "in-progress",
+      "best_status": "complete",
       "has_conflict": false
     },
     {
@@ -226739,7 +226788,7 @@
           "status": "complete",
           "progress": 100.0,
           "made": "AI-assisted",
-          "stars": 14,
+          "stars": 15,
           "conflicts": {},
           "targets": []
         }
@@ -227667,7 +227716,7 @@
           "project_url": "https://www.recompsoftware.com/p/ngbrecomp/",
           "status": "in-progress",
           "made": "AI-assisted",
-          "stars": 187,
+          "stars": 189,
           "conflicts": {},
           "targets": []
         }
@@ -231186,7 +231235,7 @@
           "status": "in-progress",
           "progress": 33.46,
           "made": "Not stated",
-          "stars": 28,
+          "stars": 29,
           "conflicts": {},
           "targets": []
         }
@@ -232112,7 +232161,7 @@
           "project_url": "https://www.recompsoftware.com/p/cricket07-browser/",
           "status": "in-progress",
           "made": "AI-assisted",
-          "stars": 159,
+          "stars": 162,
           "conflicts": {},
           "targets": []
         }
@@ -232297,7 +232346,7 @@
           "project_url": "https://www.recompsoftware.com/p/dragon-age-origins-recomp/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 35,
+          "stars": 37,
           "conflicts": {},
           "targets": []
         }
@@ -234235,7 +234284,7 @@
           "project_url": "https://www.recompsoftware.com/p/black-2006-recomp/",
           "status": "in-progress",
           "made": "AI-assisted",
-          "stars": 192,
+          "stars": 194,
           "conflicts": {},
           "targets": []
         }
