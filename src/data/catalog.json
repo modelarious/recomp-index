@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-27T23:38:10.925478+00:00",
+  "generated_at": "2026-10-28T05:38:21.023429+00:00",
   "summary": {
-    "games": 3543,
-    "projects": 4980,
-    "source_records": 6182,
+    "games": 3547,
+    "projects": 4984,
+    "source_records": 6186,
     "platforms": 102,
     "sources": 4,
     "conflicted_projects": 272
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2788
+      "records": 2792
     },
     {
       "id": "recomp-software-recomp",
@@ -43,11 +43,11 @@
       ],
       [
         "Xbox 360",
-        527
+        528
       ],
       [
         "N64",
-        470
+        471
       ],
       [
         "PS2",
@@ -111,7 +111,7 @@
       ],
       [
         "PS3",
-        51
+        53
       ],
       [
         "Genesis",
@@ -449,7 +449,7 @@
       ],
       [
         "recomp",
-        2035
+        2039
       ],
       [
         "port",
@@ -463,11 +463,11 @@
     "statuses": [
       [
         "in-progress",
-        1513
+        1514
       ],
       [
         "unknown",
-        1329
+        1330
       ],
       [
         "released",
@@ -483,7 +483,7 @@
       ],
       [
         "playable",
-        97
+        99
       ],
       [
         "exploring",
@@ -492,6 +492,206 @@
     ]
   },
   "games": [
+    {
+      "id": "resident-evil-code-veronica-x--ps3",
+      "title": "Resident Evil – Code: Veronica X",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-kastieloficial-re-code-veronica-ps3-hd-recomp-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/resident-evil-code-veronica-x-ps3",
+              "source_id": "resident-evil-code-veronica-x-kastieloficial",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Resident Evil – Code: Veronica X",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC",
+          "project_url": "https://github.com/kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC",
+          "repo": "kastieloficial/RE-Code-Veronica-PS3-HD-Recomp-PC",
+          "last_activity": "2026-10-28",
+          "release": "v1.1.9",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "mortal-kombat-trilogy--n64",
+      "title": "Mortal Kombat Trilogy",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-cultofblue-mktrilogyn64recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/mortal-kombat-trilogy-n64",
+              "source_id": "mortal-kombat-trilogy-cultofblue",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mortal Kombat Trilogy",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Mortal Kombat Trilogy Recompiled",
+          "project_url": "https://github.com/cultofblue/MKTrilogyN64Recomp",
+          "repo": "cultofblue/MKTrilogyN64Recomp",
+          "status": "playable",
+          "last_activity": "2026-10-28",
+          "release": "v1.0.0",
+          "toolchain": "N64recomp",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "playable",
+      "has_conflict": false
+    },
+    {
+      "id": "killzone-3--ps3",
+      "title": "Killzone 3",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-undecuple-project-helghast",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/killzone-3-ps3",
+              "source_id": "killzone-3-undecuple",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Killzone 3",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "Project Helghast",
+          "project_url": "https://github.com/undecuple/project-helghast",
+          "repo": "undecuple/project-helghast",
+          "status": "in-progress",
+          "last_activity": "2026-10-28",
+          "release": "v0.1.0",
+          "toolchain": "Ps3recomp",
+          "targets": [
+            "PC (Windows)"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "juiced-2-hot-import-nights--xbox-360",
+      "title": "Juiced 2: Hot Import Nights",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-anishchandra24-juiced2-recompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/juiced-2-hot-import-nights-xbox-360",
+              "source_id": "juiced-2-hot-import-nights-anishchandra24",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Juiced 2: Hot Import Nights",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Juiced 2: Hot Import Nights Recompiled",
+          "project_url": "https://github.com/anishchandra24/Juiced2-Recompiled",
+          "repo": "anishchandra24/Juiced2-Recompiled",
+          "status": "playable",
+          "last_activity": "2026-10-28",
+          "release": "v0.1.0-preview",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "playable",
+      "has_conflict": false
+    },
     {
       "id": "zombie-revenge--dreamcast",
       "title": "Zombie Revenge",
