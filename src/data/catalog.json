@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-29T14:39:23.650745+00:00",
+  "generated_at": "2026-10-29T20:39:37.256951+00:00",
   "summary": {
-    "games": 3593,
-    "projects": 5064,
-    "source_records": 6316,
+    "games": 3596,
+    "projects": 5068,
+    "source_records": 6320,
     "platforms": 103,
     "sources": 4,
     "conflicted_projects": 285
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2880
+      "records": 2884
     },
     {
       "id": "recomp-software-recomp",
@@ -39,11 +39,11 @@
       ],
       [
         "PS1",
-        553
+        554
       ],
       [
         "Xbox 360",
-        537
+        538
       ],
       [
         "N64",
@@ -79,7 +79,7 @@
       ],
       [
         "Xbox",
-        145
+        146
       ],
       [
         "NDS",
@@ -210,12 +210,12 @@
         8
       ],
       [
-        "CD-i",
+        "Android",
         8
       ],
       [
-        "Android",
-        7
+        "CD-i",
+        8
       ],
       [
         "Apple II",
@@ -449,11 +449,11 @@
     "types": [
       [
         "decomp",
-        2184
+        2185
       ],
       [
         "recomp",
-        2108
+        2111
       ],
       [
         "port",
@@ -467,7 +467,7 @@
     "statuses": [
       [
         "in-progress",
-        1518
+        1519
       ],
       [
         "unknown",
@@ -475,7 +475,7 @@
       ],
       [
         "released",
-        1361
+        1362
       ],
       [
         "paused",
@@ -483,11 +483,11 @@
       ],
       [
         "complete",
-        200
+        201
       ],
       [
         "playable",
-        99
+        100
       ],
       [
         "exploring",
@@ -1396,11 +1396,9 @@
           "repo": "boubou666/VP2S_Recomp",
           "last_activity": "2026-10-29",
           "toolchain": "Ps2recomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -1501,15 +1499,13 @@
           "status": "in-progress",
           "last_activity": "2026-10-29",
           "stars": 27,
-          "targets": [
-            "PC"
-          ],
           "conflicts": {
             "type": [
               "decomp",
               "port"
             ]
-          }
+          },
+          "targets": []
         },
         {
           "id": "repo-someoneisworking-psx-vagrant-story",
@@ -3270,11 +3266,9 @@
           "repo": "Muqaddas12/Tekken3-PC",
           "last_activity": "2026-09-14",
           "toolchain": "Psxrecomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-fabioap-cpu-tekken3recomp",
@@ -4633,10 +4627,8 @@
           "last_activity": "2026-10-27",
           "release": "hd-cutscenes-ai-v1",
           "stars": 184,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "repo-chrissotraidis-sunpad",
@@ -5467,11 +5459,9 @@
           "repo": "SahilKDas/64DS-DX",
           "last_activity": "2026-10-12",
           "release": "v0.1-lobby",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-mstan-supermario64dsrecomp",
@@ -6460,6 +6450,55 @@
       "has_conflict": false
     },
     {
+      "id": "steel-battalion--xbox",
+      "title": "Steel Battalion",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-asukaneo-titanium-legion",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/steel-battalion-xbox",
+              "source_id": "steel-battalion-asukaneo",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-29"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Steel Battalion",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Titanium Legion",
+          "project_url": "https://github.com/AsukaNeo/titanium-legion",
+          "repo": "AsukaNeo/titanium-legion",
+          "status": "in-progress",
+          "last_activity": "2026-10-29",
+          "toolchain": "Xboxrecomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-29",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "star-wars-shadows-of-the-empire--n64",
       "title": "Star Wars: Shadows of the Empire",
       "platform": "N64",
@@ -6617,11 +6656,9 @@
           "repo": "SomeoneIsWorking/psx-spyro",
           "last_activity": "2026-10-29",
           "toolchain": "Psxport",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-themagicalkarp-open-spyro",
@@ -7088,10 +7125,8 @@
           "status": "in-progress",
           "last_activity": "2026-10-27",
           "stars": 715,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "repo-rjkiv-sonic06",
@@ -8447,10 +8482,8 @@
           "last_activity": "2026-10-29",
           "made": "AI-flagged",
           "stars": 26,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "repo-henrykun55-celosia",
@@ -8593,10 +8626,8 @@
           "status": "paused",
           "last_activity": "2024-06-08",
           "stars": 13,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-shadow-of-the-colossus-shadow-of-the-colossus-decompilation-decomp",
@@ -10580,11 +10611,9 @@
           "repo": "mp-pinheiro/poketcg-pc",
           "last_activity": "2026-10-29",
           "release": "v1.2.0-nightly.20261019.031638.1700",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-pret-poketcg",
@@ -12207,15 +12236,13 @@
           "stars": 304,
           "release": "v0.1.2",
           "toolchain": "N64recomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {
             "type": [
               "port",
               "recomp"
             ]
-          }
+          },
+          "targets": []
         },
         {
           "id": "repo-lucyawrey-paper-mario-64-recomp",
@@ -16037,11 +16064,9 @@
           "project_url": "https://github.com/JR3DFUL/HALBERD",
           "repo": "JR3DFUL/HALBERD",
           "last_activity": "2026-08-26",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "sig-kirby-64-the-crystal-shards-kirby-64-decompilation-decomp",
@@ -16306,7 +16331,7 @@
           "release": "v0.1.2",
           "toolchain": "Ps3recomp",
           "targets": [
-            "PC (Windows)"
+            "Windows"
           ],
           "conflicts": {}
         }
@@ -16661,11 +16686,9 @@
           "project_url": "https://github.com/nathanialf/ico-recomp",
           "repo": "nathanialf/ico-recomp",
           "last_activity": "2026-09-07",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-rossydoubleunderscore-ico-decomp",
@@ -18112,10 +18135,8 @@
           "status": "in-progress",
           "last_activity": "2026-10-13",
           "stars": 26,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "repo-labronfox-vulcan4",
@@ -18672,9 +18693,7 @@
           "last_activity": "2026-10-29",
           "toolchain": "Ps2recomp",
           "targets": [
-            "Windows",
-            "Windows first",
-            "Linux and Android coming later."
+            "Windows"
           ],
           "conflicts": {}
         },
@@ -18756,10 +18775,8 @@
           "status": "in-progress",
           "last_activity": "2026-10-20",
           "stars": 20,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-god-hand-god-hand-decompilation-decomp",
@@ -20142,6 +20159,57 @@
       ],
       "last_activity": "2026-10-29",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "espgaluda-ii-black-label--xbox-360",
+      "title": "Espgaluda II Black Label",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-cerroverb-espgaluda2-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/espgaluda-ii-black-label-xbox-360",
+              "source_id": "espgaluda-ii-black-label-cerroverb",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-29"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Espgaluda II Black Label",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "cerroverb/espgaluda2-recomp",
+          "project_url": "https://github.com/cerroverb/espgaluda2-recomp",
+          "repo": "cerroverb/espgaluda2-recomp",
+          "status": "playable",
+          "last_activity": "2026-10-29",
+          "release": "v1.0.0",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-29",
+      "best_status": "playable",
       "has_conflict": false
     },
     {
@@ -21921,6 +21989,35 @@
       "platform": "PS1",
       "projects": [
         {
+          "id": "repo-jake-r-r-w-crash-bash-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/crash-bash-ps1",
+              "source_id": "crash-bash-jake-r-r-w",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-29"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Crash Bash",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "crash_bash_decomp",
+          "project_url": "https://github.com/jake-r-r-w/crash_bash_decomp",
+          "repo": "jake-r-r-w/crash_bash_decomp",
+          "status": "complete",
+          "last_activity": "2026-10-29",
+          "toolchain": "Splat, Maspsx, Old-gcc, Custom scripts",
+          "targets": [
+            "PS1"
+          ],
+          "conflicts": {}
+        },
+        {
           "id": "repo-someoneisworking-psx-crash-bash",
           "evidence": [
             {
@@ -22007,12 +22104,13 @@
           "targets": []
         }
       ],
-      "project_count": 3,
+      "project_count": 4,
       "types": [
         "decomp",
         "recomp"
       ],
       "statuses": [
+        "complete",
         "paused",
         "unknown"
       ],
@@ -22021,7 +22119,7 @@
         "recomp.fyi"
       ],
       "last_activity": "2026-10-29",
-      "best_status": "paused",
+      "best_status": "complete",
       "has_conflict": false
     },
     {
@@ -22392,10 +22490,8 @@
           "last_activity": "2026-09-02",
           "stars": 37,
           "release": "v0.1.0-beta",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "repo-mkst-conker",
@@ -24172,11 +24268,9 @@
           "project_url": "https://github.com/Astrr00/BloodbornePC",
           "repo": "Astrr00/BloodbornePC",
           "last_activity": "2026-10-09",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "sig-bloodborne-paleblood-decomp",
@@ -25028,6 +25122,56 @@
       ],
       "last_activity": "2026-10-29",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "asphalt-5-hd--android",
+      "title": "Asphalt 5 HD",
+      "platform": "Android",
+      "projects": [
+        {
+          "id": "repo-mrbaazzman-asphalt5-native",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/asphalt-5-hd-android",
+              "source_id": "asphalt-5-hd-mrbaazzman",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Android",
+              "last_activity": "2026-10-29"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Asphalt 5 HD",
+          "platform": "Android",
+          "type": "recomp",
+          "project": "Asphalt 5 Native",
+          "project_url": "https://github.com/mrbaazzman/Asphalt5-Native",
+          "repo": "mrbaazzman/Asphalt5-Native",
+          "status": "released",
+          "last_activity": "2026-10-29",
+          "release": "v2.0.0",
+          "toolchain": "Armrecomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-29",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -26256,11 +26400,9 @@
           "repo": "Blizz127/xenogears-decomp-ai",
           "last_activity": "2026-09-29",
           "release": "known-good-map1-field-control",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "sig-xenogears-xenogearsrecomp-recomp",
@@ -26614,10 +26756,8 @@
           "release": "v1.1",
           "stars": 10,
           "toolchain": "Rexglue",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -28023,10 +28163,8 @@
           "release": "V2",
           "made": "AI-flagged",
           "stars": 387,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -30322,11 +30460,9 @@
           "repo": "jajdp/melee-xbox",
           "last_activity": "2026-10-20",
           "release": "v1.0.2",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-pedroflaminio-melee-project",
@@ -31612,11 +31748,9 @@
           "repo": "SomeoneIsWorking/psx-spider-man",
           "last_activity": "2026-10-28",
           "toolchain": "Psxport",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-krystalgamer-spidey-decomp",
@@ -34960,11 +35094,9 @@
           "project_url": "https://github.com/Virtual-AK/fes-pc-recomp",
           "repo": "Virtual-AK/fes-pc-recomp",
           "last_activity": "2026-10-28",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-ppkkkkk-p3fes-recompiled",
@@ -39533,7 +39665,7 @@
           "release": "v0.1.5",
           "toolchain": "Ps3recomp",
           "targets": [
-            "PC (Windows)"
+            "Windows"
           ],
           "conflicts": {}
         }
@@ -40897,7 +41029,7 @@
           "last_activity": "2026-10-26",
           "toolchain": "Ps2recomp",
           "targets": [
-            "Android ARM64"
+            "Android"
           ],
           "conflicts": {}
         }
@@ -42560,10 +42692,8 @@
           "last_activity": "2026-10-01",
           "stars": 116,
           "toolchain": "Ps2recomp",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-dragon-ball-z-budokai-tenkaichi-3-bt3-recomp-recomp",
@@ -49788,11 +49918,9 @@
           "project_url": "https://github.com/Wynplusplus/LLMario_pc",
           "repo": "Wynplusplus/LLMario_pc",
           "last_activity": "2026-09-26",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-wynplusplus-llmario",
@@ -50617,11 +50745,9 @@
           "project_url": "https://github.com/danielgomesvieira2000/soulcalibur-recomp",
           "repo": "danielgomesvieira2000/soulcalibur-recomp",
           "last_activity": "2026-10-08",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -51089,11 +51215,9 @@
           "repo": "maximilianoide/sin-punishment-recompiled",
           "last_activity": "2026-08-09",
           "toolchain": "N64recomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-dreamsailing59-ops-sinanddecomp",
@@ -55310,7 +55434,6 @@
           "toolchain": "Ps2recomp",
           "targets": [
             "Linux",
-            "Linux (ARM64)",
             "Windows"
           ],
           "conflicts": {}
@@ -57423,15 +57546,13 @@
           "status": "paused",
           "last_activity": "2026-10-19",
           "stars": 127,
-          "targets": [
-            "PC"
-          ],
           "conflicts": {
             "type": [
               "port",
               "recomp"
             ]
-          }
+          },
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -60941,16 +61062,14 @@
           "project_url": "https://github.com/filippgl/xena-psx-decomp",
           "repo": "filippgl/xena-psx-decomp",
           "last_activity": "2026-10-26",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {
             "type": [
               "decomp",
               "port"
             ]
           },
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-alexbeavs-ps1-ports-xena-warrior-princess-recomp",
@@ -62097,10 +62216,8 @@
           "last_activity": "2026-10-24",
           "release": "v0.2.0-alpha",
           "stars": 37,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -63413,10 +63530,8 @@
           "last_activity": "2026-10-26",
           "release": "v0.2.1",
           "toolchain": "Psxrecomp",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -67069,10 +67184,8 @@
           "repo": "kirklandsig/halo-mega-bloks-decompiled",
           "status": "in-progress",
           "last_activity": "2026-10-26",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -68998,11 +69111,9 @@
           "project_url": "https://github.com/Tetroo/acnl-re",
           "repo": "Tetroo/acnl-re",
           "last_activity": "2026-10-18",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -72010,10 +72121,8 @@
           "last_activity": "2026-10-25",
           "release": "v0.9.3",
           "stars": 17,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -75543,11 +75652,9 @@
           "repo": "DIMASIK1502/broken-bond-recomp",
           "last_activity": "2026-10-25",
           "toolchain": "Rexglue",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-jorjbarbosa-broken-bond-recomp",
@@ -79455,15 +79562,13 @@
           "last_activity": "2026-10-18",
           "stars": 46,
           "toolchain": "Ps2recomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {
             "type": [
               "port",
               "recomp"
             ]
-          }
+          },
+          "targets": []
         },
         {
           "id": "repo-cxldsakeb-roms-nativas-ps2",
@@ -80160,10 +80265,8 @@
           "status": "in-progress",
           "last_activity": "2026-10-25",
           "toolchain": "Ps2recomp",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -80306,11 +80409,9 @@
           "project_url": "https://github.com/olink9/driver1-decomp",
           "repo": "olink9/driver1-decomp",
           "last_activity": "2026-10-25",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-alexbeavs-ps1-ports-driver-recomp",
@@ -82824,10 +82925,8 @@
           "last_activity": "2026-10-24",
           "release": "v2.1.3",
           "stars": 38,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -82917,10 +83016,8 @@
           "last_activity": "2026-10-24",
           "release": "v2.1.1",
           "stars": 31,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -83010,10 +83107,8 @@
           "last_activity": "2026-10-24",
           "release": "v2.2.1",
           "stars": 34,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -87616,11 +87711,9 @@
           "repo": "plaught-armor/bof4-recomp",
           "last_activity": "2026-10-24",
           "release": "v0.1.0",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -88916,11 +89009,9 @@
           "repo": "dirtydanisreal/wet-recomp",
           "last_activity": "2026-09-22",
           "toolchain": "Rexglue",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 6,
@@ -89403,10 +89494,8 @@
           "release": "v1.0.1",
           "stars": 48,
           "toolchain": "Xboxrecomp",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -91661,11 +91750,9 @@
           "last_activity": "2026-02-25",
           "release": "v0.13.0-beta.1",
           "toolchain": "N64recomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 4,
@@ -93191,11 +93278,9 @@
           "last_activity": "2026-09-18",
           "release": "ffcc-media-1",
           "toolchain": "Wiicompiled",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "sig-final-fantasy-crystal-chronicles-final-fantasy-crystal-chronicles-decompilation-decomp",
@@ -97686,10 +97771,8 @@
           "last_activity": "2026-10-22",
           "release": "v1.4.0",
           "stars": 80,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -98363,11 +98446,9 @@
           "repo": "bdragoncore/battle-tanx-recomp",
           "last_activity": "2026-09-25",
           "toolchain": "N64recomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "sig-battletanx-battletanx-decompilation-decomp",
@@ -98962,11 +99043,9 @@
           "project_url": "https://github.com/luispolis124/OpenTS3-DS",
           "repo": "luispolis124/OpenTS3-DS",
           "last_activity": "2026-10-21",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -102111,11 +102190,9 @@
           "project_url": "https://github.com/sp00nznet/mariopaint",
           "repo": "sp00nznet/mariopaint",
           "last_activity": "2026-10-21",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -105272,7 +105349,6 @@
           "release": "Release",
           "stars": 18,
           "targets": [
-            "PC",
             "PS4"
           ],
           "conflicts": {
@@ -106053,11 +106129,9 @@
           "project_url": "https://github.com/mattfj10/splatterhouse-PC",
           "repo": "mattfj10/splatterhouse-PC",
           "last_activity": "2026-10-02",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -109253,11 +109327,9 @@
           "repo": "jajdp/animal-crossing-xbox",
           "last_activity": "2026-10-20",
           "release": "v1.0.1",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-techprogabe-opencrossing-xbox",
@@ -109460,10 +109532,8 @@
           "status": "in-progress",
           "last_activity": "2026-04-15",
           "stars": 92,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-animal-crossing-animal-crossing-decompilation-decomp",
@@ -111990,8 +112060,7 @@
           "stars": 14,
           "toolchain": "Recompiler-interpreter hibrid",
           "targets": [
-            "Linux",
-            "ARM64 Architecture"
+            "Linux"
           ],
           "conflicts": {}
         },
@@ -114192,11 +114261,9 @@
           "project_url": "https://github.com/megabitt01/project-clanker",
           "repo": "megabitt01/project-clanker",
           "last_activity": "2026-10-18",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -114620,10 +114687,8 @@
           "last_activity": "2026-10-18",
           "release": "v1.0.1",
           "stars": 17,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -114711,10 +114776,8 @@
           "last_activity": "2026-10-18",
           "release": "v1.0.2",
           "stars": 31,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -119511,11 +119574,9 @@
           "repo": "DavvidMac/PS2Recomp-DevilKings",
           "last_activity": "2026-10-17",
           "toolchain": "Ps2recomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -119671,11 +119732,9 @@
           "repo": "1lawl/BoogermanRecomp",
           "last_activity": "2026-10-17",
           "toolchain": "Segagenesisrecomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -123758,7 +123817,6 @@
           "repo": "cherryduck/ecco-the-dolphin-defender-of-the-future-recomp",
           "last_activity": "2026-10-15",
           "targets": [
-            "PC",
             "Linux"
           ],
           "conflicts": {},
@@ -127961,10 +128019,8 @@
           "last_activity": "2026-10-14",
           "stars": 18,
           "toolchain": "Ps3recomp",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-flow-flow-static-recompilation-recomp",
@@ -128210,7 +128266,9 @@
           "last_activity": "2026-08-25",
           "toolchain": "N64recomp",
           "targets": [
-            "PC"
+            "Windows",
+            "Linux",
+            "macOS"
           ],
           "conflicts": {},
           "status": "unknown"
@@ -129383,11 +129441,9 @@
           "project_url": "https://github.com/hinamihere/txr-itc-recomp",
           "repo": "hinamihere/txr-itc-recomp",
           "last_activity": "2026-10-13",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -130764,11 +130820,9 @@
           "project_url": "https://github.com/DanielPerezL/CarsPSPRecomp",
           "repo": "DanielPerezL/CarsPSPRecomp",
           "last_activity": "2026-10-13",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -131847,10 +131901,8 @@
           "last_activity": "2026-07-29",
           "stars": 58,
           "toolchain": "Xenonrecomp",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-skate-2-skate-2-recompilation-project-recomp",
@@ -133682,15 +133734,7 @@
           "release": "v1.0.0-beta",
           "targets": [
             "Windows",
-            "Switch",
-            "https:",
-            "github.com",
-            "flyngmt",
-            "ACGC-PC-Port",
-            "https:",
-            "github.com",
-            "zwaetschge",
-            "ACGC-Android-Port"
+            "Switch"
           ],
           "conflicts": {}
         }
@@ -134351,10 +134395,8 @@
           "status": "in-progress",
           "last_activity": "2026-10-11",
           "stars": 14,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -136643,10 +136685,8 @@
           "status": "in-progress",
           "last_activity": "2026-08-15",
           "stars": 12,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-ridge-racer-rr-pc-port-decomp",
@@ -138998,10 +139038,8 @@
           "status": "in-progress",
           "last_activity": "2026-10-09",
           "toolchain": "Decomp-toolkit",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -139060,10 +139098,8 @@
           "status": "in-progress",
           "last_activity": "2026-10-09",
           "stars": 13,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -141278,10 +141314,8 @@
           "release": "v0.1.1",
           "stars": 17,
           "toolchain": "Rexglue",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-burnout-crash-burnout-crash-pc-recompilation-recomp",
@@ -142695,11 +142729,9 @@
           "repo": "Oery/fable-ii-recomp",
           "last_activity": "2026-09-15",
           "toolchain": "Rexglue",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-buffjesus-albionreforged",
@@ -142724,11 +142756,9 @@
           "repo": "BuffJesus/AlbionReforged",
           "last_activity": "2026-09-13",
           "toolchain": "Rexglue",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-fable2recomp-fable2recomp",
@@ -144863,11 +144893,9 @@
           "repo": "snzhkhd/ShadowTowerPort",
           "last_activity": "2026-03-24",
           "release": "v0.5",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -147252,10 +147280,8 @@
           "status": "paused",
           "last_activity": "2026-10-03",
           "toolchain": "Ps2recomp",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -156074,11 +156100,9 @@
           "repo": "ColinGamez/allstars-ps3",
           "last_activity": "2026-09-28",
           "toolchain": "Ps3recomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -162778,10 +162802,8 @@
           "last_activity": "2026-03-28",
           "stars": 14,
           "toolchain": "Rexglue",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-ace-combat-6-fires-of-liberation-ac6recomp-recomp",
@@ -168355,11 +168377,9 @@
           "project_url": "https://github.com/Nathan-R-Og/ebb-port",
           "repo": "Nathan-R-Og/ebb-port",
           "last_activity": "2025-09-04",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "sig-mother-earthbound-beginnings-mother-disassembly-decomp",
@@ -168533,10 +168553,8 @@
           "made": "AI-flagged",
           "stars": 19,
           "toolchain": "Recompone",
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 2,
@@ -172316,7 +172334,7 @@
           "stars": 348,
           "toolchain": "Rexglue",
           "targets": [
-            "PC"
+            "Windows"
           ],
           "conflicts": {}
         },
@@ -172373,7 +172391,7 @@
           "release": "v1.1.8-macos-arm64",
           "toolchain": "Rexglue",
           "targets": [
-            "PC"
+            "Windows"
           ],
           "conflicts": {},
           "status": "unknown"
@@ -174699,11 +174717,9 @@
           "repo": "Vmarcelo49/wpj2-recomp",
           "last_activity": "2026-08-07",
           "toolchain": "N64recomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         },
         {
           "id": "repo-llonsit-glitch-wonderrecomp",
@@ -177274,11 +177290,9 @@
           "repo": "sp00nznet/rubberducky",
           "last_activity": "2026-08-20",
           "toolchain": "Ps3recomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -182185,11 +182199,9 @@
           "project_url": "https://github.com/K-r0zen/Unwiished-Recomp",
           "repo": "K-r0zen/Unwiished-Recomp",
           "last_activity": "2026-07-14",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -182286,7 +182298,9 @@
           "last_activity": "2026-07-13",
           "toolchain": "N64recomp",
           "targets": [
-            "PC"
+            "Windows",
+            "Linux",
+            "macOS"
           ],
           "conflicts": {},
           "status": "unknown"
@@ -182776,15 +182790,13 @@
           "status": "in-progress",
           "last_activity": "2026-07-10",
           "stars": 74,
-          "targets": [
-            "PC"
-          ],
           "conflicts": {
             "type": [
               "decomp",
               "port"
             ]
-          }
+          },
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -187718,10 +187730,8 @@
           "last_activity": "2026-05-23",
           "release": "poc",
           "stars": 21,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -189977,11 +189987,9 @@
           "repo": "xdzleo/finalexam-rexglue",
           "last_activity": "2026-04-29",
           "toolchain": "Rexglue",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -190722,11 +190730,9 @@
           "repo": "weronika-saturday/JoyRideRecomp",
           "last_activity": "2026-04-14",
           "toolchain": "Rexglue",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -195811,11 +195817,9 @@
           "repo": "THE-W0RLD/StilwaterReclaimed",
           "last_activity": "2026-01-12",
           "toolchain": "Xenonrecomp",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -196159,10 +196163,8 @@
           "status": "in-progress",
           "last_activity": "2026-01-05",
           "stars": 41,
-          "targets": [
-            "PC"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -196696,11 +196698,9 @@
           "project_url": "https://github.com/LOLMAN9538/sw3",
           "repo": "LOLMAN9538/sw3",
           "last_activity": "2025-12-16",
-          "targets": [
-            "PC"
-          ],
           "conflicts": {},
-          "status": "unknown"
+          "status": "unknown",
+          "targets": []
         }
       ],
       "project_count": 1,
