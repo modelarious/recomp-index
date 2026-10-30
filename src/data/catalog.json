@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-29T20:39:37.256951+00:00",
+  "generated_at": "2026-10-30T02:39:48.381227+00:00",
   "summary": {
-    "games": 3596,
-    "projects": 5068,
-    "source_records": 6320,
+    "games": 3597,
+    "projects": 5071,
+    "source_records": 6324,
     "platforms": 103,
     "sources": 4,
-    "conflicted_projects": 285
+    "conflicted_projects": 286
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2884
+      "records": 2888
     },
     {
       "id": "recomp-software-recomp",
@@ -39,7 +39,7 @@
       ],
       [
         "PS1",
-        554
+        555
       ],
       [
         "Xbox 360",
@@ -87,7 +87,7 @@
       ],
       [
         "PC (DOS)",
-        92
+        94
       ],
       [
         "GB",
@@ -449,7 +449,7 @@
     "types": [
       [
         "decomp",
-        2185
+        2186
       ],
       [
         "recomp",
@@ -457,7 +457,7 @@
       ],
       [
         "port",
-        764
+        766
       ],
       [
         "tool",
@@ -471,7 +471,7 @@
       ],
       [
         "unknown",
-        1364
+        1366
       ],
       [
         "released",
@@ -487,7 +487,7 @@
       ],
       [
         "playable",
-        100
+        101
       ],
       [
         "exploring",
@@ -11785,6 +11785,171 @@
       ],
       "last_activity": "2026-10-29",
       "best_status": "complete",
+      "has_conflict": false
+    },
+    {
+      "id": "parasite-eve-ii--ps1",
+      "title": "Parasite Eve II",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-snaity-core-pe2-pc-port",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/parasite-eve-ii-ps1-2",
+              "source_id": "parasite-eve-ii-snaity-core",
+              "claimed": false,
+              "status": "playable",
+              "type": "port",
+              "platform": "PS1",
+              "last_activity": "2026-10-29"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Parasite Eve II",
+          "platform": "PS1",
+          "type": "port",
+          "project": "PE2PC",
+          "project_url": "https://github.com/Snaity-CORE/pe2-pc-port",
+          "repo": "Snaity-CORE/pe2-pc-port",
+          "status": "playable",
+          "last_activity": "2026-10-29",
+          "release": "v0.1.0",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-gaberealb-parasite-eve-2-decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "gaberealb-parasite-eve-2-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-27"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/parasite-eve-ii-ps1",
+              "source_id": "parasite-eve-ii-gaberealb",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-27"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Parasite Eve II",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "GabeRealB/parasite-eve-2-decomp",
+          "project_url": "https://github.com/GabeRealB/parasite-eve-2-decomp",
+          "repo": "GabeRealB/parasite-eve-2-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-27",
+          "stars": 74,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-faligame-parasite-eve-2-hd-remaster",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "faligame-parasite-eve-2-hd-remaster",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-16"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/parasite-eve-ii-ps1",
+              "source_id": "parasite-eve-ii-faligame",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Parasite Eve II",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "Parasite Eve II HD Remaster",
+          "project_url": "https://github.com/faligame/Parasite-Eve-2-HD-Remaster",
+          "repo": "faligame/Parasite-Eve-2-HD-Remaster",
+          "status": "in-progress",
+          "last_activity": "2026-10-16",
+          "stars": 246,
+          "toolchain": "Psxrecomp",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-parasite-eve-ii-parasite-eve-ii-hd-remaster-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/parasite-eve-2-hd-remaster/",
+              "source_id": "p/parasite-eve-2-hd-remaster",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Parasite Eve II",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "Parasite Eve II HD Remaster",
+          "project_url": "https://www.recompsoftware.com/p/parasite-eve-2-hd-remaster/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 246,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 4,
+      "types": [
+        "decomp",
+        "port",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "playable"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-29",
+      "best_status": "playable",
       "has_conflict": false
     },
     {
@@ -30015,6 +30180,96 @@
       ],
       "last_activity": "2026-10-28",
       "best_status": "released",
+      "has_conflict": true
+    },
+    {
+      "id": "terep2--pc-dos",
+      "title": "Terep2",
+      "platform": "PC (DOS)",
+      "projects": [
+        {
+          "id": "repo-harrison3000-terep2vb",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/terep2-pc-dos",
+              "source_id": "terep2-harrison3000-2",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Terep2",
+          "platform": "PC (DOS)",
+          "type": "port",
+          "project": "Terep2vb",
+          "project_url": "https://github.com/harrison3000/terep2vb",
+          "repo": "harrison3000/terep2vb",
+          "last_activity": "2026-10-28",
+          "release": "v0.9",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-harrison3000-terep2-re",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/terep2-pc-dos",
+              "source_id": "terep2-harrison3000",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-10-18"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/terep2-pc-dos",
+              "source_id": "terep2-decomp-harrison3000",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Terep2",
+          "platform": "PC (DOS)",
+          "type": "decomp",
+          "project": "https://github.com/harrison3000/Terep2-RE",
+          "project_url": "https://github.com/harrison3000/terep2-re",
+          "repo": "harrison3000/terep2-re",
+          "last_activity": "2026-10-18",
+          "release": "v0.1-beta2",
+          "conflicts": {
+            "type": [
+              "decomp",
+              "port"
+            ]
+          },
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "decomp",
+        "port"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "unknown",
       "has_conflict": true
     },
     {
@@ -52312,140 +52567,6 @@
       ],
       "last_activity": "2026-10-27",
       "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
-      "id": "parasite-eve-ii--ps1",
-      "title": "Parasite Eve II",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "repo-gaberealb-parasite-eve-2-decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "gaberealb-parasite-eve-2-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-27"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/parasite-eve-ii-ps1",
-              "source_id": "parasite-eve-ii-gaberealb",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-27"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Parasite Eve II",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "GabeRealB/parasite-eve-2-decomp",
-          "project_url": "https://github.com/GabeRealB/parasite-eve-2-decomp",
-          "repo": "GabeRealB/parasite-eve-2-decomp",
-          "status": "in-progress",
-          "last_activity": "2026-10-27",
-          "stars": 74,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-faligame-parasite-eve-2-hd-remaster",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "faligame-parasite-eve-2-hd-remaster",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-16"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/parasite-eve-ii-ps1",
-              "source_id": "parasite-eve-ii-faligame",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-16"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Parasite Eve II",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "Parasite Eve II HD Remaster",
-          "project_url": "https://github.com/faligame/Parasite-Eve-2-HD-Remaster",
-          "repo": "faligame/Parasite-Eve-2-HD-Remaster",
-          "status": "in-progress",
-          "last_activity": "2026-10-16",
-          "stars": 246,
-          "toolchain": "Psxrecomp",
-          "targets": [
-            "Windows",
-            "Linux",
-            "Steam Deck"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "sig-parasite-eve-ii-parasite-eve-ii-hd-remaster-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/parasite-eve-2-hd-remaster/",
-              "source_id": "p/parasite-eve-2-hd-remaster",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Parasite Eve II",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "Parasite Eve II HD Remaster",
-          "project_url": "https://www.recompsoftware.com/p/parasite-eve-2-hd-remaster/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 246,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 3,
-      "types": [
-        "decomp",
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-27",
-      "best_status": "in-progress",
       "has_conflict": false
     },
     {
