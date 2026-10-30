@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-30T14:40:11.226798+00:00",
+  "generated_at": "2026-10-30T20:40:24.264516+00:00",
   "summary": {
-    "games": 3614,
-    "projects": 5091,
-    "source_records": 6362,
+    "games": 3615,
+    "projects": 5094,
+    "source_records": 6367,
     "platforms": 103,
     "sources": 4,
-    "conflicted_projects": 288
+    "conflicted_projects": 289
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2899
+      "records": 2904
     },
     {
       "id": "recomp-software-recomp",
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PC (Windows)",
-        595
+        596
       ],
       [
         "PS1",
@@ -43,7 +43,7 @@
       ],
       [
         "Xbox 360",
-        543
+        544
       ],
       [
         "N64",
@@ -87,7 +87,7 @@
       ],
       [
         "PC (DOS)",
-        94
+        96
       ],
       [
         "GB",
@@ -99,7 +99,7 @@
       ],
       [
         "DOS",
-        85
+        84
       ],
       [
         "MSX",
@@ -453,11 +453,11 @@
       ],
       [
         "recomp",
-        2120
+        2122
       ],
       [
         "port",
-        771
+        772
       ],
       [
         "tool",
@@ -467,7 +467,7 @@
     "statuses": [
       [
         "in-progress",
-        1527
+        1528
       ],
       [
         "released",
@@ -475,7 +475,7 @@
       ],
       [
         "unknown",
-        1355
+        1356
       ],
       [
         "paused",
@@ -487,7 +487,7 @@
       ],
       [
         "playable",
-        99
+        100
       ],
       [
         "exploring",
@@ -7606,6 +7606,56 @@
       "has_conflict": false
     },
     {
+      "id": "snoopy-flying-ace--xbox-360",
+      "title": "Snoopy Flying Ace",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-btr-rj-redbaron-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/snoopy-flying-ace-xbox-360",
+              "source_id": "snoopy-flying-ace-btr-rj",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-30"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Snoopy Flying Ace",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "RedBaron_Recomp",
+          "project_url": "https://github.com/BTr-RJ/RedBaron_Recomp",
+          "repo": "BTr-RJ/RedBaron_Recomp",
+          "status": "playable",
+          "last_activity": "2026-10-30",
+          "release": "v0.10",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-30",
+      "best_status": "playable",
+      "has_conflict": false
+    },
+    {
       "id": "skylanders-trap-team--xbox-360",
       "title": "Skylanders: Trap Team",
       "platform": "Xbox 360",
@@ -12052,6 +12102,57 @@
       ],
       "last_activity": "2026-10-30",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "need-for-speed-porsche-unleashed--pc-windows",
+      "title": "Need for Speed: Porsche Unleashed",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-paintenzero-nfspu-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/need-for-speed-porsche-unleashed-pc-windows",
+              "source_id": "need-for-speed-porsche-unleashed-paintenzero",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-30"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: Porsche Unleashed",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "NFS Porsche Unleashed recompilation",
+          "project_url": "https://github.com/paintenzero/nfspu-recomp",
+          "repo": "paintenzero/nfspu-recomp",
+          "status": "in-progress",
+          "last_activity": "2026-10-30",
+          "toolchain": "Pcrecomp",
+          "targets": [
+            "Windows",
+            "Linux",
+            "macOS"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-30",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -49733,9 +49834,35 @@
           },
           "status": "unknown",
           "targets": []
+        },
+        {
+          "id": "repo-zi9-deformerz",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/terep2-pc-dos",
+              "source_id": "terep2-zi9",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-09-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Terep2",
+          "platform": "PC (DOS)",
+          "type": "port",
+          "project": "Deformerz",
+          "project_url": "https://github.com/Zi9/Deformerz",
+          "repo": "Zi9/Deformerz",
+          "last_activity": "2026-09-18",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
         "decomp",
         "port"
@@ -61091,13 +61218,73 @@
               "PC (DOS)"
             ]
           }
+        },
+        {
+          "id": "repo-4d-stunts-restunts",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "4d-stunts-restunts",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "DOS",
+              "last_activity": "2026-08-13"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/stunts-pc-dos-2",
+              "source_id": "stunts-4d-stunts",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-08-13"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/stunts-pc-dos-2",
+              "source_id": "stunts-decomp-4d-stunts",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-08-13"
+            }
+          ],
+          "embedded_sources": [
+            "unbaked"
+          ],
+          "game": "Stunts",
+          "platform": "PC (DOS)",
+          "type": "decomp",
+          "project": "ReStunts",
+          "project_url": "https://github.com/4d-stunts/restunts",
+          "repo": "4d-stunts/restunts",
+          "status": "in-progress",
+          "last_activity": "2026-08-13",
+          "stars": 23,
+          "conflicts": {
+            "type": [
+              "decomp",
+              "port"
+            ],
+            "platform": [
+              "DOS",
+              "PC (DOS)"
+            ]
+          },
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
+        "decomp",
         "port"
       ],
       "statuses": [
+        "in-progress",
         "released"
       ],
       "sources": [
@@ -179406,55 +179593,6 @@
       ],
       "last_activity": "2026-08-13",
       "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "stunts-restunts--dos",
-      "title": "Stunts (Restunts)",
-      "platform": "DOS",
-      "projects": [
-        {
-          "id": "repo-4d-stunts-restunts",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "4d-stunts-restunts",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "DOS",
-              "last_activity": "2026-08-13"
-            }
-          ],
-          "embedded_sources": [
-            "unbaked"
-          ],
-          "game": "Stunts (Restunts)",
-          "platform": "DOS",
-          "type": "decomp",
-          "project": "restunts",
-          "project_url": "https://github.com/4d-stunts/restunts",
-          "repo": "4d-stunts/restunts",
-          "status": "in-progress",
-          "last_activity": "2026-08-13",
-          "stars": 23,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-08-13",
-      "best_status": "in-progress",
       "has_conflict": false
     },
     {
