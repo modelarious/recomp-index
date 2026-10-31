@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-30T20:40:24.264516+00:00",
+  "generated_at": "2026-10-31T02:40:35.445891+00:00",
   "summary": {
-    "games": 3615,
-    "projects": 5094,
-    "source_records": 6367,
+    "games": 3617,
+    "projects": 5098,
+    "source_records": 6372,
     "platforms": 103,
     "sources": 4,
-    "conflicted_projects": 289
+    "conflicted_projects": 290
   },
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2904
+      "records": 2909
     },
     {
       "id": "recomp-software-recomp",
@@ -71,7 +71,7 @@
       ],
       [
         "NES",
-        164
+        165
       ],
       [
         "Wii",
@@ -79,7 +79,7 @@
       ],
       [
         "Xbox",
-        145
+        146
       ],
       [
         "NDS",
@@ -107,7 +107,7 @@
       ],
       [
         "PS3",
-        59
+        61
       ],
       [
         "Arcade",
@@ -453,11 +453,11 @@
       ],
       [
         "recomp",
-        2122
+        2125
       ],
       [
         "port",
-        772
+        773
       ],
       [
         "tool",
@@ -471,7 +471,7 @@
       ],
       [
         "released",
-        1386
+        1388
       ],
       [
         "unknown",
@@ -487,7 +487,7 @@
       ],
       [
         "playable",
-        100
+        102
       ],
       [
         "exploring",
@@ -496,6 +496,71 @@
     ]
   },
   "games": [
+    {
+      "id": "deja-vu--nes",
+      "title": "Déjà Vu",
+      "platform": "NES",
+      "projects": [
+        {
+          "id": "repo-geno55-deja-vu",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/deja-vu-nes",
+              "source_id": "deja-vu-geno55",
+              "claimed": false,
+              "status": "playable",
+              "type": "decomp",
+              "platform": "NES",
+              "last_activity": "2026-10-31"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/deja-vu-nes",
+              "source_id": "deja-vu-port-geno55",
+              "claimed": false,
+              "status": "playable",
+              "type": "port",
+              "platform": "NES",
+              "last_activity": "2026-10-31"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Déjà Vu",
+          "platform": "NES",
+          "type": "port",
+          "project": "Deja Vu for PC",
+          "project_url": "https://github.com/geno55/deja-vu",
+          "repo": "geno55/deja-vu",
+          "status": "playable",
+          "last_activity": "2026-10-31",
+          "release": "v0.1.0",
+          "toolchain": "Cc65",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {
+            "type": [
+              "decomp",
+              "port"
+            ]
+          }
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-31",
+      "best_status": "playable",
+      "has_conflict": true
+    },
     {
       "id": "zombies-ate-my-neighbors-zombies-ate-my-neighbors-pc-port--snes",
       "title": "Zombies Ate My Neighbors (Zombies Ate My Neighbors PC Port)",
@@ -14737,6 +14802,56 @@
       ],
       "last_activity": "2026-10-30",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "macross-30-ginga-o-tsunagu-utagoe--ps3",
+      "title": "Macross 30: Ginga o Tsunagu Utagoe",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-saintiron82-macross30-releases",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/macross-30-ginga-o-tsunagu-utagoe-ps3",
+              "source_id": "macross-30-ginga-o-tsunagu-utagoe-saintiron82",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-10-30"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Macross 30: Ginga o Tsunagu Utagoe",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "Macross 30 Recompiled",
+          "project_url": "https://github.com/saintiron82/macross30-releases",
+          "repo": "saintiron82/macross30-releases",
+          "status": "released",
+          "last_activity": "2026-10-30",
+          "release": "v0.3.1",
+          "toolchain": "Ps3recomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-30",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -40600,6 +40715,111 @@
       "has_conflict": false
     },
     {
+      "id": "gran-turismo-5-prologue--ps3",
+      "title": "Gran Turismo 5 Prologue",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-mathewdouglas-gt5p",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/gran-turismo-5-prologue-ps3-2",
+              "source_id": "gran-turismo-5-prologue-mathewdouglas",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-10-29"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Gran Turismo 5 Prologue",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "GT5P Recompilation",
+          "project_url": "https://github.com/mathewdouglas/GT5P",
+          "repo": "mathewdouglas/GT5P",
+          "status": "playable",
+          "last_activity": "2026-10-29",
+          "release": "v0.1",
+          "toolchain": "Ps3recomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-hanz0hatt0r1-gran-turismo-5-prologue-decompilation",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/gran-turismo-5-prologue-ps3",
+              "source_id": "gran-turismo-5-prologue-hanz0hatt0r1",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS3",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Gran Turismo 5 Prologue",
+          "platform": "PS3",
+          "type": "decomp",
+          "project": "Hanz0Hatt0r1/gran-turismo-5-prologue-decompilation",
+          "project_url": "https://github.com/Hanz0Hatt0r1/gran-turismo-5-prologue-decompilation",
+          "repo": "Hanz0Hatt0r1/gran-turismo-5-prologue-decompilation",
+          "last_activity": "2026-10-17",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-sp00nznet-gt5p",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/gran-turismo-5-prologue-ps3",
+              "source_id": "gran-turismo-5-prologue-sp00nznet",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-09-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Gran Turismo 5 Prologue",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "sp00nznet/GT5P",
+          "project_url": "https://github.com/sp00nznet/GT5P",
+          "repo": "sp00nznet/GT5P",
+          "last_activity": "2026-09-28",
+          "toolchain": "Ps3recomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "playable",
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-29",
+      "best_status": "playable",
+      "has_conflict": false
+    },
+    {
       "id": "gran-turismo-4--ps2",
       "title": "Gran Turismo 4",
       "platform": "PS2",
@@ -58830,6 +59050,84 @@
       ],
       "last_activity": "2026-10-28",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "blood-wake--xbox",
+      "title": "Blood Wake",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-minimalice92-bloodwake-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/blood-wake-xbox-2",
+              "source_id": "blood-wake-minimalice92",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Blood Wake",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Blood Wake Recomp",
+          "project_url": "https://github.com/minimalice92/bloodwake-recomp",
+          "repo": "minimalice92/bloodwake-recomp",
+          "status": "released",
+          "last_activity": "2026-10-28",
+          "release": "v0.2.4",
+          "toolchain": "Xboxrecomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-sp00nznet-bloodwake",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/blood-wake-xbox",
+              "source_id": "blood-wake-sp00nznet",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Blood Wake",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "sp00nznet/bloodwake",
+          "project_url": "https://github.com/sp00nznet/bloodwake",
+          "repo": "sp00nznet/bloodwake",
+          "last_activity": "2026-10-14",
+          "toolchain": "Xboxrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -121572,80 +121870,6 @@
       "has_conflict": false
     },
     {
-      "id": "gran-turismo-5-prologue--ps3",
-      "title": "Gran Turismo 5 Prologue",
-      "platform": "PS3",
-      "projects": [
-        {
-          "id": "repo-hanz0hatt0r1-gran-turismo-5-prologue-decompilation",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/gran-turismo-5-prologue-ps3",
-              "source_id": "gran-turismo-5-prologue-hanz0hatt0r1",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PS3",
-              "last_activity": "2026-10-17"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Gran Turismo 5 Prologue",
-          "platform": "PS3",
-          "type": "decomp",
-          "project": "Hanz0Hatt0r1/gran-turismo-5-prologue-decompilation",
-          "project_url": "https://github.com/Hanz0Hatt0r1/gran-turismo-5-prologue-decompilation",
-          "repo": "Hanz0Hatt0r1/gran-turismo-5-prologue-decompilation",
-          "last_activity": "2026-10-17",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-sp00nznet-gt5p",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/gran-turismo-5-prologue-ps3",
-              "source_id": "gran-turismo-5-prologue-sp00nznet",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS3",
-              "last_activity": "2026-09-28"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Gran Turismo 5 Prologue",
-          "platform": "PS3",
-          "type": "recomp",
-          "project": "sp00nznet/GT5P",
-          "project_url": "https://github.com/sp00nznet/GT5P",
-          "repo": "sp00nznet/GT5P",
-          "last_activity": "2026-09-28",
-          "toolchain": "Ps3recomp",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp",
-        "recomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-17",
-      "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
       "id": "glkeeper--unknown",
       "title": "GLKeeper",
       "platform": "Unknown",
@@ -131037,53 +131261,6 @@
       ],
       "last_activity": "2026-10-14",
       "best_status": "complete",
-      "has_conflict": false
-    },
-    {
-      "id": "blood-wake--xbox",
-      "title": "Blood Wake",
-      "platform": "Xbox",
-      "projects": [
-        {
-          "id": "repo-sp00nznet-bloodwake",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/blood-wake-xbox",
-              "source_id": "blood-wake-sp00nznet",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-10-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Blood Wake",
-          "platform": "Xbox",
-          "type": "recomp",
-          "project": "sp00nznet/bloodwake",
-          "project_url": "https://github.com/sp00nznet/bloodwake",
-          "repo": "sp00nznet/bloodwake",
-          "last_activity": "2026-10-14",
-          "toolchain": "Xboxrecomp",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-14",
-      "best_status": "unknown",
       "has_conflict": false
     },
     {
