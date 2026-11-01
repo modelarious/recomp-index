@@ -1,11 +1,11 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-10-31T14:41:02.074427+00:00",
+  "generated_at": "2026-11-01T02:41:27.246171+00:00",
   "summary": {
-    "games": 3638,
-    "projects": 5117,
-    "source_records": 6415,
-    "platforms": 103,
+    "games": 3639,
+    "projects": 5118,
+    "source_records": 6416,
+    "platforms": 104,
     "sources": 4,
     "conflicted_projects": 300
   },
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2914
+      "records": 2915
     },
     {
       "id": "recomp-software-recomp",
@@ -338,6 +338,10 @@
         2
       ],
       [
+        "APM3",
+        1
+      ],
+      [
         "Acorn Archimedes",
         1
       ],
@@ -453,7 +457,7 @@
       ],
       [
         "recomp",
-        2130
+        2131
       ],
       [
         "port",
@@ -475,7 +479,7 @@
       ],
       [
         "unknown",
-        1340
+        1341
       ],
       [
         "paused",
@@ -7422,6 +7426,55 @@
       ],
       "last_activity": "2026-10-31",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "senjin-aleste--apm3",
+      "title": "Senjin Aleste",
+      "platform": "APM3",
+      "projects": [
+        {
+          "id": "repo-kazuyette-senjin-recomped",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/senjin-aleste-apm3",
+              "source_id": "senjin-aleste-kazuyette",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "APM3",
+              "last_activity": "2026-10-31"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Senjin Aleste",
+          "platform": "APM3",
+          "type": "recomp",
+          "project": "kazuyette/senjin-recomped",
+          "project_url": "https://github.com/kazuyette/senjin-recomped",
+          "repo": "kazuyette/senjin-recomped",
+          "last_activity": "2026-10-31",
+          "release": "v0.6.7",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-10-31",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
