@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-01T14:41:47.614643+00:00",
+  "generated_at": "2026-11-01T23:42:06.774764+00:00",
   "summary": {
-    "games": 3656,
-    "projects": 5138,
-    "source_records": 6449,
+    "games": 3657,
+    "projects": 5140,
+    "source_records": 6451,
     "platforms": 104,
     "sources": 4,
     "conflicted_projects": 306
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 2927
+      "records": 2929
     },
     {
       "id": "recomp-software-recomp",
@@ -39,7 +39,7 @@
       ],
       [
         "PS1",
-        557
+        558
       ],
       [
         "Xbox 360",
@@ -123,7 +123,7 @@
       ],
       [
         "PSP",
-        41
+        42
       ],
       [
         "ZX Spectrum",
@@ -453,7 +453,7 @@
     "types": [
       [
         "decomp",
-        2200
+        2201
       ],
       [
         "recomp",
@@ -461,7 +461,7 @@
       ],
       [
         "port",
-        784
+        785
       ],
       [
         "tool",
@@ -471,11 +471,11 @@
     "statuses": [
       [
         "in-progress",
-        1537
+        1538
       ],
       [
         "released",
-        1423
+        1424
       ],
       [
         "unknown",
@@ -9614,6 +9614,135 @@
       "has_conflict": false
     },
     {
+      "id": "serial-experiments-lain--ps1",
+      "title": "Serial Experiments Lain",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-vandalsempire-lain-psx-decompiled-android",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/serial-experiments-lain-ps1-2",
+              "source_id": "serial-experiments-lain-vandalsempire",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "PS1",
+              "last_activity": "2026-11-01"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Serial Experiments Lain",
+          "platform": "PS1",
+          "type": "port",
+          "project": "re:Lain Android",
+          "project_url": "https://github.com/VandalsEmpire/lain-psx-decompiled-android",
+          "repo": "VandalsEmpire/lain-psx-decompiled-android",
+          "status": "released",
+          "last_activity": "2026-11-01",
+          "release": "android-v0.1.0",
+          "toolchain": "Psycross",
+          "targets": [
+            "Android"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-y0oshi-lain-psx-decompiled",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "y0oshi-lain-psx-decompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-03"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/serial-experiments-lain-ps1",
+              "source_id": "serial-experiments-lain-y0oshi",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-03"
+            }
+          ],
+          "embedded_sources": [
+            "quiver",
+            "recomp.fyi",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Serial Experiments Lain",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Y0oshi/lain-psx-decompiled",
+          "project_url": "https://github.com/Y0oshi/lain-psx-decompiled",
+          "repo": "Y0oshi/lain-psx-decompiled",
+          "status": "released",
+          "last_activity": "2026-10-03",
+          "release": "v0.2.0",
+          "stars": 139,
+          "targets": [
+            "Windows",
+            "Linux",
+            "macOS"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-serial-experiments-lain-serial-experiments-lain-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/lain-psx-decompiled/",
+              "source_id": "p/lain-psx-decompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-10-01"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Serial Experiments Lain",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Serial Experiments Lain decompilation",
+          "project_url": "https://www.recompsoftware.com/p/lain-psx-decompiled/",
+          "status": "released",
+          "last_activity": "2026-10-01",
+          "release": "v0.2.0Oct",
+          "progress": 100.0,
+          "made": "Not stated",
+          "stars": 139,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "decomp",
+        "port"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-01",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "sensible-world-of-soccer-96-97-openswos--amiga",
       "title": "Sensible World of Soccer 96/97 (OpenSWOS)",
       "platform": "Amiga",
@@ -17310,6 +17439,53 @@
       "project_count": 1,
       "types": [
         "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-01",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "littlebigplanet--psp",
+      "title": "LittleBigPlanet",
+      "platform": "PSP",
+      "projects": [
+        {
+          "id": "repo-jstar269-lbp-psp-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/littlebigplanet-psp",
+              "source_id": "littlebigplanet-jstar269",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PSP",
+              "last_activity": "2026-11-01"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "LittleBigPlanet",
+          "platform": "PSP",
+          "type": "decomp",
+          "project": "lbp-psp-decomp",
+          "project_url": "https://github.com/Jstar269/lbp-psp-decomp",
+          "repo": "Jstar269/lbp-psp-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-11-01",
+          "toolchain": "Gcc 4.0.4 (pspdev allegrex patch, Binutils 2.14 assembler (decomp.",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
       ],
       "statuses": [
         "in-progress"
@@ -152182,104 +152358,6 @@
       ],
       "sources": [
         "awesome-decomp-games",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-03",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "serial-experiments-lain--ps1",
-      "title": "Serial Experiments Lain",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "repo-y0oshi-lain-psx-decompiled",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "y0oshi-lain-psx-decompiled",
-              "claimed": false,
-              "status": "released",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-03"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/serial-experiments-lain-ps1",
-              "source_id": "serial-experiments-lain-y0oshi",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-03"
-            }
-          ],
-          "embedded_sources": [
-            "quiver",
-            "recomp.fyi",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Serial Experiments Lain",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "Y0oshi/lain-psx-decompiled",
-          "project_url": "https://github.com/Y0oshi/lain-psx-decompiled",
-          "repo": "Y0oshi/lain-psx-decompiled",
-          "status": "released",
-          "last_activity": "2026-10-03",
-          "release": "v0.2.0",
-          "stars": 139,
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "sig-serial-experiments-lain-serial-experiments-lain-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/lain-psx-decompiled/",
-              "source_id": "p/lain-psx-decompiled",
-              "claimed": false,
-              "status": "released",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-01"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Serial Experiments Lain",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "Serial Experiments Lain decompilation",
-          "project_url": "https://www.recompsoftware.com/p/lain-psx-decompiled/",
-          "status": "released",
-          "last_activity": "2026-10-01",
-          "release": "v0.2.0Oct",
-          "progress": 100.0,
-          "made": "Not stated",
-          "stars": 139,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-03",
