@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-02T20:42:50.183151+00:00",
+  "generated_at": "2026-11-03T05:43:22.039018+00:00",
   "summary": {
-    "games": 3742,
-    "projects": 5250,
-    "source_records": 6575,
+    "games": 3743,
+    "projects": 5251,
+    "source_records": 6576,
     "platforms": 107,
     "sources": 4,
     "conflicted_projects": 312
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 3036
+      "records": 3037
     },
     {
       "id": "recomp-software-recomp",
@@ -67,7 +67,7 @@
       ],
       [
         "SNES",
-        172
+        173
       ],
       [
         "Wii",
@@ -465,7 +465,7 @@
     "types": [
       [
         "recomp",
-        2225
+        2226
       ],
       [
         "decomp",
@@ -487,7 +487,7 @@
       ],
       [
         "released",
-        1444
+        1445
       ],
       [
         "unknown",
@@ -512,6 +512,55 @@
     ]
   },
   "games": [
+    {
+      "id": "uncharted-waters-new-horizons--snes",
+      "title": "Uncharted Waters: New Horizons",
+      "platform": "SNES",
+      "projects": [
+        {
+          "id": "repo-junior-jones-uncharted-waters-new-horizons-snes-static-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/uncharted-waters-new-horizons-snes",
+              "source_id": "uncharted-waters-new-horizons-junior-jones",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "SNES",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Uncharted Waters: New Horizons",
+          "platform": "SNES",
+          "type": "recomp",
+          "project": "Uncharted Waters: New Horizons (SNES) Static Recompilation",
+          "project_url": "https://github.com/Junior-Jones/Uncharted-Waters-New-Horizons-SNES-Static-Recomp",
+          "repo": "Junior-Jones/Uncharted-Waters-New-Horizons-SNES-Static-Recomp",
+          "status": "released",
+          "last_activity": "2026-11-03",
+          "release": "v1.0.0",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-03",
+      "best_status": "released",
+      "has_conflict": false
+    },
     {
       "id": "zoids-vs-ii--gamecube",
       "title": "Zoids VS II",
