@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-03T17:43:48.297707+00:00",
+  "generated_at": "2026-11-03T23:44:08.773157+00:00",
   "summary": {
-    "games": 3781,
-    "projects": 5292,
-    "source_records": 6645,
+    "games": 3783,
+    "projects": 5294,
+    "source_records": 6647,
     "platforms": 107,
     "sources": 4,
     "conflicted_projects": 317
@@ -18,7 +18,7 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 3045
+      "records": 3047
     },
     {
       "id": "recomp-software-recomp",
@@ -107,7 +107,7 @@
       ],
       [
         "PS3",
-        67
+        69
       ],
       [
         "Arcade",
@@ -465,7 +465,7 @@
     "types": [
       [
         "recomp",
-        2255
+        2257
       ],
       [
         "decomp",
@@ -483,7 +483,7 @@
     "statuses": [
       [
         "in-progress",
-        1563
+        1565
       ],
       [
         "released",
@@ -2266,6 +2266,55 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-03",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "toro-let-s-party--ps3",
+      "title": "Toro! Let's Party!",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-undecuple-paatii-neko",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/toro-lets-party-ps3",
+              "source_id": "toro-let-s-party-undecuple",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Toro! Let's Party!",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "Paatii Neko!",
+          "project_url": "https://github.com/undecuple/paatii-neko",
+          "repo": "undecuple/paatii-neko",
+          "status": "in-progress",
+          "last_activity": "2026-11-03",
+          "toolchain": "Ps3recomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp.fyi"
       ],
       "last_activity": "2026-11-03",
       "best_status": "in-progress",
@@ -11108,6 +11157,56 @@
       "sources": [
         "awesome-decomp-games",
         "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-03",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "ratchet-clank-future-tools-of-destruction--ps3",
+      "title": "Ratchet & Clank Future: Tools of Destruction",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-undecuple-qwarks-awakening",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/ratchet-and-clank-future-tools-of-destruction-ps3",
+              "source_id": "ratchet-clank-future-tools-of-destructio-undecuple",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Ratchet & Clank Future: Tools of Destruction",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "Qwark's Awakening",
+          "project_url": "https://github.com/undecuple/qwarks-awakening",
+          "repo": "undecuple/qwarks-awakening",
+          "status": "in-progress",
+          "last_activity": "2026-11-03",
+          "release": "v0.1.0",
+          "toolchain": "Ps3recomp",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
         "recomp.fyi"
       ],
       "last_activity": "2026-11-03",
