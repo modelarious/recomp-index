@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-04T20:44:51.906568+00:00",
+  "generated_at": "2026-11-05T02:45:11.363851+00:00",
   "summary": {
-    "games": 3815,
-    "projects": 5377,
-    "source_records": 6732,
+    "games": 3826,
+    "projects": 5406,
+    "source_records": 6761,
     "platforms": 109,
     "sources": 4,
     "conflicted_projects": 319
@@ -18,28 +18,28 @@
     {
       "id": "recomp.fyi",
       "url": "https://recomp.fyi/",
-      "records": 3051
+      "records": 3052
     },
     {
       "id": "recomp-software-recomp",
       "url": "https://www.recompsoftware.com/recompiled-games-list/",
-      "records": 390
+      "records": 417
     },
     {
       "id": "recomp-software-decomp",
       "url": "https://www.recompsoftware.com/decompiled-games-list/",
-      "records": 662
+      "records": 663
     }
   ],
   "facets": {
     "platforms": [
       [
         "PC (Windows)",
-        641
+        642
       ],
       [
         "Xbox 360",
-        575
+        582
       ],
       [
         "PS1",
@@ -47,11 +47,11 @@
       ],
       [
         "N64",
-        490
+        493
       ],
       [
         "PS2",
-        342
+        343
       ],
       [
         "GameCube",
@@ -66,19 +66,19 @@
         187
       ],
       [
+        "Xbox",
+        176
+      ],
+      [
         "SNES",
         175
       ],
       [
         "Wii",
-        172
+        175
       ],
       [
         "NES",
-        168
-      ],
-      [
-        "Xbox",
         168
       ],
       [
@@ -107,7 +107,7 @@
       ],
       [
         "PS3",
-        75
+        77
       ],
       [
         "Arcade",
@@ -119,7 +119,7 @@
       ],
       [
         "PSP",
-        46
+        48
       ],
       [
         "Genesis",
@@ -131,7 +131,7 @@
       ],
       [
         "Nintendo Switch",
-        38
+        39
       ],
       [
         "Mobile",
@@ -218,15 +218,15 @@
         8
       ],
       [
+        "Nintendo 3DS",
+        8
+      ],
+      [
         "Apple II",
         7
       ],
       [
         "Commodore 64",
-        7
-      ],
-      [
-        "Nintendo 3DS",
         7
       ],
       [
@@ -473,11 +473,11 @@
     "types": [
       [
         "recomp",
-        2330
+        2358
       ],
       [
         "decomp",
-        2233
+        2234
       ],
       [
         "port",
@@ -490,12 +490,12 @@
     ],
     "statuses": [
       [
-        "in-progress",
-        1576
+        "released",
+        1584
       ],
       [
-        "released",
-        1561
+        "in-progress",
+        1582
       ],
       [
         "unknown",
@@ -972,6 +972,33 @@
       "platform": "N64",
       "projects": [
         {
+          "id": "sig-winback-covert-operations-winback-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/winback-recompiled/",
+              "source_id": "p/winback-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-11-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "WinBack: Covert Operations",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "WinBack Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/winback-recompiled/",
+          "status": "released",
+          "last_activity": "2026-11-04",
+          "release": "v0.2.2Nov",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
           "id": "repo-retropulse03-winbackrecomp",
           "evidence": [
             {
@@ -1017,7 +1044,7 @@
           "conflicts": {}
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "recomp"
       ],
@@ -1026,6 +1053,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-recomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-11-04",
@@ -3078,6 +3106,53 @@
       ],
       "last_activity": "2026-11-04",
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "superman-returns-the-video-game--xbox-360",
+      "title": "Superman Returns: The Video Game",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-superman-returns-the-video-game-superman-returns-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/superman-returns-recomp/",
+              "source_id": "p/superman-returns-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Superman Returns: The Video Game",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Superman Returns Recomp",
+          "project_url": "https://www.recompsoftware.com/p/superman-returns-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-04",
+          "release": "v2026.11.04-0e4e359Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-04",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -6074,6 +6149,53 @@
       "has_conflict": false
     },
     {
+      "id": "sonic-the-hedgehog-2006--ps3",
+      "title": "Sonic the Hedgehog (2006)",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "sig-sonic-the-hedgehog-2006-soleanna-sonic06-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/soleanna-sonic06-recomp/",
+              "source_id": "p/soleanna-sonic06-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Sonic the Hedgehog (2006)",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "Soleanna (sonic06-recomp)",
+          "project_url": "https://www.recompsoftware.com/p/soleanna-sonic06-recomp/",
+          "status": "in-progress",
+          "last_activity": "2026-11-04",
+          "release": "0.1.0Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-04",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "sonic-riders--gamecube",
       "title": "Sonic Riders",
       "platform": "GameCube",
@@ -8114,6 +8236,183 @@
       "has_conflict": false
     },
     {
+      "id": "rockstar-games-presents-table-tennis--xbox-360",
+      "title": "Rockstar Games Presents Table Tennis",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-rockstar-games-presents-table-tennis-table-tennis-for-linux-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/table-tennis-linux/",
+              "source_id": "p/table-tennis-linux",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rockstar Games Presents Table Tennis",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Table Tennis for Linux",
+          "project_url": "https://www.recompsoftware.com/p/table-tennis-linux/",
+          "status": "released",
+          "last_activity": "2026-11-04",
+          "release": "linux-v1.5.0Nov",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-rockstar-games-presents-table-tennis-rockstar-games-presents-table-tennis-windows-pc-recompilation-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/table-tennis-rockstar-pc/",
+              "source_id": "p/table-tennis-rockstar-pc",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rockstar Games Presents Table Tennis",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Rockstar Games presents Table Tennis - Windows PC Recompilation",
+          "project_url": "https://www.recompsoftware.com/p/table-tennis-rockstar-pc/",
+          "status": "released",
+          "last_activity": "2026-11-04",
+          "release": "v1.5.0Nov",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-mabec-games-table-tennis-rockstar-linux",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360",
+              "source_id": "rockstar-games-presents-table-tennis-mabec-games",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-21"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rockstar Games presents Table Tennis",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Rockstar Games presents Table Tennis",
+          "project_url": "https://github.com/Mabec-games/Table-Tennis-Rockstar-Linux",
+          "repo": "Mabec-games/Table-Tennis-Rockstar-Linux",
+          "last_activity": "2026-10-21",
+          "release": "linux-v1.1",
+          "targets": [
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
+          "id": "repo-ozordi-tt-decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "ozordi-tt-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-04-22"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360",
+              "source_id": "rockstar-presents-table-tennis-ozordi",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-04-22"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Rockstar Games Presents Table Tennis",
+          "platform": "Xbox 360",
+          "type": "decomp",
+          "project": "OZORDI/tt-decomp",
+          "project_url": "https://github.com/OZORDI/tt-decomp",
+          "repo": "OZORDI/tt-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-04-22",
+          "stars": 14,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-rockstar-games-presents-table-tennis-rockstar-table-tennis-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/rockstar-table-tennis-decomp/",
+              "source_id": "p/rockstar-table-tennis-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Xbox 360",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Rockstar Games Presents Table Tennis",
+          "platform": "Xbox 360",
+          "type": "decomp",
+          "project": "Rockstar Table Tennis Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/rockstar-table-tennis-decomp/",
+          "status": "in-progress",
+          "progress": 25.0,
+          "made": "AI-assisted",
+          "stars": 13,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 5,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-04",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "resident-evil-code-veronica-x--ps3",
       "title": "Resident Evil – Code: Veronica X",
       "platform": "PS3",
@@ -8590,6 +8889,155 @@
       "has_conflict": false
     },
     {
+      "id": "project-gotham-racing-4--xbox-360",
+      "title": "Project Gotham Racing 4",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-project-gotham-racing-4-pgr4-regpu-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/pgr4-regpu/",
+              "source_id": "p/pgr4-regpu",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Project Gotham Racing 4",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "PGR4 ReGPU",
+          "project_url": "https://www.recompsoftware.com/p/pgr4-regpu/",
+          "status": "released",
+          "last_activity": "2026-11-04",
+          "release": "v0.1.8Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-beatrixzy-pgr4-recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "beatrixzy-pgr4-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-02"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/project-gotham-racing-4-xbox-360",
+              "source_id": "project-gotham-racing-4-beatrixzy",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [
+            "portsdr",
+            "quiver",
+            "recomp.fyi",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Project Gotham Racing 4",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "beatrixzy/PGR4-Recomp",
+          "project_url": "https://github.com/beatrixzy/PGR4-Recomp",
+          "repo": "beatrixzy/PGR4-Recomp",
+          "status": "released",
+          "last_activity": "2026-11-03",
+          "release": "v1.2.2",
+          "stars": 237,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-project-gotham-racing-4-pgr4-native-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/pgr4-native/",
+              "source_id": "p/pgr4-native",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-29"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Project Gotham Racing 4",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "pgr4-native",
+          "project_url": "https://www.recompsoftware.com/p/pgr4-native/",
+          "status": "released",
+          "last_activity": "2026-10-29",
+          "release": "v0.3.0Oct",
+          "made": "AI-assisted",
+          "stars": 65,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-project-gotham-racing-4-pgr4-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/pgr4-recomp/",
+              "source_id": "p/pgr4-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Project Gotham Racing 4",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "PGR4 Recomp",
+          "project_url": "https://www.recompsoftware.com/p/pgr4-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-17",
+          "release": "v1.2.2Oct",
+          "made": "Not stated",
+          "stars": 239,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 4,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-04",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "project-gotham-racing--xbox",
       "title": "Project Gotham Racing",
       "platform": "Xbox",
@@ -8687,6 +9135,60 @@
       "title": "PokéPark Wii: Pikachu's Adventure",
       "platform": "Wii",
       "projects": [
+        {
+          "id": "sig-pokepark-wii-pikachu-s-adventure-sparkpark-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/sparkpark/",
+              "source_id": "p/sparkpark",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Wii",
+              "last_activity": "2026-11-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "PokePark Wii: Pikachu's Adventure",
+          "platform": "Wii",
+          "type": "recomp",
+          "project": "SparkPark",
+          "project_url": "https://www.recompsoftware.com/p/sparkpark/",
+          "status": "released",
+          "last_activity": "2026-11-04",
+          "release": "0.2.0-alphaNov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-pokepark-wii-pikachu-s-adventure-pokepark-wiicompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/pokepark-wiicompiled/",
+              "source_id": "p/pokepark-wiicompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Wii",
+              "last_activity": "2026-11-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "PokePark Wii: Pikachu's Adventure",
+          "platform": "Wii",
+          "type": "recomp",
+          "project": "PokePark Wiicompiled",
+          "project_url": "https://www.recompsoftware.com/p/pokepark-wiicompiled/",
+          "status": "released",
+          "last_activity": "2026-11-04",
+          "release": "0.1.1-betaNov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
         {
           "id": "repo-mildrain479-pokepark-wiicompiled",
           "evidence": [
@@ -8788,22 +9290,24 @@
           "targets": []
         }
       ],
-      "project_count": 3,
+      "project_count": 5,
       "types": [
         "decomp",
         "recomp"
       ],
       "statuses": [
         "in-progress",
+        "released",
         "unknown"
       ],
       "sources": [
         "awesome-decomp-games",
         "recomp-software-decomp",
+        "recomp-software-recomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-11-04",
-      "best_status": "in-progress",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -15092,6 +15596,506 @@
       "has_conflict": false
     },
     {
+      "id": "goldeneye-007--n64",
+      "title": "GoldenEye 007",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "repo-polaco1782-v64recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/goldeneye-007-n64-2",
+              "source_id": "goldeneye-007-polaco1782",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-11-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "v64recomp",
+          "project_url": "https://github.com/polaco1782/v64recomp",
+          "repo": "polaco1782/v64recomp",
+          "status": "in-progress",
+          "last_activity": "2026-11-04",
+          "toolchain": "V64recomp, Rt64",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-chrissotraidis-goldenpad",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "chrissotraidis-goldenpad",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "N64",
+              "last_activity": "2026-11-01"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
+              "source_id": "goldeneye-007-chrissotraidis",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-11-01"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "chrissotraidis/goldenpad",
+          "project_url": "https://github.com/chrissotraidis/goldenpad",
+          "repo": "chrissotraidis/goldenpad",
+          "status": "released",
+          "last_activity": "2026-11-01",
+          "release": "v0.3.0",
+          "stars": 190,
+          "targets": [
+            "iOS"
+          ],
+          "conflicts": {
+            "type": [
+              "port",
+              "recomp"
+            ]
+          }
+        },
+        {
+          "id": "repo-andrewnakas-goldeneye-cleanroom",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
+              "source_id": "goldeneye-007-andrewnakas",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "N64",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "port",
+          "project": "andrewnakas/goldeneye-cleanroom",
+          "project_url": "https://github.com/andrewnakas/goldeneye-cleanroom",
+          "repo": "andrewnakas/goldeneye-cleanroom",
+          "last_activity": "2026-10-19",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-fjveralv-goldeniris007-psp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/jamio-ki-kowale-n64",
+              "source_id": "goldeneye-007-fjveralv",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "port",
+              "platform": "N64",
+              "last_activity": "2026-10-18"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "port",
+          "project": "Goldeniris007-psp",
+          "project_url": "https://github.com/FJVERALV/Goldeniris007-psp",
+          "repo": "FJVERALV/Goldeniris007-psp",
+          "status": "in-progress",
+          "last_activity": "2026-10-18",
+          "release": "1.2",
+          "targets": [
+            "PSP"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-mscrnt-sightline",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
+              "source_id": "goldeneye-007-mscrnt",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "port",
+              "platform": "N64",
+              "last_activity": "2026-10-16"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "port",
+          "project": "Sightline",
+          "project_url": "https://github.com/mscrnt/Sightline",
+          "repo": "mscrnt/Sightline",
+          "status": "in-progress",
+          "last_activity": "2026-10-16",
+          "release": "v0.3.0",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-goldeneye-007-goldeneye-metal-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/goldeneye-metal/",
+              "source_id": "p/goldeneye-metal",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "GoldenEye Metal",
+          "project_url": "https://www.recompsoftware.com/p/goldeneye-metal/",
+          "status": "released",
+          "last_activity": "2026-10-09",
+          "release": "v0.5.1Oct",
+          "made": "Not stated",
+          "stars": 90,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-jkdansereau-goldeneye-pc-port",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "jkdansereau-goldeneye-pc-port",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "N64",
+              "last_activity": "2026-10-07"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
+              "source_id": "goldeneye-007-jkdansereau",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "N64",
+              "last_activity": "2026-10-07"
+            }
+          ],
+          "embedded_sources": [
+            "awesome-game-remakes",
+            "portsdr",
+            "quiver",
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "port",
+          "project": "jkdansereau/goldeneye-pc-port",
+          "project_url": "https://github.com/jkdansereau/goldeneye-pc-port",
+          "repo": "jkdansereau/goldeneye-pc-port",
+          "status": "released",
+          "last_activity": "2026-10-07",
+          "release": "v0.5.0",
+          "made": "AI-flagged",
+          "stars": 301,
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-goldeneye-007-goldeneye64recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/goldeneye64recomp/",
+              "source_id": "p/goldeneye64recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-08-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "GoldenEye64Recomp",
+          "project_url": "https://www.recompsoftware.com/p/goldeneye64recomp/",
+          "status": "released",
+          "last_activity": "2026-08-20",
+          "release": "v1.0.0Aug",
+          "made": "Not stated",
+          "stars": 22,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-cblock85-goldeneye64recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "cblock85-goldeneye64recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-08-20"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
+              "source_id": "goldeneye-007-cblock85",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-08-20"
+            }
+          ],
+          "embedded_sources": [
+            "portsdr",
+            "recomp.fyi"
+          ],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "cblock85/GoldenEye64Recomp",
+          "project_url": "https://github.com/cblock85/GoldenEye64Recomp",
+          "repo": "cblock85/GoldenEye64Recomp",
+          "status": "released",
+          "last_activity": "2026-08-20",
+          "release": "v1.0.0",
+          "stars": 22,
+          "toolchain": "N64recomp",
+          "targets": [
+            "macOS"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-n64decomp-007",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "n64decomp-007",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": "2026-08-17"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
+              "source_id": "goldeneye-007-n64decomp",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": "2026-08-17"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "n64decomp/007",
+          "project_url": "https://github.com/n64decomp/007",
+          "repo": "n64decomp/007",
+          "status": "in-progress",
+          "last_activity": "2026-08-17",
+          "stars": 812,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-kholdfuzion-goldenrecomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "kholdfuzion-goldenrecomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-07-05"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
+              "source_id": "goldeneye-007-kholdfuzion",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-07-05"
+            }
+          ],
+          "embedded_sources": [
+            "awesome-recompilations",
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "kholdfuzion/GoldenRecomp",
+          "project_url": "https://github.com/kholdfuzion/GoldenRecomp",
+          "repo": "kholdfuzion/GoldenRecomp",
+          "status": "in-progress",
+          "last_activity": "2026-07-05",
+          "stars": 220,
+          "toolchain": "N64recomp",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-goldeneye-007-goldeneye-007-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/goldeneye-decomp/",
+              "source_id": "p/goldeneye-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "GoldenEye 007 decompilation",
+          "project_url": "https://www.recompsoftware.com/p/goldeneye-decomp/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "Human-led",
+          "stars": 812,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-goldeneye-007-goldenrecomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/goldenrecomp/",
+              "source_id": "p/goldenrecomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "GoldenRecomp",
+          "project_url": "https://www.recompsoftware.com/p/goldenrecomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 220,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-goldeneye-007-goldeneye-007-decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "goldeneye-007",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "samidy"
+          ],
+          "game": "GoldenEye 007",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "GoldenEye 007",
+          "project_url": "https://gitlab.com/kholdfuzion/goldeneye_src",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 14,
+      "types": [
+        "decomp",
+        "port",
+        "recomp"
+      ],
+      "statuses": [
+        "complete",
+        "in-progress",
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-04",
+      "best_status": "complete",
+      "has_conflict": true
+    },
+    {
       "id": "god-of-war-iii-remastered--ps4",
       "title": "God of War III Remastered",
       "platform": "PS4",
@@ -15828,6 +16832,83 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-04",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "forza-motorsport-2--xbox-360",
+      "title": "Forza Motorsport 2",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-forza-motorsport-2-forza-motorsport-2-regpu-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/forza-motorsport-2-regpu/",
+              "source_id": "p/forza-motorsport-2-regpu",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-04"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Forza Motorsport 2",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Forza Motorsport 2 ReGPU",
+          "project_url": "https://www.recompsoftware.com/p/forza-motorsport-2-regpu/",
+          "status": "released",
+          "last_activity": "2026-11-04",
+          "release": "v0.10.9Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-alexbeav-forza-motorsport-2-recompilation",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/forza-motorsport-2-xbox-360",
+              "source_id": "forza-motorsport-2-alexbeav",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-10-13"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Forza Motorsport 2",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Alexbeav/forza-motorsport-2-recompilation",
+          "project_url": "https://github.com/Alexbeav/forza-motorsport-2-recompilation",
+          "repo": "Alexbeav/forza-motorsport-2-recompilation",
+          "last_activity": "2026-10-13",
+          "release": "v0.1.0-alpha.2",
+          "toolchain": "Rexglue",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "recomp-software-recomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-11-04",
@@ -21816,9 +22897,36 @@
           "made": "AI-generated",
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-astral-chain-ac-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/ac-recomp/",
+              "source_id": "p/ac-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Astral Chain",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "AC-Recomp",
+          "project_url": "https://www.recompsoftware.com/p/ac-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-19",
+          "release": "v0.1.0Oct",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "recomp"
       ],
@@ -28682,6 +29790,33 @@
       "platform": "PSP",
       "projects": [
         {
+          "id": "sig-street-fighter-alpha-3-max-street-fighter-alpha-3-max-decomp-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/sfa3max-decomp/",
+              "source_id": "p/sfa3max-decomp",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PSP",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Street Fighter Alpha 3 MAX",
+          "platform": "PSP",
+          "type": "decomp",
+          "project": "Street Fighter Alpha 3 MAX: Decomp",
+          "project_url": "https://www.recompsoftware.com/p/sfa3max-decomp/",
+          "status": "released",
+          "last_activity": "2026-11-03",
+          "release": "0.34.2Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
           "id": "repo-theweathervane-sfa3max-decomp",
           "evidence": [
             {
@@ -28728,18 +29863,21 @@
           }
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
+        "decomp",
         "recomp"
       ],
       "statuses": [
-        "in-progress"
+        "in-progress",
+        "released"
       ],
       "sources": [
+        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-11-03",
-      "best_status": "in-progress",
+      "best_status": "released",
       "has_conflict": true
     },
     {
@@ -31159,6 +32297,53 @@
       "has_conflict": false
     },
     {
+      "id": "resident-evil-the-umbrella-chronicles--wii",
+      "title": "Resident Evil: The Umbrella Chronicles",
+      "platform": "Wii",
+      "projects": [
+        {
+          "id": "sig-resident-evil-the-umbrella-chronicles-resident-evil-the-umbrella-chronicles-pc-native-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/reuc-recomp/",
+              "source_id": "p/reuc-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Wii",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Resident Evil: The Umbrella Chronicles",
+          "platform": "Wii",
+          "type": "recomp",
+          "project": "Resident Evil: The Umbrella Chronicles PC native port",
+          "project_url": "https://www.recompsoftware.com/p/reuc-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-03",
+          "release": "0.1.1Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-03",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "red-eclipse--pc-windows",
       "title": "Red Eclipse",
       "platform": "PC (Windows)",
@@ -32185,128 +33370,6 @@
       "last_activity": "2026-11-03",
       "best_status": "released",
       "has_conflict": true
-    },
-    {
-      "id": "project-gotham-racing-4--xbox-360",
-      "title": "Project Gotham Racing 4",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-beatrixzy-pgr4-recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "beatrixzy-pgr4-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-02"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/project-gotham-racing-4-xbox-360",
-              "source_id": "project-gotham-racing-4-beatrixzy",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-03"
-            }
-          ],
-          "embedded_sources": [
-            "portsdr",
-            "quiver",
-            "recomp.fyi",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Project Gotham Racing 4",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "beatrixzy/PGR4-Recomp",
-          "project_url": "https://github.com/beatrixzy/PGR4-Recomp",
-          "repo": "beatrixzy/PGR4-Recomp",
-          "status": "released",
-          "last_activity": "2026-11-03",
-          "release": "v1.2.2",
-          "stars": 237,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-project-gotham-racing-4-pgr4-native-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/pgr4-native/",
-              "source_id": "p/pgr4-native",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-29"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Project Gotham Racing 4",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "pgr4-native",
-          "project_url": "https://www.recompsoftware.com/p/pgr4-native/",
-          "status": "released",
-          "last_activity": "2026-10-29",
-          "release": "v0.3.0Oct",
-          "made": "AI-assisted",
-          "stars": 65,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-project-gotham-racing-4-pgr4-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/pgr4-recomp/",
-              "source_id": "p/pgr4-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-17"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Project Gotham Racing 4",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "PGR4 Recomp",
-          "project_url": "https://www.recompsoftware.com/p/pgr4-recomp/",
-          "status": "released",
-          "last_activity": "2026-10-17",
-          "release": "v1.2.2Oct",
-          "made": "Not stated",
-          "stars": 239,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 3,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-03",
-      "best_status": "released",
-      "has_conflict": false
     },
     {
       "id": "project-gotham-racing-2--xbox",
@@ -35026,13 +36089,39 @@
           ],
           "conflicts": {},
           "status": "unknown"
+        },
+        {
+          "id": "sig-midtown-madness-3-mm3-recomp-mac-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mm3-recomp-mac/",
+              "source_id": "p/mm3-recomp-mac",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Midtown Madness 3",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "mm3-recomp-mac",
+          "project_url": "https://www.recompsoftware.com/p/mm3-recomp-mac/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 4,
+      "project_count": 5,
       "types": [
         "recomp"
       ],
       "statuses": [
+        "in-progress",
         "released",
         "unknown"
       ],
@@ -36263,6 +37352,53 @@
       ],
       "last_activity": "2026-11-03",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "macross-30-voices-across-the-galaxy--ps3",
+      "title": "Macross 30: Voices across the Galaxy",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "sig-macross-30-voices-across-the-galaxy-macross-30-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/macross30-recomp/",
+              "source_id": "p/macross30-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Macross 30: Voices across the Galaxy",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "Macross 30 Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/macross30-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-03",
+          "release": "0.3.8Nov",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-03",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -44613,21 +45749,50 @@
             "Windows"
           ],
           "conflicts": {}
+        },
+        {
+          "id": "sig-castlevania-curse-of-darkness-castlevania-curse-of-darkness-xbe-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/castlevania-cod-pc/",
+              "source_id": "p/castlevania-cod-pc",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Castlevania: Curse of Darkness",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Castlevania: Curse of Darkness - XBE Recomp",
+          "project_url": "https://www.recompsoftware.com/p/castlevania-cod-pc/",
+          "status": "released",
+          "last_activity": "2026-10-20",
+          "release": "v1.1.1Oct",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "recomp"
       ],
       "statuses": [
-        "in-progress"
+        "in-progress",
+        "released"
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-recomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-11-03",
-      "best_status": "in-progress",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -47448,6 +48613,53 @@
       "has_conflict": false
     },
     {
+      "id": "007-agent-under-fire--xbox",
+      "title": "007: Agent Under Fire",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "sig-007-agent-under-fire-007-agent-under-fire-xbe-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/agent-under-fire-xbe-recomp/",
+              "source_id": "p/agent-under-fire-xbe-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "007: Agent Under Fire",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "007: Agent Under Fire - XBE Recomp",
+          "project_url": "https://www.recompsoftware.com/p/agent-under-fire-xbe-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-03",
+          "release": "v1.0.1Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-03",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "zero-k--unknown",
       "title": "Zero-K",
       "platform": "Unknown",
@@ -49914,6 +51126,53 @@
       "last_activity": "2026-11-02",
       "best_status": "released",
       "has_conflict": true
+    },
+    {
+      "id": "the-incredible-hulk--xbox-360",
+      "title": "The Incredible Hulk",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-the-incredible-hulk-the-incredible-hulk-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/incredible-hulk-recompiled/",
+              "source_id": "p/incredible-hulk-recompiled",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-02"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Incredible Hulk",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "The Incredible Hulk Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/incredible-hulk-recompiled/",
+          "status": "in-progress",
+          "last_activity": "2026-11-02",
+          "release": "0.0.1Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-02",
+      "best_status": "in-progress",
+      "has_conflict": false
     },
     {
       "id": "test-drive-unlimited--unknown",
@@ -52742,6 +54001,53 @@
       ],
       "last_activity": "2026-11-02",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "pilotwings-resort--nintendo-3ds",
+      "title": "Pilotwings Resort",
+      "platform": "Nintendo 3DS",
+      "projects": [
+        {
+          "id": "sig-pilotwings-resort-woohoo-flight-school-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/woohoo-flight-school/",
+              "source_id": "p/woohoo-flight-school",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo 3DS",
+              "last_activity": "2026-11-02"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pilotwings Resort",
+          "platform": "Nintendo 3DS",
+          "type": "recomp",
+          "project": "Woohoo! Flight School",
+          "project_url": "https://www.recompsoftware.com/p/woohoo-flight-school/",
+          "status": "released",
+          "last_activity": "2026-11-02",
+          "release": "v0.1.1Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-02",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -57091,9 +58397,63 @@
             "Windows"
           ],
           "conflicts": {}
+        },
+        {
+          "id": "sig-harry-potter-and-the-philosopher-s-stone-harry-potter-and-the-philosopher-s-stone-xbox-pc-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/hp-ps-xbox-recomp/",
+              "source_id": "p/hp-ps-xbox-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-02"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Harry Potter and the Philosopher's Stone",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Harry Potter and the Philosopher's Stone Xbox PC Port",
+          "project_url": "https://www.recompsoftware.com/p/hp-ps-xbox-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-02",
+          "release": "v0.4.1Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-harry-potter-and-the-philosopher-s-stone-hp1-recompiled-philosopher-s-stone-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/hp1-recompiled/",
+              "source_id": "p/hp1-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-01"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Harry Potter and the Philosopher's Stone",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "HP1 Recompiled (Philosopher's Stone)",
+          "project_url": "https://www.recompsoftware.com/p/hp1-recompiled/",
+          "status": "released",
+          "last_activity": "2026-11-01",
+          "release": "v1.0.2Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 3,
       "types": [
         "recomp"
       ],
@@ -57102,6 +58462,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-recomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-11-02",
@@ -57156,9 +58517,63 @@
             "Windows"
           ],
           "conflicts": {}
+        },
+        {
+          "id": "sig-harry-potter-and-the-chamber-of-secrets-harry-potter-and-the-chamber-of-secrets-xbox-pc-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/hp-cos-xbox-recomp/",
+              "source_id": "p/hp-cos-xbox-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-02"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Harry Potter and the Chamber of Secrets",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Harry Potter and the Chamber of Secrets Xbox PC Port",
+          "project_url": "https://www.recompsoftware.com/p/hp-cos-xbox-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-02",
+          "release": "v0.3.1Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-harry-potter-and-the-chamber-of-secrets-hp2-recompiled-chamber-of-secrets-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/hp2-recompiled/",
+              "source_id": "p/hp2-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-01"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Harry Potter and the Chamber of Secrets",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "HP2 Recompiled (Chamber of Secrets)",
+          "project_url": "https://www.recompsoftware.com/p/hp2-recompiled/",
+          "status": "released",
+          "last_activity": "2026-11-01",
+          "release": "v1.0.2Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 3,
       "types": [
         "recomp"
       ],
@@ -57167,6 +58582,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-recomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-11-02",
@@ -61819,6 +63235,33 @@
       "platform": "PS2",
       "projects": [
         {
+          "id": "sig-battle-stadium-d-o-n-battle-stadium-d-o-n-pc-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/battle-stadium-don-recomp/",
+              "source_id": "p/battle-stadium-don-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-02"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Battle Stadium D.O.N",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "Battle Stadium D.O.N PC port",
+          "project_url": "https://www.recompsoftware.com/p/battle-stadium-don-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-02",
+          "release": "v1.0Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
           "id": "repo-dvilelaf-battlestadium-don",
           "evidence": [
             {
@@ -61863,7 +63306,7 @@
           "conflicts": {}
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "recomp"
       ],
@@ -61872,6 +63315,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-recomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-11-02",
@@ -67250,9 +68694,36 @@
           "stars": 607,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-need-for-speed-most-wanted-xbox-360-version-nfsmw-nx-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/nfsmw-nx/",
+              "source_id": "p/nfsmw-nx",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-09-27"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: Most Wanted (Xbox 360 version)",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "NFSMW-NX",
+          "project_url": "https://www.recompsoftware.com/p/nfsmw-nx/",
+          "status": "released",
+          "last_activity": "2026-09-27",
+          "release": "v1.0.0Sep",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
         "recomp"
       ],
@@ -68915,6 +70386,53 @@
       "has_conflict": false
     },
     {
+      "id": "harry-potter-and-the-prisoner-of-azkaban--xbox",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "sig-harry-potter-and-the-prisoner-of-azkaban-hp3-recompiled-prisoner-of-azkaban-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/hp3-recompiled/",
+              "source_id": "p/hp3-recompiled",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-01"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Harry Potter and the Prisoner of Azkaban",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "HP3 Recompiled (Prisoner of Azkaban)",
+          "project_url": "https://www.recompsoftware.com/p/hp3-recompiled/",
+          "status": "in-progress",
+          "last_activity": "2026-11-01",
+          "release": "v0.5.2-betaNov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-01",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "gumshoe--nes",
       "title": "Gumshoe",
       "platform": "NES",
@@ -68963,476 +70481,6 @@
       "last_activity": "2026-11-01",
       "best_status": "unknown",
       "has_conflict": false
-    },
-    {
-      "id": "goldeneye-007--n64",
-      "title": "GoldenEye 007",
-      "platform": "N64",
-      "projects": [
-        {
-          "id": "repo-chrissotraidis-goldenpad",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "chrissotraidis-goldenpad",
-              "claimed": false,
-              "status": "released",
-              "type": "port",
-              "platform": "N64",
-              "last_activity": "2026-11-01"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
-              "source_id": "goldeneye-007-chrissotraidis",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-11-01"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "chrissotraidis/goldenpad",
-          "project_url": "https://github.com/chrissotraidis/goldenpad",
-          "repo": "chrissotraidis/goldenpad",
-          "status": "released",
-          "last_activity": "2026-11-01",
-          "release": "v0.3.0",
-          "stars": 190,
-          "targets": [
-            "iOS"
-          ],
-          "conflicts": {
-            "type": [
-              "port",
-              "recomp"
-            ]
-          }
-        },
-        {
-          "id": "repo-andrewnakas-goldeneye-cleanroom",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
-              "source_id": "goldeneye-007-andrewnakas",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "N64",
-              "last_activity": "2026-10-19"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "port",
-          "project": "andrewnakas/goldeneye-cleanroom",
-          "project_url": "https://github.com/andrewnakas/goldeneye-cleanroom",
-          "repo": "andrewnakas/goldeneye-cleanroom",
-          "last_activity": "2026-10-19",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "repo-fjveralv-goldeniris007-psp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/jamio-ki-kowale-n64",
-              "source_id": "goldeneye-007-fjveralv",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "port",
-              "platform": "N64",
-              "last_activity": "2026-10-18"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "port",
-          "project": "Goldeniris007-psp",
-          "project_url": "https://github.com/FJVERALV/Goldeniris007-psp",
-          "repo": "FJVERALV/Goldeniris007-psp",
-          "status": "in-progress",
-          "last_activity": "2026-10-18",
-          "release": "1.2",
-          "targets": [
-            "PSP"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "repo-mscrnt-sightline",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
-              "source_id": "goldeneye-007-mscrnt",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "port",
-              "platform": "N64",
-              "last_activity": "2026-10-16"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "port",
-          "project": "Sightline",
-          "project_url": "https://github.com/mscrnt/Sightline",
-          "repo": "mscrnt/Sightline",
-          "status": "in-progress",
-          "last_activity": "2026-10-16",
-          "release": "v0.3.0",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "sig-goldeneye-007-goldeneye-metal-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/goldeneye-metal/",
-              "source_id": "p/goldeneye-metal",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-10-09"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "GoldenEye Metal",
-          "project_url": "https://www.recompsoftware.com/p/goldeneye-metal/",
-          "status": "released",
-          "last_activity": "2026-10-09",
-          "release": "v0.5.1Oct",
-          "made": "Not stated",
-          "stars": 90,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-jkdansereau-goldeneye-pc-port",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "jkdansereau-goldeneye-pc-port",
-              "claimed": false,
-              "status": "released",
-              "type": "port",
-              "platform": "N64",
-              "last_activity": "2026-10-07"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
-              "source_id": "goldeneye-007-jkdansereau",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "N64",
-              "last_activity": "2026-10-07"
-            }
-          ],
-          "embedded_sources": [
-            "awesome-game-remakes",
-            "portsdr",
-            "quiver",
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "port",
-          "project": "jkdansereau/goldeneye-pc-port",
-          "project_url": "https://github.com/jkdansereau/goldeneye-pc-port",
-          "repo": "jkdansereau/goldeneye-pc-port",
-          "status": "released",
-          "last_activity": "2026-10-07",
-          "release": "v0.5.0",
-          "made": "AI-flagged",
-          "stars": 301,
-          "targets": [
-            "Windows",
-            "Linux"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "sig-goldeneye-007-goldeneye64recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/goldeneye64recomp/",
-              "source_id": "p/goldeneye64recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-08-20"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "GoldenEye64Recomp",
-          "project_url": "https://www.recompsoftware.com/p/goldeneye64recomp/",
-          "status": "released",
-          "last_activity": "2026-08-20",
-          "release": "v1.0.0Aug",
-          "made": "Not stated",
-          "stars": 22,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-cblock85-goldeneye64recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "cblock85-goldeneye64recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-08-20"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
-              "source_id": "goldeneye-007-cblock85",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-08-20"
-            }
-          ],
-          "embedded_sources": [
-            "portsdr",
-            "recomp.fyi"
-          ],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "cblock85/GoldenEye64Recomp",
-          "project_url": "https://github.com/cblock85/GoldenEye64Recomp",
-          "repo": "cblock85/GoldenEye64Recomp",
-          "status": "released",
-          "last_activity": "2026-08-20",
-          "release": "v1.0.0",
-          "stars": 22,
-          "toolchain": "N64recomp",
-          "targets": [
-            "macOS"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "repo-n64decomp-007",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "n64decomp-007",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": "2026-08-17"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
-              "source_id": "goldeneye-007-n64decomp",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": "2026-08-17"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "decomp",
-          "project": "n64decomp/007",
-          "project_url": "https://github.com/n64decomp/007",
-          "repo": "n64decomp/007",
-          "status": "in-progress",
-          "last_activity": "2026-08-17",
-          "stars": 812,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-kholdfuzion-goldenrecomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "kholdfuzion-goldenrecomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-07-05"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/goldeneye-007-n64",
-              "source_id": "goldeneye-007-kholdfuzion",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-07-05"
-            }
-          ],
-          "embedded_sources": [
-            "awesome-recompilations",
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "kholdfuzion/GoldenRecomp",
-          "project_url": "https://github.com/kholdfuzion/GoldenRecomp",
-          "repo": "kholdfuzion/GoldenRecomp",
-          "status": "in-progress",
-          "last_activity": "2026-07-05",
-          "stars": 220,
-          "toolchain": "N64recomp",
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-goldeneye-007-goldeneye-007-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/goldeneye-decomp/",
-              "source_id": "p/goldeneye-decomp",
-              "claimed": false,
-              "status": "complete",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "decomp",
-          "project": "GoldenEye 007 decompilation",
-          "project_url": "https://www.recompsoftware.com/p/goldeneye-decomp/",
-          "status": "complete",
-          "progress": 100.0,
-          "made": "Human-led",
-          "stars": 812,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-goldeneye-007-goldenrecomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/goldenrecomp/",
-              "source_id": "p/goldenrecomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "GoldenRecomp",
-          "project_url": "https://www.recompsoftware.com/p/goldenrecomp/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 220,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-goldeneye-007-goldeneye-007-decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "goldeneye-007",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "samidy"
-          ],
-          "game": "GoldenEye 007",
-          "platform": "N64",
-          "type": "decomp",
-          "project": "GoldenEye 007",
-          "project_url": "https://gitlab.com/kholdfuzion/goldeneye_src",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 13,
-      "types": [
-        "decomp",
-        "port",
-        "recomp"
-      ],
-      "statuses": [
-        "complete",
-        "in-progress",
-        "released",
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp-software-recomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-01",
-      "best_status": "complete",
-      "has_conflict": true
     },
     {
       "id": "golden-sun-gsrecomp-golden-sun-recompiled--gba",
@@ -82526,6 +83574,53 @@
       ],
       "last_activity": "2026-10-30",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "need-for-speed-most-wanted-2005-pc--pc-windows",
+      "title": "Need for Speed: Most Wanted (2005, PC)",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "sig-need-for-speed-most-wanted-2005-pc-most-wanted-android-evolved-nfsmwpc-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/nfsmwpc-recompiled/",
+              "source_id": "p/nfsmwpc-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-10-30"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: Most Wanted (2005, PC)",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "Most Wanted Android Evolved (nfsmwpc-recompiled)",
+          "project_url": "https://www.recompsoftware.com/p/nfsmwpc-recompiled/",
+          "status": "released",
+          "last_activity": "2026-10-30",
+          "release": "v0.1.12Oct",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-10-30",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -124310,6 +125405,53 @@
       "has_conflict": false
     },
     {
+      "id": "mission-impossible--n64",
+      "title": "Mission: Impossible",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "sig-mission-impossible-mission-impossible-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mission-impossible-recomp/",
+              "source_id": "p/mission-impossible-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-22"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mission: Impossible",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Mission: Impossible Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/mission-impossible-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-22",
+          "release": "v0.1.0Oct",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-10-22",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "metal-gear-solid--ps1",
       "title": "Metal Gear Solid",
       "platform": "PS1",
@@ -127662,127 +128804,6 @@
       ],
       "sources": [
         "awesome-decomp-games",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-21",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "rockstar-games-presents-table-tennis--xbox-360",
-      "title": "Rockstar Games Presents Table Tennis",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-mabec-games-table-tennis-rockstar-linux",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360",
-              "source_id": "rockstar-games-presents-table-tennis-mabec-games",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-21"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Rockstar Games presents Table Tennis",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Rockstar Games presents Table Tennis",
-          "project_url": "https://github.com/Mabec-games/Table-Tennis-Rockstar-Linux",
-          "repo": "Mabec-games/Table-Tennis-Rockstar-Linux",
-          "last_activity": "2026-10-21",
-          "release": "linux-v1.1",
-          "targets": [
-            "Linux",
-            "Steam Deck"
-          ],
-          "conflicts": {},
-          "status": "unknown"
-        },
-        {
-          "id": "repo-ozordi-tt-decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "ozordi-tt-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-04-22"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/rockstar-games-presents-table-tennis-xbox-360",
-              "source_id": "rockstar-presents-table-tennis-ozordi",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-04-22"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Rockstar Games Presents Table Tennis",
-          "platform": "Xbox 360",
-          "type": "decomp",
-          "project": "OZORDI/tt-decomp",
-          "project_url": "https://github.com/OZORDI/tt-decomp",
-          "repo": "OZORDI/tt-decomp",
-          "status": "in-progress",
-          "last_activity": "2026-04-22",
-          "stars": 14,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-rockstar-games-presents-table-tennis-rockstar-table-tennis-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/rockstar-table-tennis-decomp/",
-              "source_id": "p/rockstar-table-tennis-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "Xbox 360",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Rockstar Games Presents Table Tennis",
-          "platform": "Xbox 360",
-          "type": "decomp",
-          "project": "Rockstar Table Tennis Decompilation",
-          "project_url": "https://www.recompsoftware.com/p/rockstar-table-tennis-decomp/",
-          "status": "in-progress",
-          "progress": 25.0,
-          "made": "AI-assisted",
-          "stars": 13,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 3,
-      "types": [
-        "decomp",
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
         "recomp.fyi"
       ],
       "last_activity": "2026-10-21",
@@ -150628,54 +151649,6 @@
       "project_count": 1,
       "types": [
         "decomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-10-13",
-      "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
-      "id": "forza-motorsport-2--xbox-360",
-      "title": "Forza Motorsport 2",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-alexbeav-forza-motorsport-2-recompilation",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/forza-motorsport-2-xbox-360",
-              "source_id": "forza-motorsport-2-alexbeav",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-10-13"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Forza Motorsport 2",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Alexbeav/forza-motorsport-2-recompilation",
-          "project_url": "https://github.com/Alexbeav/forza-motorsport-2-recompilation",
-          "repo": "Alexbeav/forza-motorsport-2-recompilation",
-          "last_activity": "2026-10-13",
-          "release": "v0.1.0-alpha.2",
-          "toolchain": "Rexglue",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
       ],
       "statuses": [
         "unknown"
@@ -247426,6 +248399,51 @@
       ],
       "last_activity": null,
       "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "metal-gear-solid-portable-ops--psp",
+      "title": "Metal Gear Solid: Portable Ops",
+      "platform": "PSP",
+      "projects": [
+        {
+          "id": "sig-metal-gear-solid-portable-ops-metal-gear-solid-portable-ops-unofficial-pc-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mgs-portable-ops-pc-port/",
+              "source_id": "p/mgs-portable-ops-pc-port",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PSP",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Metal Gear Solid: Portable Ops",
+          "platform": "PSP",
+          "type": "recomp",
+          "project": "Metal Gear Solid: Portable Ops unofficial PC port",
+          "project_url": "https://www.recompsoftware.com/p/mgs-portable-ops-pc-port/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
