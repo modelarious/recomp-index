@@ -1,9 +1,9 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-06T14:46:45.885620+00:00",
+  "generated_at": "2026-11-06T23:47:08.546897+00:00",
   "summary": {
-    "games": 3080,
-    "projects": 3512,
+    "games": 3082,
+    "projects": 3513,
     "source_records": 3565,
     "platforms": 84,
     "sources": 4,
@@ -155,7 +155,7 @@
       ],
       [
         "PC (DOS)",
-        14
+        15
       ],
       [
         "Dreamcast",
@@ -381,7 +381,7 @@
       ],
       [
         "port",
-        653
+        654
       ],
       [
         "tool",
@@ -391,7 +391,7 @@
     "statuses": [
       [
         "released",
-        1455
+        1456
       ],
       [
         "in-progress",
@@ -7292,8 +7292,8 @@
       "has_conflict": true
     },
     {
-      "id": "f-zero-gx--gamecube",
-      "title": "F-Zero GX",
+      "id": "f-zero-gx-karamzov123--gamecube",
+      "title": "F-Zero GX (karamzov123)",
       "platform": "GameCube",
       "projects": [
         {
@@ -7308,16 +7308,6 @@
               "type": "decomp",
               "platform": "GameCube",
               "last_activity": "2026-11-06"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/f-zero-gx-gamecube",
-              "source_id": "f-zero-gx-karamzov123",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "GameCube",
-              "last_activity": "2026-11-06"
             }
           ],
           "embedded_sources": [
@@ -7325,10 +7315,10 @@
             "samidy",
             "unbaked"
           ],
-          "game": "F-Zero GX",
+          "game": "F-Zero GX (karamzov123)",
           "platform": "GameCube",
           "type": "decomp",
-          "project": "karamzov123/fzero-gx-decomp",
+          "project": "fzero-gx-decomp",
           "project_url": "https://github.com/karamzov123/fzero-gx-decomp",
           "repo": "karamzov123/fzero-gx-decomp",
           "status": "in-progress",
@@ -7336,36 +7326,9 @@
           "stars": 22,
           "conflicts": {},
           "targets": []
-        },
-        {
-          "id": "sig-f-zero-gx-f-zero-gx-matching-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/fzero-gx-decomp/",
-              "source_id": "p/fzero-gx-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "GameCube",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "F-Zero GX",
-          "platform": "GameCube",
-          "type": "decomp",
-          "project": "F-Zero GX matching decompilation",
-          "project_url": "https://www.recompsoftware.com/p/fzero-gx-decomp/",
-          "status": "in-progress",
-          "progress": 89.73,
-          "made": "Not stated",
-          "stars": 22,
-          "conflicts": {},
-          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 1,
       "types": [
         "decomp"
       ],
@@ -7373,9 +7336,7 @@
         "in-progress"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-06",
       "best_status": "in-progress",
@@ -7693,6 +7654,55 @@
       ],
       "last_activity": "2026-11-06",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "duke-nukem-3d--pc-dos",
+      "title": "Duke Nukem 3D",
+      "platform": "PC (DOS)",
+      "projects": [
+        {
+          "id": "repo-antair267-duke3d-web",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/duke-nukem-3d-pc-dos-2",
+              "source_id": "duke-nukem-3d-antair267",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-11-06"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Duke Nukem 3D",
+          "platform": "PC (DOS)",
+          "type": "port",
+          "project": "Duke3D web",
+          "project_url": "https://github.com/AntAir267/duke3d-web",
+          "repo": "AntAir267/duke3d-web",
+          "status": "released",
+          "last_activity": "2026-11-06",
+          "toolchain": "Eduke32",
+          "targets": [
+            "Browser"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-06",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -162193,6 +162203,53 @@
           "progress": 2.01,
           "made": "AI-assisted",
           "stars": 0,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "f-zero-gx--gamecube",
+      "title": "F-Zero GX",
+      "platform": "GameCube",
+      "projects": [
+        {
+          "id": "sig-f-zero-gx-f-zero-gx-matching-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/fzero-gx-decomp/",
+              "source_id": "p/fzero-gx-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "GameCube",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "F-Zero GX",
+          "platform": "GameCube",
+          "type": "decomp",
+          "project": "F-Zero GX matching decompilation",
+          "project_url": "https://www.recompsoftware.com/p/fzero-gx-decomp/",
+          "status": "in-progress",
+          "progress": 89.73,
+          "made": "Not stated",
+          "stars": 22,
           "conflicts": {},
           "targets": []
         }
