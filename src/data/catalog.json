@@ -1,9 +1,9 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-06T23:47:08.546897+00:00",
+  "generated_at": "2026-11-07T05:47:24.099238+00:00",
   "summary": {
-    "games": 3082,
-    "projects": 3513,
+    "games": 3083,
+    "projects": 3514,
     "source_records": 3565,
     "platforms": 84,
     "sources": 4,
@@ -43,7 +43,7 @@
       ],
       [
         "Xbox 360",
-        336
+        337
       ],
       [
         "PS1",
@@ -377,7 +377,7 @@
       ],
       [
         "recomp",
-        1117
+        1118
       ],
       [
         "port",
@@ -391,7 +391,7 @@
     "statuses": [
       [
         "released",
-        1456
+        1457
       ],
       [
         "in-progress",
@@ -416,6 +416,58 @@
     ]
   },
   "games": [
+    {
+      "id": "el-chavo-kart--xbox-360",
+      "title": "El Chavo Kart",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-saulob-el-chavo-kart-recompiled",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/el-chavo-kart-xbox-360-2",
+              "source_id": "el-chavo-kart-saulob",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-07"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "El Chavo Kart",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Chaves Kart (El Chavo Kart) Recompiled",
+          "project_url": "https://github.com/saulob/el-chavo-kart-recompiled",
+          "repo": "saulob/el-chavo-kart-recompiled",
+          "status": "released",
+          "last_activity": "2026-11-07",
+          "release": "v0.1.0",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-07",
+      "best_status": "released",
+      "has_conflict": false
+    },
     {
       "id": "zero-k--unknown",
       "title": "Zero-K",
@@ -7410,16 +7462,6 @@
               "type": "decomp",
               "platform": "Wii",
               "last_activity": "2026-11-06"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/excite-truck-wii",
-              "source_id": "excite-truck-orangedude27",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "Wii",
-              "last_activity": "2026-11-06"
             }
           ],
           "embedded_sources": [
@@ -7429,7 +7471,7 @@
           "game": "Excite Truck",
           "platform": "Wii",
           "type": "decomp",
-          "project": "orangedude27/excite-truck",
+          "project": "excite-truck",
           "project_url": "https://github.com/orangedude27/excite-truck",
           "repo": "orangedude27/excite-truck",
           "status": "in-progress",
@@ -7447,8 +7489,7 @@
         "in-progress"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-06",
       "best_status": "in-progress",
