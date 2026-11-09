@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-08T18:55:52.028723+00:00",
+  "generated_at": "2026-11-09T03:56:12.086275+00:00",
   "summary": {
-    "games": 3109,
-    "projects": 3546,
+    "games": 3110,
+    "projects": 3547,
     "source_records": 3598,
     "platforms": 85,
     "sources": 4,
-    "conflicted_projects": 16
+    "conflicted_projects": 15
   },
   "sources": [
     {
@@ -103,7 +103,7 @@
       ],
       [
         "PS4",
-        45
+        46
       ],
       [
         "DS",
@@ -385,7 +385,7 @@
       ],
       [
         "port",
-        673
+        674
       ],
       [
         "tool",
@@ -395,7 +395,7 @@
     "statuses": [
       [
         "released",
-        1494
+        1495
       ],
       [
         "in-progress",
@@ -424,6 +424,58 @@
     ]
   },
   "games": [
+    {
+      "id": "13-sentinels-aegis-rim--ps4",
+      "title": "13 Sentinels: Aegis Rim",
+      "platform": "PS4",
+      "projects": [
+        {
+          "id": "repo-saulob-13-sentinels-aegis-rim-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/13-sentinels-aegis-rim-ps4",
+              "source_id": "13-sentinels-aegis-rim-saulob",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-11-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "13 Sentinels: Aegis Rim",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "13 Sentinels: Aegis Rim PC Port",
+          "project_url": "https://github.com/saulob/13-sentinels-aegis-rim-pc",
+          "repo": "saulob/13-sentinels-aegis-rim-pc",
+          "status": "released",
+          "last_activity": "2026-11-09",
+          "release": "v0.1.0",
+          "toolchain": "Shadps4-derived runtime",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-09",
+      "best_status": "released",
+      "has_conflict": false
+    },
     {
       "id": "yu-gi-oh-forbidden-memories-memories-decomp--ps1",
       "title": "Yu-Gi-Oh! Forbidden Memories (memories-decomp)",
@@ -7033,8 +7085,8 @@
       "has_conflict": false
     },
     {
-      "id": "god-of-war-iii-remastered--ps4",
-      "title": "God of War III Remastered",
+      "id": "god-of-war-iii-remastered-pc-port--ps4",
+      "title": "God of War III Remastered (PC port)",
       "platform": "PS4",
       "projects": [
         {
@@ -7049,16 +7101,6 @@
               "type": "port",
               "platform": "PS4",
               "last_activity": "2026-11-08"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/god-of-war-iii-remastered-ps4",
-              "source_id": "god-of-war-iii-remastered-felipeprado0",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS4",
-              "last_activity": "2026-11-08"
             }
           ],
           "embedded_sources": [
@@ -7067,43 +7109,33 @@
             "reddit:r/decomps",
             "unbaked"
           ],
-          "game": "God of War III Remastered",
+          "game": "God of War III Remastered (PC port)",
           "platform": "PS4",
-          "type": "recomp",
-          "project": "FelipePrado0/gow3_pc",
+          "type": "port",
+          "project": "SpartanPort",
           "project_url": "https://github.com/FelipePrado0/SpartanPort",
           "repo": "FelipePrado0/SpartanPort",
           "status": "released",
           "last_activity": "2026-11-08",
           "release": "windows-v3.1.0",
           "stars": 4683,
-          "toolchain": "Bbport",
-          "targets": [
-            "Windows",
-            "Linux"
-          ],
-          "conflicts": {
-            "type": [
-              "port",
-              "recomp"
-            ]
-          }
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
       "types": [
-        "recomp"
+        "port"
       ],
       "statuses": [
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-08",
       "best_status": "released",
-      "has_conflict": true
+      "has_conflict": false
     },
     {
       "id": "god-hand--ps2",
