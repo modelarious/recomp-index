@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-09T15:56:34.804478+00:00",
+  "generated_at": "2026-11-09T21:56:46.688035+00:00",
   "summary": {
-    "games": 3120,
-    "projects": 3552,
+    "games": 3124,
+    "projects": 3555,
     "source_records": 3606,
     "platforms": 85,
     "sources": 4,
-    "conflicted_projects": 20
+    "conflicted_projects": 19
   },
   "sources": [
     {
@@ -55,7 +55,7 @@
       ],
       [
         "PS2",
-        209
+        210
       ],
       [
         "GameCube",
@@ -95,7 +95,7 @@
       ],
       [
         "NDS",
-        49
+        48
       ],
       [
         "GB",
@@ -111,7 +111,7 @@
       ],
       [
         "DS",
-        42
+        43
       ],
       [
         "Switch",
@@ -127,7 +127,7 @@
       ],
       [
         "PS3",
-        37
+        38
       ],
       [
         "ZX Spectrum",
@@ -159,7 +159,7 @@
       ],
       [
         "Dreamcast",
-        13
+        14
       ],
       [
         "Amiga",
@@ -377,11 +377,11 @@
     "types": [
       [
         "decomp",
-        1735
+        1737
       ],
       [
         "recomp",
-        1125
+        1126
       ],
       [
         "port",
@@ -399,7 +399,7 @@
       ],
       [
         "in-progress",
-        1392
+        1391
       ],
       [
         "paused",
@@ -411,7 +411,7 @@
       ],
       [
         "unknown",
-        67
+        71
       ],
       [
         "playable",
@@ -7988,8 +7988,8 @@
       "has_conflict": false
     },
     {
-      "id": "eternal-sonata--xbox-360",
-      "title": "Eternal Sonata",
+      "id": "eternal-sonata-eternalsonatareprise--xbox-360",
+      "title": "Eternal Sonata (EternalSonataReprise)",
       "platform": "Xbox 360",
       "projects": [
         {
@@ -8004,16 +8004,6 @@
               "type": "recomp",
               "platform": "Xbox 360",
               "last_activity": "2026-11-09"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/eternal-sonata-xbox-360",
-              "source_id": "eternal-sonata-birabittoh",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-09"
             }
           ],
           "embedded_sources": [
@@ -8021,7 +8011,7 @@
             "quiver",
             "unbaked"
           ],
-          "game": "Eternal Sonata",
+          "game": "Eternal Sonata (EternalSonataReprise)",
           "platform": "Xbox 360",
           "type": "recomp",
           "project": "EternalSonataReprise",
@@ -8031,45 +8021,11 @@
           "last_activity": "2026-11-09",
           "release": "v1.3.8",
           "stars": 202,
-          "toolchain": "Rexglue",
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS",
-            "Android"
-          ],
-          "conflicts": {}
-        },
-        {
-          "id": "sig-eternal-sonata-eternal-sonata-reprise-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/eternal-sonata-reprise/",
-              "source_id": "p/eternal-sonata-reprise",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-03"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Eternal Sonata",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Eternal Sonata Reprise",
-          "project_url": "https://www.recompsoftware.com/p/eternal-sonata-reprise/",
-          "status": "released",
-          "last_activity": "2026-11-03",
-          "release": "v1.3.8Nov",
-          "made": "Not stated",
-          "stars": 202,
           "conflicts": {},
           "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 1,
       "types": [
         "recomp"
       ],
@@ -8077,9 +8033,7 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-09",
       "best_status": "released",
@@ -8189,55 +8143,6 @@
       "has_conflict": false
     },
     {
-      "id": "duke-nukem-time-to-kill--ps1",
-      "title": "Duke Nukem: Time to Kill",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "repo-musicmonstermod-duke-nukem-time-to-kill-recomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/duke-nukem-time-to-kill-ps1",
-              "source_id": "duke-nukem-time-to-kill-musicmonstermod",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-11-09"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Duke Nukem: Time to Kill",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "Duke Nukem: Time to Kill Recompiled",
-          "project_url": "https://github.com/MusicMonsterMod/duke-nukem-time-to-kill-recomp",
-          "repo": "MusicMonsterMod/duke-nukem-time-to-kill-recomp",
-          "status": "in-progress",
-          "last_activity": "2026-11-09",
-          "toolchain": "Psxrecomp",
-          "targets": [
-            "Linux"
-          ],
-          "conflicts": {}
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-09",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
       "id": "driveclub--ps4",
       "title": "Driveclub",
       "platform": "PS4",
@@ -8254,16 +8159,6 @@
               "type": "recomp",
               "platform": "PS4",
               "last_activity": "2026-11-09"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/driveclub-ps4",
-              "source_id": "driveclub-overkilllabs3",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS4",
-              "last_activity": "2026-11-09"
             }
           ],
           "embedded_sources": [
@@ -8273,7 +8168,7 @@
           "game": "Driveclub",
           "platform": "PS4",
           "type": "recomp",
-          "project": "OverkillLabs3/driveclub-recomp",
+          "project": "driveclub-recomp",
           "project_url": "https://github.com/OverkillLabs3/driveclub-recomp",
           "repo": "OverkillLabs3/driveclub-recomp",
           "status": "released",
@@ -8281,11 +8176,8 @@
           "release": "v0.4.2",
           "made": "AI-flagged",
           "stars": 974,
-          "targets": [
-            "Windows",
-            "Linux"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -8296,17 +8188,16 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-09",
       "best_status": "released",
       "has_conflict": false
     },
     {
-      "id": "dragon-quest-ix--nds",
+      "id": "dragon-quest-ix--ds",
       "title": "Dragon Quest IX",
-      "platform": "NDS",
+      "platform": "DS",
       "projects": [
         {
           "id": "repo-dqix-dqix-decomp",
@@ -8320,16 +8211,6 @@
               "type": "decomp",
               "platform": "DS",
               "last_activity": "2026-11-09"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dragon-quest-ix-nds",
-              "source_id": "dragon-quest-ix-dqix",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "NDS",
-              "last_activity": "2026-11-09"
             }
           ],
           "embedded_sources": [
@@ -8338,20 +8219,15 @@
             "unbaked"
           ],
           "game": "Dragon Quest IX",
-          "platform": "NDS",
+          "platform": "DS",
           "type": "decomp",
-          "project": "DQIX/dqix-decomp",
+          "project": "dqix-decomp",
           "project_url": "https://github.com/DQIX/dqix-decomp",
           "repo": "DQIX/dqix-decomp",
           "status": "in-progress",
           "last_activity": "2026-11-09",
           "stars": 60,
-          "conflicts": {
-            "platform": [
-              "DS",
-              "NDS"
-            ]
-          },
+          "conflicts": {},
           "targets": []
         }
       ],
@@ -8363,12 +8239,11 @@
         "in-progress"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-09",
       "best_status": "in-progress",
-      "has_conflict": true
+      "has_conflict": false
     },
     {
       "id": "dragon-ball-z-budokai-tenkaichi-2-bt2-recomp--ps2",
@@ -8539,6 +8414,52 @@
       "has_conflict": false
     },
     {
+      "id": "draconus-cult-of-the-wyrm--dreamcast",
+      "title": "Draconus: Cult of the Wyrm",
+      "platform": "Dreamcast",
+      "projects": [
+        {
+          "id": "repo-gnomechimpsky-draconus-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/draconus-cult-of-the-wyrm-dreamcast",
+              "source_id": "draconus-cult-of-the-wyrm-gnomechimpsky",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Dreamcast",
+              "last_activity": "2026-11-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Draconus: Cult of the Wyrm",
+          "platform": "Dreamcast",
+          "type": "recomp",
+          "project": "GnomeChimpsky/Draconus-Recomp",
+          "project_url": "https://github.com/GnomeChimpsky/Draconus-Recomp",
+          "repo": "GnomeChimpsky/Draconus-Recomp",
+          "last_activity": "2026-11-09",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-09",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "double-dragon-iii-the-sacred-stones--nes",
       "title": "Double Dragon III: The Sacred Stones",
       "platform": "NES",
@@ -8703,6 +8624,52 @@
       ],
       "last_activity": "2026-11-09",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "digimon-world-4--ps2",
+      "title": "Digimon World 4",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-crashbashash-dw4-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/digimon-world-4-ps2",
+              "source_id": "digimon-world-4-crashbashash",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Digimon World 4",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "crashbashash/DW4_Decomp",
+          "project_url": "https://github.com/crashbashash/DW4_Decomp",
+          "repo": "crashbashash/DW4_Decomp",
+          "last_activity": "2026-11-09",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-09",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -11335,6 +11302,52 @@
       "has_conflict": false
     },
     {
+      "id": "breath-of-fire-iii--ps1",
+      "title": "Breath of Fire III",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-raulcorreia7-bof3-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/breath-of-fire-iii-ps1",
+              "source_id": "breath-of-fire-iii-raulcorreia7",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Breath of Fire III",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "raulcorreia7/bof3-decomp",
+          "project_url": "https://github.com/raulcorreia7/bof3-decomp",
+          "repo": "raulcorreia7/bof3-decomp",
+          "last_activity": "2026-11-09",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-09",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "brave-fencer-musashi--ps1",
       "title": "Brave Fencer Musashi",
       "platform": "PS1",
@@ -11569,6 +11582,52 @@
       ],
       "last_activity": "2026-11-09",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "bleach-soul-resurreccion--ps3",
+      "title": "Bleach: Soul Resurrección",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-xpxavierx-bleach-soul-resurreccion-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bleach-soul-resurreccion-ps3",
+              "source_id": "bleach-soul-resurreccion-xpxavierx",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bleach: Soul Resurrección",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "xPXavierx/bleach-soul-resurreccion-recomp",
+          "project_url": "https://github.com/xPXavierx/bleach-soul-resurreccion-recomp",
+          "repo": "xPXavierx/bleach-soul-resurreccion-recomp",
+          "last_activity": "2026-11-09",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-09",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -47563,6 +47622,54 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-03",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "eternal-sonata--xbox-360",
+      "title": "Eternal Sonata",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-eternal-sonata-eternal-sonata-reprise-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/eternal-sonata-reprise/",
+              "source_id": "p/eternal-sonata-reprise",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Eternal Sonata",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Eternal Sonata Reprise",
+          "project_url": "https://www.recompsoftware.com/p/eternal-sonata-reprise/",
+          "status": "released",
+          "last_activity": "2026-11-03",
+          "release": "v1.3.8Nov",
+          "made": "Not stated",
+          "stars": 202,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-03",
       "best_status": "released",
