@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-11T15:58:50.914759+00:00",
+  "generated_at": "2026-11-12T00:59:07.783363+00:00",
   "summary": {
-    "games": 3435,
-    "projects": 3874,
-    "source_records": 3928,
+    "games": 3461,
+    "projects": 3920,
+    "source_records": 3974,
     "platforms": 86,
     "sources": 4,
     "conflicted_projects": 19
@@ -23,27 +23,27 @@
     {
       "id": "recomp-software-recomp",
       "url": "https://www.recompsoftware.com/recompiled-games-list/",
-      "records": 417
+      "records": 461
     },
     {
       "id": "recomp-software-decomp",
       "url": "https://www.recompsoftware.com/decompiled-games-list/",
-      "records": 663
+      "records": 665
     }
   ],
   "facets": {
     "platforms": [
       [
         "PC (Windows)",
-        615
+        616
       ],
       [
         "Xbox 360",
-        394
+        399
       ],
       [
         "N64",
-        354
+        355
       ],
       [
         "PS1",
@@ -51,7 +51,7 @@
       ],
       [
         "PS2",
-        241
+        248
       ],
       [
         "Unknown",
@@ -63,7 +63,7 @@
       ],
       [
         "GBA",
-        146
+        147
       ],
       [
         "Wii",
@@ -75,7 +75,7 @@
       ],
       [
         "NES",
-        98
+        99
       ],
       [
         "SNES",
@@ -83,7 +83,7 @@
       ],
       [
         "Xbox",
-        79
+        87
       ],
       [
         "Switch",
@@ -106,15 +106,15 @@
         53
       ],
       [
+        "PS3",
+        51
+      ],
+      [
         "PS4",
         49
       ],
       [
         "GB",
-        48
-      ],
-      [
-        "PS3",
         48
       ],
       [
@@ -127,7 +127,7 @@
       ],
       [
         "Nintendo Switch",
-        39
+        44
       ],
       [
         "ZX Spectrum",
@@ -135,7 +135,7 @@
       ],
       [
         "PSP",
-        31
+        28
       ],
       [
         "Wii U",
@@ -162,6 +162,14 @@
         15
       ],
       [
+        "Nintendo Switch 2",
+        14
+      ],
+      [
+        "PlayStation Portable",
+        14
+      ],
+      [
         "Amiga",
         11
       ],
@@ -175,10 +183,6 @@
       ],
       [
         "Multi",
-        10
-      ],
-      [
-        "PlayStation Portable",
         10
       ],
       [
@@ -274,10 +278,6 @@
         2
       ],
       [
-        "Nintendo Switch 2",
-        2
-      ],
-      [
         "PC-98",
         2
       ],
@@ -295,6 +295,10 @@
       ],
       [
         "Web/Flash",
+        2
+      ],
+      [
+        "Windows/macOS",
         2
       ],
       [
@@ -362,10 +366,6 @@
         1
       ],
       [
-        "Windows/macOS",
-        1
-      ],
-      [
         "ZX Spectrum / MS-DOS",
         1
       ],
@@ -381,11 +381,11 @@
     "types": [
       [
         "decomp",
-        1773
+        1775
       ],
       [
         "recomp",
-        1345
+        1389
       ],
       [
         "port",
@@ -399,11 +399,11 @@
     "statuses": [
       [
         "released",
-        1732
+        1763
       ],
       [
         "in-progress",
-        1470
+        1485
       ],
       [
         "paused",
@@ -2057,6 +2057,183 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-11",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "the-legend-of-zelda-ocarina-of-time-nintendo-switch-2--nintendo-switch-2",
+      "title": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+      "platform": "Nintendo Switch 2",
+      "projects": [
+        {
+          "id": "sig-the-legend-of-zelda-ocarina-of-time-nintendo-switch-2-hookshot-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/hookshot/",
+              "source_id": "p/hookshot",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "Hookshot",
+          "project_url": "https://www.recompsoftware.com/p/hookshot/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "v2.1.0Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-the-legend-of-zelda-ocarina-of-time-nintendo-switch-2-nx2navi-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/nx2navi/",
+              "source_id": "p/nx2navi",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "NX2navi",
+          "project_url": "https://www.recompsoftware.com/p/nx2navi/",
+          "status": "released",
+          "last_activity": "2026-11-10",
+          "release": "v0.7.1Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-the-legend-of-zelda-ocarina-of-time-nintendo-switch-2-ocarina-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/ocarina-recomp/",
+              "source_id": "p/ocarina-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": "2026-11-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "Ocarina Recomp",
+          "project_url": "https://www.recompsoftware.com/p/ocarina-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-09",
+          "release": "v0.3.3Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-the-legend-of-zelda-ocarina-of-time-nintendo-switch-2-oot-pc-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/oot-pc-recomp/",
+              "source_id": "p/oot-pc-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "OoT PC Recomp",
+          "project_url": "https://www.recompsoftware.com/p/oot-pc-recomp/",
+          "status": "in-progress",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-the-legend-of-zelda-ocarina-of-time-nintendo-switch-2-ocarina-of-time-pc-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/ocarina-of-time-pc-recomp/",
+              "source_id": "p/ocarina-of-time-pc-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "Ocarina of Time PC Recomp",
+          "project_url": "https://www.recompsoftware.com/p/ocarina-of-time-pc-recomp/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-the-legend-of-zelda-ocarina-of-time-nintendo-switch-2-echora-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/echora/",
+              "source_id": "p/echora",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "The Legend of Zelda: Ocarina of Time (Nintendo Switch 2)",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "Echora",
+          "project_url": "https://www.recompsoftware.com/p/echora/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 6,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-11",
       "best_status": "released",
@@ -4534,6 +4711,53 @@
       "has_conflict": false
     },
     {
+      "id": "robert-ludlum-s-the-bourne-conspiracy--xbox-360",
+      "title": "Robert Ludlum's The Bourne Conspiracy",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-robert-ludlum-s-the-bourne-conspiracy-the-bourne-conspiracy-xbox-360-recompilation-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/bourne-conspiracy-x360-recomp/",
+              "source_id": "p/bourne-conspiracy-x360-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Robert Ludlum's The Bourne Conspiracy",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "The Bourne Conspiracy - Xbox 360 Recompilation",
+          "project_url": "https://www.recompsoftware.com/p/bourne-conspiracy-x360-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "v0.2.1Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-11",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "resident-evil-4-dreamcast-port-re4dc--dreamcast",
       "title": "Resident Evil 4 (Dreamcast port, re4dc)",
       "platform": "Dreamcast",
@@ -5083,6 +5307,53 @@
       "has_conflict": false
     },
     {
+      "id": "project-gotham-racing-2--xbox",
+      "title": "Project Gotham Racing 2",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "sig-project-gotham-racing-2-project-gotham-racing-2-xbe-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/pgr2-recomp/",
+              "source_id": "p/pgr2-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Project Gotham Racing 2",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Project Gotham Racing 2 - XBE Recomp",
+          "project_url": "https://www.recompsoftware.com/p/pgr2-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "v1.6.3Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-11",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "predator-concrete-jungle-concrete-jungle-pc--xbox",
       "title": "Predator: Concrete Jungle (Concrete-Jungle-PC)",
       "platform": "Xbox",
@@ -5178,6 +5449,80 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-11",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "pokemon-pokopia--nintendo-switch-2",
+      "title": "Pokémon Pokopia",
+      "platform": "Nintendo Switch 2",
+      "projects": [
+        {
+          "id": "sig-pokemon-pokopia-recompia-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/recompia/",
+              "source_id": "p/recompia",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pokémon Pokopia",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "Recompia",
+          "project_url": "https://www.recompsoftware.com/p/recompia/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "v0.10.3Nov",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-pokemon-pokopia-pokopia-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/pokopia-recomp/",
+              "source_id": "p/pokopia-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": "2026-11-02"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pokémon Pokopia",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "Pokopia Recomp",
+          "project_url": "https://www.recompsoftware.com/p/pokopia-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-02",
+          "release": "v0.1.1Nov",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-11",
       "best_status": "released",
@@ -5884,6 +6229,107 @@
       "has_conflict": false
     },
     {
+      "id": "panzer-dragoon-orta--xbox",
+      "title": "Panzer Dragoon Orta",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "sig-panzer-dragoon-orta-orta-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/ortarecomp/",
+              "source_id": "p/ortarecomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Panzer Dragoon Orta",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Orta Recomp",
+          "project_url": "https://www.recompsoftware.com/p/ortarecomp/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "v0.1.2Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-panzer-dragoon-orta-orta-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/orta-recompiled/",
+              "source_id": "p/orta-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Panzer Dragoon Orta",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Orta Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/orta-recompiled/",
+          "status": "released",
+          "last_activity": "2026-11-10",
+          "release": "v1.0.0Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-panzer-dragoon-orta-orta-pc-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/orta-pc-recomp/",
+              "source_id": "p/orta-pc-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-06"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Panzer Dragoon Orta",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Orta PC Recomp",
+          "project_url": "https://www.recompsoftware.com/p/orta-pc-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-06",
+          "release": "v0.8_ExperimentalNov",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-11",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "osu--pc-windows",
       "title": "osu",
       "platform": "PC (Windows)",
@@ -6295,6 +6741,109 @@
       "has_conflict": false
     },
     {
+      "id": "ninja-gaiden-ii--xbox-360",
+      "title": "Ninja Gaiden II",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-ninja-gaiden-ii-ninja-gaiden-ii-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/ng2recomp/",
+              "source_id": "p/ng2recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Ninja Gaiden II",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Ninja Gaiden II Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/ng2recomp/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "v0.5.66Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-ninja-gaiden-ii-izunarecomp-the-izuna-project-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/izunarecomp/",
+              "source_id": "p/izunarecomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-08"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Ninja Gaiden II",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "IzunaRecomp — The Izuna Project",
+          "project_url": "https://www.recompsoftware.com/p/izunarecomp/",
+          "status": "released",
+          "last_activity": "2026-11-08",
+          "release": "v0.2.2Nov",
+          "made": "AI-generated",
+          "stars": 81,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-ninja-gaiden-ii-openng2-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/openng2/",
+              "source_id": "p/openng2",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-05"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Ninja Gaiden II",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "openNG2",
+          "project_url": "https://www.recompsoftware.com/p/openng2/",
+          "status": "released",
+          "last_activity": "2026-11-05",
+          "release": "v1.1.0Nov",
+          "made": "AI-assisted",
+          "stars": 31,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-11",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "neverball--pc-windows",
       "title": "Neverball",
       "platform": "PC (Windows)",
@@ -6497,9 +7046,9 @@
       "has_conflict": false
     },
     {
-      "id": "monster-hunter-freedom-unite--psp",
+      "id": "monster-hunter-freedom-unite--playstation-portable",
       "title": "Monster Hunter Freedom Unite",
-      "platform": "PSP",
+      "platform": "PlayStation Portable",
       "projects": [
         {
           "id": "sig-monster-hunter-freedom-unite-mhforever-recomp",
@@ -6511,13 +7060,13 @@
               "claimed": false,
               "status": "released",
               "type": "recomp",
-              "platform": "PSP",
+              "platform": "PlayStation Portable",
               "last_activity": "2026-11-11"
             }
           ],
           "embedded_sources": [],
           "game": "Monster Hunter Freedom Unite",
-          "platform": "PSP",
+          "platform": "PlayStation Portable",
           "type": "recomp",
           "project": "MHForever",
           "project_url": "https://www.recompsoftware.com/p/mhforever/",
@@ -6842,6 +7391,53 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-11",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "mario-tennis-fever--nintendo-switch-2",
+      "title": "Mario Tennis Fever",
+      "platform": "Nintendo Switch 2",
+      "projects": [
+        {
+          "id": "sig-mario-tennis-fever-mtf-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mtf-recomp/",
+              "source_id": "p/mtf-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mario Tennis Fever",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "MTF Recomp",
+          "project_url": "https://www.recompsoftware.com/p/mtf-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "v0.1.0-beta.6Nov",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-11",
       "best_status": "released",
@@ -8116,6 +8712,142 @@
       "has_conflict": false
     },
     {
+      "id": "god-of-war-ascension--ps3",
+      "title": "God of War: Ascension",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "sig-god-of-war-ascension-ascension-r-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/ascension-r/",
+              "source_id": "p/ascension-r",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "God of War: Ascension",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "Ascension-R",
+          "project_url": "https://www.recompsoftware.com/p/ascension-r/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "v0.1.0-alpha.5Nov",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-arnaldolima1-gow-ascension-pc",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "arnaldolima1-gow-ascension-pc",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [
+            "unbaked"
+          ],
+          "game": "God of War: Ascension",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "gow-ascension-pc",
+          "project_url": "https://github.com/arnaldolima1/gow-ascension-pc",
+          "repo": "arnaldolima1/gow-ascension-pc",
+          "status": "in-progress",
+          "last_activity": "2026-11-10",
+          "stars": 428,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-machinegun3-god-of-war-ascension-recompiled",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "machinegun3-god-of-war-ascension-recompiled",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "God of War: Ascension",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "God-of-War-Ascension-Recompiled",
+          "project_url": "https://github.com/MaChInEgUn3/God-of-War-Ascension-Recompiled",
+          "repo": "MaChInEgUn3/God-of-War-Ascension-Recompiled",
+          "status": "in-progress",
+          "last_activity": "2026-11-10",
+          "stars": 29,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-god-of-war-ascension-god-of-war-ascension-pc-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/gow-ascension-pc/",
+              "source_id": "p/gow-ascension-pc",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-08"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "God of War: Ascension",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "God of War: Ascension PC port",
+          "project_url": "https://www.recompsoftware.com/p/gow-ascension-pc/",
+          "status": "released",
+          "last_activity": "2026-11-08",
+          "release": "v2026.11.08Nov",
+          "made": "AI-assisted",
+          "stars": 80,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 4,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-11",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "fs2open--pc-windows",
       "title": "FS2Open",
       "platform": "PC (Windows)",
@@ -8516,6 +9248,53 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-11",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "final-fantasy-vii--pc-windows",
+      "title": "Final Fantasy VII",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "sig-final-fantasy-vii-ff7recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/ff7-recomp-android/",
+              "source_id": "p/ff7-recomp-android",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Final Fantasy VII",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "FF7Recomp",
+          "project_url": "https://www.recompsoftware.com/p/ff7-recomp-android/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "v0.1.27Nov",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-11",
       "best_status": "released",
@@ -10025,6 +10804,33 @@
           "conflicts": {}
         },
         {
+          "id": "sig-demon-s-souls-soulbrandt-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/soulbrandt/",
+              "source_id": "p/soulbrandt",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Demon's Souls",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "Soulbrandt",
+          "project_url": "https://www.recompsoftware.com/p/soulbrandt/",
+          "status": "released",
+          "last_activity": "2026-11-10",
+          "release": "v0.1.2Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
           "id": "sig-demon-s-souls-demon-s-souls-recomp-recomp",
           "evidence": [
             {
@@ -10053,7 +10859,7 @@
           "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
         "recomp"
       ],
@@ -13246,9 +14052,63 @@
           "stars": 350,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-bayonetta-3-b3-express-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/b3-express/",
+              "source_id": "p/b3-express",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bayonetta 3",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "B3-Express",
+          "project_url": "https://www.recompsoftware.com/p/b3-express/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "0.2.6Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-bayonetta-3-bayonetta-3-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/bayo3-recomp/",
+              "source_id": "p/bayo3-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bayonetta 3",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "Bayonetta 3 Recomp",
+          "project_url": "https://www.recompsoftware.com/p/bayo3-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-10",
+          "release": "v0.1.2Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 3,
       "types": [
         "recomp"
       ],
@@ -14435,6 +15295,53 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-11",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "007-everything-or-nothing--xbox",
+      "title": "007: Everything or Nothing",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "sig-007-everything-or-nothing-007-everything-or-nothing-xbe-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/007eon-recomp/",
+              "source_id": "p/007eon-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-11"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "007: Everything or Nothing",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "007: Everything or Nothing - XBE Recomp",
+          "project_url": "https://www.recompsoftware.com/p/007eon-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-11",
+          "release": "v1.3.1Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-11",
       "best_status": "released",
@@ -16506,6 +17413,53 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-10",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "timesplitters-2--ps2",
+      "title": "TimeSplitters 2",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-timesplitters-2-timesplitters-2-native-pc-port-ps2-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/ts2-ps2-linux-recomp/",
+              "source_id": "p/ts2-ps2-linux-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "TimeSplitters 2",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "TimeSplitters 2 Native PC Port (PS2)",
+          "project_url": "https://www.recompsoftware.com/p/ts2-ps2-linux-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-10",
+          "release": "v1.0.0Nov",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-10",
       "best_status": "released",
@@ -19144,6 +20098,53 @@
       "has_conflict": false
     },
     {
+      "id": "saint-seiya-the-hades--ps2",
+      "title": "Saint Seiya: The Hades",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-saint-seiya-the-hades-saint-seiya-the-hades-native-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/saint-seiya-the-hades-recomp/",
+              "source_id": "p/saint-seiya-the-hades-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Saint Seiya: The Hades",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "Saint Seiya: The Hades native port",
+          "project_url": "https://www.recompsoftware.com/p/saint-seiya-the-hades-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-10",
+          "release": "v0.2.8Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-10",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "runescape-2006scape--pc-windows",
       "title": "RuneScape (2006scape)",
       "platform": "PC (Windows)",
@@ -20315,6 +21316,53 @@
       "has_conflict": false
     },
     {
+      "id": "pirates-of-the-caribbean-at-world-s-end--xbox-360",
+      "title": "Pirates of the Caribbean: At World's End",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-pirates-of-the-caribbean-at-world-s-end-piratesatworldsendrecomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/pirates-at-worlds-end-recomp/",
+              "source_id": "p/pirates-at-worlds-end-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Pirates of the Caribbean: At World's End",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "PiratesAtWorldsEndRecomp",
+          "project_url": "https://www.recompsoftware.com/p/pirates-at-worlds-end-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-10",
+          "release": "v0.4.0Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-10",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "pilotwings-resort-woohoo-flight-school--3ds",
       "title": "Pilotwings Resort (Woohoo Flight School)",
       "platform": "3DS",
@@ -21476,54 +22524,6 @@
       "has_conflict": false
     },
     {
-      "id": "mortal-kombat-shaolin-monks--xbox",
-      "title": "Mortal Kombat: Shaolin Monks",
-      "platform": "Xbox",
-      "projects": [
-        {
-          "id": "sig-mortal-kombat-shaolin-monks-shaolin-monks-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/shaolin-monks-recomp/",
-              "source_id": "p/shaolin-monks-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-11-10"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Mortal Kombat: Shaolin Monks",
-          "platform": "Xbox",
-          "type": "recomp",
-          "project": "Shaolin Monks Recomp",
-          "project_url": "https://www.recompsoftware.com/p/shaolin-monks-recomp/",
-          "status": "released",
-          "last_activity": "2026-11-10",
-          "release": "v0.5.1Nov",
-          "made": "AI-assisted",
-          "stars": 356,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-11-10",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "monster-hunter-4-ultimate-mh4u-decomp--3ds",
       "title": "Monster Hunter 4 Ultimate (mh4u-decomp)",
       "platform": "3DS",
@@ -22444,6 +23444,79 @@
       ],
       "last_activity": "2026-11-10",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "mario-kart-world--nintendo-switch-2",
+      "title": "Mario Kart World",
+      "platform": "Nintendo Switch 2",
+      "projects": [
+        {
+          "id": "sig-mario-kart-world-mkw-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mkw-recomp/",
+              "source_id": "p/mkw-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mario Kart World",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "mkw-recomp",
+          "project_url": "https://www.recompsoftware.com/p/mkw-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-10",
+          "release": "v0.1.7Nov",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-mario-kart-world-mkw-thwomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mkw-thwomp/",
+              "source_id": "p/mkw-thwomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mario Kart World",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "MKW-THWOMP",
+          "project_url": "https://www.recompsoftware.com/p/mkw-thwomp/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-10",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -23435,6 +24508,115 @@
       "has_conflict": false
     },
     {
+      "id": "guitar-hero-warriors-of-rock--xbox-360",
+      "title": "Guitar Hero: Warriors of Rock",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-guitar-hero-warriors-of-rock-ghworrecomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/ghwor-recomp/",
+              "source_id": "p/ghwor-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Guitar Hero: Warriors of Rock",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "GHWoRRecomp",
+          "project_url": "https://www.recompsoftware.com/p/ghwor-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-10",
+          "release": "v0.2.0Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-guitar-hero-warriors-of-rock-re-wor-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/re-wor/",
+              "source_id": "p/re-wor",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-03-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Guitar Hero: Warriors of Rock",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "RE-WoR",
+          "project_url": "https://www.recompsoftware.com/p/re-wor/",
+          "status": "released",
+          "last_activity": "2026-03-03",
+          "release": "v1.1.0Mar",
+          "made": "Not stated",
+          "stars": 55,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-kernaltrap8-wor-plus",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "kernaltrap8-wor-plus",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "Xbox 360",
+              "last_activity": "2024-12-05"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Guitar Hero: Warriors of Rock",
+          "platform": "Xbox 360",
+          "type": "decomp",
+          "project": "WoR-Plus",
+          "project_url": "https://github.com/kernaltrap8/WoR-Plus",
+          "repo": "kernaltrap8/WoR-Plus",
+          "status": "released",
+          "last_activity": "2024-12-05",
+          "release": "v0.8b",
+          "stars": 57,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-10",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "gravity-rush-remastered-gravity-rush-2-grport--ps4",
       "title": "Gravity Rush Remastered / Gravity Rush 2 (GRport)",
       "platform": "PS4",
@@ -23681,115 +24863,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-10",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "god-of-war-ascension--ps3",
-      "title": "God of War: Ascension",
-      "platform": "PS3",
-      "projects": [
-        {
-          "id": "repo-arnaldolima1-gow-ascension-pc",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "arnaldolima1-gow-ascension-pc",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS3",
-              "last_activity": "2026-11-10"
-            }
-          ],
-          "embedded_sources": [
-            "unbaked"
-          ],
-          "game": "God of War: Ascension",
-          "platform": "PS3",
-          "type": "recomp",
-          "project": "gow-ascension-pc",
-          "project_url": "https://github.com/arnaldolima1/gow-ascension-pc",
-          "repo": "arnaldolima1/gow-ascension-pc",
-          "status": "in-progress",
-          "last_activity": "2026-11-10",
-          "stars": 428,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-machinegun3-god-of-war-ascension-recompiled",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "machinegun3-god-of-war-ascension-recompiled",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS3",
-              "last_activity": "2026-11-10"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "God of War: Ascension",
-          "platform": "PS3",
-          "type": "recomp",
-          "project": "God-of-War-Ascension-Recompiled",
-          "project_url": "https://github.com/MaChInEgUn3/God-of-War-Ascension-Recompiled",
-          "repo": "MaChInEgUn3/God-of-War-Ascension-Recompiled",
-          "status": "in-progress",
-          "last_activity": "2026-11-10",
-          "stars": 29,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-god-of-war-ascension-god-of-war-ascension-pc-port-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/gow-ascension-pc/",
-              "source_id": "p/gow-ascension-pc",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PS3",
-              "last_activity": "2026-11-08"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "God of War: Ascension",
-          "platform": "PS3",
-          "type": "recomp",
-          "project": "God of War: Ascension PC port",
-          "project_url": "https://www.recompsoftware.com/p/gow-ascension-pc/",
-          "status": "released",
-          "last_activity": "2026-11-08",
-          "release": "v2026.11.08Nov",
-          "made": "AI-assisted",
-          "stars": 80,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 3,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-10",
       "best_status": "released",
@@ -24331,6 +25404,53 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-10",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "fire-emblem-fortune-s-weave--nintendo-switch-2",
+      "title": "Fire Emblem: Fortune's Weave",
+      "platform": "Nintendo Switch 2",
+      "projects": [
+        {
+          "id": "sig-fire-emblem-fortune-s-weave-fefw-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/fefw-recomp/",
+              "source_id": "p/fefw-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": "2026-11-10"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Fire Emblem: Fortune's Weave",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "fefw-recomp",
+          "project_url": "https://www.recompsoftware.com/p/fefw-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-10",
+          "release": "v0.1.6Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-10",
       "best_status": "released",
@@ -28782,6 +29902,53 @@
       "has_conflict": false
     },
     {
+      "id": "shadowgate--nes",
+      "title": "Shadowgate",
+      "platform": "NES",
+      "projects": [
+        {
+          "id": "sig-shadowgate-shadowgreat-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/shadowgreat/",
+              "source_id": "p/shadowgreat",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "NES",
+              "last_activity": "2026-11-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Shadowgate",
+          "platform": "NES",
+          "type": "recomp",
+          "project": "Shadowgreat",
+          "project_url": "https://www.recompsoftware.com/p/shadowgreat/",
+          "status": "released",
+          "last_activity": "2026-11-09",
+          "release": "v1.0.0Nov",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-09",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "shadow-tower-reshadowtower--ps1",
       "title": "Shadow Tower (reshadowtower)",
       "platform": "PS1",
@@ -30707,6 +31874,80 @@
       "has_conflict": false
     },
     {
+      "id": "mario-kart-8-deluxe--nintendo-switch",
+      "title": "Mario Kart 8 Deluxe",
+      "platform": "Nintendo Switch",
+      "projects": [
+        {
+          "id": "sig-mario-kart-8-deluxe-mk8-online-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mk8-online/",
+              "source_id": "p/mk8-online",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": "2026-11-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mario Kart 8 Deluxe",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "MK8-online",
+          "project_url": "https://www.recompsoftware.com/p/mk8-online/",
+          "status": "released",
+          "last_activity": "2026-11-09",
+          "release": "v0.1.8Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-mario-kart-8-deluxe-mk8-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mk8-recomp/",
+              "source_id": "p/mk8-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mario Kart 8 Deluxe",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "mk8-recomp",
+          "project_url": "https://www.recompsoftware.com/p/mk8-recomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 156,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-09",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "luanti--pc-windows",
       "title": "Luanti",
       "platform": "PC (Windows)",
@@ -31354,6 +32595,53 @@
       "sources": [
         "awesome-decomp-games",
         "recomp-software-decomp",
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-09",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "hyrule-warriors-age-of-imprisonment--nintendo-switch-2",
+      "title": "Hyrule Warriors: Age of Imprisonment",
+      "platform": "Nintendo Switch 2",
+      "projects": [
+        {
+          "id": "sig-hyrule-warriors-age-of-imprisonment-hwaoi-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/hwaoi-recomp/",
+              "source_id": "p/hwaoi-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch 2",
+              "last_activity": "2026-11-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Hyrule Warriors: Age of Imprisonment",
+          "platform": "Nintendo Switch 2",
+          "type": "recomp",
+          "project": "HWAoI Recomp",
+          "project_url": "https://www.recompsoftware.com/p/hwaoi-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-09",
+          "release": "v0.1.0-alpha.5Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
         "recomp-software-recomp"
       ],
       "last_activity": "2026-11-09",
@@ -36817,82 +38105,6 @@
       "has_conflict": false
     },
     {
-      "id": "ninja-gaiden-ii--xbox-360",
-      "title": "Ninja Gaiden II",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "sig-ninja-gaiden-ii-izunarecomp-the-izuna-project-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/izunarecomp/",
-              "source_id": "p/izunarecomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-08"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Ninja Gaiden II",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "IzunaRecomp — The Izuna Project",
-          "project_url": "https://www.recompsoftware.com/p/izunarecomp/",
-          "status": "released",
-          "last_activity": "2026-11-08",
-          "release": "v0.2.2Nov",
-          "made": "AI-generated",
-          "stars": 81,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-ninja-gaiden-ii-openng2-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/openng2/",
-              "source_id": "p/openng2",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-05"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Ninja Gaiden II",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "openNG2",
-          "project_url": "https://www.recompsoftware.com/p/openng2/",
-          "status": "released",
-          "last_activity": "2026-11-05",
-          "release": "v1.1.0Nov",
-          "made": "AI-assisted",
-          "stars": 31,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-11-08",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "ninja-gaiden-black-ninja-gaiden-black-recompiled--og-xbox",
       "title": "Ninja Gaiden Black (Ninja Gaiden Black Recompiled)",
       "platform": "og xbox",
@@ -40389,6 +41601,53 @@
       "has_conflict": false
     },
     {
+      "id": "castlevania-lament-of-innocence--ps2",
+      "title": "Castlevania: Lament of Innocence",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-castlevania-lament-of-innocence-castlevania-lament-of-innocence-native-windows-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/castlevania-loi-pc/",
+              "source_id": "p/castlevania-loi-pc",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-08"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Castlevania: Lament of Innocence",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "Castlevania: Lament of Innocence native Windows port",
+          "project_url": "https://www.recompsoftware.com/p/castlevania-loi-pc/",
+          "status": "in-progress",
+          "last_activity": "2026-11-08",
+          "release": "0.5.0Nov",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-08",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "castlevania-curse-of-darkness-castlevania-curse-of-darkness-recomp--ps2",
       "title": "Castlevania: Curse of Darkness (Castlevania: Curse of Darkness Recomp)",
       "platform": "PS2",
@@ -40690,6 +41949,79 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-08",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "blood-wake--xbox",
+      "title": "Blood Wake",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "sig-blood-wake-blood-wake-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/bloodwake-recomp/",
+              "source_id": "p/bloodwake-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-08"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Blood Wake",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Blood Wake Recomp",
+          "project_url": "https://www.recompsoftware.com/p/bloodwake-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-08",
+          "release": "0.3.3Nov",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-blood-wake-blood-wake-recomp-for-apple-silicon-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/bloodwake-apple-silicon/",
+              "source_id": "p/bloodwake-apple-silicon",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Blood Wake",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Blood Wake Recomp for Apple Silicon",
+          "project_url": "https://www.recompsoftware.com/p/bloodwake-apple-silicon/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-08",
       "best_status": "released",
@@ -47658,9 +48990,9 @@
       "has_conflict": false
     },
     {
-      "id": "street-fighter-alpha-3-max--psp",
+      "id": "street-fighter-alpha-3-max--playstation-portable",
       "title": "Street Fighter Alpha 3 MAX",
-      "platform": "PSP",
+      "platform": "PlayStation Portable",
       "projects": [
         {
           "id": "sig-street-fighter-alpha-3-max-street-fighter-alpha-3-max-decomp-decomp",
@@ -47672,13 +49004,13 @@
               "claimed": false,
               "status": "released",
               "type": "decomp",
-              "platform": "PSP",
+              "platform": "PlayStation Portable",
               "last_activity": "2026-11-06"
             }
           ],
           "embedded_sources": [],
           "game": "Street Fighter Alpha 3 MAX",
-          "platform": "PSP",
+          "platform": "PlayStation Portable",
           "type": "decomp",
           "project": "Street Fighter Alpha 3 MAX: Decomp",
           "project_url": "https://www.recompsoftware.com/p/sfa3max-decomp/",
@@ -49868,6 +51200,78 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-06",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "infamous-2--ps3",
+      "title": "inFAMOUS 2",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "sig-infamous-2-infamous-2-static-recompilation-for-macos-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/infamous2-recomp-macos/",
+              "source_id": "p/infamous2-recomp-macos",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-06"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "inFAMOUS 2",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "inFAMOUS 2 static recompilation for macOS",
+          "project_url": "https://www.recompsoftware.com/p/infamous2-recomp-macos/",
+          "status": "in-progress",
+          "last_activity": "2026-11-06",
+          "release": "v0.2.18Nov",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-infamous-2-infamous-2-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/infamous-2-recomp/",
+              "source_id": "p/infamous-2-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "inFAMOUS 2",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "inFAMOUS 2 Recomp",
+          "project_url": "https://www.recompsoftware.com/p/infamous-2-recomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-06",
       "best_status": "in-progress",
@@ -60157,6 +61561,53 @@
       "has_conflict": false
     },
     {
+      "id": "metroid-prime-4-beyond--nintendo-switch",
+      "title": "Metroid Prime 4: Beyond",
+      "platform": "Nintendo Switch",
+      "projects": [
+        {
+          "id": "sig-metroid-prime-4-beyond-metroid-prime-4-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mp4-recomp/",
+              "source_id": "p/mp4-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Metroid Prime 4: Beyond",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "Metroid Prime 4 Recomp",
+          "project_url": "https://www.recompsoftware.com/p/mp4-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-03",
+          "release": "v2026.11.02Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-03",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "luigi-s-mansion--gamecube",
       "title": "Luigi's Mansion",
       "platform": "GameCube",
@@ -62368,53 +63819,6 @@
           "release": "v0.1Nov",
           "made": "AI-assisted",
           "stars": 37,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-11-02",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "pokemon-pokopia--nintendo-switch-2",
-      "title": "Pokémon Pokopia",
-      "platform": "Nintendo Switch 2",
-      "projects": [
-        {
-          "id": "sig-pokemon-pokopia-pokopia-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/pokopia-recomp/",
-              "source_id": "p/pokopia-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Nintendo Switch 2",
-              "last_activity": "2026-11-02"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Pokémon Pokopia",
-          "platform": "Nintendo Switch 2",
-          "type": "recomp",
-          "project": "Pokopia Recomp",
-          "project_url": "https://www.recompsoftware.com/p/pokopia-recomp/",
-          "status": "released",
-          "last_activity": "2026-11-02",
-          "release": "v0.1.1Nov",
-          "made": "Not stated",
           "conflicts": {},
           "targets": []
         }
@@ -69640,6 +71044,53 @@
       "has_conflict": false
     },
     {
+      "id": "sly-2-band-of-thieves--ps2",
+      "title": "Sly 2: Band of Thieves",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-sly-2-band-of-thieves-sly-2-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/sly-2-recomp/",
+              "source_id": "p/sly-2-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-10-30"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Sly 2: Band of Thieves",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "Sly 2 Recomp",
+          "project_url": "https://www.recompsoftware.com/p/sly-2-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-30",
+          "release": "win-test-7Oct",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-10-30",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "simcity-4-descai4--pc-windows",
       "title": "SimCity 4 (DeSCAi4)",
       "platform": "PC (Windows)",
@@ -70680,6 +72131,53 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-10-30",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "metroid-dread--nintendo-switch",
+      "title": "Metroid Dread",
+      "platform": "Nintendo Switch",
+      "projects": [
+        {
+          "id": "sig-metroid-dread-metroid-dread-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/metroid-dread-recomp/",
+              "source_id": "p/metroid-dread-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": "2026-10-30"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Metroid Dread",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "Metroid Dread Recomp",
+          "project_url": "https://www.recompsoftware.com/p/metroid-dread-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-30",
+          "release": "v0.5.0Oct",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-10-30",
       "best_status": "released",
@@ -76597,6 +78095,53 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-10-27",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "timesplitters-2--xbox",
+      "title": "TimeSplitters 2",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "sig-timesplitters-2-split2-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/split2-recomp/",
+              "source_id": "p/split2-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-27"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "TimeSplitters 2",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "split2-recomp",
+          "project_url": "https://www.recompsoftware.com/p/split2-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-27",
+          "release": "v0.5.2Oct",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-10-27",
       "best_status": "released",
@@ -94279,6 +95824,53 @@
       ],
       "last_activity": "2026-10-17",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "mortal-kombat-shaolin-monks--xbox",
+      "title": "Mortal Kombat: Shaolin Monks",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "sig-mortal-kombat-shaolin-monks-shaolin-monks-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/shaolin-monks-recomp/",
+              "source_id": "p/shaolin-monks-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mortal Kombat: Shaolin Monks",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Shaolin Monks Recomp",
+          "project_url": "https://www.recompsoftware.com/p/shaolin-monks-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-17",
+          "release": "0.1.0Oct",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-10-17",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -132775,88 +134367,6 @@
       "has_conflict": false
     },
     {
-      "id": "guitar-hero-warriors-of-rock--xbox-360",
-      "title": "Guitar Hero: Warriors of Rock",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "sig-guitar-hero-warriors-of-rock-re-wor-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/re-wor/",
-              "source_id": "p/re-wor",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-03-03"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Guitar Hero: Warriors of Rock",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "RE-WoR",
-          "project_url": "https://www.recompsoftware.com/p/re-wor/",
-          "status": "released",
-          "last_activity": "2026-03-03",
-          "release": "v1.1.0Mar",
-          "made": "Not stated",
-          "stars": 55,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-kernaltrap8-wor-plus",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "kernaltrap8-wor-plus",
-              "claimed": false,
-              "status": "released",
-              "type": "decomp",
-              "platform": "Xbox 360",
-              "last_activity": "2024-12-05"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Guitar Hero: Warriors of Rock",
-          "platform": "Xbox 360",
-          "type": "decomp",
-          "project": "WoR-Plus",
-          "project_url": "https://github.com/kernaltrap8/WoR-Plus",
-          "repo": "kernaltrap8/WoR-Plus",
-          "status": "released",
-          "last_activity": "2024-12-05",
-          "release": "v0.8b",
-          "stars": 57,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp",
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-03-03",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "robot-poncots-robopon-sun-star--gbc",
       "title": "Robot Poncots (Robopon) Sun / Star",
       "platform": "GBC",
@@ -133590,6 +135100,31 @@
           "targets": []
         },
         {
+          "id": "sig-shadow-of-the-colossus-shadow-of-the-colossus-native-linux-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/sotc-linux-recomp/",
+              "source_id": "p/sotc-linux-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Shadow of the Colossus",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "Shadow of the Colossus — Native Linux Port",
+          "project_url": "https://www.recompsoftware.com/p/sotc-linux-recomp/",
+          "status": "in-progress",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        },
+        {
           "id": "sig-shadow-of-the-colossus-shadow-of-the-colossus-decompilation-decomp",
           "evidence": [
             {
@@ -133617,9 +135152,10 @@
           "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 3,
       "types": [
-        "decomp"
+        "decomp",
+        "recomp"
       ],
       "statuses": [
         "in-progress",
@@ -133627,7 +135163,8 @@
       ],
       "sources": [
         "awesome-decomp-games",
-        "recomp-software-decomp"
+        "recomp-software-decomp",
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-02-15",
       "best_status": "in-progress",
@@ -165402,6 +166939,51 @@
       "has_conflict": false
     },
     {
+      "id": "trials-hd--xbox-360",
+      "title": "Trials HD",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-trials-hd-trials-hd-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/trials-hd-recompiled/",
+              "source_id": "p/trials-hd-recompiled",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Trials HD",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Trials HD Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/trials-hd-recompiled/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "toy-story-2-buzz-lightyear-to-the-rescue--n64",
       "title": "Toy Story 2: Buzz Lightyear to the Rescue",
       "platform": "N64",
@@ -170361,6 +171943,51 @@
       "has_conflict": false
     },
     {
+      "id": "shining-soul-ii--gba",
+      "title": "Shining Soul II",
+      "platform": "GBA",
+      "projects": [
+        {
+          "id": "sig-shining-soul-ii-ss2decomp-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/ss2decomp/",
+              "source_id": "p/ss2decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "GBA",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Shining Soul II",
+          "platform": "GBA",
+          "type": "decomp",
+          "project": "SS2Decomp",
+          "project_url": "https://www.recompsoftware.com/p/ss2decomp/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "shining-force-ii--mega-drive-genesis",
       "title": "Shining Force II",
       "platform": "Mega Drive / Genesis",
@@ -172439,7 +174066,7 @@
           "project_url": "https://www.recompsoftware.com/p/psychonauts-decomp/",
           "status": "in-progress",
           "progress": 13.51,
-          "made": "Not stated",
+          "made": "Human-led",
           "stars": 22,
           "conflicts": {},
           "targets": []
@@ -174950,6 +176577,51 @@
       "has_conflict": false
     },
     {
+      "id": "need-for-speed-hot-pursuit-2--ps2",
+      "title": "Need for Speed: Hot Pursuit 2",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-need-for-speed-hot-pursuit-2-hot-pursuit-2-ps2-recompilation-setup-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/nfshp2-recomp/",
+              "source_id": "p/nfshp2-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: Hot Pursuit 2",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "Hot Pursuit 2 PS2 recompilation setup",
+          "project_url": "https://www.recompsoftware.com/p/nfshp2-recomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "nascar-heat-2002--gba",
       "title": "NASCAR Heat 2002",
       "platform": "GBA",
@@ -175880,9 +177552,9 @@
       "has_conflict": false
     },
     {
-      "id": "metal-gear-solid-portable-ops--psp",
+      "id": "metal-gear-solid-portable-ops--playstation-portable",
       "title": "Metal Gear Solid: Portable Ops",
-      "platform": "PSP",
+      "platform": "PlayStation Portable",
       "projects": [
         {
           "id": "sig-metal-gear-solid-portable-ops-metal-gear-solid-portable-ops-unofficial-pc-port-recomp",
@@ -175894,13 +177566,13 @@
               "claimed": false,
               "status": "in-progress",
               "type": "recomp",
-              "platform": "PSP",
+              "platform": "PlayStation Portable",
               "last_activity": null
             }
           ],
           "embedded_sources": [],
           "game": "Metal Gear Solid: Portable Ops",
-          "platform": "PSP",
+          "platform": "PlayStation Portable",
           "type": "recomp",
           "project": "Metal Gear Solid: Portable Ops unofficial PC port",
           "project_url": "https://www.recompsoftware.com/p/mgs-portable-ops-pc-port/",
@@ -176613,52 +178285,6 @@
       ],
       "sources": [
         "recomp-software-decomp"
-      ],
-      "last_activity": null,
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "mario-kart-8-deluxe--nintendo-switch",
-      "title": "Mario Kart 8 Deluxe",
-      "platform": "Nintendo Switch",
-      "projects": [
-        {
-          "id": "sig-mario-kart-8-deluxe-mk8-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/mk8-recomp/",
-              "source_id": "p/mk8-recomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "Nintendo Switch",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Mario Kart 8 Deluxe",
-          "platform": "Nintendo Switch",
-          "type": "recomp",
-          "project": "mk8-recomp",
-          "project_url": "https://www.recompsoftware.com/p/mk8-recomp/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 156,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "recomp-software-recomp"
       ],
       "last_activity": null,
       "best_status": "in-progress",
@@ -177643,10 +179269,80 @@
       "has_conflict": false
     },
     {
+      "id": "killzone-liberation--playstation-portable",
+      "title": "Killzone: Liberation",
+      "platform": "PlayStation Portable",
+      "projects": [
+        {
+          "id": "sig-killzone-liberation-killzone-liberation-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/killzone-liberation-recomp/",
+              "source_id": "p/killzone-liberation-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PlayStation Portable",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Killzone: Liberation",
+          "platform": "PlayStation Portable",
+          "type": "recomp",
+          "project": "Killzone: Liberation Recomp",
+          "project_url": "https://www.recompsoftware.com/p/killzone-liberation-recomp/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "killzone--ps2",
       "title": "Killzone",
       "platform": "PS2",
       "projects": [
+        {
+          "id": "sig-killzone-killzone-recomp-extended-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/killzone-recomp-extended/",
+              "source_id": "p/killzone-recomp-extended",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Killzone",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "Killzone Recomp Extended",
+          "project_url": "https://www.recompsoftware.com/p/killzone-recomp-extended/",
+          "status": "in-progress",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        },
         {
           "id": "sig-killzone-killzonerecomp-recomp",
           "evidence": [
@@ -177674,18 +179370,19 @@
           "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "recomp"
       ],
       "statuses": [
+        "in-progress",
         "paused"
       ],
       "sources": [
         "recomp-software-recomp"
       ],
       "last_activity": null,
-      "best_status": "paused",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -177966,51 +179663,6 @@
       "has_conflict": false
     },
     {
-      "id": "infamous-2--ps3",
-      "title": "inFAMOUS 2",
-      "platform": "PS3",
-      "projects": [
-        {
-          "id": "sig-infamous-2-infamous-2-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/infamous-2-recomp/",
-              "source_id": "p/infamous-2-recomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS3",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "inFAMOUS 2",
-          "platform": "PS3",
-          "type": "recomp",
-          "project": "inFAMOUS 2 Recomp",
-          "project_url": "https://www.recompsoftware.com/p/infamous-2-recomp/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": null,
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
       "id": "indiana-jones-and-the-infernal-machine--n64",
       "title": "Indiana Jones and the Infernal Machine",
       "platform": "N64",
@@ -178177,6 +179829,52 @@
           "status": "in-progress",
           "made": "Not stated",
           "stars": 24,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "hot-wheels-turbo-racing--n64",
+      "title": "Hot Wheels Turbo Racing",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "sig-hot-wheels-turbo-racing-hot-wheels-turbo-racing-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/hwtr-decomp/",
+              "source_id": "p/hwtr-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Hot Wheels Turbo Racing",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Hot Wheels Turbo Racing decompilation",
+          "project_url": "https://www.recompsoftware.com/p/hwtr-decomp/",
+          "status": "in-progress",
+          "progress": 31.8,
+          "made": "AI-assisted",
           "conflicts": {},
           "targets": []
         }
@@ -184055,6 +185753,51 @@
       ],
       "last_activity": null,
       "best_status": "paused",
+      "has_conflict": false
+    },
+    {
+      "id": "assassin-s-creed-ii-and-assassin-s-creed-brotherhood-also-assassin-s-creed-revelations-and-prince-of-persia--windows-macos",
+      "title": "Assassin's Creed II and Assassin's Creed Brotherhood (also Assassin's Creed, Revelations and Prince of Persia)",
+      "platform": "Windows/macOS",
+      "projects": [
+        {
+          "id": "sig-assassin-s-creed-ii-and-assassin-s-creed-brotherhood-also-assassin-s-creed-revelations-and-prince-of-persia-scimitar-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/scimitar-recomp/",
+              "source_id": "p/scimitar-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Windows/macOS",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Assassin's Creed II and Assassin's Creed Brotherhood (also Assassin's Creed, Revelations and Prince of Persia)",
+          "platform": "Windows/macOS",
+          "type": "recomp",
+          "project": "scimitar-recomp",
+          "project_url": "https://www.recompsoftware.com/p/scimitar-recomp/",
+          "status": "in-progress",
+          "made": "AI-generated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
