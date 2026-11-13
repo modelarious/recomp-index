@@ -1,6 +1,6 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-12T16:00:07.497775+00:00",
+  "generated_at": "2026-11-13T01:01:13.451906+00:00",
   "summary": {
     "games": 3477,
     "projects": 3939,
@@ -51,7 +51,7 @@
       ],
       [
         "PS2",
-        248
+        247
       ],
       [
         "Unknown",
@@ -111,7 +111,7 @@
       ],
       [
         "PS4",
-        50
+        51
       ],
       [
         "GB",
@@ -381,11 +381,11 @@
     "types": [
       [
         "decomp",
-        1777
+        1776
       ],
       [
         "recomp",
-        1399
+        1400
       ],
       [
         "port",
@@ -11011,52 +11011,6 @@
       "has_conflict": false
     },
     {
-      "id": "digimon-world-4--ps2",
-      "title": "Digimon World 4",
-      "platform": "PS2",
-      "projects": [
-        {
-          "id": "repo-crashbashash-dw4-decomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/digimon-world-4-ps2",
-              "source_id": "digimon-world-4-crashbashash",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PS2",
-              "last_activity": "2026-11-12"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Digimon World 4",
-          "platform": "PS2",
-          "type": "decomp",
-          "project": "crashbashash/DW4_Decomp",
-          "project_url": "https://github.com/crashbashash/DW4_Decomp",
-          "repo": "crashbashash/DW4_Decomp",
-          "last_activity": "2026-11-12",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-12",
-      "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
       "id": "digimon-world-3--ps1",
       "title": "Digimon World 3",
       "platform": "PS1",
@@ -11483,6 +11437,56 @@
       ],
       "last_activity": "2026-11-12",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "deception-iv-the-nightmare-princess--ps4",
+      "title": "Deception IV: The Nightmare Princess",
+      "platform": "PS4",
+      "projects": [
+        {
+          "id": "repo-rcostanza-deception-iv-nightmareprincess-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/deception-iv-the-nightmare-princess-ps4",
+              "source_id": "deception-iv-the-nightmare-princess-rcostanza",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-11-12"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Deception IV: The Nightmare Princess",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "rcostanza/Deception-IV-NightmarePrincess-recomp",
+          "project_url": "https://github.com/rcostanza/Deception-IV-NightmarePrincess-recomp",
+          "repo": "rcostanza/Deception-IV-NightmarePrincess-recomp",
+          "last_activity": "2026-11-12",
+          "release": "v0.1",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-12",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
