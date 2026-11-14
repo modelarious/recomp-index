@@ -1,9 +1,9 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-13T16:03:18.346973+00:00",
+  "generated_at": "2026-11-14T06:20:07.193288+00:00",
   "summary": {
-    "games": 3481,
-    "projects": 3934,
+    "games": 3482,
+    "projects": 3935,
     "source_records": 3990,
     "platforms": 86,
     "sources": 4,
@@ -106,11 +106,11 @@
         52
       ],
       [
-        "PS3",
-        51
+        "PS4",
+        52
       ],
       [
-        "PS4",
+        "PS3",
         51
       ],
       [
@@ -385,7 +385,7 @@
       ],
       [
         "recomp",
-        1394
+        1395
       ],
       [
         "port",
@@ -399,7 +399,7 @@
     "statuses": [
       [
         "released",
-        1780
+        1781
       ],
       [
         "in-progress",
@@ -10504,8 +10504,8 @@
       "has_conflict": false
     },
     {
-      "id": "dino-crisis--ps1",
-      "title": "Dino Crisis",
+      "id": "dino-crisis-dino-crisis-recomp--ps1",
+      "title": "Dino Crisis (dino-crisis-recomp)",
       "platform": "PS1",
       "projects": [
         {
@@ -10520,38 +10520,23 @@
               "type": "recomp",
               "platform": "PS1",
               "last_activity": "2026-11-13"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dino-crisis-ps1",
-              "source_id": "dino-crisis-alexbeavs-ps1-ports",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-11-13"
             }
           ],
           "embedded_sources": [
             "unbaked"
           ],
-          "game": "Dino Crisis",
+          "game": "Dino Crisis (dino-crisis-recomp)",
           "platform": "PS1",
           "type": "recomp",
-          "project": "alexbeavs-ps1-ports/dino-crisis-recomp",
+          "project": "dino-crisis-recomp",
           "project_url": "https://github.com/alexbeavs-ps1-ports/dino-crisis-recomp",
           "repo": "alexbeavs-ps1-ports/dino-crisis-recomp",
           "status": "released",
           "last_activity": "2026-11-13",
           "release": "v0.1.3",
           "stars": 21,
-          "toolchain": "Psxrecomp",
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -10562,8 +10547,7 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-13",
       "best_status": "released",
@@ -15172,6 +15156,58 @@
       ],
       "last_activity": "2026-11-13",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "alienation--ps4",
+      "title": "Alienation",
+      "platform": "PS4",
+      "projects": [
+        {
+          "id": "repo-saulob-alienation-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/alienation-ps4",
+              "source_id": "alienation-saulob",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS4",
+              "last_activity": "2026-11-13"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Alienation",
+          "platform": "PS4",
+          "type": "recomp",
+          "project": "Alienation PC Port",
+          "project_url": "https://github.com/saulob/alienation-pc",
+          "repo": "saulob/alienation-pc",
+          "status": "released",
+          "last_activity": "2026-11-13",
+          "release": "v0.1.0",
+          "toolchain": "Shadps4-derived runtime",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-13",
+      "best_status": "released",
       "has_conflict": false
     },
     {
