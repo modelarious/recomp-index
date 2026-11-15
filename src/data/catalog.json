@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-14T18:20:28.523702+00:00",
+  "generated_at": "2026-11-15T00:20:37.938559+00:00",
   "summary": {
-    "games": 3497,
-    "projects": 3954,
+    "games": 3506,
+    "projects": 3963,
     "source_records": 4013,
     "platforms": 87,
     "sources": 4,
-    "conflicted_projects": 19
+    "conflicted_projects": 17
   },
   "sources": [
     {
@@ -35,11 +35,11 @@
     "platforms": [
       [
         "PC (Windows)",
-        641
+        645
       ],
       [
         "Xbox 360",
-        403
+        405
       ],
       [
         "N64",
@@ -47,15 +47,15 @@
       ],
       [
         "PS1",
-        289
+        291
       ],
       [
         "PS2",
-        248
+        246
       ],
       [
         "Unknown",
-        201
+        202
       ],
       [
         "GameCube",
@@ -67,7 +67,7 @@
       ],
       [
         "Wii",
-        115
+        114
       ],
       [
         "DOS",
@@ -75,7 +75,7 @@
       ],
       [
         "NES",
-        101
+        100
       ],
       [
         "SNES",
@@ -91,7 +91,7 @@
       ],
       [
         "og xbox",
-        68
+        69
       ],
       [
         "Arcade",
@@ -99,7 +99,7 @@
       ],
       [
         "PS3",
-        54
+        55
       ],
       [
         "GBC",
@@ -111,7 +111,7 @@
       ],
       [
         "PS4",
-        51
+        52
       ],
       [
         "Mobile",
@@ -123,7 +123,7 @@
       ],
       [
         "NDS",
-        46
+        45
       ],
       [
         "Nintendo Switch",
@@ -151,7 +151,7 @@
       ],
       [
         "Dreamcast",
-        19
+        20
       ],
       [
         "BBC Micro/Acorn",
@@ -238,6 +238,10 @@
         4
       ],
       [
+        "iOS",
+        4
+      ],
+      [
         "Arcade (Sega Model 2)",
         3
       ],
@@ -247,10 +251,6 @@
       ],
       [
         "J2ME phones",
-        3
-      ],
-      [
-        "iOS",
         3
       ],
       [
@@ -385,15 +385,15 @@
     "types": [
       [
         "decomp",
-        1783
+        1785
       ],
       [
         "recomp",
-        1395
+        1401
       ],
       [
         "port",
-        761
+        762
       ],
       [
         "tool",
@@ -403,11 +403,11 @@
     "statuses": [
       [
         "released",
-        1800
+        1801
       ],
       [
         "in-progress",
-        1479
+        1478
       ],
       [
         "paused",
@@ -419,11 +419,11 @@
       ],
       [
         "unknown",
-        72
+        82
       ],
       [
         "playable",
-        6
+        5
       ],
       [
         "exploring",
@@ -9790,79 +9790,6 @@
       "has_conflict": false
     },
     {
-      "id": "forza-horizon-1--xbox-360",
-      "title": "Forza Horizon 1",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-fh1-reimagined-forzahorizon1-reimagined",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "fh1-reimagined-forzahorizon1-reimagined",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-13"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/forza-horizon-xbox-360",
-              "source_id": "forza-horizon-1-dyotson",
-              "claimed": false,
-              "status": "playable",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [
-            "quiver",
-            "unbaked"
-          ],
-          "game": "Forza Horizon 1",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Dyotson/RecompiledForzaHorizon",
-          "project_url": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined",
-          "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
-          "status": "playable",
-          "last_activity": "2026-11-14",
-          "release": "v0.3.6",
-          "made": "AI-flagged",
-          "stars": 464,
-          "toolchain": "Rexglue",
-          "targets": [
-            "Windows",
-            "Linux",
-            "Steam Deck"
-          ],
-          "conflicts": {
-            "status": [
-              "playable",
-              "released"
-            ]
-          }
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "playable"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-14",
-      "best_status": "playable",
-      "has_conflict": true
-    },
-    {
       "id": "final-fantasy-xi--pc-windows",
       "title": "Final Fantasy XI",
       "platform": "PC (Windows)",
@@ -9894,58 +9821,25 @@
           "stars": 30,
           "conflicts": {},
           "targets": []
-        },
-        {
-          "id": "repo-rubymatrix-xi-on-anything",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/final-fantasy-xi-pc-windows",
-              "source_id": "final-fantasy-xi-rubymatrix",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Final Fantasy XI",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "rubymatrix/xi-on-mac",
-          "project_url": "https://github.com/rubymatrix/xi-on-anything",
-          "repo": "rubymatrix/xi-on-anything",
-          "last_activity": "2026-11-14",
-          "release": "v0.2.13",
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS"
-          ],
-          "conflicts": {},
-          "status": "unknown"
         }
       ],
-      "project_count": 2,
+      "project_count": 1,
       "types": [
         "recomp"
       ],
       "statuses": [
-        "released",
-        "unknown"
+        "released"
       ],
       "sources": [
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
       "has_conflict": false
     },
     {
-      "id": "final-fantasy-viii--ps1",
-      "title": "Final Fantasy VIII",
+      "id": "final-fantasy-viii-ff8-decomp--ps1",
+      "title": "Final Fantasy VIII (ff8-decomp)",
       "platform": "PS1",
       "projects": [
         {
@@ -9960,25 +9854,15 @@
               "type": "decomp",
               "platform": "PS1",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/final-fantasy-viii-ps1",
-              "source_id": "final-fantasy-viii-roengstrom",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
             "unbaked"
           ],
-          "game": "Final Fantasy VIII",
+          "game": "Final Fantasy VIII (ff8-decomp)",
           "platform": "PS1",
           "type": "decomp",
-          "project": "roengstrom/ff8-decomp",
+          "project": "ff8-decomp",
           "project_url": "https://github.com/roengstrom/ff8-decomp",
           "repo": "roengstrom/ff8-decomp",
           "status": "in-progress",
@@ -9986,36 +9870,9 @@
           "stars": 64,
           "conflicts": {},
           "targets": []
-        },
-        {
-          "id": "sig-final-fantasy-viii-ff8-decomp-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/ff8-decomp/",
-              "source_id": "p/ff8-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Final Fantasy VIII",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "ff8-decomp",
-          "project_url": "https://www.recompsoftware.com/p/ff8-decomp/",
-          "status": "in-progress",
-          "progress": 71.05,
-          "made": "Not stated",
-          "stars": 64,
-          "conflicts": {},
-          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 1,
       "types": [
         "decomp"
       ],
@@ -10023,9 +9880,7 @@
         "in-progress"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
       "best_status": "in-progress",
@@ -10131,8 +9986,8 @@
       "has_conflict": false
     },
     {
-      "id": "fable-2--xbox-360",
-      "title": "Fable 2",
+      "id": "fable-ii-fable-ii-recompiled--xbox-360",
+      "title": "Fable II (Fable II Recompiled)",
       "platform": "Xbox 360",
       "projects": [
         {
@@ -10147,16 +10002,6 @@
               "type": "recomp",
               "platform": "Xbox 360",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/fable-ii-xbox-360",
-              "source_id": "fable-2-himdo",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
@@ -10164,10 +10009,10 @@
             "quiver",
             "unbaked"
           ],
-          "game": "Fable 2",
+          "game": "Fable II (Fable II Recompiled)",
           "platform": "Xbox 360",
           "type": "recomp",
-          "project": "himdo/Fable-2-Recomp",
+          "project": "Fable-2-Recomp",
           "project_url": "https://github.com/himdo/Fable-2-Recomp",
           "repo": "himdo/Fable-2-Recomp",
           "status": "released",
@@ -10175,11 +10020,8 @@
           "release": "1.5.1_tag",
           "made": "AI-flagged",
           "stars": 660,
-          "toolchain": "Rexglue",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -10190,16 +10032,15 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
       "has_conflict": false
     },
     {
-      "id": "f-zero-gx--gamecube",
-      "title": "F-Zero GX",
+      "id": "f-zero-gx-karamzov123--gamecube",
+      "title": "F-Zero GX (karamzov123)",
       "platform": "GameCube",
       "projects": [
         {
@@ -10214,26 +10055,16 @@
               "type": "decomp",
               "platform": "GameCube",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/f-zero-gx-gamecube",
-              "source_id": "f-zero-gx-karamzov123",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "GameCube",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
             "samidy",
             "unbaked"
           ],
-          "game": "F-Zero GX",
+          "game": "F-Zero GX (karamzov123)",
           "platform": "GameCube",
           "type": "decomp",
-          "project": "karamzov123/fzero-gx-decomp",
+          "project": "fzero-gx-decomp",
           "project_url": "https://github.com/karamzov123/fzero-gx-decomp",
           "repo": "karamzov123/fzero-gx-decomp",
           "status": "in-progress",
@@ -10241,56 +10072,26 @@
           "stars": 25,
           "conflicts": {},
           "targets": []
-        },
-        {
-          "id": "sig-f-zero-gx-f-zero-gx-matching-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/fzero-gx-decomp/",
-              "source_id": "p/fzero-gx-decomp",
-              "claimed": false,
-              "status": "complete",
-              "type": "decomp",
-              "platform": "GameCube",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "F-Zero GX",
-          "platform": "GameCube",
-          "type": "decomp",
-          "project": "F-Zero GX matching decompilation",
-          "project_url": "https://www.recompsoftware.com/p/fzero-gx-decomp/",
-          "status": "complete",
-          "progress": 100.0,
-          "made": "Not stated",
-          "stars": 25,
-          "conflicts": {},
-          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 1,
       "types": [
         "decomp"
       ],
       "statuses": [
-        "complete",
         "in-progress"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
-      "best_status": "complete",
+      "best_status": "in-progress",
       "has_conflict": false
     },
     {
-      "id": "excite-truck--wii",
+      "id": "excite-truck--unknown",
       "title": "Excite Truck",
-      "platform": "Wii",
+      "platform": "Unknown",
       "projects": [
         {
           "id": "repo-orangedude27-excite-truck",
@@ -10304,16 +10105,6 @@
               "type": "decomp",
               "platform": "Unknown",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/excite-truck-wii",
-              "source_id": "excite-truck-orangedude27",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "Wii",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
@@ -10321,14 +10112,14 @@
           ],
           "game": "Excite Truck",
           "type": "decomp",
-          "project": "orangedude27/excite-truck",
+          "project": "excite-truck",
           "project_url": "https://github.com/orangedude27/excite-truck",
           "repo": "orangedude27/excite-truck",
           "status": "in-progress",
           "last_activity": "2026-11-14",
           "stars": 4,
-          "platform": "Wii",
           "conflicts": {},
+          "platform": "Unknown",
           "targets": []
         }
       ],
@@ -10340,16 +10131,15 @@
         "in-progress"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
       "best_status": "in-progress",
       "has_conflict": false
     },
     {
-      "id": "earthbound--snes",
-      "title": "EarthBound",
+      "id": "earthbound-mother-2--snes",
+      "title": "EarthBound / Mother 2",
       "platform": "SNES",
       "projects": [
         {
@@ -10364,16 +10154,6 @@
               "type": "decomp",
               "platform": "SNES",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/earthbound-snes",
-              "source_id": "earthbound-herringway",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "SNES",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
@@ -10381,10 +10161,10 @@
             "samidy",
             "unbaked"
           ],
-          "game": "EarthBound",
+          "game": "EarthBound / Mother 2",
           "platform": "SNES",
           "type": "decomp",
-          "project": "Herringway/ebsrc",
+          "project": "ebsrc",
           "project_url": "https://github.com/Herringway/ebsrc",
           "repo": "Herringway/ebsrc",
           "status": "in-progress",
@@ -10392,9 +10172,35 @@
           "stars": 188,
           "conflicts": {},
           "targets": []
+        },
+        {
+          "id": "sig-earthbound-mother-2-ebsrc-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/ebsrc/",
+              "source_id": "p/ebsrc",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "SNES",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "EarthBound / Mother 2",
+          "platform": "SNES",
+          "type": "decomp",
+          "project": "ebsrc",
+          "project_url": "https://www.recompsoftware.com/p/ebsrc/",
+          "status": "in-progress",
+          "made": "Human-led",
+          "stars": 188,
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 1,
+      "project_count": 2,
       "types": [
         "decomp"
       ],
@@ -10403,7 +10209,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
-        "recomp.fyi"
+        "recomp-software-decomp"
       ],
       "last_activity": "2026-11-14",
       "best_status": "in-progress",
@@ -10462,204 +10268,8 @@
       "has_conflict": false
     },
     {
-      "id": "duke-nukem-time-to-kill--ps1",
-      "title": "Duke Nukem: Time to Kill",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "repo-musicmonstermod-duke-nukem-time-to-kill-recomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/duke-nukem-time-to-kill-ps1",
-              "source_id": "duke-nukem-time-to-kill-musicmonstermod",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Duke Nukem: Time to Kill",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "Duke Nukem: Time to Kill Recompiled",
-          "project_url": "https://github.com/MusicMonsterMod/duke-nukem-time-to-kill-recomp",
-          "repo": "MusicMonsterMod/duke-nukem-time-to-kill-recomp",
-          "status": "in-progress",
-          "last_activity": "2026-11-14",
-          "toolchain": "Psxrecomp",
-          "targets": [
-            "Linux"
-          ],
-          "conflicts": {}
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-14",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "ds-protect--nds",
-      "title": "DS Protect",
-      "platform": "NDS",
-      "projects": [
-        {
-          "id": "repo-taxicat1-dsprot",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/ds-protect-nds",
-              "source_id": "ds-protect-taxicat1",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "NDS",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "DS Protect",
-          "platform": "NDS",
-          "type": "decomp",
-          "project": "taxicat1/dsprot",
-          "project_url": "https://github.com/taxicat1/dsprot",
-          "repo": "taxicat1/dsprot",
-          "last_activity": "2026-11-14",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-14",
-      "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
-      "id": "drakengard--ps2",
-      "title": "Drakengard",
-      "platform": "PS2",
-      "projects": [
-        {
-          "id": "repo-berry-wilson-drakengard-pc",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/drakengard-ps2",
-              "source_id": "drakengard-berry-wilson",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PS2",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Drakengard",
-          "platform": "PS2",
-          "type": "recomp",
-          "project": "Berry-Wilson/Drakengard-PC",
-          "project_url": "https://github.com/Berry-Wilson/Drakengard-PC",
-          "repo": "Berry-Wilson/Drakengard-PC",
-          "status": "in-progress",
-          "last_activity": "2026-11-14",
-          "release": "v0.1.0",
-          "toolchain": "Ps2recomp",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-14",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "dragon-warrior-iv--nes",
-      "title": "Dragon Warrior IV",
-      "platform": "NES",
-      "projects": [
-        {
-          "id": "repo-arichmondphoto-dragonwarrior4nesrecomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dragon-quest-iv-nes",
-              "source_id": "dragon-warrior-iv-arichmondphoto",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "NES",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Dragon Warrior IV",
-          "platform": "NES",
-          "type": "recomp",
-          "project": "arichmondphoto/DragonWarrior4NESRecomp",
-          "project_url": "https://github.com/arichmondphoto/DragonWarrior4NESRecomp",
-          "repo": "arichmondphoto/DragonWarrior4NESRecomp",
-          "last_activity": "2026-11-14",
-          "release": "v1.0.71",
-          "toolchain": "Nesrecomp",
-          "targets": [
-            "Linux",
-            "macOS"
-          ],
-          "conflicts": {},
-          "status": "unknown"
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-14",
-      "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
-      "id": "dragon-ball-z-buu-s-fury--gba",
-      "title": "Dragon Ball Z: Buu's Fury",
+      "id": "dragon-ball-z-buu-s-fury-dragon-ball-z-buu-s-fury-recomp--gba",
+      "title": "Dragon Ball Z: Buu's Fury (Dragon Ball Z: Buu's Fury Recomp)",
       "platform": "GBA",
       "projects": [
         {
@@ -10674,16 +10284,6 @@
               "type": "recomp",
               "platform": "GBA",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dragon-ball-z-buus-fury-gba",
-              "source_id": "dragon-ball-z-buu-s-fury-mstan",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "GBA",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
@@ -10691,10 +10291,10 @@
             "quiver",
             "unbaked"
           ],
-          "game": "Dragon Ball Z: Buu's Fury",
+          "game": "Dragon Ball Z: Buu's Fury (Dragon Ball Z: Buu's Fury Recomp)",
           "platform": "GBA",
           "type": "recomp",
-          "project": "mstan/DragonBallZBuusFuryRecomp",
+          "project": "DragonBallZBuusFuryRecomp",
           "project_url": "https://github.com/mstan/DragonBallZBuusFuryRecomp",
           "repo": "mstan/DragonBallZBuusFuryRecomp",
           "status": "released",
@@ -10702,12 +10302,29 @@
           "release": "v0.0.6",
           "made": "AI-flagged",
           "stars": 38,
-          "toolchain": "Gbarecomp",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
-        },
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "dragon-ball-z-buu-s-fury--gba",
+      "title": "Dragon Ball Z: Buu's Fury",
+      "platform": "GBA",
+      "projects": [
         {
           "id": "sig-dragon-ball-z-buu-s-fury-dragon-ball-z-buu-s-fury-recomp-recomp",
           "evidence": [
@@ -10737,7 +10354,7 @@
           "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 1,
       "types": [
         "recomp"
       ],
@@ -10745,67 +10362,15 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
       "has_conflict": false
     },
     {
-      "id": "dragon-ball-z-budokai-2--ps2",
-      "title": "Dragon Ball Z: Budokai 2",
-      "platform": "PS2",
-      "projects": [
-        {
-          "id": "repo-7v0biscuit-openkai2",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dragon-ball-z-budokai-2-ps2",
-              "source_id": "dragon-ball-z-budokai-2-7v0biscuit",
-              "claimed": false,
-              "status": "playable",
-              "type": "recomp",
-              "platform": "PS2",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Dragon Ball Z: Budokai 2",
-          "platform": "PS2",
-          "type": "recomp",
-          "project": "7v0biscuit/OpenKai2",
-          "project_url": "https://github.com/7v0biscuit/OpenKai2",
-          "repo": "7v0biscuit/OpenKai2",
-          "status": "playable",
-          "last_activity": "2026-11-14",
-          "release": "v0.4.0",
-          "toolchain": "Ps2recomp",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "playable"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-14",
-      "best_status": "playable",
-      "has_conflict": false
-    },
-    {
-      "id": "downhill-domination--ps2",
-      "title": "Downhill Domination",
+      "id": "downhill-domination-downhill-revived--ps2",
+      "title": "Downhill Domination (Downhill Revived)",
       "platform": "PS2",
       "projects": [
         {
@@ -10820,26 +10385,16 @@
               "type": "decomp",
               "platform": "PS2",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/downhill-domination-ps2",
-              "source_id": "downhill-domination-skuza-oss",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PS2",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
             "quiver",
             "unbaked"
           ],
-          "game": "Downhill Domination",
+          "game": "Downhill Domination (Downhill Revived)",
           "platform": "PS2",
-          "type": "port",
-          "project": "skuza-oss/downhill-revived",
+          "type": "decomp",
+          "project": "downhill-revived",
           "project_url": "https://github.com/skuza-oss/downhill-revived",
           "repo": "skuza-oss/downhill-revived",
           "status": "released",
@@ -10847,20 +10402,29 @@
           "release": "v0.8.2",
           "made": "AI-flagged",
           "stars": 207,
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS",
-            "Android",
-            "iOS"
-          ],
-          "conflicts": {
-            "type": [
-              "decomp",
-              "port"
-            ]
-          }
-        },
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "downhill-domination--ps2",
+      "title": "Downhill Domination",
+      "platform": "PS2",
+      "projects": [
         {
           "id": "sig-downhill-domination-downhill-revived-decomp",
           "evidence": [
@@ -10891,27 +10455,75 @@
           "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 1,
       "types": [
-        "decomp",
+        "decomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "doomretro--dos",
+      "title": "DoomRetro",
+      "platform": "DOS",
+      "projects": [
+        {
+          "id": "repo-bradharding-doomretro",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "bradharding-doomretro",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "DOS",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "awesome-game-remakes",
+            "unbaked"
+          ],
+          "game": "DoomRetro",
+          "platform": "DOS",
+          "type": "port",
+          "project": "doomretro",
+          "project_url": "https://github.com/bradharding/doomretro",
+          "repo": "bradharding/doomretro",
+          "status": "released",
+          "last_activity": "2026-11-14",
+          "release": "v6.3",
+          "stars": 785,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
         "port"
       ],
       "statuses": [
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
-      "has_conflict": true
+      "has_conflict": false
     },
     {
-      "id": "doom--pc-dos",
-      "title": "Doom",
-      "platform": "PC (DOS)",
+      "id": "doom-woof--dos",
+      "title": "Doom (Woof)",
+      "platform": "DOS",
       "projects": [
         {
           "id": "repo-fabiangreffrath-woof",
@@ -10925,92 +10537,26 @@
               "type": "port",
               "platform": "DOS",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/doom-pc-dos",
-              "source_id": "doom-fabiangreffrath",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PC (DOS)",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
             "unbaked"
           ],
-          "game": "Doom",
-          "platform": "PC (DOS)",
+          "game": "Doom (Woof)",
+          "platform": "DOS",
           "type": "port",
-          "project": "fabiangreffrath/woof",
+          "project": "woof",
           "project_url": "https://github.com/fabiangreffrath/woof",
           "repo": "fabiangreffrath/woof",
           "status": "released",
           "last_activity": "2026-11-14",
           "release": "woof_16.0.0",
           "stars": 339,
-          "targets": [
-            "Windows",
-            "Linux"
-          ],
-          "conflicts": {
-            "platform": [
-              "DOS",
-              "PC (DOS)"
-            ]
-          }
-        },
-        {
-          "id": "repo-bradharding-doomretro",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "bradharding-doomretro",
-              "claimed": false,
-              "status": "released",
-              "type": "port",
-              "platform": "DOS",
-              "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/doom-pc-dos",
-              "source_id": "doom-bradharding",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PC (DOS)",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [
-            "awesome-game-remakes",
-            "unbaked"
-          ],
-          "game": "Doom",
-          "platform": "PC (DOS)",
-          "type": "port",
-          "project": "bradharding/doomretro",
-          "project_url": "https://github.com/bradharding/doomretro",
-          "repo": "bradharding/doomretro",
-          "status": "released",
-          "last_activity": "2026-11-14",
-          "release": "v6.3",
-          "stars": 785,
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {
-            "platform": [
-              "DOS",
-              "PC (DOS)"
-            ]
-          }
+          "conflicts": {},
+          "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 1,
       "types": [
         "port"
       ],
@@ -11018,12 +10564,11 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
-      "has_conflict": true
+      "has_conflict": false
     },
     {
       "id": "dinosaur-planet--n64",
@@ -11042,16 +10587,6 @@
               "type": "decomp",
               "platform": "N64",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dinosaur-planet-n64",
-              "source_id": "dinosaur-planet-zestydevy",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
@@ -11062,7 +10597,7 @@
           "game": "Dinosaur Planet",
           "platform": "N64",
           "type": "decomp",
-          "project": "zestydevy/dinosaur-planet",
+          "project": "dinosaur-planet",
           "project_url": "https://github.com/zestydevy/dinosaur-planet",
           "repo": "zestydevy/dinosaur-planet",
           "status": "in-progress",
@@ -11115,57 +10650,10 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "digimon-world-4--ps2",
-      "title": "Digimon World 4",
-      "platform": "PS2",
-      "projects": [
-        {
-          "id": "repo-crashbashash-dw4-decomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/digimon-world-4-ps2",
-              "source_id": "digimon-world-4-crashbashash",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PS2",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Digimon World 4",
-          "platform": "PS2",
-          "type": "decomp",
-          "project": "crashbashash/DW4_Decomp",
-          "project_url": "https://github.com/crashbashash/DW4_Decomp",
-          "repo": "crashbashash/DW4_Decomp",
-          "last_activity": "2026-11-14",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-14",
-      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -11185,16 +10673,6 @@
               "type": "recomp",
               "platform": "N64",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/diddy-kong-racing-n64",
-              "source_id": "diddy-kong-racing-dkr-r-thatguymcd",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
@@ -11207,7 +10685,7 @@
           "game": "Diddy Kong Racing",
           "platform": "N64",
           "type": "recomp",
-          "project": "ThatGuyMcd/DKR-R",
+          "project": "DKR-R",
           "project_url": "https://github.com/ThatGuyMcd/DKR-R",
           "repo": "ThatGuyMcd/DKR-R",
           "status": "released",
@@ -11215,12 +10693,8 @@
           "release": "Version1.0.15",
           "made": "AI-flagged",
           "stars": 266,
-          "toolchain": "N64recomp",
-          "targets": [
-            "Windows",
-            "Linux"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-diddy-kong-racing-dkr-r-diddy-kong-racing-recompiled-recomp",
@@ -11322,8 +10796,7 @@
       "sources": [
         "awesome-decomp-games",
         "recomp-software-decomp",
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-14",
       "best_status": "complete",
@@ -11346,16 +10819,6 @@
               "type": "port",
               "platform": "PC (Windows)",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/diablo-ii-pc-windows",
-              "source_id": "diablo-2-jaenster",
-              "claimed": false,
-              "status": "playable",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
@@ -11364,43 +10827,30 @@
           ],
           "game": "Diablo II",
           "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "Redivivus",
+          "type": "port",
+          "project": "redivivus",
           "project_url": "https://github.com/jaenster/redivivus",
           "repo": "jaenster/redivivus",
-          "status": "playable",
+          "status": "in-progress",
           "last_activity": "2026-11-14",
           "stars": 72,
-          "toolchain": "Ghidra, Ghidra-reconstruct, Mingw-w64",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {
-            "status": [
-              "in-progress",
-              "playable"
-            ],
-            "type": [
-              "decomp",
-              "port"
-            ]
-          }
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
       "types": [
-        "decomp"
+        "port"
       ],
       "statuses": [
-        "playable"
+        "in-progress"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
-      "best_status": "playable",
-      "has_conflict": true
+      "best_status": "in-progress",
+      "has_conflict": false
     },
     {
       "id": "demon-s-souls--ps3",
@@ -11414,16 +10864,6 @@
               "source": "awesome-decomp-games",
               "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
               "source_id": "jonathandc64-soulbrandt",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PS3",
-              "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/demons-souls-ps3",
-              "source_id": "demon-s-souls-jonathandc64",
               "claimed": false,
               "status": "released",
               "type": "recomp",
@@ -11447,12 +10887,8 @@
           "release": "v0.1.2",
           "made": "AI-flagged",
           "stars": 455,
-          "toolchain": "Ps3recomp",
-          "targets": [
-            "Windows",
-            "Linux"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "sig-demon-s-souls-demon-s-souls-recomp-recomp",
@@ -11520,17 +10956,16 @@
       ],
       "sources": [
         "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
       "has_conflict": false
     },
     {
-      "id": "def-jam-fight-for-ny--xbox",
-      "title": "Def Jam: Fight for NY",
-      "platform": "Xbox",
+      "id": "def-jam-fight-for-ny-def-jam-fight-for-ny-fan-recomp--og-xbox",
+      "title": "Def Jam: Fight for NY (Def Jam: Fight for NY - Fan Recomp)",
+      "platform": "og xbox",
       "projects": [
         {
           "id": "repo-vyanhursky-defjamffny-recomp",
@@ -11544,26 +10979,16 @@
               "type": "recomp",
               "platform": "og xbox",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/def-jam-fight-for-ny-xbox",
-              "source_id": "def-jam-fight-for-ny-vyanhursky",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
             "quiver",
             "unbaked"
           ],
-          "game": "Def Jam: Fight for NY",
-          "platform": "Xbox",
+          "game": "Def Jam: Fight for NY (Def Jam: Fight for NY - Fan Recomp)",
+          "platform": "og xbox",
           "type": "recomp",
-          "project": "Def Jam: Fight for NY — Recompiled",
+          "project": "DefJamFFNY-recomp",
           "project_url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
           "repo": "vyanhursky/DefJamFFNY-recomp",
           "status": "released",
@@ -11571,20 +10996,29 @@
           "release": "v1.1.2",
           "made": "AI-flagged",
           "stars": 262,
-          "toolchain": "Xboxrecomp",
-          "targets": [
-            "Windows",
-            "macOS",
-            "Linux",
-            "Steam Deck"
-          ],
-          "conflicts": {
-            "platform": [
-              "Xbox",
-              "og xbox"
-            ]
-          }
-        },
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "def-jam-fight-for-ny--xbox",
+      "title": "Def Jam: Fight for NY",
+      "platform": "Xbox",
+      "projects": [
         {
           "id": "sig-def-jam-fight-for-ny-def-jam-fight-for-ny-recompiled-recomp",
           "evidence": [
@@ -11645,7 +11079,7 @@
           "targets": []
         }
       ],
-      "project_count": 3,
+      "project_count": 2,
       "types": [
         "recomp"
       ],
@@ -11654,17 +11088,16 @@
       ],
       "sources": [
         "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
-      "has_conflict": true
+      "has_conflict": false
     },
     {
-      "id": "dead-or-alive-3--xbox",
-      "title": "Dead or Alive 3",
-      "platform": "Xbox",
+      "id": "dead-or-alive-3-doa3-recomp--og-xbox",
+      "title": "Dead or Alive 3 (DOA3 Recomp)",
+      "platform": "og xbox",
       "projects": [
         {
           "id": "repo-norain211-doa3-re",
@@ -11678,68 +11111,54 @@
               "type": "recomp",
               "platform": "og xbox",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dead-or-alive-3-xbox",
-              "source_id": "dead-or-alive-3-norain211",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
             "quiver",
             "unbaked"
           ],
-          "game": "Dead or Alive 3",
-          "platform": "Xbox",
+          "game": "Dead or Alive 3 (DOA3 Recomp)",
+          "platform": "og xbox",
           "type": "recomp",
-          "project": "NoRain211/doa3-re",
+          "project": "doa3-re",
           "project_url": "https://github.com/NoRain211/doa3-re",
           "repo": "NoRain211/doa3-re",
           "status": "released",
           "last_activity": "2026-11-14",
-          "release": "v0.6.3",
+          "release": "v0.6.2",
           "made": "AI-flagged",
           "stars": 56,
-          "targets": [
-            "Linux",
-            "macOS"
-          ],
-          "conflicts": {
-            "platform": [
-              "Xbox",
-              "og xbox"
-            ]
-          }
+          "conflicts": {},
+          "targets": []
         },
         {
-          "id": "sig-dead-or-alive-3-dead-or-alive-3-static-recompilation-recomp",
+          "id": "repo-parkerallan-doa3-recomp",
           "evidence": [
             {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/doa3-recomp/",
-              "source_id": "p/doa3-recomp",
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "parkerallan-doa3-recomp",
               "claimed": false,
               "status": "released",
               "type": "recomp",
-              "platform": "Xbox",
+              "platform": "og xbox",
               "last_activity": "2026-10-24"
             }
           ],
-          "embedded_sources": [],
-          "game": "Dead or Alive 3",
-          "platform": "Xbox",
+          "embedded_sources": [
+            "quiver",
+            "unbaked"
+          ],
+          "game": "Dead or Alive 3 (doa3-recomp)",
+          "platform": "og xbox",
           "type": "recomp",
-          "project": "Dead or Alive 3 Static Recompilation",
-          "project_url": "https://www.recompsoftware.com/p/doa3-recomp/",
+          "project": "doa3-recomp",
+          "project_url": "https://github.com/parkerallan/doa3-recomp",
+          "repo": "parkerallan/doa3-recomp",
           "status": "released",
           "last_activity": "2026-10-24",
-          "release": "v1.0.7Oct",
-          "made": "Not stated",
+          "release": "v1.0.7",
+          "made": "AI-flagged",
           "stars": 115,
           "conflicts": {},
           "targets": []
@@ -11753,13 +11172,11 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
-      "has_conflict": true
+      "has_conflict": false
     },
     {
       "id": "dead-or-alive-2-ultimate-doa2u-native-pc-port--og-xbox",
@@ -11830,16 +11247,6 @@
               "type": "decomp",
               "platform": "Xbox 360",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dance-central-3-xbox-360",
-              "source_id": "dance-central-3-rjkiv",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
@@ -11851,7 +11258,7 @@
           "game": "Dance Central 3",
           "platform": "Xbox 360",
           "type": "decomp",
-          "project": "rjkiv/dc3-decomp",
+          "project": "dc3-decomp",
           "project_url": "https://github.com/rjkiv/dc3-decomp",
           "repo": "rjkiv/dc3-decomp",
           "status": "in-progress",
@@ -11897,8 +11304,7 @@
       ],
       "sources": [
         "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp.fyi"
+        "recomp-software-decomp"
       ],
       "last_activity": "2026-11-14",
       "best_status": "in-progress",
@@ -11971,16 +11377,6 @@
               "type": "recomp",
               "platform": "Xbox 360",
               "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/crash-mind-over-mutant-xbox-360",
-              "source_id": "crash-mind-over-mutant-maxilure",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
@@ -11991,7 +11387,7 @@
           "game": "Crash: Mind over Mutant",
           "platform": "Xbox 360",
           "type": "recomp",
-          "project": "Maxilure/MindOver-Recomp",
+          "project": "MindOver-Recomp",
           "project_url": "https://github.com/Maxilure/MindOver-Recomp",
           "repo": "Maxilure/MindOver-Recomp",
           "status": "released",
@@ -11999,11 +11395,8 @@
           "release": "v0.2.2-alpha.5",
           "made": "AI-flagged",
           "stars": 45,
-          "toolchain": "Rexglue",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {}
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
@@ -12014,8 +11407,7 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
@@ -12154,93 +11546,51 @@
       "has_conflict": false
     },
     {
-      "id": "crackdown-2--xbox-360",
-      "title": "Crackdown 2",
-      "platform": "Xbox 360",
+      "id": "conker-s-bad-fur-day-devoldschool--n64",
+      "title": "Conker's Bad Fur Day (DevOldSchool)",
+      "platform": "N64",
       "projects": [
         {
-          "id": "repo-matty45-crackdown2-decomp",
+          "id": "repo-devoldschool-conkers-bfd-decomp",
           "evidence": [
             {
               "source": "awesome-decomp-games",
               "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "matty45-crackdown2-decomp",
+              "source_id": "devoldschool-conkers-bfd-decomp",
               "claimed": false,
               "status": "in-progress",
               "type": "decomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-13"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/crackdown-2-xbox-360",
-              "source_id": "crackdown-2-matty45-2",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "Xbox 360",
+              "platform": "N64",
               "last_activity": "2026-11-14"
             }
           ],
           "embedded_sources": [
             "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Crackdown 2",
-          "platform": "Xbox 360",
-          "type": "decomp",
-          "project": "matty45/Crackdown2-Decomp",
-          "project_url": "https://github.com/matty45/Crackdown2-Decomp",
-          "repo": "matty45/Crackdown2-Decomp",
-          "status": "in-progress",
-          "last_activity": "2026-11-14",
-          "stars": 12,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-matty45-crackdown2-recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "matty45-crackdown2-recomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-08-07"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
             "samidy",
             "unbaked"
           ],
-          "game": "Crackdown 2",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Crackdown2-Recomp",
-          "project_url": "https://github.com/matty45/Crackdown2-Recomp",
-          "repo": "matty45/Crackdown2-Recomp",
+          "game": "Conker's Bad Fur Day (DevOldSchool)",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "conkers-bfd-decomp",
+          "project_url": "https://github.com/DevOldSchool/conkers-bfd-decomp",
+          "repo": "DevOldSchool/conkers-bfd-decomp",
           "status": "in-progress",
-          "last_activity": "2026-08-07",
-          "stars": 41,
+          "last_activity": "2026-11-14",
+          "stars": 35,
           "conflicts": {},
           "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 1,
       "types": [
-        "decomp",
-        "recomp"
+        "decomp"
       ],
       "statuses": [
         "in-progress"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-14",
       "best_status": "in-progress",
@@ -12293,186 +11643,6 @@
       ],
       "last_activity": "2026-11-14",
       "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "conker-s-bad-fur-day--n64",
-      "title": "Conker's Bad Fur Day",
-      "platform": "N64",
-      "projects": [
-        {
-          "id": "repo-devoldschool-conkers-bfd-decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "devoldschool-conkers-bfd-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": "2026-11-14"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/conkers-bad-fur-day-n64",
-              "source_id": "conkers-bad-fur-day-devoldschool",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Conker's Bad Fur Day",
-          "platform": "N64",
-          "type": "decomp",
-          "project": "DevOldSchool/conkers-bfd-decomp",
-          "project_url": "https://github.com/DevOldSchool/conkers-bfd-decomp",
-          "repo": "DevOldSchool/conkers-bfd-decomp",
-          "status": "in-progress",
-          "last_activity": "2026-11-14",
-          "stars": 35,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-conker-s-bad-fur-day-conker-bfd-reloaded-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/conkerbfdreloaded/",
-              "source_id": "p/conkerbfdreloaded",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-10-28"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Conker's Bad Fur Day",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "Conker BFD Reloaded",
-          "project_url": "https://www.recompsoftware.com/p/conkerbfdreloaded/",
-          "status": "released",
-          "last_activity": "2026-10-28",
-          "release": "v1.4.7Oct",
-          "made": "Not stated",
-          "stars": 189,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-conker-s-bad-fur-day-conker-s-bad-fur-day-recompiled-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/cbfd-recompiled/",
-              "source_id": "p/cbfd-recompiled",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-10-13"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Conker's Bad Fur Day",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "Conker's Bad Fur Day Recompiled",
-          "project_url": "https://www.recompsoftware.com/p/cbfd-recompiled/",
-          "status": "released",
-          "last_activity": "2026-10-13",
-          "release": "V0.1.6Oct",
-          "made": "AI-assisted",
-          "stars": 342,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "repo-mkst-conker",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "mkst-conker",
-              "claimed": false,
-              "status": "paused",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": "2026-05-10"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "samidy"
-          ],
-          "game": "Conker's Bad Fur Day",
-          "platform": "N64",
-          "type": "decomp",
-          "project": "conker",
-          "project_url": "https://github.com/mkst/conker",
-          "repo": "mkst/conker",
-          "status": "paused",
-          "last_activity": "2026-05-10",
-          "stars": 239,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-conker-s-bad-fur-day-conker-s-bad-fur-day-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/conker-decomp/",
-              "source_id": "p/conker-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "N64",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Conker's Bad Fur Day",
-          "platform": "N64",
-          "type": "decomp",
-          "project": "Conker's Bad Fur Day decompilation",
-          "project_url": "https://www.recompsoftware.com/p/conker-decomp/",
-          "status": "in-progress",
-          "progress": 54.82,
-          "made": "Not stated",
-          "stars": 35,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 5,
-      "types": [
-        "decomp",
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "paused",
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp-software-recomp",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-14",
-      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -12626,80 +11796,6 @@
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "command-conquer-red-alert-2--pc-windows",
-      "title": "Command & Conquer: Red Alert 2",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-mischa85-redalert2",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/command-and-conquer-red-alert-2-pc-windows",
-              "source_id": "command-conquer-red-alert-2-mischa85",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Command & Conquer: Red Alert 2",
-          "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "mischa85/RedAlert2",
-          "project_url": "https://github.com/mischa85/RedAlert2",
-          "repo": "mischa85/RedAlert2",
-          "last_activity": "2026-11-14",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "sig-command-conquer-red-alert-2-command-conquer-red-alert-2-port",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "command-conquer-red-alert-2",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PC (Windows)",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [
-            "recompiledgames.com"
-          ],
-          "game": "Command & Conquer: Red Alert 2",
-          "platform": "PC (Windows)",
-          "type": "port",
-          "project": "Command & Conquer: Red Alert 2",
-          "project_url": "https://chronodivide.com",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp",
-        "port"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-14",
-      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -12883,6 +11979,55 @@
       "has_conflict": true
     },
     {
+      "id": "child-of-light--xbox-360",
+      "title": "Child of Light",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-danielsnagustin-wq-child-of-light-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/child-of-light-xbox-360",
+              "source_id": "child-of-light-danielsnagustin-wq",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Child of Light",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "danielsnagustin-wq/child-of-light-recomp",
+          "project_url": "https://github.com/danielsnagustin-wq/child-of-light-recomp",
+          "repo": "danielsnagustin-wq/child-of-light-recomp",
+          "last_activity": "2026-11-14",
+          "release": "sdk-v0.10.1-repack",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "championship-manager-01-02--mac",
       "title": "Championship Manager 01/02",
       "platform": "Mac",
@@ -12930,6 +12075,168 @@
       "last_activity": "2026-11-14",
       "best_status": "playable",
       "has_conflict": false
+    },
+    {
+      "id": "championship-manager-01-02--pc-windows",
+      "title": "Championship Manager 01/02",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-alondero-cm0102-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/championship-manager-01-02-pc-windows",
+              "source_id": "championship-manager-01-02-alondero",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Championship Manager 01/02",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "alondero/cm0102-decomp",
+          "project_url": "https://github.com/alondero/cm0102-decomp",
+          "repo": "alondero/cm0102-decomp",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "catherine-classic--pc-windows",
+      "title": "Catherine Classic",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-manuelriosromero-catherine-linux-port",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/catherine-classic-pc-windows",
+              "source_id": "catherine-classic-manuelriosromero",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Catherine Classic",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "ManuelRiosRomero/catherine-linux-port",
+          "project_url": "https://github.com/ManuelRiosRomero/catherine-linux-port",
+          "repo": "ManuelRiosRomero/catherine-linux-port",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "catacomb-3-d--pc-dos",
+      "title": "Catacomb 3-D",
+      "platform": "PC (DOS)",
+      "projects": [
+        {
+          "id": "repo-arnoansems-catacombgl",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "arnoansems-catacombgl",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "port",
+              "platform": "DOS",
+              "last_activity": "2026-11-07"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/catacomb-3-d-pc-dos",
+              "source_id": "catacomb-3-d-arnoansems",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "awesome-game-remakes",
+            "unbaked"
+          ],
+          "game": "Catacomb 3-D",
+          "platform": "PC (DOS)",
+          "type": "port",
+          "project": "ArnoAnsems/CatacombGL",
+          "project_url": "https://github.com/ArnoAnsems/CatacombGL",
+          "repo": "ArnoAnsems/CatacombGL",
+          "status": "in-progress",
+          "last_activity": "2026-11-14",
+          "stars": 201,
+          "release": "v0.5.7-beta",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {
+            "platform": [
+              "DOS",
+              "PC (DOS)"
+            ]
+          }
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "in-progress",
+      "has_conflict": true
     },
     {
       "id": "cataclysm-the-last-generation--pc-windows",
@@ -13148,6 +12455,82 @@
       "has_conflict": false
     },
     {
+      "id": "castlevania-lament-of-innocence--ps2",
+      "title": "Castlevania: Lament of Innocence",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-ggmartinez-castlevanialoi-pc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/castlevania-lament-of-innocence-ps2-2",
+              "source_id": "castlevania-lament-of-innocence-ggmartinez",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Castlevania: Lament of Innocence",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "ggMartinez/CastlevaniaLOI-PC",
+          "project_url": "https://github.com/ggMartinez/CastlevaniaLOI-PC",
+          "repo": "ggMartinez/CastlevaniaLOI-PC",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "sig-castlevania-lament-of-innocence-castlevania-lament-of-innocence-native-windows-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/castlevania-loi-pc/",
+              "source_id": "p/castlevania-loi-pc",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-08"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Castlevania: Lament of Innocence",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "Castlevania: Lament of Innocence native Windows port",
+          "project_url": "https://www.recompsoftware.com/p/castlevania-loi-pc/",
+          "status": "released",
+          "last_activity": "2026-11-08",
+          "release": "0.5.0Nov",
+          "made": "Not stated",
+          "stars": 45,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "castlevania-curse-of-darkness-castlevania-curse-of-darkness-recomp--ps2",
       "title": "Castlevania: Curse of Darkness (Castlevania: Curse of Darkness Recomp)",
       "platform": "PS2",
@@ -13270,6 +12653,226 @@
       "has_conflict": false
     },
     {
+      "id": "bushido-blade-2--ps1",
+      "title": "Bushido Blade 2",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-tgg12321-rebushido",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bushido-blade-2-ps1-2",
+              "source_id": "bushido-blade-2-tgg12321-2",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bushido Blade 2",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "tgg12321/ReBushido",
+          "project_url": "https://github.com/tgg12321/ReBushido",
+          "repo": "tgg12321/ReBushido",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        },
+        {
+          "id": "repo-alexbeavs-ps1-ports-bushido-blade-2-recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "alexbeavs-ps1-ports-bushido-blade-2-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-13"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi"
+          ],
+          "game": "Bushido Blade 2",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "bushido-blade-2-recomp",
+          "project_url": "https://github.com/alexbeavs-ps1-ports/bushido-blade-2-recomp",
+          "repo": "alexbeavs-ps1-ports/bushido-blade-2-recomp",
+          "status": "released",
+          "last_activity": "2026-11-13",
+          "release": "v0.1.2",
+          "stars": 12,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "released",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "burnout-revenge--xbox-360",
+      "title": "Burnout Revenge",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-shipa-2-xerenge",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "shipa-2-xerenge",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-12"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/burnout-revenge-xbox-360",
+              "source_id": "burnout-revenge-shipa-2",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "quiver",
+            "unbaked"
+          ],
+          "game": "Burnout Revenge",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "shipa-2/Xerenge",
+          "project_url": "https://github.com/shipa-2/Xerenge",
+          "repo": "shipa-2/Xerenge",
+          "status": "released",
+          "last_activity": "2026-11-14",
+          "release": "v0.4.10",
+          "made": "AI-flagged",
+          "stars": 342,
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows",
+            "Linux",
+            "macOS",
+            "Android"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "burnout-dominator--ps2",
+      "title": "Burnout Dominator",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-literalynn-burnoutdominatorreversed",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "literalynn-burnoutdominatorreversed",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-13"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/burnout-dominator-ps2",
+              "source_id": "burnout-dominator-literalynn",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Burnout Dominator",
+          "platform": "PS2",
+          "type": "recomp",
+          "project": "literalynn/BurnoutDominatorReversed",
+          "project_url": "https://github.com/literalynn/BurnoutDominatorReversed",
+          "repo": "literalynn/BurnoutDominatorReversed",
+          "status": "in-progress",
+          "last_activity": "2026-11-14",
+          "release": "v1.5.1",
+          "stars": 27,
+          "toolchain": "Ps2recomp",
+          "targets": [
+            "Windows",
+            "Linux",
+            "macOS"
+          ],
+          "conflicts": {
+            "status": [
+              "in-progress",
+              "released"
+            ]
+          }
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "in-progress",
+      "has_conflict": true
+    },
+    {
       "id": "brute-force--xbox",
       "title": "Brute Force",
       "platform": "Xbox",
@@ -13356,6 +12959,150 @@
       ],
       "last_activity": "2026-11-14",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "breath-of-fire-iii--ps1",
+      "title": "Breath of Fire III",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-raulcorreia7-bof3-decomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/breath-of-fire-iii-ps1",
+              "source_id": "breath-of-fire-iii-raulcorreia7",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Breath of Fire III",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "raulcorreia7/bof3-decomp",
+          "project_url": "https://github.com/raulcorreia7/bof3-decomp",
+          "repo": "raulcorreia7/bof3-decomp",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "boom-boom-rocket--xbox-360",
+      "title": "Boom Boom Rocket",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-corriedivitt-boomboomrocketrevolution",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/boom-boom-rocket-xbox-360-2",
+              "source_id": "boom-boom-rocket-corriedivitt",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Boom Boom Rocket",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "CorrieDivitt/BoomBoomRocketRevolution",
+          "project_url": "https://github.com/CorrieDivitt/BoomBoomRocketRevolution",
+          "repo": "CorrieDivitt/BoomBoomRocketRevolution",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "bomberman-online--dreamcast",
+      "title": "Bomberman Online",
+      "platform": "Dreamcast",
+      "projects": [
+        {
+          "id": "repo-nvd123-yt-bombermanonlinerecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bomberman-online-dreamcast",
+              "source_id": "bomberman-online-nvd123-yt",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Dreamcast",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bomberman Online",
+          "platform": "Dreamcast",
+          "type": "recomp",
+          "project": "Bomberman Online Recompiled",
+          "project_url": "https://github.com/nvd123-YT/BombermanOnlineRecomp",
+          "repo": "nvd123-YT/BombermanOnlineRecomp",
+          "status": "released",
+          "last_activity": "2026-11-14",
+          "release": "prebuilt-43629783799",
+          "toolchain": "Dreamrecomp",
+          "targets": [
+            "Windows",
+            "Linux",
+            "macOS"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -13564,6 +13311,52 @@
       "has_conflict": false
     },
     {
+      "id": "bloons-td-6--pc-windows",
+      "title": "Bloons TD 6",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-blinkywink-rrbtd6",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bloons-td-6-pc-windows",
+              "source_id": "bloons-td-6-blinkywink",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bloons TD 6",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "blinkywink/rrbtd6",
+          "project_url": "https://github.com/blinkywink/rrbtd6",
+          "repo": "blinkywink/rrbtd6",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "bloodborne--ps4",
       "title": "Bloodborne",
       "platform": "PS4",
@@ -13606,6 +13399,32 @@
           "last_activity": "2026-11-14",
           "stars": 210,
           "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-bhuaysan-bloodborne-linux",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bloodborne-ps4-2",
+              "source_id": "bloodborne-bhuaysan",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS4",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bloodborne",
+          "platform": "PS4",
+          "type": "decomp",
+          "project": "bhuaysan/bloodborne-linux",
+          "project_url": "https://github.com/bhuaysan/bloodborne-linux",
+          "repo": "bhuaysan/bloodborne-linux",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
           "targets": []
         },
         {
@@ -13666,14 +13485,15 @@
           "targets": []
         }
       ],
-      "project_count": 3,
+      "project_count": 4,
       "types": [
         "decomp",
         "recomp"
       ],
       "statuses": [
         "in-progress",
-        "released"
+        "released",
+        "unknown"
       ],
       "sources": [
         "awesome-decomp-games",
@@ -13905,6 +13725,382 @@
       "last_activity": "2026-11-14",
       "best_status": "released",
       "has_conflict": true
+    },
+    {
+      "id": "black-white--pc-windows",
+      "title": "Black & White",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-openblack-bw1-decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "openblack-bw1-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-13"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/black-and-white-pc-windows",
+              "source_id": "black-white-openblack",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "recomp.fyi",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Black & White",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "openblack/bw1-decomp",
+          "project_url": "https://github.com/openblack/bw1-decomp",
+          "repo": "openblack/bw1-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-11-14",
+          "stars": 130,
+          "release": "archived-reassembly-attempt",
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-black-white-black-white-static-recompilation-project-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/black-and-white-recomp/",
+              "source_id": "p/black-and-white-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Black & White",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "Black & White Static Recompilation Project",
+          "project_url": "https://www.recompsoftware.com/p/black-and-white-recomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 24,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-black-white-black-white-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/bw1-decomp/",
+              "source_id": "p/bw1-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Black & White",
+          "platform": "PC (Windows)",
+          "type": "decomp",
+          "project": "Black & White Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/bw1-decomp/",
+          "status": "in-progress",
+          "progress": 54.97,
+          "made": "AI-assisted",
+          "stars": 130,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "black--xbox",
+      "title": "Black",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-spark198rus-black-pc",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "spark198rus-black-pc",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "og xbox",
+              "last_activity": "2026-11-13"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/black-xbox-2",
+              "source_id": "black-spark198rus",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "quiver",
+            "reddit:r/decomps"
+          ],
+          "game": "Black",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Spark198rus/black-pc",
+          "project_url": "https://github.com/Spark198rus/black-pc",
+          "repo": "Spark198rus/black-pc",
+          "status": "released",
+          "last_activity": "2026-11-14",
+          "release": "v0.3.0",
+          "made": "AI-flagged",
+          "stars": 381,
+          "conflicts": {
+            "type": [
+              "port",
+              "recomp"
+            ],
+            "platform": [
+              "Xbox",
+              "og xbox"
+            ]
+          },
+          "targets": []
+        },
+        {
+          "id": "sig-black-black-xbe-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/black-xbe-recomp/",
+              "source_id": "p/black-xbe-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-10-29"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Black",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "BLACK XBE Recomp",
+          "project_url": "https://www.recompsoftware.com/p/black-xbe-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-29",
+          "release": "V3Oct",
+          "made": "Not stated",
+          "stars": 946,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": true
+    },
+    {
+      "id": "betrayal-at-krondor--pc-dos",
+      "title": "Betrayal at Krondor",
+      "platform": "PC (DOS)",
+      "projects": [
+        {
+          "id": "repo-stellargames-bakagain",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "stellargames-bakagain",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "port",
+              "platform": "DOS",
+              "last_activity": "2026-11-13"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/betrayal-at-krondor-pc-dos",
+              "source_id": "betrayal-at-krondor-stellargames",
+              "claimed": false,
+              "status": "playable",
+              "type": "port",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "awesome-game-remakes",
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Betrayal at Krondor",
+          "platform": "PC (DOS)",
+          "type": "port",
+          "project": "BaK-Again",
+          "project_url": "https://github.com/stellargames/bakagain",
+          "repo": "stellargames/bakagain",
+          "status": "playable",
+          "last_activity": "2026-11-14",
+          "stars": 15,
+          "release": "v0.7.0-beta",
+          "toolchain": "Unity",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Android"
+          ],
+          "conflicts": {
+            "status": [
+              "in-progress",
+              "playable"
+            ],
+            "platform": [
+              "DOS",
+              "PC (DOS)"
+            ]
+          }
+        },
+        {
+          "id": "sig-betrayal-at-krondor-betrayal-at-krondor-recompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/betrayal-at-krondor/",
+              "source_id": "p/betrayal-at-krondor",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-07-21"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Betrayal at Krondor",
+          "platform": "PC (DOS)",
+          "type": "decomp",
+          "project": "Betrayal at Krondor recompilation",
+          "project_url": "https://www.recompsoftware.com/p/betrayal-at-krondor/",
+          "status": "released",
+          "last_activity": "2026-07-21",
+          "release": "toolchain-v1Jul",
+          "made": "AI-assisted",
+          "stars": 38,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "decomp",
+        "port"
+      ],
+      "statuses": [
+        "playable",
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": true
+    },
+    {
+      "id": "bermuda-syndrome--pc-windows",
+      "title": "Bermuda Syndrome",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-sp00nznet-bermuda-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/bermuda-syndrome-pc-windows",
+              "source_id": "bermuda-syndrome-sp00nznet",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Bermuda Syndrome",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "sp00nznet/bermuda-recomp",
+          "project_url": "https://github.com/sp00nznet/bermuda-recomp",
+          "repo": "sp00nznet/bermuda-recomp",
+          "last_activity": "2026-11-14",
+          "toolchain": "Pcrecomp",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
     },
     {
       "id": "bayonetta-3--nintendo-switch",
@@ -14717,6 +14913,185 @@
       "has_conflict": false
     },
     {
+      "id": "army-of-two--xbox-360",
+      "title": "Army of Two",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-openportroid-armyoftworecompilation",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "openportroid-armyoftworecompilation",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-09"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/army-of-two-xbox-360",
+              "source_id": "army-of-two-openportroid",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "portsdr",
+            "quiver",
+            "unbaked"
+          ],
+          "game": "Army of Two",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Army of Two Recompilation",
+          "project_url": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation",
+          "repo": "OpenPortroid/ArmyOfTwoRecompilation",
+          "status": "released",
+          "last_activity": "2026-11-14",
+          "release": "v1.5.0",
+          "stars": 180,
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-army-of-two-army-of-two-recompilation-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/army-of-two-recomp-genesis5500/",
+              "source_id": "p/army-of-two-recomp-genesis5500",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-09-10"
+            },
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/army-of-two-recompilation-openportroid/",
+              "source_id": "p/army-of-two-recompilation-openportroid",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-09"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Army of Two",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Army of Two Recompilation",
+          "project_url": "https://www.recompsoftware.com/p/army-of-two-recompilation-openportroid/",
+          "status": "released",
+          "last_activity": "2026-11-09",
+          "release": "v1.5.0Nov",
+          "made": "Not stated",
+          "stars": 181,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-army-of-two-army-of-two-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/army-of-two-recomp/",
+              "source_id": "p/army-of-two-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-05"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Army of Two",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Army of Two Recomp",
+          "project_url": "https://www.recompsoftware.com/p/army-of-two-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-05",
+          "release": "1.5Nov",
+          "made": "Not stated",
+          "stars": 105,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "army-men-3d--ps1",
+      "title": "Army Men 3D",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-gradipoo-armymen3ddecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/army-men-3d-ps1",
+              "source_id": "army-men-3d-gradipoo",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Army Men 3D",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Gradipoo/armymen3ddecomp",
+          "project_url": "https://github.com/Gradipoo/armymen3ddecomp",
+          "repo": "Gradipoo/armymen3ddecomp",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "armored-unit--unknown",
       "title": "Armored Unit",
       "platform": "Unknown",
@@ -14761,6 +15136,198 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "armored-core-for-answer--ps3",
+      "title": "Armored Core: For Answer",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-sulphurs16-acfa-port",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "sulphurs16-acfa-port",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-04"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/armored-core-for-answer-ps3",
+              "source_id": "armored-core-for-answer-sulphurs16",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "quiver",
+            "unbaked"
+          ],
+          "game": "Armored Core: For Answer",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "SulphurS16/ACFA-Port",
+          "project_url": "https://github.com/SulphurS16/ACFA-Port",
+          "repo": "SulphurS16/ACFA-Port",
+          "status": "released",
+          "last_activity": "2026-11-14",
+          "release": "v0.7.5",
+          "made": "AI-flagged",
+          "stars": 83,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "armored-core-4--ps3",
+      "title": "Armored Core 4",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-sulphurs16-ac4-port",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "sulphurs16-ac4-port",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "PS3",
+              "last_activity": "2026-10-29"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/armored-core-4-ps3",
+              "source_id": "armored-core-4-sulphurs16",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "quiver",
+            "unbaked"
+          ],
+          "game": "Armored Core 4",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "SulphurS16/AC4-Port",
+          "project_url": "https://github.com/SulphurS16/AC4-Port",
+          "repo": "SulphurS16/AC4-Port",
+          "status": "released",
+          "last_activity": "2026-11-14",
+          "release": "v0.6.0",
+          "made": "AI-flagged",
+          "stars": 67,
+          "conflicts": {
+            "type": [
+              "port",
+              "recomp"
+            ]
+          },
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
+      "has_conflict": true
+    },
+    {
+      "id": "animal-crossing-new-leaf-welcome-amiibo--3ds",
+      "title": "Animal Crossing: New Leaf - Welcome amiibo",
+      "platform": "3DS",
+      "projects": [
+        {
+          "id": "repo-redshyguy-acnl-decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "redshyguy-acnl-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "3DS",
+              "last_activity": "2026-11-13"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/animal-crossing-new-leaf-3ds",
+              "source_id": "animal-crossing-new-leaf-welcome-amiibo-",
+              "claimed": false,
+              "status": "unknown",
+              "type": "decomp",
+              "platform": "3DS",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Animal Crossing: New Leaf - Welcome amiibo",
+          "platform": "3DS",
+          "type": "decomp",
+          "project": "RedShyGuy/acnl-decomp",
+          "project_url": "https://github.com/RedShyGuy/acnl-decomp",
+          "repo": "RedShyGuy/acnl-decomp",
+          "status": "in-progress",
+          "last_activity": "2026-11-14",
+          "stars": 17,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp.fyi"
       ],
       "last_activity": "2026-11-14",
       "best_status": "in-progress",
@@ -14817,6 +15384,98 @@
       "has_conflict": false
     },
     {
+      "id": "angry-birds--ios",
+      "title": "Angry Birds",
+      "platform": "iOS",
+      "projects": [
+        {
+          "id": "repo-romoney5-angry-birds-love2d",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/angry-birds-ios",
+              "source_id": "angry-birds-romoney5",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "iOS",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Angry Birds",
+          "platform": "iOS",
+          "type": "port",
+          "project": "romoney5/angry-birds-love2d",
+          "project_url": "https://github.com/romoney5/angry-birds-love2d",
+          "repo": "romoney5/angry-birds-love2d",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "aliens-versus-predator-extinction--xbox",
+      "title": "Aliens versus Predator: Extinction",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "repo-adolini1715-avp-extinction-port",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/aliens-versus-predator-extinction-xbox",
+              "source_id": "aliens-versus-predator-extinction-adolini1715",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Aliens versus Predator: Extinction",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Adolini1715/AVP-Extinction-Port",
+          "project_url": "https://github.com/Adolini1715/AVP-Extinction-Port",
+          "repo": "Adolini1715/AVP-Extinction-Port",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "aleph-one--pc-windows",
       "title": "Aleph One",
       "platform": "PC (Windows)",
@@ -14866,6 +15525,98 @@
       ],
       "last_activity": "2026-11-14",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "afterlife--pc-windows",
+      "title": "Afterlife",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-sp00nznet-afterlife-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/afterlife-pc-windows",
+              "source_id": "afterlife-sp00nznet",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Afterlife",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "sp00nznet/afterlife-recomp",
+          "project_url": "https://github.com/sp00nznet/afterlife-recomp",
+          "repo": "sp00nznet/afterlife-recomp",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
+      "id": "after-burner-climax--ps3",
+      "title": "After Burner Climax",
+      "platform": "PS3",
+      "projects": [
+        {
+          "id": "repo-psfiles-skyclimax",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/after-burner-climax-ps3",
+              "source_id": "after-burner-climax-psfiles",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS3",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "After Burner Climax",
+          "platform": "PS3",
+          "type": "recomp",
+          "project": "PSFiles/SkyClimax",
+          "project_url": "https://github.com/PSFiles/SkyClimax",
+          "repo": "PSFiles/SkyClimax",
+          "last_activity": "2026-11-14",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -15046,6 +15797,152 @@
       "has_conflict": true
     },
     {
+      "id": "a2-racer-ii--pc-windows",
+      "title": "A2 Racer II",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-jjmhalew-a2raceriire",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/a2-racer-ii-pc-windows",
+              "source_id": "a2-racer-ii-jjmhalew",
+              "claimed": false,
+              "status": "playable",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "A2 Racer II",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "A2RacerIIRE",
+          "project_url": "https://github.com/jjmhalew/A2RacerIIRE",
+          "repo": "jjmhalew/A2RacerIIRE",
+          "status": "playable",
+          "last_activity": "2026-11-14",
+          "release": "v1.0.0",
+          "targets": [
+            "Windows",
+            "Linux",
+            "Steam Deck",
+            "Android",
+            "Switch"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "playable",
+      "has_conflict": false
+    },
+    {
+      "id": "50-cent-blood-on-the-sand--xbox-360",
+      "title": "50 Cent: Blood on the Sand",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-nlwstein-skullburglar",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "nlwstein-skullburglar",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-11"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/50-cent-blood-on-the-sand-xbox-360",
+              "source_id": "50-cent-blood-on-the-sand-nlwstein",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [
+            "quiver",
+            "unbaked"
+          ],
+          "game": "50 Cent: Blood on the Sand",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Skullburglar",
+          "project_url": "https://github.com/nlwstein/skullburglar",
+          "repo": "nlwstein/skullburglar",
+          "status": "in-progress",
+          "last_activity": "2026-11-14",
+          "made": "AI-flagged",
+          "stars": 77,
+          "release": "issue-12-test-build",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "sig-50-cent-blood-on-the-sand-skullburglar-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/skullburglar/",
+              "source_id": "p/skullburglar",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "50 Cent: Blood on the Sand",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Skullburglar",
+          "project_url": "https://www.recompsoftware.com/p/skullburglar/",
+          "status": "in-progress",
+          "made": "AI-generated",
+          "stars": 77,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "3dsrecomp--3ds",
       "title": "3dsrecomp",
       "platform": "3DS",
@@ -15223,7 +16120,7 @@
           "repo": "thefixinhixon/SplosionManRecomp",
           "status": "released",
           "last_activity": "2026-11-14",
-          "release": "v2.3.2",
+          "release": "v2.3.5",
           "stars": 13,
           "toolchain": "Rexglue",
           "targets": [
@@ -25869,6 +26766,58 @@
       "has_conflict": false
     },
     {
+      "id": "forza-horizon-forza-horizon-1-reimagined--xbox-360",
+      "title": "Forza Horizon (Forza Horizon 1: ReImagined)",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-fh1-reimagined-forzahorizon1-reimagined",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "fh1-reimagined-forzahorizon1-reimagined",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-13"
+            }
+          ],
+          "embedded_sources": [
+            "quiver",
+            "unbaked"
+          ],
+          "game": "Forza Horizon (Forza Horizon 1: ReImagined)",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "ForzaHorizon1-ReImagined",
+          "project_url": "https://github.com/FH1-ReImagined/ForzaHorizon1-ReImagined",
+          "repo": "FH1-ReImagined/ForzaHorizon1-ReImagined",
+          "status": "released",
+          "last_activity": "2026-11-13",
+          "release": "v0.3.6",
+          "made": "AI-flagged",
+          "stars": 464,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-13",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "forza-horizon--xbox-360",
       "title": "Forza Horizon",
       "platform": "Xbox 360",
@@ -27873,6 +28822,88 @@
       "has_conflict": false
     },
     {
+      "id": "crackdown-2--xbox-360",
+      "title": "Crackdown 2",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-matty45-crackdown2-decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "matty45-crackdown2-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-13"
+            }
+          ],
+          "embedded_sources": [
+            "recomp.fyi",
+            "unbaked"
+          ],
+          "game": "Crackdown 2",
+          "platform": "Xbox 360",
+          "type": "decomp",
+          "project": "Crackdown2-Decomp",
+          "project_url": "https://github.com/matty45/Crackdown2-Decomp",
+          "repo": "matty45/Crackdown2-Decomp",
+          "status": "in-progress",
+          "last_activity": "2026-11-13",
+          "stars": 12,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-matty45-crackdown2-recomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "matty45-crackdown2-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-08-07"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Crackdown 2",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Crackdown2-Recomp",
+          "project_url": "https://github.com/matty45/Crackdown2-Recomp",
+          "repo": "matty45/Crackdown2-Recomp",
+          "status": "in-progress",
+          "last_activity": "2026-08-07",
+          "stars": 41,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-13",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "condemned-2-bloodshot--xbox-360",
       "title": "Condemned 2: Bloodshot",
       "platform": "Xbox 360",
@@ -28504,107 +29535,6 @@
       "has_conflict": false
     },
     {
-      "id": "bushido-blade-2--ps1",
-      "title": "Bushido Blade 2",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "repo-alexbeavs-ps1-ports-bushido-blade-2-recomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "alexbeavs-ps1-ports-bushido-blade-2-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-11-13"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi"
-          ],
-          "game": "Bushido Blade 2",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "bushido-blade-2-recomp",
-          "project_url": "https://github.com/alexbeavs-ps1-ports/bushido-blade-2-recomp",
-          "repo": "alexbeavs-ps1-ports/bushido-blade-2-recomp",
-          "status": "released",
-          "last_activity": "2026-11-13",
-          "release": "v0.1.2",
-          "stars": 12,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-13",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "burnout-dominator--ps2",
-      "title": "Burnout Dominator",
-      "platform": "PS2",
-      "projects": [
-        {
-          "id": "repo-literalynn-burnoutdominatorreversed",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "literalynn-burnoutdominatorreversed",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PS2",
-              "last_activity": "2026-11-13"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Burnout Dominator",
-          "platform": "PS2",
-          "type": "recomp",
-          "project": "BurnoutDominatorReversed",
-          "project_url": "https://github.com/literalynn/BurnoutDominatorReversed",
-          "repo": "literalynn/BurnoutDominatorReversed",
-          "status": "released",
-          "last_activity": "2026-11-13",
-          "release": "v1.5.0",
-          "stars": 27,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-13",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "breath-of-fire-iii-breath-of-fire-iii-pc-port--ps1",
       "title": "Breath of Fire III (Breath of Fire III - PC Port)",
       "platform": "PS1",
@@ -28746,110 +29676,6 @@
       "project_count": 1,
       "types": [
         "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-13",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "black-and-white--pc-windows",
-      "title": "Black and White",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-openblack-bw1-decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "openblack-bw1-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-13"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "recomp.fyi",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Black and White",
-          "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "bw1-decomp",
-          "project_url": "https://github.com/openblack/bw1-decomp",
-          "repo": "openblack/bw1-decomp",
-          "status": "in-progress",
-          "last_activity": "2026-11-13",
-          "stars": 130,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-13",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "black-black-pc--og-xbox",
-      "title": "BLACK (black-pc)",
-      "platform": "og xbox",
-      "projects": [
-        {
-          "id": "repo-spark198rus-black-pc",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "spark198rus-black-pc",
-              "claimed": false,
-              "status": "released",
-              "type": "port",
-              "platform": "og xbox",
-              "last_activity": "2026-11-13"
-            }
-          ],
-          "embedded_sources": [
-            "quiver",
-            "reddit:r/decomps"
-          ],
-          "game": "BLACK (black-pc)",
-          "platform": "og xbox",
-          "type": "port",
-          "project": "black-pc",
-          "project_url": "https://github.com/Spark198rus/black-pc",
-          "repo": "Spark198rus/black-pc",
-          "status": "released",
-          "last_activity": "2026-11-13",
-          "release": "v0.3.0",
-          "made": "AI-flagged",
-          "stars": 381,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "port"
       ],
       "statuses": [
         "released"
@@ -29229,57 +30055,6 @@
       "has_conflict": false
     },
     {
-      "id": "bak-again--dos",
-      "title": "Bak-Again",
-      "platform": "DOS",
-      "projects": [
-        {
-          "id": "repo-stellargames-bakagain",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "stellargames-bakagain",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "port",
-              "platform": "DOS",
-              "last_activity": "2026-11-13"
-            }
-          ],
-          "embedded_sources": [
-            "awesome-game-remakes",
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Bak-Again",
-          "platform": "DOS",
-          "type": "port",
-          "project": "bakagain",
-          "project_url": "https://github.com/stellargames/bakagain",
-          "repo": "stellargames/bakagain",
-          "status": "in-progress",
-          "last_activity": "2026-11-13",
-          "stars": 15,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "port"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-13",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
       "id": "awesome-reverse-engineered-game-decompilations-reimplementations--unknown",
       "title": "Awesome Reverse-Engineered: Game Decompilations & Reimplementations",
       "platform": "Unknown",
@@ -29454,56 +30229,6 @@
       ],
       "last_activity": "2026-11-13",
       "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "animal-crossing-new-leaf-welcome-amiibo--3ds",
-      "title": "Animal Crossing: New Leaf - Welcome amiibo",
-      "platform": "3DS",
-      "projects": [
-        {
-          "id": "repo-redshyguy-acnl-decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "redshyguy-acnl-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "3DS",
-              "last_activity": "2026-11-13"
-            }
-          ],
-          "embedded_sources": [
-            "recomp.fyi",
-            "unbaked"
-          ],
-          "game": "Animal Crossing: New Leaf - Welcome amiibo",
-          "platform": "3DS",
-          "type": "decomp",
-          "project": "acnl-decomp",
-          "project_url": "https://github.com/RedShyGuy/acnl-decomp",
-          "repo": "RedShyGuy/acnl-decomp",
-          "status": "in-progress",
-          "last_activity": "2026-11-13",
-          "stars": 17,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-13",
-      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -35335,58 +36060,6 @@
       "project_count": 1,
       "types": [
         "port"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-12",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "burnout-revenge-xerenge--xbox-360",
-      "title": "Burnout Revenge (Xerenge)",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-shipa-2-xerenge",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "shipa-2-xerenge",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-12"
-            }
-          ],
-          "embedded_sources": [
-            "quiver",
-            "unbaked"
-          ],
-          "game": "Burnout Revenge (Xerenge)",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Xerenge",
-          "project_url": "https://github.com/shipa-2/Xerenge",
-          "repo": "shipa-2/Xerenge",
-          "status": "released",
-          "last_activity": "2026-11-12",
-          "release": "v0.4.10",
-          "made": "AI-flagged",
-          "stars": 342,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
       ],
       "statuses": [
         "released"
@@ -41383,57 +42056,6 @@
       ],
       "last_activity": "2026-11-11",
       "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "50-cent-blood-on-the-sand-skullburglar--xbox-360",
-      "title": "50 Cent: Blood on the Sand (Skullburglar)",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-nlwstein-skullburglar",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "nlwstein-skullburglar",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-11"
-            }
-          ],
-          "embedded_sources": [
-            "quiver",
-            "unbaked"
-          ],
-          "game": "50 Cent: Blood on the Sand (Skullburglar)",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "skullburglar",
-          "project_url": "https://github.com/nlwstein/skullburglar",
-          "repo": "nlwstein/skullburglar",
-          "status": "in-progress",
-          "last_activity": "2026-11-11",
-          "made": "AI-flagged",
-          "stars": 77,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-11",
-      "best_status": "in-progress",
       "has_conflict": false
     },
     {
@@ -50566,144 +51188,6 @@
       "has_conflict": false
     },
     {
-      "id": "army-of-two-army-of-two-recompilation--xbox-360",
-      "title": "Army of Two (Army of Two Recompilation)",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "repo-openportroid-armyoftworecompilation",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "openportroid-armyoftworecompilation",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-09"
-            }
-          ],
-          "embedded_sources": [
-            "portsdr",
-            "quiver",
-            "unbaked"
-          ],
-          "game": "Army of Two (Army of Two Recompilation)",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "ArmyOfTwoRecompilation",
-          "project_url": "https://github.com/OpenPortroid/ArmyOfTwoRecompilation",
-          "repo": "OpenPortroid/ArmyOfTwoRecompilation",
-          "status": "released",
-          "last_activity": "2026-11-09",
-          "release": "v1.5.0",
-          "stars": 180,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-09",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "army-of-two--xbox-360",
-      "title": "Army of Two",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "sig-army-of-two-army-of-two-recompilation-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/army-of-two-recomp-genesis5500/",
-              "source_id": "p/army-of-two-recomp-genesis5500",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-09-10"
-            },
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/army-of-two-recompilation-openportroid/",
-              "source_id": "p/army-of-two-recompilation-openportroid",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-09"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Army of Two",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Army of Two Recompilation",
-          "project_url": "https://www.recompsoftware.com/p/army-of-two-recompilation-openportroid/",
-          "status": "released",
-          "last_activity": "2026-11-09",
-          "release": "v1.5.0Nov",
-          "made": "Not stated",
-          "stars": 181,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-army-of-two-army-of-two-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/army-of-two-recomp/",
-              "source_id": "p/army-of-two-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-05"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Army of Two",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Army of Two Recomp",
-          "project_url": "https://www.recompsoftware.com/p/army-of-two-recomp/",
-          "status": "released",
-          "last_activity": "2026-11-05",
-          "release": "1.5Nov",
-          "made": "Not stated",
-          "stars": 105,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-11-09",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "alone-in-the-dark-alone-in-the-dark-re-haunted--pc-windows",
       "title": "Alone in the Dark (Alone In The Dark: Re-Haunted)",
       "platform": "PC (Windows)",
@@ -54519,54 +55003,6 @@
       "has_conflict": false
     },
     {
-      "id": "castlevania-lament-of-innocence--ps2",
-      "title": "Castlevania: Lament of Innocence",
-      "platform": "PS2",
-      "projects": [
-        {
-          "id": "sig-castlevania-lament-of-innocence-castlevania-lament-of-innocence-native-windows-port-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/castlevania-loi-pc/",
-              "source_id": "p/castlevania-loi-pc",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PS2",
-              "last_activity": "2026-11-08"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Castlevania: Lament of Innocence",
-          "platform": "PS2",
-          "type": "recomp",
-          "project": "Castlevania: Lament of Innocence native Windows port",
-          "project_url": "https://www.recompsoftware.com/p/castlevania-loi-pc/",
-          "status": "released",
-          "last_activity": "2026-11-08",
-          "release": "0.5.0Nov",
-          "made": "Not stated",
-          "stars": 45,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-11-08",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "burnout-legends-burnout-legends-for-ps-vita--psp",
       "title": "Burnout Legends (Burnout Legends for PS Vita)",
       "platform": "PSP",
@@ -58145,56 +58581,6 @@
       "project_count": 1,
       "types": [
         "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-07",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "catacombgl--dos",
-      "title": "CatacombGL",
-      "platform": "DOS",
-      "projects": [
-        {
-          "id": "repo-arnoansems-catacombgl",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "arnoansems-catacombgl",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "port",
-              "platform": "DOS",
-              "last_activity": "2026-11-07"
-            }
-          ],
-          "embedded_sources": [
-            "awesome-game-remakes",
-            "unbaked"
-          ],
-          "game": "CatacombGL",
-          "platform": "DOS",
-          "type": "port",
-          "project": "CatacombGL",
-          "project_url": "https://github.com/ArnoAnsems/CatacombGL",
-          "repo": "ArnoAnsems/CatacombGL",
-          "status": "in-progress",
-          "last_activity": "2026-11-07",
-          "stars": 201,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "port"
       ],
       "statuses": [
         "in-progress"
@@ -67749,58 +68135,6 @@
           "last_activity": "2026-11-04",
           "release": "Release-1.1.0",
           "stars": 26,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-04",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "armored-core-for-answer-armored-core-for-answer-recomp--ps3",
-      "title": "ARMORED CORE for Answer (ARMORED CORE for Answer Recomp)",
-      "platform": "PS3",
-      "projects": [
-        {
-          "id": "repo-sulphurs16-acfa-port",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "sulphurs16-acfa-port",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PS3",
-              "last_activity": "2026-11-04"
-            }
-          ],
-          "embedded_sources": [
-            "quiver",
-            "unbaked"
-          ],
-          "game": "ARMORED CORE for Answer (ARMORED CORE for Answer Recomp)",
-          "platform": "PS3",
-          "type": "recomp",
-          "project": "ACFA-Port",
-          "project_url": "https://github.com/SulphurS16/ACFA-Port",
-          "repo": "SulphurS16/ACFA-Port",
-          "status": "released",
-          "last_activity": "2026-11-04",
-          "release": "v0.7.5",
-          "made": "AI-flagged",
-          "stars": 83,
           "conflicts": {},
           "targets": []
         }
@@ -80514,106 +80848,6 @@
       "has_conflict": false
     },
     {
-      "id": "black--xbox",
-      "title": "Black",
-      "platform": "Xbox",
-      "projects": [
-        {
-          "id": "sig-black-black-xbe-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/black-xbe-recomp/",
-              "source_id": "p/black-xbe-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-10-29"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Black",
-          "platform": "Xbox",
-          "type": "recomp",
-          "project": "BLACK XBE Recomp",
-          "project_url": "https://www.recompsoftware.com/p/black-xbe-recomp/",
-          "status": "released",
-          "last_activity": "2026-10-29",
-          "release": "V3Oct",
-          "made": "Not stated",
-          "stars": 946,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-10-29",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "armored-core-4-ac4-port--ps3",
-      "title": "ARMORED CORE 4 (AC4-Port)",
-      "platform": "PS3",
-      "projects": [
-        {
-          "id": "repo-sulphurs16-ac4-port",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "sulphurs16-ac4-port",
-              "claimed": false,
-              "status": "released",
-              "type": "port",
-              "platform": "PS3",
-              "last_activity": "2026-10-29"
-            }
-          ],
-          "embedded_sources": [
-            "quiver",
-            "unbaked"
-          ],
-          "game": "ARMORED CORE 4 (AC4-Port)",
-          "platform": "PS3",
-          "type": "port",
-          "project": "AC4-Port",
-          "project_url": "https://github.com/SulphurS16/AC4-Port",
-          "repo": "SulphurS16/AC4-Port",
-          "status": "released",
-          "last_activity": "2026-10-29",
-          "release": "v0.6.0",
-          "made": "AI-flagged",
-          "stars": 67,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "port"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games"
-      ],
-      "last_activity": "2026-10-29",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "angry-birds-trilogy-angry-birds-star-wars--xbox-360",
       "title": "Angry Birds Trilogy / Angry Birds Star Wars",
       "platform": "Xbox 360",
@@ -82386,6 +82620,144 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-10-28",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "conker-s-bad-fur-day--n64",
+      "title": "Conker's Bad Fur Day",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "sig-conker-s-bad-fur-day-conker-bfd-reloaded-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/conkerbfdreloaded/",
+              "source_id": "p/conkerbfdreloaded",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-28"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Conker's Bad Fur Day",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Conker BFD Reloaded",
+          "project_url": "https://www.recompsoftware.com/p/conkerbfdreloaded/",
+          "status": "released",
+          "last_activity": "2026-10-28",
+          "release": "v1.4.7Oct",
+          "made": "Not stated",
+          "stars": 189,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-conker-s-bad-fur-day-conker-s-bad-fur-day-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/cbfd-recompiled/",
+              "source_id": "p/cbfd-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-10-13"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Conker's Bad Fur Day",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Conker's Bad Fur Day Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/cbfd-recompiled/",
+          "status": "released",
+          "last_activity": "2026-10-13",
+          "release": "V0.1.6Oct",
+          "made": "AI-assisted",
+          "stars": 342,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "repo-mkst-conker",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "mkst-conker",
+              "claimed": false,
+              "status": "paused",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": "2026-05-10"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "samidy"
+          ],
+          "game": "Conker's Bad Fur Day",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "conker",
+          "project_url": "https://github.com/mkst/conker",
+          "repo": "mkst/conker",
+          "status": "paused",
+          "last_activity": "2026-05-10",
+          "stars": 239,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-conker-s-bad-fur-day-conker-s-bad-fur-day-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/conker-decomp/",
+              "source_id": "p/conker-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "N64",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Conker's Bad Fur Day",
+          "platform": "N64",
+          "type": "decomp",
+          "project": "Conker's Bad Fur Day decompilation",
+          "project_url": "https://www.recompsoftware.com/p/conker-decomp/",
+          "status": "in-progress",
+          "progress": 54.82,
+          "made": "Not stated",
+          "stars": 35,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 4,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "paused",
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-10-28",
       "best_status": "released",
@@ -89143,38 +89515,34 @@
       "has_conflict": false
     },
     {
-      "id": "dead-or-alive-3-doa3-recomp--og-xbox",
-      "title": "Dead or Alive 3 (doa3-recomp)",
-      "platform": "og xbox",
+      "id": "dead-or-alive-3--xbox",
+      "title": "Dead or Alive 3",
+      "platform": "Xbox",
       "projects": [
         {
-          "id": "repo-parkerallan-doa3-recomp",
+          "id": "sig-dead-or-alive-3-dead-or-alive-3-static-recompilation-recomp",
           "evidence": [
             {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "parkerallan-doa3-recomp",
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/doa3-recomp/",
+              "source_id": "p/doa3-recomp",
               "claimed": false,
               "status": "released",
               "type": "recomp",
-              "platform": "og xbox",
+              "platform": "Xbox",
               "last_activity": "2026-10-24"
             }
           ],
-          "embedded_sources": [
-            "quiver",
-            "unbaked"
-          ],
-          "game": "Dead or Alive 3 (doa3-recomp)",
-          "platform": "og xbox",
+          "embedded_sources": [],
+          "game": "Dead or Alive 3",
+          "platform": "Xbox",
           "type": "recomp",
-          "project": "doa3-recomp",
-          "project_url": "https://github.com/parkerallan/doa3-recomp",
-          "repo": "parkerallan/doa3-recomp",
+          "project": "Dead or Alive 3 Static Recompilation",
+          "project_url": "https://www.recompsoftware.com/p/doa3-recomp/",
           "status": "released",
           "last_activity": "2026-10-24",
-          "release": "v1.0.7",
-          "made": "AI-flagged",
+          "release": "v1.0.7Oct",
+          "made": "Not stated",
           "stars": 115,
           "conflicts": {},
           "targets": []
@@ -89188,7 +89556,7 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games"
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-10-24",
       "best_status": "released",
@@ -127168,54 +127536,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-07-21",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "betrayal-at-krondor--pc-dos",
-      "title": "Betrayal at Krondor",
-      "platform": "PC (DOS)",
-      "projects": [
-        {
-          "id": "sig-betrayal-at-krondor-betrayal-at-krondor-recompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/betrayal-at-krondor/",
-              "source_id": "p/betrayal-at-krondor",
-              "claimed": false,
-              "status": "released",
-              "type": "decomp",
-              "platform": "PC (DOS)",
-              "last_activity": "2026-07-21"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Betrayal at Krondor",
-          "platform": "PC (DOS)",
-          "type": "decomp",
-          "project": "Betrayal at Krondor recompilation",
-          "project_url": "https://www.recompsoftware.com/p/betrayal-at-krondor/",
-          "status": "released",
-          "last_activity": "2026-07-21",
-          "release": "toolchain-v1Jul",
-          "made": "AI-assisted",
-          "stars": 38,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-decomp"
       ],
       "last_activity": "2026-07-21",
       "best_status": "released",
@@ -183755,6 +184075,53 @@
       "has_conflict": false
     },
     {
+      "id": "final-fantasy-viii--ps1",
+      "title": "Final Fantasy VIII",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "sig-final-fantasy-viii-ff8-decomp-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/ff8-decomp/",
+              "source_id": "p/ff8-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Final Fantasy VIII",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "ff8-decomp",
+          "project_url": "https://www.recompsoftware.com/p/ff8-decomp/",
+          "status": "in-progress",
+          "progress": 71.05,
+          "made": "Not stated",
+          "stars": 64,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "in-progress"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "final-fantasy-tactics--ps1",
       "title": "Final Fantasy Tactics",
       "platform": "PS1",
@@ -184036,6 +184403,53 @@
       "has_conflict": false
     },
     {
+      "id": "f-zero-gx--gamecube",
+      "title": "F-Zero GX",
+      "platform": "GameCube",
+      "projects": [
+        {
+          "id": "sig-f-zero-gx-f-zero-gx-matching-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/fzero-gx-decomp/",
+              "source_id": "p/fzero-gx-decomp",
+              "claimed": false,
+              "status": "complete",
+              "type": "decomp",
+              "platform": "GameCube",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "F-Zero GX",
+          "platform": "GameCube",
+          "type": "decomp",
+          "project": "F-Zero GX matching decompilation",
+          "project_url": "https://www.recompsoftware.com/p/fzero-gx-decomp/",
+          "status": "complete",
+          "progress": 100.0,
+          "made": "Not stated",
+          "stars": 25,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "complete"
+      ],
+      "sources": [
+        "recomp-software-decomp"
+      ],
+      "last_activity": null,
+      "best_status": "complete",
+      "has_conflict": false
+    },
+    {
       "id": "eyeshield-21-max-devil-power--nds",
       "title": "Eyeshield 21: Max Devil Power!",
       "platform": "NDS",
@@ -184202,52 +184616,6 @@
           "status": "in-progress",
           "made": "Human-led",
           "stars": 17,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "recomp-software-decomp"
-      ],
-      "last_activity": null,
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "earthbound-mother-2--snes",
-      "title": "EarthBound / Mother 2",
-      "platform": "SNES",
-      "projects": [
-        {
-          "id": "sig-earthbound-mother-2-ebsrc-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/ebsrc/",
-              "source_id": "p/ebsrc",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "SNES",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "EarthBound / Mother 2",
-          "platform": "SNES",
-          "type": "decomp",
-          "project": "ebsrc",
-          "project_url": "https://www.recompsoftware.com/p/ebsrc/",
-          "status": "in-progress",
-          "made": "Human-led",
-          "stars": 188,
           "conflicts": {},
           "targets": []
         }
@@ -185681,6 +186049,52 @@
       "has_conflict": false
     },
     {
+      "id": "command-conquer-red-alert-2--pc-windows",
+      "title": "Command & Conquer: Red Alert 2",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "sig-command-conquer-red-alert-2-command-conquer-red-alert-2-port",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "command-conquer-red-alert-2",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [
+            "recompiledgames.com"
+          ],
+          "game": "Command & Conquer: Red Alert 2",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "Command & Conquer: Red Alert 2",
+          "project_url": "https://chronodivide.com",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games"
+      ],
+      "last_activity": null,
+      "best_status": "unknown",
+      "has_conflict": false
+    },
+    {
       "id": "command-conquer-generals-zero-hour--pc-windows",
       "title": "Command & Conquer: Generals Zero Hour",
       "platform": "PC (Windows)",
@@ -187068,81 +187482,6 @@
       "has_conflict": false
     },
     {
-      "id": "black-white--pc-windows",
-      "title": "Black & White",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "sig-black-white-black-white-static-recompilation-project-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/black-and-white-recomp/",
-              "source_id": "p/black-and-white-recomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Black & White",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "Black & White Static Recompilation Project",
-          "project_url": "https://www.recompsoftware.com/p/black-and-white-recomp/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 24,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-black-white-black-white-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/bw1-decomp/",
-              "source_id": "p/bw1-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Black & White",
-          "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "Black & White Decompilation",
-          "project_url": "https://www.recompsoftware.com/p/bw1-decomp/",
-          "status": "in-progress",
-          "progress": 54.97,
-          "made": "AI-assisted",
-          "stars": 130,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp",
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "recomp-software-decomp",
-        "recomp-software-recomp"
-      ],
-      "last_activity": null,
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
       "id": "bio-menace--pc-dos",
       "title": "Bio Menace",
       "platform": "PC (DOS)",
@@ -188158,52 +188497,6 @@
       ],
       "last_activity": null,
       "best_status": "paused",
-      "has_conflict": false
-    },
-    {
-      "id": "50-cent-blood-on-the-sand--xbox-360",
-      "title": "50 Cent: Blood on the Sand",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "sig-50-cent-blood-on-the-sand-skullburglar-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/skullburglar/",
-              "source_id": "p/skullburglar",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "50 Cent: Blood on the Sand",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Skullburglar",
-          "project_url": "https://www.recompsoftware.com/p/skullburglar/",
-          "status": "in-progress",
-          "made": "AI-generated",
-          "stars": 77,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": null,
-      "best_status": "in-progress",
       "has_conflict": false
     }
   ]
