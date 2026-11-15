@@ -1,8 +1,8 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-15T15:21:12.872855+00:00",
+  "generated_at": "2026-11-15T21:21:26.542732+00:00",
   "summary": {
-    "games": 3527,
+    "games": 3525,
     "projects": 3984,
     "source_records": 4031,
     "platforms": 87,
@@ -47,7 +47,7 @@
       ],
       [
         "PS1",
-        294
+        296
       ],
       [
         "PS2",
@@ -214,10 +214,6 @@
         5
       ],
       [
-        "iOS",
-        5
-      ],
-      [
         "Atari 2600",
         4
       ],
@@ -251,6 +247,10 @@
       ],
       [
         "J2ME phones",
+        3
+      ],
+      [
+        "iOS",
         3
       ],
       [
@@ -407,7 +407,7 @@
       ],
       [
         "in-progress",
-        1475
+        1476
       ],
       [
         "paused",
@@ -419,7 +419,7 @@
       ],
       [
         "unknown",
-        84
+        83
       ],
       [
         "playable",
@@ -10771,6 +10771,147 @@
       "has_conflict": false
     },
     {
+      "id": "digimon-world-3--ps1",
+      "title": "Digimon World 3",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-feerdus95-dw3-native-port",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/digimon-world-3-ps1",
+              "source_id": "digimon-world-3-feerdus95",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "port",
+              "platform": "PS1",
+              "last_activity": "2026-11-15"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Digimon World 3",
+          "platform": "PS1",
+          "type": "port",
+          "project": "Digimon World 2003: native PC port",
+          "project_url": "https://github.com/Feerdus95/dw3-native-port",
+          "repo": "Feerdus95/dw3-native-port",
+          "status": "in-progress",
+          "last_activity": "2026-11-15",
+          "release": "v0.20.0",
+          "toolchain": "Sdl3, Opengl",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-al4xdev-digimon-world-3-definitive-edition",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/digimon-world-3-ps1",
+              "source_id": "digimon-world-3-al4xdev",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PS1",
+              "last_activity": "2026-11-15"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Digimon World 3",
+          "platform": "PS1",
+          "type": "port",
+          "project": "al4xdev/digimon-world-3-definitive-edition",
+          "project_url": "https://github.com/al4xdev/digimon-world-3-definitive-edition",
+          "repo": "al4xdev/digimon-world-3-definitive-edition",
+          "last_activity": "2026-11-15",
+          "release": "v1.0.0",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {},
+          "status": "unknown"
+        },
+        {
+          "id": "repo-markisha64-ddw3",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "markisha64-ddw3",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-04-06"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Digimon World 3",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "ddw3",
+          "project_url": "https://github.com/markisha64/ddw3",
+          "repo": "markisha64/ddw3",
+          "status": "in-progress",
+          "last_activity": "2026-04-06",
+          "stars": 47,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-digimon-world-3-digimon-world-3-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/ddw3/",
+              "source_id": "p/ddw3",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Digimon World 3",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Digimon World 3 decompilation",
+          "project_url": "https://www.recompsoftware.com/p/ddw3/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 47,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 4,
+      "types": [
+        "decomp",
+        "port"
+      ],
+      "statuses": [
+        "in-progress",
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-15",
+      "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
       "id": "digimon-rumble-arena--ps1",
       "title": "Digimon Rumble Arena",
       "platform": "PS1",
@@ -12962,112 +13103,6 @@
       "last_activity": "2026-11-15",
       "best_status": "playable",
       "has_conflict": true
-    },
-    {
-      "id": "chaos-rings-omega--ios",
-      "title": "Chaos Rings Omega",
-      "platform": "iOS",
-      "projects": [
-        {
-          "id": "repo-duislingr-cro-u",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/chaos-rings-omega-ios",
-              "source_id": "chaos-rings-omega-duislingr",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "iOS",
-              "last_activity": "2026-11-15"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Chaos Rings Omega",
-          "platform": "iOS",
-          "type": "port",
-          "project": "DuIslingr/CRO-U",
-          "project_url": "https://github.com/DuIslingr/CRO-U",
-          "repo": "DuIslingr/CRO-U",
-          "last_activity": "2026-11-15",
-          "release": "v0.7.0",
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS",
-            "Android",
-            "iOS"
-          ],
-          "conflicts": {},
-          "status": "unknown"
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "port"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-15",
-      "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
-      "id": "chaos-rings--ios",
-      "title": "Chaos Rings",
-      "platform": "iOS",
-      "projects": [
-        {
-          "id": "repo-duislingr-cr1-u",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/chaos-rings-ios",
-              "source_id": "chaos-rings-duislingr",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "iOS",
-              "last_activity": "2026-11-15"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Chaos Rings",
-          "platform": "iOS",
-          "type": "port",
-          "project": "DuIslingr/CR1-U",
-          "project_url": "https://github.com/DuIslingr/CR1-U",
-          "repo": "DuIslingr/CR1-U",
-          "last_activity": "2026-11-15",
-          "release": "v0.7.0",
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS",
-            "Android",
-            "iOS"
-          ],
-          "conflicts": {},
-          "status": "unknown"
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "port"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-15",
-      "best_status": "unknown",
-      "has_conflict": false
     },
     {
       "id": "championship-manager-01-02--mac",
@@ -135391,84 +135426,6 @@
         "awesome-decomp-games"
       ],
       "last_activity": "2026-04-07",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "digimon-world-3--ps1",
-      "title": "Digimon World 3",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "repo-markisha64-ddw3",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "markisha64-ddw3",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-04-06"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Digimon World 3",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "ddw3",
-          "project_url": "https://github.com/markisha64/ddw3",
-          "repo": "markisha64/ddw3",
-          "status": "in-progress",
-          "last_activity": "2026-04-06",
-          "stars": 47,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-digimon-world-3-digimon-world-3-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/ddw3/",
-              "source_id": "p/ddw3",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Digimon World 3",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "Digimon World 3 decompilation",
-          "project_url": "https://www.recompsoftware.com/p/ddw3/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 47,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp"
-      ],
-      "last_activity": "2026-04-06",
       "best_status": "in-progress",
       "has_conflict": false
     },
