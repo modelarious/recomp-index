@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-16T15:22:04.805600+00:00",
+  "generated_at": "2026-11-16T21:22:15.300338+00:00",
   "summary": {
-    "games": 3540,
-    "projects": 3997,
+    "games": 3542,
+    "projects": 3998,
     "source_records": 4045,
     "platforms": 86,
     "sources": 4,
-    "conflicted_projects": 15
+    "conflicted_projects": 14
   },
   "sources": [
     {
@@ -47,11 +47,11 @@
       ],
       [
         "PS1",
-        290
+        291
       ],
       [
         "PS2",
-        248
+        249
       ],
       [
         "Unknown",
@@ -83,7 +83,7 @@
       ],
       [
         "Xbox",
-        91
+        90
       ],
       [
         "Switch",
@@ -385,7 +385,7 @@
       ],
       [
         "recomp",
-        1410
+        1411
       ],
       [
         "port",
@@ -415,7 +415,7 @@
       ],
       [
         "unknown",
-        85
+        86
       ],
       [
         "playable",
@@ -9922,9 +9922,9 @@
       "has_conflict": false
     },
     {
-      "id": "def-jam-fight-for-ny--xbox",
-      "title": "Def Jam: Fight for NY",
-      "platform": "Xbox",
+      "id": "def-jam-fight-for-ny-ffny-online--ps2",
+      "title": "Def Jam: Fight for NY (FFNY Online)",
+      "platform": "PS2",
       "projects": [
         {
           "id": "repo-sweeax-exe-ffny-online",
@@ -9938,75 +9938,26 @@
               "type": "recomp",
               "platform": "PS2",
               "last_activity": "2026-11-16"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/def-jam-fight-for-ny-xbox",
-              "source_id": "def-jam-fight-for-ny-sweeax-exe",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-11-16"
             }
           ],
           "embedded_sources": [
             "unbaked"
           ],
-          "game": "Def Jam: Fight for NY",
-          "platform": "Xbox",
+          "game": "Def Jam: Fight for NY (FFNY Online)",
+          "platform": "PS2",
           "type": "recomp",
-          "project": "Def Jam: Fight for NY — Recompiled",
+          "project": "ffny-online",
           "project_url": "https://github.com/sweeax-exe/ffny-online",
           "repo": "sweeax-exe/ffny-online",
           "status": "released",
           "last_activity": "2026-11-16",
           "release": "v0.13.0-remaster.85",
           "stars": 28,
-          "toolchain": "Xboxrecomp",
-          "targets": [
-            "Windows",
-            "macOS",
-            "Linux",
-            "Steam Deck"
-          ],
-          "conflicts": {
-            "platform": [
-              "PS2",
-              "Xbox"
-            ]
-          }
-        },
-        {
-          "id": "sig-def-jam-fight-for-ny-def-jam-fight-for-ny-recompiled-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/defjamffny-recomp/",
-              "source_id": "p/defjamffny-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Def Jam: Fight for NY",
-          "platform": "Xbox",
-          "type": "recomp",
-          "project": "Def Jam: Fight for NY Recompiled",
-          "project_url": "https://www.recompsoftware.com/p/defjamffny-recomp/",
-          "status": "released",
-          "last_activity": "2026-11-14",
-          "release": "v1.1.2Nov",
-          "made": "AI-assisted",
-          "stars": 267,
           "conflicts": {},
           "targets": []
         }
       ],
-      "project_count": 2,
+      "project_count": 1,
       "types": [
         "recomp"
       ],
@@ -10014,13 +9965,11 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-16",
       "best_status": "released",
-      "has_conflict": true
+      "has_conflict": false
     },
     {
       "id": "dead-or-alive-xtreme-beach-volleyball--xbox",
@@ -10845,6 +10794,52 @@
       ],
       "last_activity": "2026-11-16",
       "best_status": "paused",
+      "has_conflict": false
+    },
+    {
+      "id": "courier-crisis--ps1",
+      "title": "Courier Crisis",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-cesarboss2022-couriercrisisrecomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/courier-crisis-ps1",
+              "source_id": "courier-crisis-cesarboss2022",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-16"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Courier Crisis",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "cesarboss2022/CourierCrisisRecomp",
+          "project_url": "https://github.com/cesarboss2022/CourierCrisisRecomp",
+          "repo": "cesarboss2022/CourierCrisisRecomp",
+          "last_activity": "2026-11-16",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-16",
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -14372,6 +14367,7 @@
           "repo": "AMPEDUP-2001/AMPEDUP",
           "last_activity": "2026-11-16",
           "release": "v0.5",
+          "toolchain": "Xboxrecomp",
           "targets": [
             "Windows"
           ],
@@ -14469,6 +14465,7 @@
           "repo": "Adolini1715/AVP-Extinction-Port",
           "last_activity": "2026-11-16",
           "release": "v0.1.1",
+          "toolchain": "Xboxrecomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -14516,6 +14513,7 @@
           "repo": "Spaced1127/Aggressive-Inline-Static-Recomp",
           "last_activity": "2026-11-16",
           "release": "v0.1.2",
+          "toolchain": "Dolrecomp",
           "targets": [
             "Windows"
           ],
@@ -37858,6 +37856,54 @@
       ],
       "last_activity": "2026-11-14",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "def-jam-fight-for-ny--xbox",
+      "title": "Def Jam: Fight for NY",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "sig-def-jam-fight-for-ny-def-jam-fight-for-ny-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/defjamffny-recomp/",
+              "source_id": "p/defjamffny-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Def Jam: Fight for NY",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Def Jam: Fight for NY Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/defjamffny-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-14",
+          "release": "v1.1.2Nov",
+          "made": "AI-assisted",
+          "stars": 267,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-14",
+      "best_status": "released",
       "has_conflict": false
     },
     {
