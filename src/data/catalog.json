@@ -1,10 +1,10 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-15T21:21:26.542732+00:00",
+  "generated_at": "2026-11-16T09:21:52.604466+00:00",
   "summary": {
-    "games": 3525,
-    "projects": 3984,
-    "source_records": 4031,
+    "games": 3528,
+    "projects": 3987,
+    "source_records": 4034,
     "platforms": 87,
     "sources": 4,
     "conflicted_projects": 14
@@ -23,7 +23,7 @@
     {
       "id": "recomp-software-recomp",
       "url": "https://www.recompsoftware.com/recompiled-games-list/",
-      "records": 461
+      "records": 464
     },
     {
       "id": "recomp-software-decomp",
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PC (Windows)",
-        654
+        655
       ],
       [
         "Xbox 360",
@@ -51,7 +51,7 @@
       ],
       [
         "PS2",
-        249
+        248
       ],
       [
         "Unknown",
@@ -83,7 +83,7 @@
       ],
       [
         "Xbox",
-        88
+        89
       ],
       [
         "Switch",
@@ -127,7 +127,7 @@
       ],
       [
         "Nintendo Switch",
-        44
+        45
       ],
       [
         "ZX Spectrum",
@@ -294,6 +294,10 @@
         2
       ],
       [
+        "Sega Saturn",
+        2
+      ],
+      [
         "Web (Flash)",
         2
       ],
@@ -354,10 +358,6 @@
         1
       ],
       [
-        "Sega Saturn",
-        1
-      ],
-      [
         "Tamagotchi",
         1
       ],
@@ -389,7 +389,7 @@
       ],
       [
         "recomp",
-        1403
+        1406
       ],
       [
         "port",
@@ -403,7 +403,7 @@
     "statuses": [
       [
         "released",
-        1823
+        1826
       ],
       [
         "in-progress",
@@ -32855,9 +32855,9 @@
       "has_conflict": false
     },
     {
-      "id": "ssx-tricky--ps2",
+      "id": "ssx-tricky--xbox",
       "title": "SSX Tricky",
-      "platform": "PS2",
+      "platform": "Xbox",
       "projects": [
         {
           "id": "sig-ssx-tricky-opentricky-recomp",
@@ -32869,13 +32869,13 @@
               "claimed": false,
               "status": "released",
               "type": "recomp",
-              "platform": "PS2",
+              "platform": "Xbox",
               "last_activity": "2026-11-13"
             }
           ],
           "embedded_sources": [],
           "game": "SSX Tricky",
-          "platform": "PS2",
+          "platform": "Xbox",
           "type": "recomp",
           "project": "OpenTricky",
           "project_url": "https://www.recompsoftware.com/p/opentricky/",
@@ -32884,6 +32884,53 @@
           "release": "v0.1.6Nov",
           "made": "Not stated",
           "stars": 156,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-13",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "splatoon-3--nintendo-switch",
+      "title": "Splatoon 3",
+      "platform": "Nintendo Switch",
+      "projects": [
+        {
+          "id": "sig-splatoon-3-inkypaint-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/inkypaint/",
+              "source_id": "p/inkypaint",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": "2026-11-13"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Splatoon 3",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "Inkypaint",
+          "project_url": "https://www.recompsoftware.com/p/inkypaint/",
+          "status": "released",
+          "last_activity": "2026-11-13",
+          "release": "v0.2.6Nov",
+          "made": "AI-assisted",
           "conflicts": {},
           "targets": []
         }
@@ -33570,6 +33617,53 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-13",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "road-rash--pc-windows",
+      "title": "Road Rash",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "sig-road-rash-road-sdl2-rash-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/road-sdl2-rash/",
+              "source_id": "p/road-sdl2-rash",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-13"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Road Rash",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "road-sdl2-rash",
+          "project_url": "https://www.recompsoftware.com/p/road-sdl2-rash/",
+          "status": "released",
+          "last_activity": "2026-11-13",
+          "release": "v1.2.1Nov",
+          "made": "AI-assisted",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-13",
       "best_status": "released",
@@ -63981,6 +64075,53 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-06",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "panzer-dragoon-panzer-dragoon-ii-zwei-and-panzer-dragoon-saga--sega-saturn",
+      "title": "Panzer Dragoon, Panzer Dragoon II Zwei and Panzer Dragoon Saga",
+      "platform": "Sega Saturn",
+      "projects": [
+        {
+          "id": "sig-panzer-dragoon-panzer-dragoon-ii-zwei-and-panzer-dragoon-saga-panzer-dragoon-trilogy-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/pdt-recompile/",
+              "source_id": "p/pdt-recompile",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Sega Saturn",
+              "last_activity": "2026-11-06"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Panzer Dragoon, Panzer Dragoon II Zwei and Panzer Dragoon Saga",
+          "platform": "Sega Saturn",
+          "type": "recomp",
+          "project": "Panzer Dragoon Trilogy Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/pdt-recompile/",
+          "status": "released",
+          "last_activity": "2026-11-06",
+          "release": "2.0.0Nov",
+          "made": "Not stated",
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-06",
       "best_status": "released",
