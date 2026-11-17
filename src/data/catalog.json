@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-16T21:22:15.300338+00:00",
+  "generated_at": "2026-11-17T06:22:32.781947+00:00",
   "summary": {
-    "games": 3542,
-    "projects": 3998,
+    "games": 3543,
+    "projects": 3999,
     "source_records": 4045,
-    "platforms": 86,
+    "platforms": 87,
     "sources": 4,
-    "conflicted_projects": 14
+    "conflicted_projects": 13
   },
   "sources": [
     {
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PC (Windows)",
-        663
+        662
       ],
       [
         "Xbox 360",
@@ -158,11 +158,11 @@
         15
       ],
       [
-        "Nintendo Switch 2",
-        14
+        "PC (DOS)",
+        15
       ],
       [
-        "PC (DOS)",
+        "Nintendo Switch 2",
         14
       ],
       [
@@ -326,6 +326,10 @@
         1
       ],
       [
+        "Dreamcast / GBA / iOS / Android",
+        1
+      ],
+      [
         "Linux",
         1
       ],
@@ -385,11 +389,11 @@
       ],
       [
         "recomp",
-        1411
+        1413
       ],
       [
         "port",
-        785
+        784
       ],
       [
         "tool",
@@ -399,7 +403,7 @@
     "statuses": [
       [
         "released",
-        1837
+        1838
       ],
       [
         "in-progress",
@@ -415,11 +419,11 @@
       ],
       [
         "unknown",
-        86
+        85
       ],
       [
         "playable",
-        3
+        4
       ],
       [
         "exploring",
@@ -428,6 +432,106 @@
     ]
   },
   "games": [
+    {
+      "id": "f-117a-nighthawk-stealth-fighter-2-0--pc-dos",
+      "title": "F-117A Nighthawk Stealth Fighter 2.0",
+      "platform": "PC (DOS)",
+      "projects": [
+        {
+          "id": "repo-tidegear-opennighthawk",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/f-117a-nighthawk-stealth-fighter-2-0-pc-dos-2",
+              "source_id": "f-117a-nighthawk-stealth-fighter-2-0-tidegear",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "PC (DOS)",
+              "last_activity": "2026-11-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "F-117A Nighthawk Stealth Fighter 2.0",
+          "platform": "PC (DOS)",
+          "type": "recomp",
+          "project": "OpenNighthawk",
+          "project_url": "https://github.com/TideGear/OpenNighthawk",
+          "repo": "TideGear/OpenNighthawk",
+          "status": "playable",
+          "last_activity": "2026-11-17",
+          "release": "v2026.11.13",
+          "toolchain": "Opennighthawk recompiler",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-17",
+      "best_status": "playable",
+      "has_conflict": false
+    },
+    {
+      "id": "chuchu-rocket--dreamcast-gba-ios-android",
+      "title": "ChuChu Rocket!",
+      "platform": "Dreamcast / GBA / iOS / Android",
+      "projects": [
+        {
+          "id": "repo-tidegear-chuchu-rocket-re-nyastered",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/chuchu-rocket-android",
+              "source_id": "chuchu-rocket-tidegear",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "Dreamcast / GBA / iOS / Android",
+              "last_activity": "2026-11-17"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "ChuChu Rocket!",
+          "platform": "Dreamcast / GBA / iOS / Android",
+          "type": "port",
+          "project": "ChuChu Rocket! Re-Nyastered",
+          "project_url": "https://github.com/TideGear/ChuChu-Rocket-Re-Nyastered",
+          "repo": "TideGear/ChuChu-Rocket-Re-Nyastered",
+          "status": "released",
+          "last_activity": "2026-11-17",
+          "release": "v2026.11.17",
+          "toolchain": "Sdl2",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-17",
+      "best_status": "released",
+      "has_conflict": false
+    },
     {
       "id": "yu-gi-oh-forbidden-memories-memories-decomp--ps1",
       "title": "Yu-Gi-Oh! Forbidden Memories (memories-decomp)",
@@ -10137,16 +10241,6 @@
               "type": "recomp",
               "platform": "PC (Windows)",
               "last_activity": "2026-11-16"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/dark-souls-remastered-pc-windows",
-              "source_id": "dark-souls-remastered-nekomancer01",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-16"
             }
           ],
           "embedded_sources": [
@@ -10154,38 +10248,30 @@
           ],
           "game": "Dark Souls Remastered",
           "platform": "PC (Windows)",
-          "type": "port",
-          "project": "nekomancer01/DarkSoulsPS2",
+          "type": "recomp",
+          "project": "DarkSoulsPS2",
           "project_url": "https://github.com/nekomancer01/DarkSoulsPS2",
           "repo": "nekomancer01/DarkSoulsPS2",
           "status": "in-progress",
           "last_activity": "2026-11-16",
           "stars": 100,
-          "targets": [
-            "PS2"
-          ],
-          "conflicts": {
-            "type": [
-              "port",
-              "recomp"
-            ]
-          }
+          "conflicts": {},
+          "targets": []
         }
       ],
       "project_count": 1,
       "types": [
-        "port"
+        "recomp"
       ],
       "statuses": [
         "in-progress"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-16",
       "best_status": "in-progress",
-      "has_conflict": true
+      "has_conflict": false
     },
     {
       "id": "dante-s-inferno--xbox-360",
@@ -13088,55 +13174,6 @@
       ],
       "last_activity": "2026-11-16",
       "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "bloons-td-6--pc-windows",
-      "title": "Bloons TD 6",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-blinkywink-rrbtd6",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/bloons-td-6-pc-windows",
-              "source_id": "bloons-td-6-blinkywink",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-16"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Bloons TD 6",
-          "platform": "PC (Windows)",
-          "type": "port",
-          "project": "blinkywink/rrbtd6",
-          "project_url": "https://github.com/blinkywink/rrbtd6",
-          "repo": "blinkywink/rrbtd6",
-          "last_activity": "2026-11-16",
-          "release": "build-220",
-          "targets": [
-            "Windows"
-          ],
-          "conflicts": {},
-          "status": "unknown"
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "port"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-16",
-      "best_status": "unknown",
       "has_conflict": false
     },
     {
