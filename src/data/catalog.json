@@ -1,8 +1,8 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-19T15:24:12.043538+00:00",
+  "generated_at": "2026-11-20T06:24:41.048524+00:00",
   "summary": {
-    "games": 3682,
+    "games": 3681,
     "projects": 4139,
     "source_records": 4192,
     "platforms": 88,
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PC (Windows)",
-        723
+        722
       ],
       [
         "Xbox 360",
@@ -47,7 +47,7 @@
       ],
       [
         "PS1",
-        304
+        305
       ],
       [
         "PS2",
@@ -407,7 +407,7 @@
     "statuses": [
       [
         "released",
-        1949
+        1950
       ],
       [
         "in-progress",
@@ -423,7 +423,7 @@
       ],
       [
         "unknown",
-        81
+        80
       ],
       [
         "playable",
@@ -432,6 +432,117 @@
     ]
   },
   "games": [
+    {
+      "id": "spyro-the-dragon--ps1",
+      "title": "Spyro the Dragon",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-tyscorp-openpete",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/spyro-the-dragon-ps1",
+              "source_id": "spyro-the-dragon-tyscorp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Spyro the Dragon",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "OpenPete",
+          "project_url": "https://github.com/tyscorp/openpete",
+          "repo": "tyscorp/openpete",
+          "status": "released",
+          "last_activity": "2026-11-20",
+          "release": "v0.4.3",
+          "targets": [
+            "Windows",
+            "Linux"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-themobycollective-spyro-1",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "themobycollective-spyro-1",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-08"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Spyro the Dragon",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "spyro-1",
+          "project_url": "https://github.com/TheMobyCollective/spyro-1",
+          "repo": "TheMobyCollective/spyro-1",
+          "status": "in-progress",
+          "last_activity": "2026-11-08",
+          "stars": 183,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-spyro-the-dragon-spyro-the-dragon-decompilation-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/spyro-1/",
+              "source_id": "p/spyro-1",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Spyro the Dragon",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "Spyro the Dragon Decompilation",
+          "project_url": "https://www.recompsoftware.com/p/spyro-1/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 183,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "decomp",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-20",
+      "best_status": "released",
+      "has_conflict": false
+    },
     {
       "id": "zoo-tycoon-1-engine-zt1-engine--pc-windows",
       "title": "Zoo Tycoon 1 engine (zt1-engine)",
@@ -9694,53 +9805,6 @@
       "has_conflict": false
     },
     {
-      "id": "delta-force--pc-windows",
-      "title": "Delta Force",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-joshspeakman-delta-force-macos",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/delta-force-pc-windows",
-              "source_id": "delta-force-joshspeakman",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-19"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Delta Force",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "Joshspeakman/delta-force-macos",
-          "project_url": "https://github.com/Joshspeakman/delta-force-macos",
-          "repo": "Joshspeakman/delta-force-macos",
-          "last_activity": "2026-11-19",
-          "release": "beta-1",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-19",
-      "best_status": "unknown",
-      "has_conflict": false
-    },
-    {
       "id": "dave-mirra-freestyle-bmx--ps1",
       "title": "Dave Mirra Freestyle BMX",
       "platform": "PS1",
@@ -11112,7 +11176,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/command-and-conquer-red-alert-2-yuris-revenge-pc-windows",
+              "source_url": "https://recomp.fyi/game/command-and-conquer-yuris-revenge-pc-windows",
               "source_id": "command-conquer-red-alert-2-yuri-s-reven-yuriplanet",
               "claimed": false,
               "status": "unknown",
@@ -11164,7 +11228,7 @@
             },
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/command-and-conquer-red-alert-2-yuris-revenge-pc-windows",
+              "source_url": "https://recomp.fyi/game/command-and-conquer-yuris-revenge-pc-windows",
               "source_id": "command-conquer-red-alert-2-yuri-s-reven",
               "claimed": false,
               "status": "unknown",
@@ -67640,84 +67704,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-08",
-      "best_status": "in-progress",
-      "has_conflict": false
-    },
-    {
-      "id": "spyro-the-dragon--ps1",
-      "title": "Spyro the Dragon",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "repo-themobycollective-spyro-1",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "themobycollective-spyro-1",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-11-08"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Spyro the Dragon",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "spyro-1",
-          "project_url": "https://github.com/TheMobyCollective/spyro-1",
-          "repo": "TheMobyCollective/spyro-1",
-          "status": "in-progress",
-          "last_activity": "2026-11-08",
-          "stars": 183,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-spyro-the-dragon-spyro-the-dragon-decompilation-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/spyro-1/",
-              "source_id": "p/spyro-1",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Spyro the Dragon",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "Spyro the Dragon Decompilation",
-          "project_url": "https://www.recompsoftware.com/p/spyro-1/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 183,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "in-progress"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp"
       ],
       "last_activity": "2026-11-08",
       "best_status": "in-progress",
