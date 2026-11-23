@@ -1,13 +1,13 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-23T15:26:51.658865+00:00",
+  "generated_at": "2026-11-23T21:27:01.063384+00:00",
   "summary": {
-    "games": 3719,
-    "projects": 4175,
+    "games": 3722,
+    "projects": 4177,
     "source_records": 4222,
     "platforms": 86,
     "sources": 4,
-    "conflicted_projects": 15
+    "conflicted_projects": 13
   },
   "sources": [
     {
@@ -39,7 +39,7 @@
       ],
       [
         "Xbox 360",
-        426
+        428
       ],
       [
         "N64",
@@ -47,7 +47,7 @@
       ],
       [
         "PS1",
-        304
+        305
       ],
       [
         "PS2",
@@ -83,7 +83,7 @@
       ],
       [
         "Xbox",
-        92
+        91
       ],
       [
         "Switch",
@@ -91,7 +91,7 @@
       ],
       [
         "og xbox",
-        76
+        77
       ],
       [
         "Arcade",
@@ -154,15 +154,15 @@
         18
       ],
       [
-        "PC (DOS)",
-        16
-      ],
-      [
         "switch2",
         16
       ],
       [
         "BBC Micro/Acorn",
+        15
+      ],
+      [
+        "PC (DOS)",
         15
       ],
       [
@@ -385,11 +385,11 @@
       ],
       [
         "recomp",
-        1489
+        1490
       ],
       [
         "port",
-        860
+        861
       ],
       [
         "tool",
@@ -399,7 +399,7 @@
     "statuses": [
       [
         "released",
-        1979
+        1980
       ],
       [
         "in-progress",
@@ -415,11 +415,11 @@
       ],
       [
         "unknown",
-        84
+        83
       ],
       [
         "playable",
-        2
+        4
       ],
       [
         "exploring",
@@ -2381,7 +2381,7 @@
           "last_activity": "2026-11-23",
           "release": "v0.6.1Nov",
           "made": "AI-generated",
-          "stars": 2500,
+          "stars": 2600,
           "conflicts": {},
           "targets": []
         }
@@ -4332,6 +4332,54 @@
       "has_conflict": false
     },
     {
+      "id": "robert-ludlum-s-the-bourne-conspiracy--xbox-360",
+      "title": "Robert Ludlum's The Bourne Conspiracy",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-robert-ludlum-s-the-bourne-conspiracy-the-bourne-conspiracy-xbox-360-recompilation-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/bourne-conspiracy-x360-recomp/",
+              "source_id": "p/bourne-conspiracy-x360-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Robert Ludlum's The Bourne Conspiracy",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "The Bourne Conspiracy - Xbox 360 Recompilation",
+          "project_url": "https://www.recompsoftware.com/p/bourne-conspiracy-x360-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "v0.3.5Nov",
+          "made": "AI-assisted",
+          "stars": 45,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "rebellion2--pc-windows",
       "title": "rebellion2",
       "platform": "PC (Windows)",
@@ -4999,7 +5047,7 @@
           "last_activity": "2026-11-23",
           "release": "v0.17.0Nov",
           "made": "AI-generated",
-          "stars": 981,
+          "stars": 987,
           "conflicts": {},
           "targets": []
         },
@@ -5998,9 +6046,9 @@
           "project_url": "https://www.recompsoftware.com/p/ng2recomp/",
           "status": "released",
           "last_activity": "2026-11-23",
-          "release": "v0.7.3Nov",
+          "release": "v0.7.4Nov",
           "made": "AI-assisted",
-          "stars": 323,
+          "stars": 325,
           "conflicts": {},
           "targets": []
         },
@@ -6028,7 +6076,7 @@
           "last_activity": "2026-11-16",
           "release": "v0.2.2.1Nov",
           "made": "AI-generated",
-          "stars": 85,
+          "stars": 87,
           "conflicts": {},
           "targets": []
         },
@@ -6275,6 +6323,54 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "need-for-speed-most-wanted-2005--pc-windows",
+      "title": "Need for Speed: Most Wanted (2005)",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "sig-need-for-speed-most-wanted-2005-need-for-speed-most-wanted-for-apple-silicon-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/nfs-most-wanted-mac/",
+              "source_id": "p/nfs-most-wanted-mac",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Need for Speed: Most Wanted (2005)",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "Need for Speed: Most Wanted for Apple Silicon",
+          "project_url": "https://www.recompsoftware.com/p/nfs-most-wanted-mac/",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "v4.10.0Nov",
+          "made": "Not stated",
+          "stars": 173,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-23",
       "best_status": "released",
@@ -7217,7 +7313,7 @@
           "project": "Mega Man X4 Decompilation",
           "project_url": "https://www.recompsoftware.com/p/mmx4-decomp/",
           "status": "in-progress",
-          "progress": 89.02,
+          "progress": 89.32,
           "made": "Not stated",
           "stars": 40,
           "conflicts": {},
@@ -7391,6 +7487,54 @@
       ],
       "last_activity": "2026-11-23",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "mario-party--n64",
+      "title": "Mario Party",
+      "platform": "N64",
+      "projects": [
+        {
+          "id": "sig-mario-party-mario-party-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mario-party-recompiled/",
+              "source_id": "p/mario-party-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "N64",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mario Party",
+          "platform": "N64",
+          "type": "recomp",
+          "project": "Mario Party: Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/mario-party-recompiled/",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "v0.2.16Nov",
+          "made": "AI-generated",
+          "stars": 48,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -7568,6 +7712,81 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "mario-kart-8-deluxe--nintendo-switch",
+      "title": "Mario Kart 8 Deluxe",
+      "platform": "Nintendo Switch",
+      "projects": [
+        {
+          "id": "sig-mario-kart-8-deluxe-mk8-online-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mk8-online/",
+              "source_id": "p/mk8-online",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mario Kart 8 Deluxe",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "MK8-online",
+          "project_url": "https://www.recompsoftware.com/p/mk8-online/",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "v0.6.0Nov",
+          "made": "AI-assisted",
+          "stars": 264,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-mario-kart-8-deluxe-mk8-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/mk8-recomp/",
+              "source_id": "p/mk8-recomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Mario Kart 8 Deluxe",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "mk8-recomp",
+          "project_url": "https://www.recompsoftware.com/p/mk8-recomp/",
+          "status": "in-progress",
+          "made": "Not stated",
+          "stars": 178,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-23",
       "best_status": "released",
@@ -8586,6 +8805,82 @@
       "has_conflict": false
     },
     {
+      "id": "gears-of-war-2--xbox-360",
+      "title": "Gears of War 2",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "sig-gears-of-war-2-gears-of-war-2-pc-port-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/gears-of-war-2-pc-port/",
+              "source_id": "p/gears-of-war-2-pc-port",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Gears of War 2",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Gears of War 2 PC Port",
+          "project_url": "https://www.recompsoftware.com/p/gears-of-war-2-pc-port/",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "v0.4.8Nov",
+          "made": "Not stated",
+          "stars": 191,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-gears-of-war-2-gears2-nx-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/gears2-nx/",
+              "source_id": "p/gears2-nx",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-07"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Gears of War 2",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "gears2-nx",
+          "project_url": "https://www.recompsoftware.com/p/gears2-nx/",
+          "status": "released",
+          "last_activity": "2026-11-07",
+          "release": "v1.1.0Nov",
+          "made": "Not stated",
+          "stars": 35,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "fire-emblem-fortune-s-weave-emblemweave--switch2",
       "title": "Fire Emblem: Fortune's Weave (EmblemWeave)",
       "platform": "switch2",
@@ -8682,6 +8977,54 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "final-fantasy-xi--pc-windows",
+      "title": "Final Fantasy XI",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "sig-final-fantasy-xi-xi-on-anything-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/xi-on-anything/",
+              "source_id": "p/xi-on-anything",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Final Fantasy XI",
+          "platform": "PC (Windows)",
+          "type": "recomp",
+          "project": "XI on Anything",
+          "project_url": "https://www.recompsoftware.com/p/xi-on-anything/",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "v0.3.0Nov",
+          "made": "AI-assisted",
+          "stars": 37,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-23",
       "best_status": "released",
@@ -9457,6 +9800,54 @@
       "has_conflict": false
     },
     {
+      "id": "dragon-ball-z-buu-s-fury--gba",
+      "title": "Dragon Ball Z: Buu's Fury",
+      "platform": "GBA",
+      "projects": [
+        {
+          "id": "sig-dragon-ball-z-buu-s-fury-dragon-ball-z-buu-s-fury-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/dbz-buus-fury-recomp/",
+              "source_id": "p/dbz-buus-fury-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "GBA",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Dragon Ball Z: Buu's Fury",
+          "platform": "GBA",
+          "type": "recomp",
+          "project": "Dragon Ball Z: Buu's Fury Recomp",
+          "project_url": "https://www.recompsoftware.com/p/dbz-buus-fury-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "v0.0.9Nov",
+          "made": "AI-assisted",
+          "stars": 39,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "downhill-domination-downhill-revived--ps2",
       "title": "Downhill Domination (Downhill Revived)",
       "platform": "PS2",
@@ -9503,6 +9894,55 @@
       ],
       "sources": [
         "awesome-decomp-games"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "downhill-domination--ps2",
+      "title": "Downhill Domination",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "sig-downhill-domination-downhill-revived-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/downhill-revived/",
+              "source_id": "p/downhill-revived",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Downhill Domination",
+          "platform": "PS2",
+          "type": "decomp",
+          "project": "Downhill Revived",
+          "project_url": "https://www.recompsoftware.com/p/downhill-revived/",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "v0.8.12Nov",
+          "progress": 97.0,
+          "made": "AI-assisted",
+          "stars": 240,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "decomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-decomp"
       ],
       "last_activity": "2026-11-23",
       "best_status": "released",
@@ -10601,9 +11041,9 @@
       "has_conflict": false
     },
     {
-      "id": "conker-live-reloaded--xbox",
-      "title": "Conker: Live & Reloaded",
-      "platform": "Xbox",
+      "id": "conker-live-reloaded-conker-live-recompiled--og-xbox",
+      "title": "Conker: Live & Reloaded (Conker: Live & Recompiled)",
+      "platform": "og xbox",
       "projects": [
         {
           "id": "repo-cdetv-conker-live-recompiled",
@@ -10617,26 +11057,16 @@
               "type": "recomp",
               "platform": "og xbox",
               "last_activity": "2026-11-23"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/conker-live-and-reloaded-xbox",
-              "source_id": "conker-live-reloaded-cdetv",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-11-23"
             }
           ],
           "embedded_sources": [
             "quiver",
             "unbaked"
           ],
-          "game": "Conker: Live & Reloaded",
-          "platform": "Xbox",
+          "game": "Conker: Live & Reloaded (Conker: Live & Recompiled)",
+          "platform": "og xbox",
           "type": "recomp",
-          "project": "cdetv/conker-live-recompiled",
+          "project": "conker-live-recompiled",
           "project_url": "https://github.com/cdetv/conker-live-recompiled",
           "repo": "cdetv/conker-live-recompiled",
           "status": "released",
@@ -10644,100 +11074,11 @@
           "release": "v0.5.0",
           "made": "AI-flagged",
           "stars": 35,
-          "conflicts": {
-            "platform": [
-              "Xbox",
-              "og xbox"
-            ]
-          },
-          "targets": []
-        },
-        {
-          "id": "sig-conker-live-reloaded-live-recompiled-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/live-and-recompiled/",
-              "source_id": "p/live-and-recompiled",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-11-20"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Conker: Live & Reloaded",
-          "platform": "Xbox",
-          "type": "recomp",
-          "project": "Live & Recompiled",
-          "project_url": "https://www.recompsoftware.com/p/live-and-recompiled/",
-          "status": "released",
-          "last_activity": "2026-11-20",
-          "release": "v5.0.0Nov",
-          "made": "AI-generated",
-          "stars": 45,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-conker-live-reloaded-conker-recomped-reloaded-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/conker-recomped-reloaded/",
-              "source_id": "p/conker-recomped-reloaded",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-11-16"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Conker: Live & Reloaded",
-          "platform": "Xbox",
-          "type": "recomp",
-          "project": "Conker: Recomped & Reloaded",
-          "project_url": "https://www.recompsoftware.com/p/conker-recomped-reloaded/",
-          "status": "released",
-          "last_activity": "2026-11-16",
-          "release": "v1.4.3Nov",
-          "made": "AI-assisted",
-          "stars": 187,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-conker-live-reloaded-conker-live-reloaded-recomp-switch-linux-windows-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/conker-lr-recomp/",
-              "source_id": "p/conker-lr-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox",
-              "last_activity": "2026-11-03"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Conker: Live & Reloaded",
-          "platform": "Xbox",
-          "type": "recomp",
-          "project": "Conker: Live & Reloaded recomp (Switch/Linux/Windows)",
-          "project_url": "https://www.recompsoftware.com/p/conker-lr-recomp/",
-          "status": "released",
-          "last_activity": "2026-11-03",
-          "release": "v0.56.0Nov",
-          "made": "AI-assisted",
-          "stars": 40,
           "conflicts": {},
           "targets": []
         }
       ],
-      "project_count": 4,
+      "project_count": 1,
       "types": [
         "recomp"
       ],
@@ -10745,13 +11086,11 @@
         "released"
       ],
       "sources": [
-        "awesome-decomp-games",
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "awesome-decomp-games"
       ],
       "last_activity": "2026-11-23",
       "best_status": "released",
-      "has_conflict": true
+      "has_conflict": false
     },
     {
       "id": "conker-s-bad-fur-day-devoldschool--n64",
@@ -10870,16 +11209,6 @@
               "type": "decomp",
               "platform": "PC (Windows)",
               "last_activity": "2026-11-23"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/command-and-conquer-yuris-revenge-pc-windows",
-              "source_id": "command-conquer-red-alert-2-yuri-s-reven-yuriplanet",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-23"
             }
           ],
           "embedded_sources": [
@@ -10889,51 +11218,16 @@
           ],
           "game": "Command & Conquer: Red Alert 2 – Yuri's Revenge",
           "platform": "PC (Windows)",
-          "type": "port",
-          "project": "YuriPlanet/vera20k",
+          "type": "decomp",
+          "project": "vera20k",
           "project_url": "https://github.com/YuriPlanet/vera20k",
           "repo": "YuriPlanet/vera20k",
           "status": "released",
           "last_activity": "2026-11-23",
-          "release": "v0.4.1-20261123-125801",
+          "release": "v0.4.0",
           "made": "AI-flagged",
           "stars": 439,
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS"
-          ],
-          "conflicts": {
-            "type": [
-              "decomp",
-              "port"
-            ]
-          }
-        },
-        {
-          "id": "repo-gibbo101-ra2-decomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/command-and-conquer-yuris-revenge-pc-windows",
-              "source_id": "command-conquer-red-alert-2-yuri-s-reven",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-23"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Command & Conquer: Red Alert 2 – Yuri's Revenge",
-          "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "gibbo101/ra2-decomp",
-          "project_url": "https://github.com/gibbo101/ra2-decomp",
-          "repo": "gibbo101/ra2-decomp",
-          "last_activity": "2026-11-23",
           "conflicts": {},
-          "status": "unknown",
           "targets": []
         },
         {
@@ -10992,26 +11286,23 @@
           "targets": []
         }
       ],
-      "project_count": 4,
+      "project_count": 3,
       "types": [
         "decomp",
-        "port",
         "recomp"
       ],
       "statuses": [
         "paused",
-        "released",
-        "unknown"
+        "released"
       ],
       "sources": [
         "awesome-decomp-games",
         "recomp-software-decomp",
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-23",
       "best_status": "released",
-      "has_conflict": true
+      "has_conflict": false
     },
     {
       "id": "command-conquer-red-alert-2-phobos--pc-windows",
@@ -11112,53 +11403,6 @@
       ],
       "last_activity": "2026-11-23",
       "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "coaster--pc-dos",
-      "title": "Coaster",
-      "platform": "PC (DOS)",
-      "projects": [
-        {
-          "id": "repo-sp00nznet-coaster",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/coaster-pc-dos",
-              "source_id": "coaster-sp00nznet",
-              "claimed": false,
-              "status": "unknown",
-              "type": "recomp",
-              "platform": "PC (DOS)",
-              "last_activity": "2026-11-23"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Coaster",
-          "platform": "PC (DOS)",
-          "type": "recomp",
-          "project": "sp00nznet/coaster",
-          "project_url": "https://github.com/sp00nznet/coaster",
-          "repo": "sp00nznet/coaster",
-          "last_activity": "2026-11-23",
-          "toolchain": "Pcrecomp",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-23",
-      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -11441,6 +11685,151 @@
       "has_conflict": false
     },
     {
+      "id": "castlevania-symphony-of-the-night--ps1",
+      "title": "Castlevania: Symphony of the Night",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "repo-rashevskyv-sotn-native",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/castlevania-symphony-of-the-night-ps1-2",
+              "source_id": "castlevania-symphony-of-the-night-rashevskyv",
+              "claimed": false,
+              "status": "playable",
+              "type": "port",
+              "platform": "PS1",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Castlevania: Symphony of the Night",
+          "platform": "PS1",
+          "type": "port",
+          "project": "sotn-native",
+          "project_url": "https://github.com/rashevskyv/sotn-native",
+          "repo": "rashevskyv/sotn-native",
+          "status": "playable",
+          "last_activity": "2026-11-23",
+          "targets": [
+            "Linux",
+            "Switch"
+          ],
+          "conflicts": {}
+        },
+        {
+          "id": "repo-xeeynamo-sotn-decomp",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "xeeynamo-sotn-decomp",
+              "claimed": false,
+              "status": "released",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-20"
+            }
+          ],
+          "embedded_sources": [
+            "charlotte",
+            "samidy",
+            "unbaked"
+          ],
+          "game": "Castlevania: Symphony of the Night",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "sotn-decomp",
+          "project_url": "https://github.com/Xeeynamo/sotn-decomp",
+          "repo": "Xeeynamo/sotn-decomp",
+          "status": "released",
+          "last_activity": "2026-11-20",
+          "release": "cc1-psx-26",
+          "stars": 1249,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-castlevania-symphony-of-the-night-symphonyrecomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/symphony-recomp/",
+              "source_id": "p/symphony-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-14"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Castlevania: Symphony of the Night",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "SymphonyRecomp",
+          "project_url": "https://www.recompsoftware.com/p/symphony-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-14",
+          "release": "v1.2.0pNov",
+          "made": "Human-led",
+          "stars": 1200,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-castlevania-symphony-of-the-night-sotn-decomp-playable-decomp",
+          "evidence": [
+            {
+              "source": "recomp-software-decomp",
+              "source_url": "https://www.recompsoftware.com/p/sotn-decomp/",
+              "source_id": "p/sotn-decomp",
+              "claimed": false,
+              "status": "in-progress",
+              "type": "decomp",
+              "platform": "PS1",
+              "last_activity": "2023-04-05"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Castlevania: Symphony of the Night",
+          "platform": "PS1",
+          "type": "decomp",
+          "project": "sotn-decomp playable",
+          "project_url": "https://www.recompsoftware.com/p/sotn-decomp/",
+          "status": "in-progress",
+          "last_activity": "2023-04-05",
+          "release": "cc1-psx-26Apr",
+          "progress": 72.27,
+          "made": "Human-led",
+          "stars": 1200,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 4,
+      "types": [
+        "decomp",
+        "port",
+        "recomp"
+      ],
+      "statuses": [
+        "in-progress",
+        "playable",
+        "released"
+      ],
+      "sources": [
+        "awesome-decomp-games",
+        "recomp-software-decomp",
+        "recomp-software-recomp",
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "castlevania-lament-of-innocence--ps2",
       "title": "Castlevania: Lament of Innocence",
       "platform": "PS2",
@@ -11515,6 +11904,56 @@
       ],
       "last_activity": "2026-11-23",
       "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "castlevania-harmony-of-despair--xbox-360",
+      "title": "Castlevania: Harmony of Despair",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-rashevskyv-cvhd-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/castlevania-harmony-of-despair-xbox-360",
+              "source_id": "castlevania-harmony-of-despair-rashevskyv",
+              "claimed": false,
+              "status": "playable",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Castlevania: Harmony of Despair",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "Castlevania: Harmony of Despair Recompiled",
+          "project_url": "https://github.com/rashevskyv/cvhd-recomp",
+          "repo": "rashevskyv/cvhd-recomp",
+          "status": "playable",
+          "last_activity": "2026-11-23",
+          "release": "v0.311.c41cf75",
+          "toolchain": "Rexglue",
+          "targets": [
+            "Switch"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "playable"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "playable",
       "has_conflict": false
     },
     {
@@ -11796,6 +12235,7 @@
           "repo": "GreenieSparkles/COD6-NX",
           "last_activity": "2026-11-23",
           "release": "v325",
+          "toolchain": "Rexglue",
           "targets": [
             "Switch"
           ],
@@ -11885,6 +12325,52 @@
       "last_activity": "2026-11-23",
       "best_status": "released",
       "has_conflict": true
+    },
+    {
+      "id": "call-of-duty-4-modern-warfare--xbox-360",
+      "title": "Call of Duty 4: Modern Warfare",
+      "platform": "Xbox 360",
+      "projects": [
+        {
+          "id": "repo-yassinsolim-cod4-recomp",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/call-of-duty-4-modern-warfare-xbox-360",
+              "source_id": "call-of-duty-4-modern-warfare-yassinsoli",
+              "claimed": false,
+              "status": "unknown",
+              "type": "recomp",
+              "platform": "Xbox 360",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Call of Duty 4: Modern Warfare",
+          "platform": "Xbox 360",
+          "type": "recomp",
+          "project": "yassinsolim/cod4-recomp",
+          "project_url": "https://github.com/yassinsolim/cod4-recomp",
+          "repo": "yassinsolim/cod4-recomp",
+          "last_activity": "2026-11-23",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "unknown",
+      "has_conflict": false
     },
     {
       "id": "caesar-iii-augustus--pc-windows",
@@ -12969,7 +13455,7 @@
           "status": "in-progress",
           "progress": 0.01,
           "made": "Not stated",
-          "stars": 225,
+          "stars": 226,
           "conflicts": {},
           "targets": []
         }
@@ -13140,7 +13626,7 @@
           "project": "Black & White Decompilation",
           "project_url": "https://www.recompsoftware.com/p/bw1-decomp/",
           "status": "in-progress",
-          "progress": 58.41,
+          "progress": 58.6,
           "made": "AI-assisted",
           "stars": 135,
           "conflicts": {},
@@ -13290,6 +13776,7 @@
           "repo": "EddyGameDev/bioshock1-native-recomp",
           "last_activity": "2026-11-23",
           "release": "v0.0.7.6-experimental",
+          "toolchain": "Rexglue",
           "targets": [
             "Android"
           ],
@@ -13594,7 +14081,7 @@
           "last_activity": "2026-11-23",
           "release": "v0.14.1Nov",
           "made": "AI-assisted",
-          "stars": 440,
+          "stars": 441,
           "conflicts": {},
           "targets": []
         },
@@ -13771,6 +14258,54 @@
       "has_conflict": false
     },
     {
+      "id": "battle-arena-toshinden--ps1",
+      "title": "Battle Arena Toshinden",
+      "platform": "PS1",
+      "projects": [
+        {
+          "id": "sig-battle-arena-toshinden-battle-arena-toshinden-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/battle-arena-toshinden-recomp/",
+              "source_id": "p/battle-arena-toshinden-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "PS1",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Battle Arena Toshinden",
+          "platform": "PS1",
+          "type": "recomp",
+          "project": "Battle Arena Toshinden Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/battle-arena-toshinden-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "v0.1.5Nov",
+          "made": "Not stated",
+          "stars": 21,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "banjo-kazooie-nuts-bolts--xbox-360",
       "title": "Banjo-Kazooie: Nuts & Bolts",
       "platform": "Xbox 360",
@@ -13829,7 +14364,7 @@
           "last_activity": "2026-11-12",
           "release": "big-lua-energyNov",
           "made": "Not stated",
-          "stars": 244,
+          "stars": 245,
           "conflicts": {},
           "targets": []
         }
@@ -13927,6 +14462,59 @@
       ],
       "last_activity": "2026-11-23",
       "best_status": "in-progress",
+      "has_conflict": false
+    },
+    {
+      "id": "atomic-bomberman--pc-windows",
+      "title": "Atomic Bomberman",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "repo-rashevskyv-atomic-bomberman",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/atomic-bomberman-pc-windows",
+              "source_id": "atomic-bomberman-rashevskyv",
+              "claimed": false,
+              "status": "released",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Atomic Bomberman",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "Atomic Bomberman Modern",
+          "project_url": "https://github.com/rashevskyv/atomic-bomberman",
+          "repo": "rashevskyv/atomic-bomberman",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "v1.0.8",
+          "targets": [
+            "Windows",
+            "Linux",
+            "macOS",
+            "Android",
+            "Switch"
+          ],
+          "conflicts": {}
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
       "has_conflict": false
     },
     {
@@ -14032,6 +14620,82 @@
       "has_conflict": false
     },
     {
+      "id": "astral-chain--nintendo-switch",
+      "title": "Astral Chain",
+      "platform": "Nintendo Switch",
+      "projects": [
+        {
+          "id": "sig-astral-chain-astral-chain-pc-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/astral-chain-pc/",
+              "source_id": "p/astral-chain-pc",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": "2026-11-23"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Astral Chain",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "Astral Chain PC",
+          "project_url": "https://www.recompsoftware.com/p/astral-chain-pc/",
+          "status": "released",
+          "last_activity": "2026-11-23",
+          "release": "2026-11-23Nov",
+          "made": "AI-generated",
+          "stars": 120,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-astral-chain-ac-recomp-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/ac-recomp/",
+              "source_id": "p/ac-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Nintendo Switch",
+              "last_activity": "2026-10-19"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Astral Chain",
+          "platform": "Nintendo Switch",
+          "type": "recomp",
+          "project": "AC-Recomp",
+          "project_url": "https://www.recompsoftware.com/p/ac-recomp/",
+          "status": "released",
+          "last_activity": "2026-10-19",
+          "release": "v0.1.0Oct",
+          "made": "AI-generated",
+          "stars": 32,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 2,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-23",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
       "id": "armored-core--ps1",
       "title": "Armored Core",
       "platform": "PS1",
@@ -14096,7 +14760,7 @@
           "project": "Armored Core Decompilation",
           "project_url": "https://www.recompsoftware.com/p/armored-core-decomp/",
           "status": "in-progress",
-          "progress": 13.75,
+          "progress": 34.36,
           "made": "Not stated",
           "stars": 11,
           "conflicts": {},
@@ -14223,6 +14887,7 @@
           "last_activity": "2026-11-23",
           "release": "v0.3.9",
           "stars": 19,
+          "toolchain": "Rexglue",
           "targets": [
             "Windows",
             "Linux"
@@ -14599,6 +15264,7 @@
           "repo": "otavix010/10000-bullets-pc",
           "last_activity": "2026-11-23",
           "release": "v2026.11.08",
+          "toolchain": "Ps2recomp",
           "conflicts": {},
           "status": "unknown",
           "targets": []
@@ -15802,7 +16468,7 @@
           "status": "complete",
           "progress": 100.0,
           "made": "Human-led",
-          "stars": 940,
+          "stars": 941,
           "conflicts": {},
           "targets": []
         }
@@ -15912,7 +16578,7 @@
           "last_activity": "2026-11-22",
           "release": "v0.5.0Nov",
           "made": "AI-assisted",
-          "stars": 111,
+          "stars": 112,
           "conflicts": {
             "status": [
               "in-progress",
@@ -17191,7 +17857,7 @@
           "status": "in-progress",
           "progress": 20.72,
           "made": "Not stated",
-          "stars": 104,
+          "stars": 105,
           "conflicts": {},
           "targets": []
         }
@@ -18710,7 +19376,7 @@
           "last_activity": "2026-11-22",
           "release": "v1.3.0Nov",
           "made": "Not stated",
-          "stars": 94,
+          "stars": 95,
           "conflicts": {},
           "targets": []
         }
@@ -19569,7 +20235,7 @@
           "last_activity": "2026-11-22",
           "release": "v0.1.16Nov",
           "made": "AI-assisted",
-          "stars": 86,
+          "stars": 87,
           "conflicts": {},
           "targets": []
         },
@@ -19625,7 +20291,7 @@
           "last_activity": "2026-11-06",
           "release": "v0.8_ExperimentalNov",
           "made": "AI-generated",
-          "stars": 47,
+          "stars": 48,
           "conflicts": {},
           "targets": []
         }
@@ -20184,7 +20850,7 @@
           "last_activity": "2026-11-22",
           "release": "v0.9.82Nov",
           "made": "AI-assisted",
-          "stars": 375,
+          "stars": 376,
           "conflicts": {},
           "targets": []
         }
@@ -20300,54 +20966,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-22",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "need-for-speed-most-wanted-2005--pc-windows",
-      "title": "Need for Speed: Most Wanted (2005)",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "sig-need-for-speed-most-wanted-2005-need-for-speed-most-wanted-for-apple-silicon-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/nfs-most-wanted-mac/",
-              "source_id": "p/nfs-most-wanted-mac",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-22"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Need for Speed: Most Wanted (2005)",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "Need for Speed: Most Wanted for Apple Silicon",
-          "project_url": "https://www.recompsoftware.com/p/nfs-most-wanted-mac/",
-          "status": "released",
-          "last_activity": "2026-11-22",
-          "release": "v4.9.0Nov",
-          "made": "Not stated",
-          "stars": 173,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-22",
       "best_status": "released",
@@ -21195,7 +21813,7 @@
           "project": "Legaia 2: Duel Saga decompilation",
           "project_url": "https://www.recompsoftware.com/p/legaia2-decomp/",
           "status": "in-progress",
-          "progress": 22.31,
+          "progress": 22.41,
           "made": "AI-assisted",
           "stars": 6,
           "conflicts": {},
@@ -22017,7 +22635,7 @@
           "last_activity": "2026-11-08",
           "release": "v2026.11.08Nov",
           "made": "AI-assisted",
-          "stars": 113,
+          "stars": 114,
           "conflicts": {},
           "targets": []
         }
@@ -22618,54 +23236,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-22",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "final-fantasy-xi--pc-windows",
-      "title": "Final Fantasy XI",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "sig-final-fantasy-xi-xi-on-anything-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/xi-on-anything/",
-              "source_id": "p/xi-on-anything",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-22"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Final Fantasy XI",
-          "platform": "PC (Windows)",
-          "type": "recomp",
-          "project": "XI on Anything",
-          "project_url": "https://www.recompsoftware.com/p/xi-on-anything/",
-          "status": "released",
-          "last_activity": "2026-11-22",
-          "release": "v0.2.18Nov",
-          "made": "AI-assisted",
-          "stars": 37,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-22",
       "best_status": "released",
@@ -23628,7 +24198,7 @@
           "last_activity": "2026-11-10",
           "release": "v0.1.2Nov",
           "made": "AI-assisted",
-          "stars": 530,
+          "stars": 529,
           "conflicts": {},
           "targets": []
         }
@@ -24388,7 +24958,7 @@
           "project_url": "https://www.recompsoftware.com/p/cod3recomp/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 445,
+          "stars": 448,
           "conflicts": {},
           "targets": []
         }
@@ -25018,82 +25588,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-22",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "astral-chain--nintendo-switch",
-      "title": "Astral Chain",
-      "platform": "Nintendo Switch",
-      "projects": [
-        {
-          "id": "sig-astral-chain-astral-chain-pc-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/astral-chain-pc/",
-              "source_id": "p/astral-chain-pc",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Nintendo Switch",
-              "last_activity": "2026-11-22"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Astral Chain",
-          "platform": "Nintendo Switch",
-          "type": "recomp",
-          "project": "Astral Chain PC",
-          "project_url": "https://www.recompsoftware.com/p/astral-chain-pc/",
-          "status": "released",
-          "last_activity": "2026-11-22",
-          "release": "2026-11-22.2Nov",
-          "made": "AI-generated",
-          "stars": 120,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-astral-chain-ac-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/ac-recomp/",
-              "source_id": "p/ac-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Nintendo Switch",
-              "last_activity": "2026-10-19"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Astral Chain",
-          "platform": "Nintendo Switch",
-          "type": "recomp",
-          "project": "AC-Recomp",
-          "project_url": "https://www.recompsoftware.com/p/ac-recomp/",
-          "status": "released",
-          "last_activity": "2026-10-19",
-          "release": "v0.1.0Oct",
-          "made": "AI-generated",
-          "stars": 32,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-22",
       "best_status": "released",
@@ -26579,7 +27073,7 @@
           "last_activity": "2026-11-21",
           "release": "v0.7.1Nov",
           "made": "AI-assisted",
-          "stars": 155,
+          "stars": 156,
           "conflicts": {},
           "targets": []
         }
@@ -27884,54 +28378,6 @@
       "has_conflict": false
     },
     {
-      "id": "robert-ludlum-s-the-bourne-conspiracy--xbox-360",
-      "title": "Robert Ludlum's The Bourne Conspiracy",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "sig-robert-ludlum-s-the-bourne-conspiracy-the-bourne-conspiracy-xbox-360-recompilation-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/bourne-conspiracy-x360-recomp/",
-              "source_id": "p/bourne-conspiracy-x360-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-21"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Robert Ludlum's The Bourne Conspiracy",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "The Bourne Conspiracy - Xbox 360 Recompilation",
-          "project_url": "https://www.recompsoftware.com/p/bourne-conspiracy-x360-recomp/",
-          "status": "released",
-          "last_activity": "2026-11-21",
-          "release": "v0.3.4Nov",
-          "made": "AI-assisted",
-          "stars": 45,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-11-21",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "rmg-k--n64",
       "title": "RMG-K",
       "platform": "N64",
@@ -28360,7 +28806,7 @@
           "last_activity": "2026-11-21",
           "release": "v0.7.8Nov",
           "made": "Not stated",
-          "stars": 325,
+          "stars": 326,
           "conflicts": {},
           "targets": []
         }
@@ -29181,7 +29627,7 @@
           "last_activity": "2026-11-21",
           "release": "v0.6.0Nov",
           "made": "AI-assisted",
-          "stars": 381,
+          "stars": 382,
           "conflicts": {},
           "targets": []
         }
@@ -29279,7 +29725,7 @@
           "last_activity": "2026-11-21",
           "release": "v0.12.1Nov",
           "made": "AI-assisted",
-          "stars": 92,
+          "stars": 93,
           "conflicts": {},
           "targets": []
         }
@@ -29532,7 +29978,7 @@
           "status": "in-progress",
           "progress": 99.9,
           "made": "Not stated",
-          "stars": 164,
+          "stars": 165,
           "conflicts": {},
           "targets": []
         }
@@ -29831,81 +30277,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-21",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "mario-kart-8-deluxe--nintendo-switch",
-      "title": "Mario Kart 8 Deluxe",
-      "platform": "Nintendo Switch",
-      "projects": [
-        {
-          "id": "sig-mario-kart-8-deluxe-mk8-online-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/mk8-online/",
-              "source_id": "p/mk8-online",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Nintendo Switch",
-              "last_activity": "2026-11-21"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Mario Kart 8 Deluxe",
-          "platform": "Nintendo Switch",
-          "type": "recomp",
-          "project": "MK8-online",
-          "project_url": "https://www.recompsoftware.com/p/mk8-online/",
-          "status": "released",
-          "last_activity": "2026-11-21",
-          "release": "v0.5.0Nov",
-          "made": "AI-assisted",
-          "stars": 259,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-mario-kart-8-deluxe-mk8-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/mk8-recomp/",
-              "source_id": "p/mk8-recomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "recomp",
-              "platform": "Nintendo Switch",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Mario Kart 8 Deluxe",
-          "platform": "Nintendo Switch",
-          "type": "recomp",
-          "project": "mk8-recomp",
-          "project_url": "https://www.recompsoftware.com/p/mk8-recomp/",
-          "status": "in-progress",
-          "made": "Not stated",
-          "stars": 178,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-21",
       "best_status": "released",
@@ -30724,7 +31095,7 @@
           "last_activity": "2026-11-21",
           "release": "0.6.7Nov",
           "made": "AI-assisted",
-          "stars": 554,
+          "stars": 555,
           "conflicts": {},
           "targets": []
         }
@@ -31092,55 +31463,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-21",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "downhill-domination--ps2",
-      "title": "Downhill Domination",
-      "platform": "PS2",
-      "projects": [
-        {
-          "id": "sig-downhill-domination-downhill-revived-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/downhill-revived/",
-              "source_id": "p/downhill-revived",
-              "claimed": false,
-              "status": "released",
-              "type": "decomp",
-              "platform": "PS2",
-              "last_activity": "2026-11-21"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Downhill Domination",
-          "platform": "PS2",
-          "type": "decomp",
-          "project": "Downhill Revived",
-          "project_url": "https://www.recompsoftware.com/p/downhill-revived/",
-          "status": "released",
-          "last_activity": "2026-11-21",
-          "release": "v0.8.11Nov",
-          "progress": 97.0,
-          "made": "AI-assisted",
-          "stars": 240,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "decomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-decomp"
       ],
       "last_activity": "2026-11-21",
       "best_status": "released",
@@ -31535,7 +31857,7 @@
           "last_activity": "2026-11-21",
           "release": "v1.2.1Nov",
           "made": "AI-assisted",
-          "stars": 281,
+          "stars": 282,
           "conflicts": {},
           "targets": []
         }
@@ -32197,7 +32519,7 @@
           "last_activity": "2026-11-21",
           "release": "v0.4.3Nov",
           "made": "Not stated",
-          "stars": 138,
+          "stars": 139,
           "conflicts": {},
           "targets": []
         }
@@ -35429,7 +35751,7 @@
           "last_activity": "2026-11-20",
           "release": "v0.14.17Nov",
           "made": "Not stated",
-          "stars": 439,
+          "stars": 440,
           "conflicts": {},
           "targets": []
         },
@@ -35457,7 +35779,7 @@
           "last_activity": "2026-11-08",
           "release": "v2.6-2026.11.08Nov",
           "made": "AI-assisted",
-          "stars": 298,
+          "stars": 299,
           "conflicts": {},
           "targets": []
         },
@@ -35990,7 +36312,7 @@
           "last_activity": "2026-11-20",
           "release": "v0.8.12Nov",
           "made": "AI-assisted",
-          "stars": 763,
+          "stars": 765,
           "conflicts": {},
           "targets": []
         },
@@ -36905,7 +37227,7 @@
           "last_activity": "2026-11-19",
           "release": "v0.3.9Nov",
           "made": "AI-assisted",
-          "stars": 487,
+          "stars": 489,
           "conflicts": {},
           "targets": []
         }
@@ -37209,7 +37531,7 @@
           "last_activity": "2026-11-20",
           "release": "v0.5.1Nov",
           "made": "AI-generated",
-          "stars": 1300,
+          "stars": 1400,
           "conflicts": {},
           "targets": []
         }
@@ -37404,6 +37726,110 @@
       ],
       "sources": [
         "awesome-decomp-games",
+        "recomp-software-recomp"
+      ],
+      "last_activity": "2026-11-20",
+      "best_status": "released",
+      "has_conflict": false
+    },
+    {
+      "id": "conker-live-reloaded--xbox",
+      "title": "Conker: Live & Reloaded",
+      "platform": "Xbox",
+      "projects": [
+        {
+          "id": "sig-conker-live-reloaded-live-recompiled-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/live-and-recompiled/",
+              "source_id": "p/live-and-recompiled",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-20"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Conker: Live & Reloaded",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Live & Recompiled",
+          "project_url": "https://www.recompsoftware.com/p/live-and-recompiled/",
+          "status": "released",
+          "last_activity": "2026-11-20",
+          "release": "v5.0.0Nov",
+          "made": "AI-generated",
+          "stars": 45,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-conker-live-reloaded-conker-recomped-reloaded-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/conker-recomped-reloaded/",
+              "source_id": "p/conker-recomped-reloaded",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-16"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Conker: Live & Reloaded",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Conker: Recomped & Reloaded",
+          "project_url": "https://www.recompsoftware.com/p/conker-recomped-reloaded/",
+          "status": "released",
+          "last_activity": "2026-11-16",
+          "release": "v1.4.3Nov",
+          "made": "AI-assisted",
+          "stars": 188,
+          "conflicts": {},
+          "targets": []
+        },
+        {
+          "id": "sig-conker-live-reloaded-conker-live-reloaded-recomp-switch-linux-windows-recomp",
+          "evidence": [
+            {
+              "source": "recomp-software-recomp",
+              "source_url": "https://www.recompsoftware.com/p/conker-lr-recomp/",
+              "source_id": "p/conker-lr-recomp",
+              "claimed": false,
+              "status": "released",
+              "type": "recomp",
+              "platform": "Xbox",
+              "last_activity": "2026-11-03"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Conker: Live & Reloaded",
+          "platform": "Xbox",
+          "type": "recomp",
+          "project": "Conker: Live & Reloaded recomp (Switch/Linux/Windows)",
+          "project_url": "https://www.recompsoftware.com/p/conker-lr-recomp/",
+          "status": "released",
+          "last_activity": "2026-11-03",
+          "release": "v0.56.0Nov",
+          "made": "AI-assisted",
+          "stars": 40,
+          "conflicts": {},
+          "targets": []
+        }
+      ],
+      "project_count": 3,
+      "types": [
+        "recomp"
+      ],
+      "statuses": [
+        "released"
+      ],
+      "sources": [
         "recomp-software-recomp"
       ],
       "last_activity": "2026-11-20",
@@ -37609,119 +38035,6 @@
       "has_conflict": false
     },
     {
-      "id": "castlevania-symphony-of-the-night--ps1",
-      "title": "Castlevania: Symphony of the Night",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "repo-xeeynamo-sotn-decomp",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "xeeynamo-sotn-decomp",
-              "claimed": false,
-              "status": "released",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2026-11-20"
-            }
-          ],
-          "embedded_sources": [
-            "charlotte",
-            "samidy",
-            "unbaked"
-          ],
-          "game": "Castlevania: Symphony of the Night",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "sotn-decomp",
-          "project_url": "https://github.com/Xeeynamo/sotn-decomp",
-          "repo": "Xeeynamo/sotn-decomp",
-          "status": "released",
-          "last_activity": "2026-11-20",
-          "release": "cc1-psx-26",
-          "stars": 1249,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-castlevania-symphony-of-the-night-symphonyrecomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/symphony-recomp/",
-              "source_id": "p/symphony-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Castlevania: Symphony of the Night",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "SymphonyRecomp",
-          "project_url": "https://www.recompsoftware.com/p/symphony-recomp/",
-          "status": "released",
-          "last_activity": "2026-11-14",
-          "release": "v1.2.0pNov",
-          "made": "Human-led",
-          "stars": 1200,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-castlevania-symphony-of-the-night-sotn-decomp-playable-decomp",
-          "evidence": [
-            {
-              "source": "recomp-software-decomp",
-              "source_url": "https://www.recompsoftware.com/p/sotn-decomp/",
-              "source_id": "p/sotn-decomp",
-              "claimed": false,
-              "status": "in-progress",
-              "type": "decomp",
-              "platform": "PS1",
-              "last_activity": "2023-04-05"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Castlevania: Symphony of the Night",
-          "platform": "PS1",
-          "type": "decomp",
-          "project": "sotn-decomp playable",
-          "project_url": "https://www.recompsoftware.com/p/sotn-decomp/",
-          "status": "in-progress",
-          "last_activity": "2023-04-05",
-          "release": "cc1-psx-26Apr",
-          "progress": 72.27,
-          "made": "Human-led",
-          "stars": 1200,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 3,
-      "types": [
-        "decomp",
-        "recomp"
-      ],
-      "statuses": [
-        "in-progress",
-        "released"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp-software-decomp",
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-11-20",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "castlevania-curse-of-darkness-castlevania-cod-recomp--ps2",
       "title": "Castlevania: Curse of Darkness (Castlevania COD Recomp)",
       "platform": "PS2",
@@ -37850,7 +38163,7 @@
           "last_activity": "2026-11-20",
           "release": "v0.2.2Nov",
           "made": "AI-assisted",
-          "stars": 280,
+          "stars": 279,
           "conflicts": {},
           "targets": []
         }
@@ -38803,7 +39116,7 @@
           "last_activity": "2026-11-19",
           "release": "0.40.1Nov",
           "made": "Not stated",
-          "stars": 398,
+          "stars": 401,
           "conflicts": {},
           "targets": []
         }
@@ -40311,7 +40624,7 @@
           "last_activity": "2026-11-19",
           "release": "v0.5.10Nov",
           "made": "AI-assisted",
-          "stars": 472,
+          "stars": 473,
           "conflicts": {},
           "targets": []
         }
@@ -42521,7 +42834,7 @@
           "last_activity": "2026-11-18",
           "release": "v0.4.1Nov",
           "made": "AI-assisted",
-          "stars": 247,
+          "stars": 248,
           "conflicts": {},
           "targets": []
         },
@@ -42573,7 +42886,7 @@
           "project_url": "https://www.recompsoftware.com/p/ssbu-ps4/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 43,
+          "stars": 44,
           "conflicts": {},
           "targets": []
         }
@@ -43131,7 +43444,7 @@
           "last_activity": "2026-11-18",
           "release": "v0.2.1Nov",
           "made": "AI-assisted",
-          "stars": 47,
+          "stars": 48,
           "conflicts": {},
           "targets": []
         }
@@ -43818,7 +44131,7 @@
           "last_activity": "2026-11-18",
           "release": "v0.2.17Nov",
           "made": "AI-generated",
-          "stars": 34,
+          "stars": 35,
           "conflicts": {},
           "targets": []
         },
@@ -44365,7 +44678,7 @@
           "last_activity": "2026-11-18",
           "release": "v0.5.2Nov",
           "made": "AI-assisted",
-          "stars": 26,
+          "stars": 27,
           "conflicts": {},
           "targets": []
         },
@@ -44441,7 +44754,7 @@
           "last_activity": "2026-11-18",
           "release": "v0.4.2Nov",
           "made": "AI-assisted",
-          "stars": 26,
+          "stars": 27,
           "conflicts": {},
           "targets": []
         },
@@ -44736,82 +45049,6 @@
       ],
       "sources": [
         "awesome-decomp-games"
-      ],
-      "last_activity": "2026-11-18",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
-      "id": "gears-of-war-2--xbox-360",
-      "title": "Gears of War 2",
-      "platform": "Xbox 360",
-      "projects": [
-        {
-          "id": "sig-gears-of-war-2-gears-of-war-2-pc-port-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/gears-of-war-2-pc-port/",
-              "source_id": "p/gears-of-war-2-pc-port",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-18"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Gears of War 2",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "Gears of War 2 PC Port",
-          "project_url": "https://www.recompsoftware.com/p/gears-of-war-2-pc-port/",
-          "status": "released",
-          "last_activity": "2026-11-18",
-          "release": "v0.4.7Nov",
-          "made": "Not stated",
-          "stars": 191,
-          "conflicts": {},
-          "targets": []
-        },
-        {
-          "id": "sig-gears-of-war-2-gears2-nx-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/gears2-nx/",
-              "source_id": "p/gears2-nx",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "Xbox 360",
-              "last_activity": "2026-11-07"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Gears of War 2",
-          "platform": "Xbox 360",
-          "type": "recomp",
-          "project": "gears2-nx",
-          "project_url": "https://www.recompsoftware.com/p/gears2-nx/",
-          "status": "released",
-          "last_activity": "2026-11-07",
-          "release": "v1.1.0Nov",
-          "made": "Not stated",
-          "stars": 35,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-18",
       "best_status": "released",
@@ -45138,7 +45375,7 @@
           "last_activity": "2026-10-03",
           "release": "v2.0.14Oct",
           "made": "AI-assisted",
-          "stars": 189,
+          "stars": 190,
           "conflicts": {},
           "targets": []
         }
@@ -46885,7 +47122,7 @@
           "last_activity": "2026-11-17",
           "release": "v0.7.16Nov",
           "made": "AI-assisted",
-          "stars": 301,
+          "stars": 303,
           "conflicts": {},
           "targets": []
         }
@@ -47528,7 +47765,7 @@
           "last_activity": "2026-11-17",
           "release": "v0.1.8-betaNov",
           "made": "AI-assisted",
-          "stars": 24,
+          "stars": 25,
           "conflicts": {},
           "targets": []
         },
@@ -51293,7 +51530,7 @@
           "last_activity": "2026-11-16",
           "release": "v1.6.0Nov",
           "made": "Not stated",
-          "stars": 82,
+          "stars": 83,
           "conflicts": {},
           "targets": []
         },
@@ -51321,7 +51558,7 @@
           "last_activity": "2026-11-10",
           "release": "linux-v1.6.2Nov",
           "made": "Not stated",
-          "stars": 14,
+          "stars": 15,
           "conflicts": {},
           "targets": []
         },
@@ -52986,54 +53223,6 @@
       "has_conflict": false
     },
     {
-      "id": "dragon-ball-z-buu-s-fury--gba",
-      "title": "Dragon Ball Z: Buu's Fury",
-      "platform": "GBA",
-      "projects": [
-        {
-          "id": "sig-dragon-ball-z-buu-s-fury-dragon-ball-z-buu-s-fury-recomp-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/dbz-buus-fury-recomp/",
-              "source_id": "p/dbz-buus-fury-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "GBA",
-              "last_activity": "2026-11-16"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Dragon Ball Z: Buu's Fury",
-          "platform": "GBA",
-          "type": "recomp",
-          "project": "Dragon Ball Z: Buu's Fury Recomp",
-          "project_url": "https://www.recompsoftware.com/p/dbz-buus-fury-recomp/",
-          "status": "released",
-          "last_activity": "2026-11-16",
-          "release": "v0.0.7Nov",
-          "made": "AI-assisted",
-          "stars": 39,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-11-16",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "diamond-rush--mobile",
       "title": "Diamond Rush",
       "platform": "Mobile",
@@ -54665,7 +54854,7 @@
           "last_activity": "2026-11-15",
           "release": "uw1-v1.0.3Nov",
           "made": "Not stated",
-          "stars": 108,
+          "stars": 107,
           "conflicts": {},
           "targets": []
         }
@@ -54996,7 +55185,7 @@
           "last_activity": "2026-11-15",
           "release": "v0.12.0Nov",
           "made": "AI-assisted",
-          "stars": 659,
+          "stars": 661,
           "conflicts": {},
           "targets": []
         },
@@ -55210,7 +55399,7 @@
           "last_activity": "2026-11-15",
           "release": "v0.12.0Nov",
           "made": "AI-assisted",
-          "stars": 4300,
+          "stars": 4400,
           "conflicts": {},
           "targets": []
         },
@@ -60243,7 +60432,7 @@
           "last_activity": "2026-11-14",
           "release": "v2026.11.14-ee3327dNov",
           "made": "Not stated",
-          "stars": 598,
+          "stars": 600,
           "conflicts": {},
           "targets": []
         }
@@ -60646,7 +60835,7 @@
           "last_activity": "2026-11-14",
           "release": "v1.0.0Nov",
           "made": "Not stated",
-          "stars": 982,
+          "stars": 985,
           "conflicts": {},
           "targets": []
         },
@@ -61722,54 +61911,6 @@
       "has_conflict": false
     },
     {
-      "id": "mario-party--n64",
-      "title": "Mario Party",
-      "platform": "N64",
-      "projects": [
-        {
-          "id": "sig-mario-party-mario-party-recompiled-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/mario-party-recompiled/",
-              "source_id": "p/mario-party-recompiled",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "N64",
-              "last_activity": "2026-11-14"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Mario Party",
-          "platform": "N64",
-          "type": "recomp",
-          "project": "Mario Party: Recompiled",
-          "project_url": "https://www.recompsoftware.com/p/mario-party-recompiled/",
-          "status": "released",
-          "last_activity": "2026-11-14",
-          "release": "v0.2.14Nov",
-          "made": "AI-generated",
-          "stars": 47,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-11-14",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "mario-kart-super-circuit-mario-kart-super-circuit-recompiled--gba",
       "title": "Mario Kart: Super Circuit (Mario Kart: Super Circuit Recompiled)",
       "platform": "GBA",
@@ -62077,7 +62218,7 @@
           "last_activity": "2026-11-14",
           "release": "v0.3.0Nov",
           "made": "AI-assisted",
-          "stars": 752,
+          "stars": 753,
           "conflicts": {},
           "targets": []
         }
@@ -62993,7 +63134,7 @@
           "last_activity": "2026-11-13",
           "release": "v1.1.10Nov",
           "made": "AI-assisted",
-          "stars": 40,
+          "stars": 41,
           "conflicts": {},
           "targets": []
         }
@@ -63440,7 +63581,7 @@
           "last_activity": "2026-11-13",
           "release": "v0.18.1Nov",
           "made": "Not stated",
-          "stars": 90,
+          "stars": 91,
           "conflicts": {},
           "targets": []
         },
@@ -63520,7 +63661,7 @@
           "last_activity": "2026-11-13",
           "release": "v0.1.6Nov",
           "made": "Not stated",
-          "stars": 178,
+          "stars": 179,
           "conflicts": {},
           "targets": []
         }
@@ -64367,7 +64508,7 @@
           "last_activity": "2026-11-13",
           "release": "v0.1.14Nov",
           "made": "Not stated",
-          "stars": 89,
+          "stars": 90,
           "conflicts": {},
           "targets": []
         },
@@ -65490,7 +65631,7 @@
           "last_activity": "2026-11-12",
           "release": "v0.1.21Nov",
           "made": "AI-generated",
-          "stars": 372,
+          "stars": 374,
           "conflicts": {},
           "targets": []
         }
@@ -65789,7 +65930,7 @@
           "last_activity": "2026-11-12",
           "release": "v1.3.0Nov",
           "made": "AI-assisted",
-          "stars": 278,
+          "stars": 279,
           "conflicts": {},
           "targets": []
         },
@@ -65817,7 +65958,7 @@
           "last_activity": "2026-10-23",
           "release": "v1.14Oct",
           "made": "Not stated",
-          "stars": 152,
+          "stars": 153,
           "conflicts": {},
           "targets": []
         }
@@ -66406,7 +66547,7 @@
           "last_activity": "2026-11-12",
           "release": "v2.3.1Nov",
           "made": "Not stated",
-          "stars": 102,
+          "stars": 103,
           "conflicts": {},
           "targets": []
         }
@@ -67163,7 +67304,7 @@
           "last_activity": "2026-11-12",
           "release": "windows-v0.3.7.4Nov",
           "made": "AI-assisted",
-          "stars": 222,
+          "stars": 225,
           "conflicts": {},
           "targets": []
         },
@@ -70589,7 +70730,7 @@
           "last_activity": "2026-11-10",
           "release": "v0.2.0Nov",
           "made": "AI-assisted",
-          "stars": 24,
+          "stars": 26,
           "conflicts": {},
           "targets": []
         },
@@ -71728,7 +71869,7 @@
           "last_activity": "2026-11-09",
           "release": "v0.2.0Nov",
           "made": "Not stated",
-          "stars": 292,
+          "stars": 293,
           "conflicts": {},
           "targets": []
         }
@@ -72226,7 +72367,7 @@
           "last_activity": "2026-10-08",
           "release": "v0.3.12Oct",
           "made": "Not stated",
-          "stars": 70,
+          "stars": 71,
           "conflicts": {},
           "targets": []
         }
@@ -72545,7 +72686,7 @@
           "last_activity": "2026-11-09",
           "release": "v0.1.0-alpha.5Nov",
           "made": "AI-assisted",
-          "stars": 106,
+          "stars": 107,
           "conflicts": {},
           "targets": []
         }
@@ -73780,7 +73921,7 @@
           "last_activity": "2026-11-08",
           "release": "v0.4.0Nov",
           "made": "Not stated",
-          "stars": 118,
+          "stars": 119,
           "conflicts": {},
           "targets": []
         }
@@ -75366,7 +75507,7 @@
           "last_activity": "2026-09-30",
           "release": "v1.0.3Sep",
           "made": "Not stated",
-          "stars": 596,
+          "stars": 597,
           "conflicts": {},
           "targets": []
         },
@@ -75394,7 +75535,7 @@
           "last_activity": "2026-09-05",
           "release": "v1.0.3-android-r7Sep",
           "made": "Not stated",
-          "stars": 29,
+          "stars": 30,
           "conflicts": {},
           "targets": []
         },
@@ -78363,7 +78504,7 @@
           "last_activity": "2026-11-06",
           "release": "v1.0.3Nov",
           "made": "AI-assisted",
-          "stars": 116,
+          "stars": 118,
           "conflicts": {},
           "targets": []
         },
@@ -79782,7 +79923,7 @@
           "last_activity": "2026-11-06",
           "release": "v1.8.0Nov",
           "made": "AI-generated",
-          "stars": 66,
+          "stars": 67,
           "conflicts": {},
           "targets": []
         }
@@ -80332,7 +80473,7 @@
           "last_activity": "2026-11-06",
           "release": "v0.3.1Nov",
           "made": "AI-assisted",
-          "stars": 648,
+          "stars": 649,
           "conflicts": {},
           "targets": []
         }
@@ -82066,7 +82207,7 @@
           "last_activity": "2026-11-05",
           "release": "v1.5.2Nov",
           "made": "Not stated",
-          "stars": 440,
+          "stars": 441,
           "conflicts": {},
           "targets": []
         }
@@ -82473,7 +82614,7 @@
           "release": "v0.3.3Nov",
           "progress": 13.12,
           "made": "AI-assisted",
-          "stars": 14,
+          "stars": 16,
           "conflicts": {},
           "targets": []
         }
@@ -83133,7 +83274,7 @@
           "last_activity": "2026-11-04",
           "release": "residentevil-v1.4.3Nov",
           "made": "AI-assisted",
-          "stars": 206,
+          "stars": 207,
           "conflicts": {},
           "targets": []
         }
@@ -83383,7 +83524,7 @@
           "last_activity": "2026-11-04",
           "release": "v0.78Nov",
           "made": "Not stated",
-          "stars": 68,
+          "stars": 69,
           "conflicts": {},
           "targets": []
         }
@@ -83901,7 +84042,7 @@
           "last_activity": "2026-11-04",
           "release": "0.3.3-betaNov",
           "made": "AI-assisted",
-          "stars": 210,
+          "stars": 214,
           "conflicts": {},
           "targets": []
         }
@@ -84930,7 +85071,7 @@
           "last_activity": "2026-11-03",
           "release": "v1.1.11Nov",
           "made": "Not stated",
-          "stars": 33,
+          "stars": 34,
           "conflicts": {},
           "targets": []
         }
@@ -84978,7 +85119,7 @@
           "last_activity": "2026-11-03",
           "release": "v0.4.16Nov",
           "made": "Not stated",
-          "stars": 114,
+          "stars": 115,
           "conflicts": {},
           "targets": []
         }
@@ -85026,7 +85167,7 @@
           "last_activity": "2026-11-03",
           "release": "v0.6.16Nov",
           "made": "Not stated",
-          "stars": 106,
+          "stars": 108,
           "conflicts": {},
           "targets": []
         }
@@ -85074,7 +85215,7 @@
           "last_activity": "2026-11-03",
           "release": "v0.5.43Nov",
           "made": "Not stated",
-          "stars": 65,
+          "stars": 66,
           "conflicts": {},
           "targets": []
         }
@@ -86965,7 +87106,7 @@
           "last_activity": "2026-11-02",
           "release": "v0.3.0Nov",
           "made": "AI-assisted",
-          "stars": 315,
+          "stars": 316,
           "conflicts": {},
           "targets": []
         }
@@ -87216,7 +87357,7 @@
           "last_activity": "2026-11-02",
           "release": "v0.6.3-betaNov",
           "made": "AI-generated",
-          "stars": 45,
+          "stars": 46,
           "conflicts": {},
           "targets": []
         }
@@ -88362,7 +88503,7 @@
           "last_activity": "2026-11-01",
           "release": "3.1Nov",
           "made": "Not stated",
-          "stars": 234,
+          "stars": 236,
           "conflicts": {},
           "targets": []
         },
@@ -90114,54 +90255,6 @@
       "has_conflict": false
     },
     {
-      "id": "battle-arena-toshinden--ps1",
-      "title": "Battle Arena Toshinden",
-      "platform": "PS1",
-      "projects": [
-        {
-          "id": "sig-battle-arena-toshinden-battle-arena-toshinden-recompiled-recomp",
-          "evidence": [
-            {
-              "source": "recomp-software-recomp",
-              "source_url": "https://www.recompsoftware.com/p/battle-arena-toshinden-recomp/",
-              "source_id": "p/battle-arena-toshinden-recomp",
-              "claimed": false,
-              "status": "released",
-              "type": "recomp",
-              "platform": "PS1",
-              "last_activity": "2026-10-31"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Battle Arena Toshinden",
-          "platform": "PS1",
-          "type": "recomp",
-          "project": "Battle Arena Toshinden Recompiled",
-          "project_url": "https://www.recompsoftware.com/p/battle-arena-toshinden-recomp/",
-          "status": "released",
-          "last_activity": "2026-10-31",
-          "release": "v0.1.4Oct",
-          "made": "Not stated",
-          "stars": 21,
-          "conflicts": {},
-          "targets": []
-        }
-      ],
-      "project_count": 1,
-      "types": [
-        "recomp"
-      ],
-      "statuses": [
-        "released"
-      ],
-      "sources": [
-        "recomp-software-recomp"
-      ],
-      "last_activity": "2026-10-31",
-      "best_status": "released",
-      "has_conflict": false
-    },
-    {
       "id": "after-burner-climax-after-burner-climax-recompiled--arcade",
       "title": "After Burner Climax (After Burner Climax Recompiled)",
       "platform": "Arcade",
@@ -90640,7 +90733,7 @@
           "last_activity": "2026-10-30",
           "release": "v1.1Oct",
           "made": "Not stated",
-          "stars": 522,
+          "stars": 524,
           "conflicts": {},
           "targets": []
         },
@@ -91378,7 +91471,7 @@
           "last_activity": "2026-10-30",
           "release": "v1.4.2Oct",
           "made": "AI-assisted",
-          "stars": 63,
+          "stars": 64,
           "conflicts": {},
           "targets": []
         }
@@ -93500,7 +93593,7 @@
           "project_url": "https://www.recompsoftware.com/p/gta2-re/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 148,
+          "stars": 149,
           "conflicts": {},
           "targets": []
         }
@@ -95203,7 +95296,7 @@
           "last_activity": "2026-10-28",
           "release": "v1.0.2Oct",
           "made": "Not stated",
-          "stars": 250,
+          "stars": 251,
           "conflicts": {},
           "targets": []
         }
@@ -95460,7 +95553,7 @@
           "last_activity": "2026-10-28",
           "release": "v1.0.2Oct",
           "made": "AI-assisted",
-          "stars": 43,
+          "stars": 44,
           "conflicts": {},
           "targets": []
         },
@@ -96398,7 +96491,7 @@
           "last_activity": "2026-10-27",
           "release": "v1.0.2Oct",
           "made": "AI-generated",
-          "stars": 624,
+          "stars": 628,
           "conflicts": {},
           "targets": []
         },
@@ -97585,7 +97678,7 @@
           "last_activity": "2026-10-27",
           "release": "v0.8.2Oct",
           "made": "Not stated",
-          "stars": 214,
+          "stars": 215,
           "conflicts": {},
           "targets": []
         }
@@ -99596,7 +99689,7 @@
           "last_activity": "2026-10-17",
           "release": "v2.0.2Oct",
           "made": "Not stated",
-          "stars": 116,
+          "stars": 117,
           "conflicts": {},
           "targets": []
         },
@@ -101612,7 +101705,7 @@
           "last_activity": "2026-10-24",
           "release": "v0.9.6Oct",
           "made": "Not stated",
-          "stars": 218,
+          "stars": 219,
           "conflicts": {},
           "targets": []
         },
@@ -105075,7 +105168,7 @@
           "last_activity": "2026-10-22",
           "release": "v0.3.3Oct",
           "made": "AI-assisted",
-          "stars": 646,
+          "stars": 647,
           "conflicts": {},
           "targets": []
         }
@@ -106831,7 +106924,7 @@
           "status": "in-progress",
           "progress": 28.02,
           "made": "Not stated",
-          "stars": 250,
+          "stars": 251,
           "conflicts": {},
           "targets": []
         }
@@ -106910,7 +107003,7 @@
           "status": "complete",
           "progress": 100.0,
           "made": "Not stated",
-          "stars": 275,
+          "stars": 276,
           "conflicts": {},
           "targets": []
         },
@@ -109543,7 +109636,7 @@
           "last_activity": "2026-10-18",
           "release": "v0.5.13Oct",
           "made": "Not stated",
-          "stars": 216,
+          "stars": 215,
           "conflicts": {},
           "targets": []
         }
@@ -112281,7 +112374,7 @@
           "status": "complete",
           "progress": 100.0,
           "made": "Not stated",
-          "stars": 891,
+          "stars": 892,
           "conflicts": {},
           "targets": []
         }
@@ -113462,7 +113555,7 @@
           "last_activity": "2026-10-14",
           "release": "v0.2Oct",
           "made": "Not stated",
-          "stars": 34,
+          "stars": 35,
           "conflicts": {},
           "targets": []
         }
@@ -114469,7 +114562,7 @@
           "last_activity": "2026-10-13",
           "release": "v0.7.5Oct",
           "made": "AI-assisted",
-          "stars": 626,
+          "stars": 627,
           "conflicts": {},
           "targets": []
         }
@@ -121561,7 +121654,7 @@
           "last_activity": "2026-10-05",
           "release": "v1.3.1Oct",
           "made": "Not stated",
-          "stars": 941,
+          "stars": 943,
           "conflicts": {},
           "targets": []
         },
@@ -122069,7 +122162,7 @@
           "release": "v0.2.0Oct",
           "progress": 100.0,
           "made": "Not stated",
-          "stars": 164,
+          "stars": 165,
           "conflicts": {},
           "targets": []
         }
@@ -123049,7 +123142,7 @@
           "last_activity": "2026-10-02",
           "release": "V0.5-BETAOct",
           "made": "Not stated",
-          "stars": 51,
+          "stars": 52,
           "conflicts": {},
           "targets": []
         }
@@ -123593,7 +123686,7 @@
           "last_activity": "2026-09-30",
           "release": "kit-macos-20260930Sep",
           "made": "AI-assisted",
-          "stars": 111,
+          "stars": 112,
           "conflicts": {},
           "targets": []
         }
@@ -123793,7 +123886,7 @@
           "last_activity": "2026-09-29",
           "release": "sm2-v1.1Sep",
           "made": "Not stated",
-          "stars": 65,
+          "stars": 66,
           "conflicts": {},
           "targets": []
         }
@@ -131709,7 +131802,7 @@
           "last_activity": "2026-08-31",
           "release": "v0.1.0-alpha.3Aug",
           "made": "AI-assisted",
-          "stars": 36,
+          "stars": 37,
           "conflicts": {},
           "targets": []
         }
@@ -135198,7 +135291,7 @@
           "last_activity": "2026-02-13",
           "release": "v0.9.2Feb",
           "made": "Not stated",
-          "stars": 643,
+          "stars": 644,
           "conflicts": {},
           "targets": []
         },
@@ -136581,7 +136674,7 @@
           "project_url": "https://www.recompsoftware.com/p/bullseye-re-dead-aim/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 23,
+          "stars": 24,
           "conflicts": {},
           "targets": []
         }
@@ -150734,7 +150827,7 @@
           "last_activity": "2025-11-02",
           "release": "1.3.3Nov",
           "made": "Human-led",
-          "stars": 720,
+          "stars": 721,
           "conflicts": {},
           "targets": []
         }
@@ -156469,7 +156562,7 @@
           "project_url": "https://www.recompsoftware.com/p/skies-of-arcadia-legends-recomp/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 196,
+          "stars": 197,
           "conflicts": {},
           "targets": []
         }
@@ -179982,7 +180075,7 @@
           "project_url": "https://www.recompsoftware.com/p/trials-hd-recompiled/",
           "status": "in-progress",
           "made": "AI-assisted",
-          "stars": 26,
+          "stars": 27,
           "conflicts": {},
           "targets": []
         }
@@ -181196,7 +181289,7 @@
           "project_url": "https://www.recompsoftware.com/p/the-order-1886-pc-port/",
           "status": "in-progress",
           "made": "AI-assisted",
-          "stars": 269,
+          "stars": 273,
           "conflicts": {},
           "targets": []
         }
@@ -183181,7 +183274,7 @@
           "status": "in-progress",
           "progress": 4.07,
           "made": "Human-led",
-          "stars": 116,
+          "stars": 117,
           "conflicts": {},
           "targets": []
         }
@@ -186666,7 +186759,7 @@
           "status": "in-progress",
           "progress": 82.01,
           "made": "AI-assisted",
-          "stars": 17,
+          "stars": 18,
           "conflicts": {},
           "targets": []
         }
@@ -187226,7 +187319,7 @@
           "status": "in-progress",
           "progress": 13.74,
           "made": "Not stated",
-          "stars": 17,
+          "stars": 18,
           "conflicts": {},
           "targets": []
         }
@@ -187946,7 +188039,7 @@
           "status": "complete",
           "progress": 100.0,
           "made": "AI-assisted",
-          "stars": 101,
+          "stars": 102,
           "conflicts": {},
           "targets": []
         }
@@ -188883,7 +188976,7 @@
           "project_url": "https://www.recompsoftware.com/p/parasite-eve-2-hd-remaster/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 287,
+          "stars": 288,
           "conflicts": {},
           "targets": []
         }
@@ -190644,7 +190737,7 @@
           "project_url": "https://www.recompsoftware.com/p/mgs-reversing/",
           "status": "in-progress",
           "made": "Human-led",
-          "stars": 835,
+          "stars": 836,
           "conflicts": {},
           "targets": []
         }
@@ -192848,7 +192941,7 @@
           "project": "Hot Wheels Turbo Racing decompilation",
           "project_url": "https://www.recompsoftware.com/p/hwtr-decomp/",
           "status": "in-progress",
-          "progress": 63.98,
+          "progress": 72.29,
           "made": "AI-assisted",
           "stars": 1,
           "conflicts": {},
@@ -193264,9 +193357,9 @@
           "project": "Halo 2 Decompilation",
           "project_url": "https://www.recompsoftware.com/p/halo2-decompiled/",
           "status": "in-progress",
-          "progress": 79.29,
+          "progress": 79.48,
           "made": "Not stated",
-          "stars": 156,
+          "stars": 157,
           "conflicts": {},
           "targets": []
         }
@@ -194284,7 +194377,7 @@
           "project": "Gangstar: West Coast Hustle decompilation",
           "project_url": "https://www.recompsoftware.com/p/gangstar-wch-decomp/",
           "status": "in-progress",
-          "progress": 62.9,
+          "progress": 63.03,
           "made": "AI-assisted",
           "stars": 1,
           "conflicts": {},
@@ -194887,7 +194980,7 @@
           "project": "ff8-decomp",
           "project_url": "https://www.recompsoftware.com/p/ff8-decomp/",
           "status": "in-progress",
-          "progress": 74.58,
+          "progress": 74.74,
           "made": "Not stated",
           "stars": 66,
           "conflicts": {},
@@ -195586,7 +195679,7 @@
           "project_url": "https://www.recompsoftware.com/p/drakengard-3-recomp/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 359,
+          "stars": 360,
           "conflicts": {},
           "targets": []
         }
@@ -195846,7 +195939,7 @@
           "project_url": "https://www.recompsoftware.com/p/dragon-age-origins-recomp/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 84,
+          "stars": 85,
           "conflicts": {},
           "targets": []
         }
@@ -195892,7 +195985,7 @@
           "project_url": "https://www.recompsoftware.com/p/dragon-age-origins-recomp-2/",
           "status": "in-progress",
           "made": "Not stated",
-          "stars": 84,
+          "stars": 85,
           "conflicts": {},
           "targets": []
         }
@@ -196259,7 +196352,7 @@
           "project": "Redivivus",
           "project_url": "https://www.recompsoftware.com/p/redivivus/",
           "status": "in-progress",
-          "progress": 51.35,
+          "progress": 51.67,
           "made": "Not stated",
           "stars": 79,
           "conflicts": {},
