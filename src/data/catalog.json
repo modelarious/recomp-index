@@ -1,6 +1,6 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-25T16:28:06.544587+00:00",
+  "generated_at": "2026-11-25T22:28:16.313347+00:00",
   "summary": {
     "games": 3869,
     "projects": 4328,
@@ -12495,7 +12495,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/command-and-conquer-red-alert-2-pc-windows-2",
+              "source_url": "https://recomp.fyi/game/command-and-conquer-red-alert-2-pc-windows",
               "source_id": "command-conquer-red-alert-2-robindigitalpro",
               "claimed": false,
               "status": "unknown",
@@ -13520,7 +13520,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/call-of-duty-black-ops-iii-pc-windows-2",
+              "source_url": "https://recomp.fyi/game/call-of-duty-black-ops-iii-pc-windows",
               "source_id": "call-of-duty-black-ops-iii-mawlicious",
               "claimed": false,
               "status": "unknown",
@@ -14617,7 +14617,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/black-and-white-pc-windows-2",
+              "source_url": "https://recomp.fyi/game/black-and-white-pc-windows",
               "source_id": "black-white-aoj222",
               "claimed": false,
               "status": "unknown",
@@ -15262,7 +15262,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/battletoads-and-double-dragon-nes-2",
+              "source_url": "https://recomp.fyi/game/battletoads-and-double-dragon-nes",
               "source_id": "battletoads-double-dragon-ablindingnight",
               "claimed": false,
               "status": "unknown",
@@ -15719,7 +15719,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/asuras-wrath-ps3-2",
+              "source_url": "https://recomp.fyi/game/asuras-wrath-ps3",
               "source_id": "asura-s-wrath-redgrave961",
               "claimed": false,
               "status": "unknown",
@@ -16481,7 +16481,7 @@
           "evidence": [
             {
               "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/100th-black-market-pc-windows",
+              "source_url": "https://recomp.fyi/game/barettofiriatachi-no-yami-ichiba-100th-black-market-pc-windows",
               "source_id": "100th-black-market-greensweet233",
               "claimed": false,
               "status": "unknown",
