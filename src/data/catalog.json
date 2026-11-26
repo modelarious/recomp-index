@@ -1,8 +1,8 @@
 {
   "schema": "recomp-index/v1",
-  "generated_at": "2026-11-25T22:28:16.313347+00:00",
+  "generated_at": "2026-11-26T04:28:27.679506+00:00",
   "summary": {
-    "games": 3869,
+    "games": 3870,
     "projects": 4328,
     "source_records": 4373,
     "platforms": 86,
@@ -35,7 +35,7 @@
     "platforms": [
       [
         "PC (Windows)",
-        794
+        793
       ],
       [
         "Xbox 360",
@@ -51,7 +51,7 @@
       ],
       [
         "PS2",
-        264
+        265
       ],
       [
         "GameCube",
@@ -415,19 +415,82 @@
       ],
       [
         "unknown",
-        88
+        87
+      ],
+      [
+        "exploring",
+        2
       ],
       [
         "playable",
         2
-      ],
-      [
-        "exploring",
-        1
       ]
     ]
   },
   "games": [
+    {
+      "id": "samurai-warriors-2-empires--ps2",
+      "title": "Samurai Warriors 2: Empires",
+      "platform": "PS2",
+      "projects": [
+        {
+          "id": "repo-leliamn-sw2epc",
+          "evidence": [
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/samurai-warriors-2-empires-ps2",
+              "source_id": "samurai-warriors-2-empires-leliamn",
+              "claimed": false,
+              "status": "exploring",
+              "type": "decomp",
+              "platform": "PS2",
+              "last_activity": "2026-11-26"
+            },
+            {
+              "source": "recomp.fyi",
+              "source_url": "https://recomp.fyi/game/samurai-warriors-2-empires-ps2",
+              "source_id": "samurai-warriors-2-empires-port-leliamn",
+              "claimed": false,
+              "status": "exploring",
+              "type": "port",
+              "platform": "PS2",
+              "last_activity": "2026-11-26"
+            }
+          ],
+          "embedded_sources": [],
+          "game": "Samurai Warriors 2: Empires",
+          "platform": "PS2",
+          "type": "port",
+          "project": "SW2EPC",
+          "project_url": "https://github.com/LeLiamn/SW2EPC",
+          "repo": "LeLiamn/SW2EPC",
+          "status": "exploring",
+          "last_activity": "2026-11-26",
+          "targets": [
+            "Windows"
+          ],
+          "conflicts": {
+            "type": [
+              "decomp",
+              "port"
+            ]
+          }
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "exploring"
+      ],
+      "sources": [
+        "recomp.fyi"
+      ],
+      "last_activity": "2026-11-26",
+      "best_status": "exploring",
+      "has_conflict": true
+    },
     {
       "id": "yu-gi-oh-forbidden-memories-yu-gi-oh-forbidden-memories-recompiled--ps1",
       "title": "Yu-Gi-Oh! Forbidden Memories (Yu-Gi-Oh! Forbidden Memories Recompiled)",
@@ -12339,16 +12402,6 @@
               "type": "decomp",
               "platform": "PC (Windows)",
               "last_activity": "2026-11-25"
-            },
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/command-and-conquer-yuris-revenge-pc-windows",
-              "source_id": "command-conquer-red-alert-2-yuri-s-reven-yuriplanet",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-25"
             }
           ],
           "embedded_sources": [
@@ -12358,8 +12411,8 @@
           ],
           "game": "Command & Conquer: Red Alert 2 – Yuri's Revenge",
           "platform": "PC (Windows)",
-          "type": "port",
-          "project": "YuriPlanet/vera20k",
+          "type": "decomp",
+          "project": "vera20k",
           "project_url": "https://github.com/YuriPlanet/vera20k",
           "repo": "YuriPlanet/vera20k",
           "status": "released",
@@ -12367,17 +12420,8 @@
           "release": "v0.4.1",
           "made": "AI-flagged",
           "stars": 455,
-          "targets": [
-            "Windows",
-            "Linux",
-            "macOS"
-          ],
-          "conflicts": {
-            "type": [
-              "decomp",
-              "port"
-            ]
-          }
+          "conflicts": {},
+          "targets": []
         },
         {
           "id": "repo-gibbo101-ra2-decomp",
@@ -12467,7 +12511,6 @@
       "project_count": 4,
       "types": [
         "decomp",
-        "port",
         "recomp"
       ],
       "statuses": [
@@ -12478,85 +12521,10 @@
       "sources": [
         "awesome-decomp-games",
         "recomp-software-decomp",
-        "recomp-software-recomp",
-        "recomp.fyi"
+        "recomp-software-recomp"
       ],
       "last_activity": "2026-11-25",
       "best_status": "released",
-      "has_conflict": true
-    },
-    {
-      "id": "command-conquer-red-alert-2--pc-windows",
-      "title": "Command & Conquer: Red Alert 2",
-      "platform": "PC (Windows)",
-      "projects": [
-        {
-          "id": "repo-robindigitalpro-ra2-1001-decomp",
-          "evidence": [
-            {
-              "source": "recomp.fyi",
-              "source_url": "https://recomp.fyi/game/command-and-conquer-red-alert-2-pc-windows",
-              "source_id": "command-conquer-red-alert-2-robindigitalpro",
-              "claimed": false,
-              "status": "unknown",
-              "type": "decomp",
-              "platform": "PC (Windows)",
-              "last_activity": "2026-11-25"
-            }
-          ],
-          "embedded_sources": [],
-          "game": "Command & Conquer: Red Alert 2",
-          "platform": "PC (Windows)",
-          "type": "decomp",
-          "project": "RobinDigitalPro/ra2-1001-decomp",
-          "project_url": "https://github.com/RobinDigitalPro/ra2-1001-decomp",
-          "repo": "RobinDigitalPro/ra2-1001-decomp",
-          "last_activity": "2026-11-25",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        },
-        {
-          "id": "sig-command-conquer-red-alert-2-command-conquer-red-alert-2-port",
-          "evidence": [
-            {
-              "source": "awesome-decomp-games",
-              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
-              "source_id": "command-conquer-red-alert-2",
-              "claimed": false,
-              "status": "unknown",
-              "type": "port",
-              "platform": "PC (Windows)",
-              "last_activity": null
-            }
-          ],
-          "embedded_sources": [
-            "recompiledgames.com"
-          ],
-          "game": "Command & Conquer: Red Alert 2",
-          "platform": "PC (Windows)",
-          "type": "port",
-          "project": "Command & Conquer: Red Alert 2",
-          "project_url": "https://chronodivide.com",
-          "conflicts": {},
-          "status": "unknown",
-          "targets": []
-        }
-      ],
-      "project_count": 2,
-      "types": [
-        "decomp",
-        "port"
-      ],
-      "statuses": [
-        "unknown"
-      ],
-      "sources": [
-        "awesome-decomp-games",
-        "recomp.fyi"
-      ],
-      "last_activity": "2026-11-25",
-      "best_status": "unknown",
       "has_conflict": false
     },
     {
@@ -204482,6 +204450,52 @@
       ],
       "last_activity": null,
       "best_status": "complete",
+      "has_conflict": false
+    },
+    {
+      "id": "command-conquer-red-alert-2--pc-windows",
+      "title": "Command & Conquer: Red Alert 2",
+      "platform": "PC (Windows)",
+      "projects": [
+        {
+          "id": "sig-command-conquer-red-alert-2-command-conquer-red-alert-2-port",
+          "evidence": [
+            {
+              "source": "awesome-decomp-games",
+              "source_url": "https://raw.githubusercontent.com/SubmitGame/awesome-decomp-games/main/data/games.json",
+              "source_id": "command-conquer-red-alert-2",
+              "claimed": false,
+              "status": "unknown",
+              "type": "port",
+              "platform": "PC (Windows)",
+              "last_activity": null
+            }
+          ],
+          "embedded_sources": [
+            "recompiledgames.com"
+          ],
+          "game": "Command & Conquer: Red Alert 2",
+          "platform": "PC (Windows)",
+          "type": "port",
+          "project": "Command & Conquer: Red Alert 2",
+          "project_url": "https://chronodivide.com",
+          "conflicts": {},
+          "status": "unknown",
+          "targets": []
+        }
+      ],
+      "project_count": 1,
+      "types": [
+        "port"
+      ],
+      "statuses": [
+        "unknown"
+      ],
+      "sources": [
+        "awesome-decomp-games"
+      ],
+      "last_activity": null,
+      "best_status": "unknown",
       "has_conflict": false
     },
     {
